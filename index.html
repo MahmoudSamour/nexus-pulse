@@ -912,6 +912,175 @@
         }
 
         /* --------------------------------------------------------- */
+        /* QUANTITATIVE EDITORIAL COLUMN (MAHMOUD SAMMOUR)           */
+        /* --------------------------------------------------------- */
+        .quant-column-section {
+            background: #FFFFFF;
+            border: 1px solid var(--border-subtle);
+            border-radius: 20px;
+            padding: 36px 40px;
+            margin-bottom: 48px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .quant-column-badge-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 14px;
+        }
+
+        .quant-column-tag {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            background: #EFF6FF;
+            color: #1D4ED8;
+            padding: 4px 12px;
+            border-radius: 999px;
+            border: 1px solid #DBEAFE;
+        }
+
+        .quant-column-author {
+            font-size: 0.88rem;
+            font-weight: 600;
+            color: var(--text-muted);
+        }
+
+        .quant-column-title {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.85rem;
+            font-weight: 800;
+            color: var(--text-main);
+            letter-spacing: -0.02em;
+            margin-bottom: 8px;
+        }
+
+        .quant-column-subtitle {
+            font-size: 0.98rem;
+            color: var(--text-muted);
+            max-width: 820px;
+            margin-bottom: 24px;
+            line-height: 1.55;
+        }
+
+        .regime-metric-card {
+            background: #F8FAFC;
+            border: 1px solid #E2E8F0;
+            border-radius: 14px;
+            padding: 22px 26px;
+            margin-bottom: 24px;
+        }
+
+        .regime-header-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 18px;
+            padding-bottom: 14px;
+            border-bottom: 1px solid #E2E8F0;
+        }
+
+        .regime-posture-badge {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 700;
+            font-size: 0.95rem;
+            color: #0F172A;
+        }
+
+        .regime-timestamp {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.78rem;
+            color: #64748B;
+        }
+
+        .regime-bars-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .regime-bar-item {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .regime-bar-label {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.84rem;
+            font-weight: 600;
+            color: #334155;
+        }
+
+        .regime-bar-val {
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 700;
+        }
+
+        .regime-progress-track {
+            height: 8px;
+            background: #E2E8F0;
+            border-radius: 999px;
+            overflow: hidden;
+        }
+
+        .regime-progress-fill {
+            height: 100%;
+            border-radius: 999px;
+            transition: width 0.5s ease;
+        }
+
+        .regime-progress-fill.bull {
+            background: #10B981;
+        }
+
+        .regime-progress-fill.chop {
+            background: #F59E0B;
+        }
+
+        .regime-progress-fill.bear {
+            background: #EF4444;
+        }
+
+        .quant-commentary-box {
+            background: #FFFFFF;
+            border: 1px solid #E2E8F0;
+            border-left: 4px solid #2563EB;
+            border-radius: 12px;
+            padding: 20px 24px;
+        }
+
+        .quant-commentary-heading {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: #0F172A;
+            margin-bottom: 8px;
+        }
+
+        .quant-commentary-text {
+            font-size: 0.95rem;
+            color: #475569;
+            line-height: 1.65;
+            margin-bottom: 14px;
+        }
+
+        .quant-takeaway-row {
+            font-size: 0.88rem;
+            color: #1E293B;
+            background: #F1F5F9;
+            padding: 10px 14px;
+            border-radius: 8px;
+        }
+
+        /* --------------------------------------------------------- */
         /* ARAPYTHON ACADEMY // COURSES MONETIZATION SHOWCASE         */
         /* --------------------------------------------------------- */
         .academy-section {
@@ -1532,6 +1701,7 @@
             <nav class="header-nav">
                 <a href="index.html" class="active">Daily Intel</a>
                 <a href="#featured">Top Story</a>
+                <a href="#quant-outlook">Quant Outlook</a>
                 <a href="#free-starter-kit" class="highlight-nav">🎁 Free Blueprint</a>
                 <a href="#arapython-academy">AraPython Courses</a>
                 <a href="#archive">Editions</a>
@@ -1928,6 +2098,73 @@
             </article>
             
         </section>
+
+        <!-- Mahmoud Sammour Original Quantitative Outlook Column -->
+        
+        <!-- --------------------------------------------------------- -->
+        <!-- MAHMOUD SAMMOUR // ORIGINAL QUANTITATIVE EDITORIAL COLUMN -->
+        <!-- --------------------------------------------------------- -->
+        <section class="quant-column-section" id="quant-outlook">
+            <div class="quant-column-container">
+                <div class="quant-column-badge-row">
+                    <span class="quant-column-tag">📈 DAILY QUANTITATIVE OUTLOOK</span>
+                    <span class="quant-column-author">By Mahmoud Sammour • Lead Quantitative Engineer</span>
+                </div>
+                
+                <h2 class="quant-column-title">Macro Regime & Liquidity Horizon Analysis</h2>
+                <p class="quant-column-subtitle">Objective statistical market regime modeling synthesized daily from multi-factor volatility, orderbook depth, and liquidity momentum.</p>
+
+                <!-- Regime Distribution Bar -->
+                <div class="regime-metric-card">
+                    <div class="regime-header-row">
+                        <span class="regime-posture-badge">🟢 Strategic Bullish Trend Accumulation</span>
+                        <span class="regime-timestamp">Updated: 2026-10-07 07:28:13</span>
+                    </div>
+
+                    <div class="regime-bars-grid">
+                        <div class="regime-bar-item">
+                            <div class="regime-bar-label">
+                                <span>🟢 Bullish Trend Momentum</span>
+                                <span class="regime-bar-val">90.3%</span>
+                            </div>
+                            <div class="regime-progress-track">
+                                <div class="regime-progress-fill bull" style="width: 90.3%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="regime-bar-item">
+                            <div class="regime-bar-label">
+                                <span>🟡 Sideways / Range Chop</span>
+                                <span class="regime-bar-val">4.2%</span>
+                            </div>
+                            <div class="regime-progress-track">
+                                <div class="regime-progress-fill chop" style="width: 4.2%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="regime-bar-item">
+                            <div class="regime-bar-label">
+                                <span>🔴 Bearish Downside Pressure</span>
+                                <span class="regime-bar-val">5.5%</span>
+                            </div>
+                            <div class="regime-progress-track">
+                                <div class="regime-progress-fill bear" style="width: 5.5%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Editorial Commentary Box -->
+                <div class="quant-commentary-box">
+                    <h3 class="quant-commentary-heading">Desk Commentary & Market Implications</h3>
+                    <p class="quant-commentary-text">Quantitative models indicate dominant upward trend persistence, with bullish regime probability measuring at 90.3%. Capital rotation across major liquidity pools shows structural absorption of sell-side order flow. Downside liquidation tail-risk remains subdued at 5.5%, while choppy sideways drift is constrained to 4.2%. Institutional market participants are prioritizing trend continuation with controlled exposure scaling.</p>
+                    <div class="quant-takeaway-row">
+                        <strong>Strategic Horizon:</strong> Focus on breakout confirmation and volume-weighted average price (VWAP) defenses.
+                    </div>
+                </div>
+            </div>
+        </section>
+    
 
         <!-- --------------------------------------------------------- -->
         <!-- ARAPYTHON ACADEMY // PRODUCTION COURSES MONETIZATION      -->
