@@ -1683,7 +1683,7 @@
             <span class="live-dot"></span>
             <span>LIVE INTEL STREAM • 07:00 AM EDT EDITION</span>
             <span class="visitor-counter-badge">
-                ● <strong id="live-readers">346</strong> Quants Live • <strong id="total-readers">14,920</strong> Readers
+                ● <strong>Day 4</strong> of Public AI Stream • <strong>Verified</strong> Intelligence
             </span>
         </div>
         <div class="top-date-badge">
@@ -2409,25 +2409,10 @@
 
     <!-- Interactive Organic Funnel & Lead Capture Scripts -->
     <script>
-        // 1. Live Reader & Visitor Counter Engine
+        // 1. Session Telemetry
         (function() {
-            const liveEl = document.getElementById('live-readers');
-            const totalEl = document.getElementById('total-readers');
-            
-            // Visitor count tracking
-            let totalVisits = parseInt(localStorage.getItem('np_total_visits') || '14920', 10);
-            totalVisits += 1;
-            localStorage.setItem('np_total_visits', totalVisits);
-            if (totalEl) totalEl.textContent = totalVisits.toLocaleString();
-
-            // Organic natural live fluctuation
-            let currentLive = 346;
-            function updateLiveCounter() {
-                const delta = Math.floor(Math.random() * 7) - 3; // -3 to +3
-                currentLive = Math.max(310, Math.min(385, currentLive + delta));
-                if (liveEl) liveEl.textContent = currentLive;
-            }
-            setInterval(updateLiveCounter, 7500);
+            let s = parseInt(localStorage.getItem('np_page_views') || '0', 10) + 1;
+            localStorage.setItem('np_page_views', s);
         })();
 
         // 2. Zero-Login Lead Magnet Submission Handler
