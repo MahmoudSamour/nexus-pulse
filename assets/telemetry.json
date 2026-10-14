@@ -1,14 +1,9 @@
 {
-  "last_updated": "2026-10-13T12:00:08.249082",
+  "last_updated": "2026-10-14T06:35:05.383878",
   "traffic_views": {
     "count": 6,
     "uniques": 2,
     "views": [
-      {
-        "timestamp": "2026-09-28T00:00:00Z",
-        "count": 0,
-        "uniques": 0
-      },
       {
         "timestamp": "2026-09-29T00:00:00Z",
         "count": 0,
@@ -71,6 +66,11 @@
       },
       {
         "timestamp": "2026-10-11T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-10-12T00:00:00Z",
         "count": 0,
         "uniques": 0
       }
