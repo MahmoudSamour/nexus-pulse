@@ -1,14 +1,9 @@
 {
-  "last_updated": "2026-10-21T09:55:33.086576",
+  "last_updated": "2026-10-22T06:19:58.713662",
   "traffic_views": {
-    "count": 5,
+    "count": 4,
     "uniques": 1,
     "views": [
-      {
-        "timestamp": "2026-10-06T00:00:00Z",
-        "count": 1,
-        "uniques": 1
-      },
       {
         "timestamp": "2026-10-07T00:00:00Z",
         "count": 3,
@@ -73,13 +68,18 @@
         "timestamp": "2026-10-19T00:00:00Z",
         "count": 0,
         "uniques": 0
+      },
+      {
+        "timestamp": "2026-10-20T00:00:00Z",
+        "count": 0,
+        "uniques": 0
       }
     ]
   },
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 3,
+      "count": 2,
       "uniques": 1
     },
     {
@@ -92,7 +92,7 @@
     {
       "path": "/MahmoudSamour/nexus-pulse",
       "title": "Overview",
-      "count": 4,
+      "count": 3,
       "uniques": 1
     },
     {
