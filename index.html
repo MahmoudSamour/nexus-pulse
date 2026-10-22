@@ -380,208 +380,265 @@
             line-height: 1.6;
         }
 
-        /* Stats Ribbon */
-        .metrics-ribbon {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 16px;
-            margin-bottom: 36px;
-        }
-
-        .metric-card {
-            background: #FFFFFF;
-            border: 1px solid var(--border-subtle);
-            border-radius: 14px;
-            padding: 20px 24px;
-            box-shadow: var(--shadow-sm);
-            transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
-        }
-
-        .metric-card:hover {
-            transform: translateY(-2px);
-            border-color: var(--brand-blue-border);
-            box-shadow: var(--shadow-card);
-        }
-
-        .metric-number {
-            font-family: 'Outfit', sans-serif;
-            font-size: 2rem;
-            font-weight: 900;
-            color: var(--brand-blue);
-            line-height: 1;
-            margin-bottom: 6px;
-        }
-
-        .metric-label {
-            font-size: 0.82rem;
-            font-weight: 700;
-            color: var(--text-heading);
-            text-transform: uppercase;
-            letter-spacing: 0.03em;
-            margin-bottom: 4px;
-        }
-
-        .metric-sub {
-            font-size: 0.8rem;
-            color: var(--text-muted);
-        }
-
-        /* --------------------------------------------------------- */
-        /* ORGANIC LEAD MAGNET BANNER (ZERO LOGIN REQUIRED)          */
-        /* --------------------------------------------------------- */
-        .lead-magnet-card {
-            background: linear-gradient(135deg, #EFF6FF 0%, #FFFFFF 100%);
-            border: 2px solid var(--brand-blue-border);
-            border-radius: 20px;
-            padding: 36px;
-            margin-bottom: 44px;
-            box-shadow: var(--shadow-featured);
-            position: relative;
+        /* Real-Time Breaking Editorial Wire */
+        .breaking-wire-bar {
+            background: #0B1120;
+            border-bottom: 1px solid #1E293B;
+            padding: 9px 0;
             overflow: hidden;
         }
 
-        .lead-magnet-badge {
+        .breaking-wire-inner {
+            max-width: 1240px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .breaking-wire-badge {
+            background: #DC2626;
+            color: #FFFFFF;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.72rem;
+            font-weight: 800;
+            padding: 4px 10px;
+            border-radius: 4px;
+            letter-spacing: 0.05em;
+            white-space: nowrap;
             display: inline-flex;
             align-items: center;
             gap: 6px;
-            background: var(--brand-blue);
-            color: #FFFFFF;
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.75rem;
-            font-weight: 800;
-            padding: 4px 14px;
-            border-radius: 999px;
-            letter-spacing: 0.05em;
-            margin-bottom: 16px;
+            flex-shrink: 0;
         }
 
-        .lead-magnet-grid {
+        .breaking-wire-badge::before {
+            content: '';
+            width: 6px;
+            height: 6px;
+            background: #FFFFFF;
+            border-radius: 50%;
+            animation: pulseDot 1.4s infinite;
+        }
+
+        .breaking-wire-track {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            white-space: nowrap;
+            overflow-x: auto;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+            font-size: 0.84rem;
+            color: #94A3B8;
+        }
+
+        .breaking-wire-track::-webkit-scrollbar {
+            display: none;
+        }
+
+        .wire-item {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            color: #E2E8F0;
+            flex-shrink: 0;
+        }
+
+        .wire-dot {
+            color: #38BDF8;
+            font-size: 0.6rem;
+        }
+
+        .wire-cat {
+            color: #38BDF8;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.72rem;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .wire-link {
+            color: #F8FAFC;
+            text-decoration: none;
+            transition: color 0.15s ease;
+        }
+
+        .wire-link:hover {
+            color: #38BDF8;
+            text-decoration: underline;
+        }
+
+        .wire-sep {
+            color: #475569;
+            font-size: 0.8rem;
+            padding: 0 4px;
+        }
+
+        /* Newsroom Masthead Meta */
+        .masthead-topline {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border-subtle);
+            padding-bottom: 12px;
+            margin-bottom: 18px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .masthead-wire-status {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.72rem;
+            font-weight: 700;
+            color: var(--emerald);
+        }
+
+        /* Desk Category Tag Badges */
+        .section-tag.lead-tag {
+            background: #FEF2F2;
+            color: #DC2626;
+            border-color: #FECACA;
+        }
+
+        .section-tag.ai-tag {
+            background: #EFF6FF;
+            color: #1D4ED8;
+            border-color: #BFDBFE;
+        }
+
+        .section-tag.crypto-tag {
+            background: #ECFDF5;
+            color: #047857;
+            border-color: #A7F3D0;
+        }
+
+        .section-tag.global-tag {
+            background: #FAF5FF;
+            color: #7E22CE;
+            border-color: #E9D5FF;
+        }
+
+        /* Refined In-Feed Editorial Dispatch (Non-Intrusive, Journalistic) */
+        .editorial-dispatch-banner {
+            background: linear-gradient(135deg, #F8FAFC 0%, #EFF6FF 100%);
+            border: 1px solid #DBEAFE;
+            border-left: 5px solid var(--brand-blue);
+            border-radius: 16px;
+            padding: 32px 36px;
+            margin: 44px 0;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .dispatch-banner-inner {
             display: grid;
-            grid-template-columns: 1.25fr 1fr;
+            grid-template-columns: 1.35fr 1fr;
             gap: 36px;
             align-items: center;
         }
 
-        .lead-magnet-text h2 {
+        .dispatch-badge {
+            display: inline-block;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.72rem;
+            font-weight: 800;
+            color: var(--brand-blue);
+            background: #DBEAFE;
+            padding: 3px 10px;
+            border-radius: 999px;
+            margin-bottom: 10px;
+            letter-spacing: 0.04em;
+        }
+
+        .dispatch-info h3 {
             font-family: 'Outfit', sans-serif;
-            font-size: 1.9rem;
-            font-weight: 900;
-            color: var(--text-heading);
-            line-height: 1.25;
-            margin-bottom: 12px;
-        }
-
-        .lead-magnet-text p {
-            font-size: 1.02rem;
-            color: var(--text-body);
-            line-height: 1.6;
-            margin-bottom: 18px;
-        }
-
-        .lead-magnet-perks {
-            list-style: none;
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            font-size: 0.88rem;
-            color: var(--text-heading);
-            font-weight: 600;
-        }
-
-        .lead-magnet-perks li {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .lead-magnet-perks span.check {
-            color: var(--emerald);
-            font-weight: 900;
-        }
-
-        .lead-form-wrap {
-            background: #FFFFFF;
-            border: 1px solid var(--border-subtle);
-            border-radius: 16px;
-            padding: 28px;
-            box-shadow: var(--shadow-card);
-        }
-
-        .lead-form-title {
-            font-family: 'Outfit', sans-serif;
-            font-size: 1.15rem;
+            font-size: 1.45rem;
             font-weight: 800;
             color: var(--text-heading);
-            margin-bottom: 6px;
+            margin-bottom: 8px;
+            line-height: 1.3;
         }
 
-        .lead-form-subtitle {
-            font-size: 0.85rem;
-            color: var(--text-muted);
-            margin-bottom: 18px;
+        .dispatch-info p {
+            font-size: 0.95rem;
+            color: var(--text-body);
+            line-height: 1.6;
+            margin: 0;
         }
 
-        .lead-input-group {
+        .dispatch-form-wrap {
             display: flex;
             flex-direction: column;
-            gap: 12px;
+            gap: 10px;
         }
 
-        .lead-input {
-            width: 100%;
+        .dispatch-inline-form {
+            display: flex;
+            gap: 10px;
+        }
+
+        .dispatch-input {
+            flex: 1;
             padding: 13px 16px;
             border: 1.5px solid var(--border-subtle);
-            border-radius: 10px;
-            font-size: 0.95rem;
-            color: var(--text-heading);
+            border-radius: 8px;
+            font-size: 0.92rem;
             background: #FFFFFF;
             font-family: 'Inter', sans-serif;
+            color: var(--text-heading);
             transition: border-color 0.15s ease, box-shadow 0.15s ease;
         }
 
-        .lead-input:focus {
+        .dispatch-input:focus {
             outline: none;
             border-color: var(--brand-blue);
             box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
         }
 
-        .lead-submit-btn {
-            width: 100%;
+        .dispatch-btn {
             background: var(--brand-blue);
             color: #FFFFFF;
             border: none;
-            padding: 14px 20px;
-            border-radius: 10px;
-            font-size: 0.95rem;
+            padding: 13px 20px;
+            border-radius: 8px;
+            font-size: 0.92rem;
             font-weight: 700;
             font-family: 'Outfit', sans-serif;
             cursor: pointer;
-            transition: background 0.15s ease, transform 0.1s ease;
-            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
+            white-space: nowrap;
+            transition: background 0.15s ease;
         }
 
-        .lead-submit-btn:hover {
+        .dispatch-btn:hover {
             background: var(--brand-blue-hover);
-            transform: translateY(-1px);
         }
 
-        .lead-privacy-note {
+        .dispatch-subtext {
             font-size: 0.75rem;
             color: var(--text-muted);
-            text-align: center;
-            margin-top: 10px;
         }
 
         .lead-success-box {
             background: var(--emerald-light);
             border: 1px solid var(--emerald-border);
-            border-radius: 10px;
-            padding: 16px;
+            border-radius: 8px;
+            padding: 12px 16px;
             color: #065F46;
-            font-size: 0.9rem;
+            font-size: 0.88rem;
             line-height: 1.5;
             display: none;
-            margin-top: 12px;
+            margin-top: 6px;
+        }
+
+        @media (max-width: 860px) {
+            .dispatch-banner-inner {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            .dispatch-inline-form {
+                flex-direction: column;
+            }
         }
 
         /* Section Title Header */
@@ -1678,13 +1735,13 @@
     </style>
 </head>
 <body>
-    <!-- Top Live Strip with Live Visitor Counter & Clear Date -->
+    <!-- Top Live Strip with Global Newsroom Status -->
     <div class="top-strip">
         <div class="top-strip-left">
             <span class="live-dot"></span>
-            <span>LIVE INTEL STREAM • 07:00 AM EDT EDITION</span>
+            <span>LIVE EDITORIAL STREAM • 07:00 UTC GLOBAL DISPATCH</span>
             <span class="visitor-counter-badge">
-                ● <strong>Day 4</strong> of Public AI Stream • <strong>Verified</strong> Intelligence
+                ● <strong>Continuous</strong> Intelligence Cycle • <strong>Primary Source</strong> Verified
             </span>
         </div>
         <div class="top-date-badge">
@@ -1701,15 +1758,30 @@
             </a>
             <nav class="header-nav">
                 <a href="index.html" class="active">Daily Intel</a>
-                <a href="#featured">Top Story</a>
+                <a href="#featured">Lead Story</a>
+                <a href="#ai-desk">Frontier AI</a>
+                <a href="#markets-desk">Markets & Crypto</a>
+                <a href="#global-desk">Global Performance</a>
                 <a href="#quant-outlook">Quant Outlook</a>
-                <a href="https://t.me/NexusPulseShorts" target="_blank" class="highlight-nav" style="background:#0284C7; color:#FFFFFF;">✈️ Join Telegram</a>
+                <a href="https://t.me/NexusPulseShorts" target="_blank" class="highlight-nav" style="background:#0284C7; color:#FFFFFF;">✈️ Telegram</a>
                 <a href="https://www.youtube.com/@NexusPulse" target="_blank" style="color:#EF4444; font-weight:700;">▶️ YouTube</a>
                 <a href="#archive">Editions</a>
                 <a href="https://github.com/MahmoudSamour/nexus-pulse" target="_blank" class="github-btn">GitHub</a>
             </nav>
         </div>
     </header>
+
+    <!-- Real-Time Editorial Wire Ticker -->
+    
+        <div class="breaking-wire-bar">
+            <div class="breaking-wire-inner">
+                <span class="breaking-wire-badge">⚡ LIVE WIRE</span>
+                <div class="breaking-wire-track">
+                    <span class="wire-item"><span class="wire-dot">●</span> <span class="wire-cat">AI & FRONTIER TECH</span>: <a href="https://arxiv.org/abs/2609.29166" target="_blank" class="wire-link">HarnessPAI: An Evolving Harness for Physical AI</a></span> <span class="wire-sep">•</span> <span class="wire-item"><span class="wire-dot">●</span> <span class="wire-cat">AI & FRONTIER TECH</span>: <a href="https://arxiv.org/abs/2610.30051" target="_blank" class="wire-link">From Reasoning to Action: Benchmarking Frontier AI Models on...</a></span> <span class="wire-sep">•</span> <span class="wire-item"><span class="wire-dot">●</span> <span class="wire-cat">AI & FRONTIER TECH</span>: <a href="https://arxiv.org/abs/2609.09226" target="_blank" class="wire-link">Adaptive Entangled Neurons in the Brain and Natural Intelligence...</a></span> <span class="wire-sep">•</span> <span class="wire-item"><span class="wire-dot">●</span> <span class="wire-cat">AI & FRONTIER TECH</span>: <a href="https://arxiv.org/abs/2505.06335" target="_blank" class="wire-link">Remote Rowhammer Attack using Adversarial Observations on...</a></span> <span class="wire-sep">•</span> <span class="wire-item"><span class="wire-dot">●</span> <span class="wire-cat">AI & FRONTIER TECH</span>: <a href="https://arxiv.org/abs/2604.24920" target="_blank" class="wire-link">SUDP: Secret-Use Delegation Protocol for Agentic Systems</a></span> <span class="wire-sep">•</span> <span class="wire-item"><span class="wire-dot">●</span> <span class="wire-cat">CRYPTO & WEB3</span>: <a href="https://decrypt.co/381589/italy-busts-mafia-secret-bank-that-laundered-money-through-crypto-seizes-24m" target="_blank" class="wire-link">Italy Busts Mafia &#x27;Secret Bank&#x27; That Laundered Money Through...</a></span> <span class="wire-sep">•</span> <span class="wire-item"><span class="wire-dot">●</span> <span class="wire-cat">CRYPTO & WEB3</span>: <a href="https://www.coindesk.com/markets/2026/10/22/crypto-traders-price-india-telecoms-company-reliance-jio-s-ipo-at-about-usd110-billion" target="_blank" class="wire-link">Crypto traders price India telecoms company Reliance Jio&#x27;s IPO...</a></span> <span class="wire-sep">•</span> <span class="wire-item"><span class="wire-dot">●</span> <span class="wire-cat">CRYPTO & WEB3</span>: <a href="https://cointelegraph.com/markets/bitcoin-etfs-528-million-btc-tops-84k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" class="wire-link">Bitcoin ETFs bag another $528M, taking 3-day haul past $1B</a></span>
+                </div>
+            </div>
+        </div>
+        
 
     <!-- Clear Editions / Date Selector Bar -->
     <section class="date-navigator-wrap">
@@ -1726,88 +1798,26 @@
 
     <!-- Main Content Body -->
     <main class="main-container">
-        <!-- Masthead -->
+        <!-- Newsroom Masthead -->
         <header class="masthead">
-            <div class="masthead-meta">
-                <span class="edition-badge">EDITION #20261022</span>
-                <span class="masthead-date">📅 October 22, 2026</span>
+            <div class="masthead-topline">
+                <div class="masthead-meta">
+                    <span class="edition-badge">EDITION #20261022</span>
+                    <span class="masthead-date">📅 October 22, 2026</span>
+                </div>
+                <span class="masthead-wire-status">● VERIFIED WIRE • 100% UNBIASED COVERAGE</span>
             </div>
             <h1>HarnessPAI: An Evolving Harness for Physical AI • October 22, 2026</h1>
             <p class="masthead-desc">Autonomous, 100% objective synthesis of today's highest-signal developments in AI engineering, decentralized finance, athletic performance, and global technology.</p>
         </header>
 
-        <!-- Metrics Ribbon -->
-        <section class="metrics-ribbon">
-            
-        <div class="metric-card">
-            <div class="metric-number">1.05T</div>
-            <div class="metric-label">Mistral MoE Scale</div>
-            <div class="metric-sub">Le Chonk Multimodal Release</div>
-        </div>
-        <div class="metric-card">
-            <div class="metric-number">$21B</div>
-            <div class="metric-label">Strategy Q3 Gain</div>
-            <div class="metric-sub">+$29M New Bitcoin Acquired</div>
-        </div>
-        <div class="metric-card">
-            <div class="metric-number">$12.5B</div>
-            <div class="metric-label">Crypto Cards Vol</div>
-            <div class="metric-sub">All-Time High Payments Record</div>
-        </div>
-        <div class="metric-card">
-            <div class="metric-number">50%</div>
-            <div class="metric-label">Fenty Stake Move</div>
-            <div class="metric-sub">JAY-Z MarcyPen & LVMH Deal</div>
-        </div>
-        
-        </section>
-
-        <!-- --------------------------------------------------------- -->
-        <!-- NEXUS PULSE MORNING INTEL & TELEGRAM COMMUNITY HERO       -->
-        <!-- --------------------------------------------------------- -->
-        <section class="lead-magnet-card" id="telegram-community">
-            <div class="lead-magnet-badge">⚡ THE 60-SECOND FRONTIER • VERIFIED MORNING INTELLIGENCE</div>
-            <div class="lead-magnet-grid">
-                <div class="lead-magnet-text">
-                    <h2>AI Anomalies, Rogue Systems & Quantitative Capital Moves</h2>
-                    <p>The verified morning intelligence briefing delivered to your inbox and Telegram before global markets wake up. Real-time quantitative signals, AI incident analysis, and high-signal tech developments with zero noise.</p>
-                    <ul class="lead-magnet-perks">
-                        <li><span class="check">✓</span> <strong>Daily Native 9:16 Shorts</strong> streamed straight to your Telegram</li>
-                        <li><span class="check">✓</span> <strong>Unredacted Market Dossiers</strong> & machine learning trade telemetry</li>
-                        <li><span class="check">✓</span> <strong>100% Free Forever</strong> • Zero ads, zero spam, zero paywalls</li>
-                    </ul>
-                    <div style="margin-top: 20px;">
-                        <a href="https://t.me/NexusPulseShorts" target="_blank" class="source-link-btn" style="background:#0284C7; font-size:1.05rem; padding:12px 24px;">
-                            ✈️ Join Nexus Pulse Telegram Channel (Instant Access) →
-                        </a>
-                    </div>
-                </div>
-                <div class="lead-form-wrap">
-                    <div class="lead-form-title">Get Tomorrow's Morning Briefing</div>
-                    <div class="lead-form-subtitle">Enter your email below. We'll dispatch the 07:00 AM Master Dossier daily.</div>
-                    <form id="lead-form-main" onsubmit="handleLeadSubmit(event, 'Top Hero Banner')">
-                        <div class="lead-input-group">
-                            <input type="email" id="lead-email-input" required placeholder="Enter your best email address..." class="lead-input">
-                            <button type="submit" class="lead-submit-btn">Subscribe Free →</button>
-                        </div>
-                        <div class="lead-privacy-note">
-                            🔒 1-Click unsubscribe anytime. 0% spam. Your email stays 100% private.
-                        </div>
-                        <div id="lead-success-msg" class="lead-success-box">
-                            🎉 <strong>Success! You're subscribed.</strong> Tomorrow's 07:00 AM Master Dossier will be dispatched directly to your inbox. Welcome!
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </section>
-
-        <!-- Featured Lead Story (Each News Has An Image) -->
+        <!-- Featured Lead Breakthrough Story -->
         <div class="section-header" id="featured">
             <div class="section-header-left">
-                <span class="section-tag">LEAD INTEL</span>
+                <span class="section-tag lead-tag">LEAD DISPATCH</span>
                 <h2 class="section-title">Today's Breakthrough Story</h2>
             </div>
-            <span class="section-count">Verified via Primary Source</span>
+            <span class="section-count">Primary Source Verified</span>
         </div>
 
         
@@ -1832,280 +1842,324 @@
         </article>
         
 
-        <!-- Multi-Category News Stories (Each News Has An Image & Clear Date) -->
-        <div class="section-header" id="intel-grid">
+        <!-- Desk 1: Frontier AI, Autonomous Systems & Robotics -->
+        <div class="section-header" id="ai-desk">
             <div class="section-header-left">
-                <span class="section-tag">FULL COVERAGE</span>
-                <h2 class="section-title">Verified Daily Intel Dossier</h2>
+                <span class="section-tag ai-tag">FRONTIER AI & AUTONOMY</span>
+                <h2 class="section-title">Machine Intelligence, Reasoning & Physical AI</h2>
             </div>
-            <span class="section-count">29 Stories Available</span>
+            <span class="section-count">Technical Briefings</span>
         </div>
-
         <section class="news-grid">
             
-            <article class="news-card">
-                <div class="news-card-img-wrap">
-                    <img src="assets/doodle_openai_math.jpg" alt="From Reasoning to Action: Benchmarking Frontier AI Models on LIBERO-10 Robot Manipulation Tasks" class="news-card-img" loading="lazy">
-                    <div class="news-card-badge-overlay">
-                        <span class="category-pill ai">AI & FRONTIER TECH</span>
+                <article class="news-card">
+                    <div class="news-card-img-wrap">
+                        <img src="assets/doodle_openai_math.jpg" alt="From Reasoning to Action: Benchmarking Frontier AI Models on LIBERO-10 Robot Manipulation Tasks" class="news-card-img" loading="lazy">
+                        <div class="news-card-badge-overlay">
+                            <span class="category-pill ai">AI & FRONTIER TECH</span>
+                        </div>
                     </div>
-                </div>
-                <div class="news-card-body">
-                    <div class="news-card-date-row">
-                        <span>📅 Oct 22, 2026</span>
-                        <span>ArXiv Computer Science AI</span>
+                    <div class="news-card-body">
+                        <div class="news-card-date-row">
+                            <span>📅 Oct 22, 2026 • 4 MIN READ</span>
+                            <span>ArXiv Computer Science AI</span>
+                        </div>
+                        <h3 class="news-card-title">From Reasoning to Action: Benchmarking Frontier AI Models on LIBERO-10 Robot Manipulation Tasks</h3>
+                        <p class="news-card-summary">Recent advances in frontier AI models have demonstrated remarkable capabilities in visual understanding, reasoning, planning, and tool use, raising the possibility of using general-purpose AI models for robot manipulation without task-specific training. However, their...</p>
+                        <div class="news-card-footer">
+                            <span class="news-source-tag">Source: ArXiv Computer Science AI</span>
+                            <a href="https://arxiv.org/abs/2610.30051" target="_blank" class="read-article-link">Read Dispatch ↗</a>
+                        </div>
                     </div>
-                    <h3 class="news-card-title">From Reasoning to Action: Benchmarking Frontier AI Models on LIBERO-10 Robot Manipulation Tasks</h3>
-                    <p class="news-card-summary">Recent advances in frontier AI models have demonstrated remarkable capabilities in visual understanding, reasoning, planning, and tool use, raising the possibility of using general-purpose AI models for robot manipulation without task-specific training. However, their...</p>
-                    <div class="news-card-footer">
-                        <span class="news-source-tag">Source: ArXiv Computer Science AI</span>
-                        <a href="https://arxiv.org/abs/2610.30051" target="_blank" class="read-article-link">Read Source ↗</a>
-                    </div>
-                </div>
-            </article>
-            
+                </article>
+                
 
-            <article class="news-card">
-                <div class="news-card-img-wrap">
-                    <img src="assets/doodle_reka_rho1.jpg" alt="Adaptive Entangled Neurons in the Brain and Natural Intelligence Simulations for Artificial General Intelligence" class="news-card-img" loading="lazy">
-                    <div class="news-card-badge-overlay">
-                        <span class="category-pill ai">AI & FRONTIER TECH</span>
+                <article class="news-card">
+                    <div class="news-card-img-wrap">
+                        <img src="assets/doodle_reka_rho1.jpg" alt="Adaptive Entangled Neurons in the Brain and Natural Intelligence Simulations for Artificial General Intelligence" class="news-card-img" loading="lazy">
+                        <div class="news-card-badge-overlay">
+                            <span class="category-pill ai">AI & FRONTIER TECH</span>
+                        </div>
                     </div>
-                </div>
-                <div class="news-card-body">
-                    <div class="news-card-date-row">
-                        <span>📅 Oct 22, 2026</span>
-                        <span>ArXiv Computer Science AI</span>
+                    <div class="news-card-body">
+                        <div class="news-card-date-row">
+                            <span>📅 Oct 22, 2026 • 4 MIN READ</span>
+                            <span>ArXiv Computer Science AI</span>
+                        </div>
+                        <h3 class="news-card-title">Adaptive Entangled Neurons in the Brain and Natural Intelligence Simulations for Artificial General Intelligence</h3>
+                        <p class="news-card-summary">Understanding the brain&#x27;s mechanisms is crucial in neuroscience, particularly for simulating natural intelligence and advancing artificial general intelligence (AGI). Liu et al. (2024) and Deco et al. (2025) propose that quantum entanglement may underlie the synchronization...</p>
+                        <div class="news-card-footer">
+                            <span class="news-source-tag">Source: ArXiv Computer Science AI</span>
+                            <a href="https://arxiv.org/abs/2609.09226" target="_blank" class="read-article-link">Read Dispatch ↗</a>
+                        </div>
                     </div>
-                    <h3 class="news-card-title">Adaptive Entangled Neurons in the Brain and Natural Intelligence Simulations for Artificial General Intelligence</h3>
-                    <p class="news-card-summary">Understanding the brain&#x27;s mechanisms is crucial in neuroscience, particularly for simulating natural intelligence and advancing artificial general intelligence (AGI). Liu et al. (2024) and Deco et al. (2025) propose that quantum entanglement may underlie the synchronization...</p>
-                    <div class="news-card-footer">
-                        <span class="news-source-tag">Source: ArXiv Computer Science AI</span>
-                        <a href="https://arxiv.org/abs/2609.09226" target="_blank" class="read-article-link">Read Source ↗</a>
-                    </div>
-                </div>
-            </article>
-            
+                </article>
+                
 
-            <article class="news-card">
-                <div class="news-card-img-wrap">
-                    <img src="assets/doodle_blast_crash.jpg" alt="Remote Rowhammer Attack using Adversarial Observations on Federated Learning Clients" class="news-card-img" loading="lazy">
-                    <div class="news-card-badge-overlay">
-                        <span class="category-pill ai">AI & FRONTIER TECH</span>
+                <article class="news-card">
+                    <div class="news-card-img-wrap">
+                        <img src="assets/doodle_blast_crash.jpg" alt="Remote Rowhammer Attack using Adversarial Observations on Federated Learning Clients" class="news-card-img" loading="lazy">
+                        <div class="news-card-badge-overlay">
+                            <span class="category-pill ai">AI & FRONTIER TECH</span>
+                        </div>
                     </div>
-                </div>
-                <div class="news-card-body">
-                    <div class="news-card-date-row">
-                        <span>📅 Oct 22, 2026</span>
-                        <span>ArXiv Computer Science AI</span>
+                    <div class="news-card-body">
+                        <div class="news-card-date-row">
+                            <span>📅 Oct 22, 2026 • 4 MIN READ</span>
+                            <span>ArXiv Computer Science AI</span>
+                        </div>
+                        <h3 class="news-card-title">Remote Rowhammer Attack using Adversarial Observations on Federated Learning Clients</h3>
+                        <p class="news-card-summary">Federated Learning (FL) has the potential for simultaneous global learning amongst a large number of parallel agents, enabling emerging AI systems to be trained across demographically diverse data. Central to this being efficient is the ability for FL to perform sparse...</p>
+                        <div class="news-card-footer">
+                            <span class="news-source-tag">Source: ArXiv Computer Science AI</span>
+                            <a href="https://arxiv.org/abs/2505.06335" target="_blank" class="read-article-link">Read Dispatch ↗</a>
+                        </div>
                     </div>
-                    <h3 class="news-card-title">Remote Rowhammer Attack using Adversarial Observations on Federated Learning Clients</h3>
-                    <p class="news-card-summary">Federated Learning (FL) has the potential for simultaneous global learning amongst a large number of parallel agents, enabling emerging AI systems to be trained across demographically diverse data. Central to this being efficient is the ability for FL to perform sparse...</p>
-                    <div class="news-card-footer">
-                        <span class="news-source-tag">Source: ArXiv Computer Science AI</span>
-                        <a href="https://arxiv.org/abs/2505.06335" target="_blank" class="read-article-link">Read Source ↗</a>
-                    </div>
-                </div>
-            </article>
-            
+                </article>
+                
 
-            <article class="news-card">
-                <div class="news-card-img-wrap">
-                    <img src="assets/doodle_story_1_doodle_101_scene_49.jpg" alt="SUDP: Secret-Use Delegation Protocol for Agentic Systems" class="news-card-img" loading="lazy">
-                    <div class="news-card-badge-overlay">
-                        <span class="category-pill ai">AI & FRONTIER TECH</span>
+                <article class="news-card">
+                    <div class="news-card-img-wrap">
+                        <img src="assets/doodle_story_1_doodle_101_scene_49.jpg" alt="SUDP: Secret-Use Delegation Protocol for Agentic Systems" class="news-card-img" loading="lazy">
+                        <div class="news-card-badge-overlay">
+                            <span class="category-pill ai">AI & FRONTIER TECH</span>
+                        </div>
                     </div>
-                </div>
-                <div class="news-card-body">
-                    <div class="news-card-date-row">
-                        <span>📅 Oct 22, 2026</span>
-                        <span>ArXiv Computer Science AI</span>
+                    <div class="news-card-body">
+                        <div class="news-card-date-row">
+                            <span>📅 Oct 22, 2026 • 4 MIN READ</span>
+                            <span>ArXiv Computer Science AI</span>
+                        </div>
+                        <h3 class="news-card-title">SUDP: Secret-Use Delegation Protocol for Agentic Systems</h3>
+                        <p class="news-card-summary">Agentic systems now act with user secrets for APIs, messaging platforms, and cloud services. Today&#x27;s agent runtimes typically implement authorization by exposure: enabling action means placing a reusable secret, or a reusable artifact derived from it, inside the runtime, so a...</p>
+                        <div class="news-card-footer">
+                            <span class="news-source-tag">Source: ArXiv Computer Science AI</span>
+                            <a href="https://arxiv.org/abs/2604.24920" target="_blank" class="read-article-link">Read Dispatch ↗</a>
+                        </div>
                     </div>
-                    <h3 class="news-card-title">SUDP: Secret-Use Delegation Protocol for Agentic Systems</h3>
-                    <p class="news-card-summary">Agentic systems now act with user secrets for APIs, messaging platforms, and cloud services. Today&#x27;s agent runtimes typically implement authorization by exposure: enabling action means placing a reusable secret, or a reusable artifact derived from it, inside the runtime, so a...</p>
-                    <div class="news-card-footer">
-                        <span class="news-source-tag">Source: ArXiv Computer Science AI</span>
-                        <a href="https://arxiv.org/abs/2604.24920" target="_blank" class="read-article-link">Read Source ↗</a>
-                    </div>
-                </div>
-            </article>
-            
+                </article>
+                
+        </section>
 
-            <article class="news-card">
-                <div class="news-card-img-wrap">
-                    <img src="assets/doodle_bear_digital_ruble.jpg" alt="Italy Busts Mafia &#x27;Secret Bank&#x27; That Laundered Money Through Crypto, Seizes $24M" class="news-card-img" loading="lazy">
-                    <div class="news-card-badge-overlay">
-                        <span class="category-pill crypto">CRYPTO & WEB3</span>
+        <!-- In-Feed Elegant Editorial Dispatch Box -->
+        
+        <section class="editorial-dispatch-banner" id="newsletter">
+            <div class="dispatch-banner-inner">
+                <div class="dispatch-info">
+                    <span class="dispatch-badge">📬 THE MORNING WIRE</span>
+                    <h3>Direct Intelligence Before Global Markets Open</h3>
+                    <p>Synthesizing verified AI breakthroughs, rogue system disclosures, and quantitative market movements daily at 07:00 UTC. 100% free, independent journalism.</p>
+                </div>
+                <div class="dispatch-form-wrap">
+                    <form id="lead-form-inline" class="dispatch-inline-form" onsubmit="handleLeadSubmit(event, 'Editorial Dispatch Bar')">
+                        <input type="email" id="lead-email-input" required placeholder="Enter your email for the daily wire..." class="dispatch-input">
+                        <button type="submit" class="dispatch-btn">Subscribe Free →</button>
+                    </form>
+                    <div class="dispatch-subtext">🔒 Unsubscribe anytime. 100% privacy. Zero marketing spam.</div>
+                    <div id="lead-success-msg" class="lead-success-box" style="display:none;">
+                        🎉 <strong>Subscribed.</strong> Tomorrow's 07:00 UTC Master Dossier will be dispatched to your inbox.
                     </div>
                 </div>
-                <div class="news-card-body">
-                    <div class="news-card-date-row">
-                        <span>📅 Oct 22, 2026</span>
-                        <span>Decrypt</span>
-                    </div>
-                    <h3 class="news-card-title">Italy Busts Mafia &#x27;Secret Bank&#x27; That Laundered Money Through Crypto, Seizes $24M</h3>
-                    <p class="news-card-summary">Police say a car-rental firm near Milan was an underground bank for &#x27;Ndrangheta and Camorra figures, moving money abroad and into crypto.</p>
-                    <div class="news-card-footer">
-                        <span class="news-source-tag">Source: Decrypt</span>
-                        <a href="https://decrypt.co/381589/italy-busts-mafia-secret-bank-that-laundered-money-through-crypto-seizes-24m" target="_blank" class="read-article-link">Read Source ↗</a>
-                    </div>
-                </div>
-            </article>
-            
+            </div>
+        </section>
+        
 
-            <article class="news-card">
-                <div class="news-card-img-wrap">
-                    <img src="assets/doodle_microstrategy_btc.jpg" alt="Crypto traders price India telecoms company Reliance Jio&#x27;s IPO at about $110 billion" class="news-card-img" loading="lazy">
-                    <div class="news-card-badge-overlay">
-                        <span class="category-pill crypto">CRYPTO & WEB3</span>
-                    </div>
-                </div>
-                <div class="news-card-body">
-                    <div class="news-card-date-row">
-                        <span>📅 Oct 22, 2026</span>
-                        <span>CoinDesk</span>
-                    </div>
-                    <h3 class="news-card-title">Crypto traders price India telecoms company Reliance Jio&#x27;s IPO at about $110 billion</h3>
-                    <p class="news-card-summary">The pre-IPO Jio contract on Bitget is trading near $12, a roughly 4% premium on the top price band, as India’s largest public offering remains open for subscription.</p>
-                    <div class="news-card-footer">
-                        <span class="news-source-tag">Source: CoinDesk</span>
-                        <a href="https://www.coindesk.com/markets/2026/10/22/crypto-traders-price-india-telecoms-company-reliance-jio-s-ipo-at-about-usd110-billion" target="_blank" class="read-article-link">Read Source ↗</a>
-                    </div>
-                </div>
-            </article>
+        <!-- Desk 2: Capital Markets, Crypto & Macro Liquidity -->
+        <div class="section-header" id="markets-desk">
+            <div class="section-header-left">
+                <span class="section-tag crypto-tag">CAPITAL & DIGITAL ASSETS</span>
+                <h2 class="section-title">Institutional Flows, Decentralized Networks & Macro</h2>
+            </div>
+            <span class="section-count">On-Chain & Exchange Telemetry</span>
+        </div>
+        <section class="news-grid">
             
+                <article class="news-card">
+                    <div class="news-card-img-wrap">
+                        <img src="assets/doodle_bear_digital_ruble.jpg" alt="Italy Busts Mafia &#x27;Secret Bank&#x27; That Laundered Money Through Crypto, Seizes $24M" class="news-card-img" loading="lazy">
+                        <div class="news-card-badge-overlay">
+                            <span class="category-pill crypto">CRYPTO & WEB3</span>
+                        </div>
+                    </div>
+                    <div class="news-card-body">
+                        <div class="news-card-date-row">
+                            <span>📅 Oct 22, 2026 • 4 MIN READ</span>
+                            <span>Decrypt</span>
+                        </div>
+                        <h3 class="news-card-title">Italy Busts Mafia &#x27;Secret Bank&#x27; That Laundered Money Through Crypto, Seizes $24M</h3>
+                        <p class="news-card-summary">Police say a car-rental firm near Milan was an underground bank for &#x27;Ndrangheta and Camorra figures, moving money abroad and into crypto.</p>
+                        <div class="news-card-footer">
+                            <span class="news-source-tag">Source: Decrypt</span>
+                            <a href="https://decrypt.co/381589/italy-busts-mafia-secret-bank-that-laundered-money-through-crypto-seizes-24m" target="_blank" class="read-article-link">Read Dispatch ↗</a>
+                        </div>
+                    </div>
+                </article>
+                
 
-            <article class="news-card">
-                <div class="news-card-img-wrap">
-                    <img src="assets/doodle_microstrategy_btc.jpg" alt="Bitcoin ETFs bag another $528M, taking 3-day haul past $1B" class="news-card-img" loading="lazy">
-                    <div class="news-card-badge-overlay">
-                        <span class="category-pill crypto">CRYPTO & WEB3</span>
+                <article class="news-card">
+                    <div class="news-card-img-wrap">
+                        <img src="assets/doodle_microstrategy_btc.jpg" alt="Crypto traders price India telecoms company Reliance Jio&#x27;s IPO at about $110 billion" class="news-card-img" loading="lazy">
+                        <div class="news-card-badge-overlay">
+                            <span class="category-pill crypto">CRYPTO & WEB3</span>
+                        </div>
                     </div>
-                </div>
-                <div class="news-card-body">
-                    <div class="news-card-date-row">
-                        <span>📅 Oct 22, 2026</span>
-                        <span>CoinTelegraph</span>
+                    <div class="news-card-body">
+                        <div class="news-card-date-row">
+                            <span>📅 Oct 22, 2026 • 4 MIN READ</span>
+                            <span>CoinDesk</span>
+                        </div>
+                        <h3 class="news-card-title">Crypto traders price India telecoms company Reliance Jio&#x27;s IPO at about $110 billion</h3>
+                        <p class="news-card-summary">The pre-IPO Jio contract on Bitget is trading near $12, a roughly 4% premium on the top price band, as India’s largest public offering remains open for subscription.</p>
+                        <div class="news-card-footer">
+                            <span class="news-source-tag">Source: CoinDesk</span>
+                            <a href="https://www.coindesk.com/markets/2026/10/22/crypto-traders-price-india-telecoms-company-reliance-jio-s-ipo-at-about-usd110-billion" target="_blank" class="read-article-link">Read Dispatch ↗</a>
+                        </div>
                     </div>
-                    <h3 class="news-card-title">Bitcoin ETFs bag another $528M, taking 3-day haul past $1B</h3>
-                    <p class="news-card-summary">US spot Bitcoin ETFs drew $1.08 billion over three trading sessions to push October flows back above water.</p>
-                    <div class="news-card-footer">
-                        <span class="news-source-tag">Source: CoinTelegraph</span>
-                        <a href="https://cointelegraph.com/markets/bitcoin-etfs-528-million-btc-tops-84k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" class="read-article-link">Read Source ↗</a>
-                    </div>
-                </div>
-            </article>
-            
+                </article>
+                
 
-            <article class="news-card">
-                <div class="news-card-img-wrap">
-                    <img src="assets/doodle_solana_jpmorgan.jpg" alt="Solana Alpenglow Goes Live in &#x27;Most Ambitious&#x27; Upgrade Since Ethereum&#x27;s Merge" class="news-card-img" loading="lazy">
-                    <div class="news-card-badge-overlay">
-                        <span class="category-pill crypto">CRYPTO & WEB3</span>
+                <article class="news-card">
+                    <div class="news-card-img-wrap">
+                        <img src="assets/doodle_microstrategy_btc.jpg" alt="Bitcoin ETFs bag another $528M, taking 3-day haul past $1B" class="news-card-img" loading="lazy">
+                        <div class="news-card-badge-overlay">
+                            <span class="category-pill crypto">CRYPTO & WEB3</span>
+                        </div>
                     </div>
-                </div>
-                <div class="news-card-body">
-                    <div class="news-card-date-row">
-                        <span>📅 Oct 22, 2026</span>
-                        <span>Decrypt</span>
+                    <div class="news-card-body">
+                        <div class="news-card-date-row">
+                            <span>📅 Oct 22, 2026 • 4 MIN READ</span>
+                            <span>CoinTelegraph</span>
+                        </div>
+                        <h3 class="news-card-title">Bitcoin ETFs bag another $528M, taking 3-day haul past $1B</h3>
+                        <p class="news-card-summary">US spot Bitcoin ETFs drew $1.08 billion over three trading sessions to push October flows back above water.</p>
+                        <div class="news-card-footer">
+                            <span class="news-source-tag">Source: CoinTelegraph</span>
+                            <a href="https://cointelegraph.com/markets/bitcoin-etfs-528-million-btc-tops-84k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" class="read-article-link">Read Dispatch ↗</a>
+                        </div>
                     </div>
-                    <h3 class="news-card-title">Solana Alpenglow Goes Live in &#x27;Most Ambitious&#x27; Upgrade Since Ethereum&#x27;s Merge</h3>
-                    <p class="news-card-summary">The new consensus protocol retires TowerBFT, which had run Solana since its 2020 launch, after a handoff on the live network.</p>
-                    <div class="news-card-footer">
-                        <span class="news-source-tag">Source: Decrypt</span>
-                        <a href="https://decrypt.co/381484/solana-alpenglow-goes-live-in-most-ambitious-upgrade-since-ethereums-merge" target="_blank" class="read-article-link">Read Source ↗</a>
-                    </div>
-                </div>
-            </article>
-            
+                </article>
+                
 
-            <article class="news-card">
-                <div class="news-card-img-wrap">
-                    <img src="assets/doodle_solana_jpmorgan.jpg" alt="Starknet voters back research into life beyond Ethereum" class="news-card-img" loading="lazy">
-                    <div class="news-card-badge-overlay">
-                        <span class="category-pill crypto">CRYPTO & WEB3</span>
+                <article class="news-card">
+                    <div class="news-card-img-wrap">
+                        <img src="assets/doodle_solana_jpmorgan.jpg" alt="Solana Alpenglow Goes Live in &#x27;Most Ambitious&#x27; Upgrade Since Ethereum&#x27;s Merge" class="news-card-img" loading="lazy">
+                        <div class="news-card-badge-overlay">
+                            <span class="category-pill crypto">CRYPTO & WEB3</span>
+                        </div>
                     </div>
-                </div>
-                <div class="news-card-body">
-                    <div class="news-card-date-row">
-                        <span>📅 Oct 22, 2026</span>
-                        <span>CoinTelegraph</span>
+                    <div class="news-card-body">
+                        <div class="news-card-date-row">
+                            <span>📅 Oct 22, 2026 • 4 MIN READ</span>
+                            <span>Decrypt</span>
+                        </div>
+                        <h3 class="news-card-title">Solana Alpenglow Goes Live in &#x27;Most Ambitious&#x27; Upgrade Since Ethereum&#x27;s Merge</h3>
+                        <p class="news-card-summary">The new consensus protocol retires TowerBFT, which had run Solana since its 2020 launch, after a handoff on the live network.</p>
+                        <div class="news-card-footer">
+                            <span class="news-source-tag">Source: Decrypt</span>
+                            <a href="https://decrypt.co/381484/solana-alpenglow-goes-live-in-most-ambitious-upgrade-since-ethereums-merge" target="_blank" class="read-article-link">Read Dispatch ↗</a>
+                        </div>
                     </div>
-                    <h3 class="news-card-title">Starknet voters back research into life beyond Ethereum</h3>
-                    <p class="news-card-summary">StarkWare plans to release a draft whitepaper in November as it explores an independent, quantum-resistant blockchain.</p>
-                    <div class="news-card-footer">
-                        <span class="news-source-tag">Source: CoinTelegraph</span>
-                        <a href="https://cointelegraph.com/news/starknet-vote-post-quantum-l1-research-ethereum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" class="read-article-link">Read Source ↗</a>
-                    </div>
-                </div>
-            </article>
-            
+                </article>
+                
+        </section>
 
-            <article class="news-card">
-                <div class="news-card-img-wrap">
-                    <img src="assets/doodle_solana_jpmorgan.jpg" alt="Solana’s Alpenglow launches on mainnet, targets 99% faster finality" class="news-card-img" loading="lazy">
-                    <div class="news-card-badge-overlay">
-                        <span class="category-pill crypto">CRYPTO & WEB3</span>
-                    </div>
-                </div>
-                <div class="news-card-body">
-                    <div class="news-card-date-row">
-                        <span>📅 Oct 22, 2026</span>
-                        <span>CoinTelegraph</span>
-                    </div>
-                    <h3 class="news-card-title">Solana’s Alpenglow launches on mainnet, targets 99% faster finality</h3>
-                    <p class="news-card-summary">Solana’s first major consensus upgrade is targeting 99% finality reduction, seeking to offer users near-immediate transaction settlement and more responsive applications.</p>
-                    <div class="news-card-footer">
-                        <span class="news-source-tag">Source: CoinTelegraph</span>
-                        <a href="https://cointelegraph.com/news/solanas-alpenglow-launches-mainnet-99-faster-finality?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" class="read-article-link">Read Source ↗</a>
-                    </div>
-                </div>
-            </article>
+        <!-- Desk 3: Global Performance, Human Feats & Systems -->
+        <div class="section-header" id="global-desk">
+            <div class="section-header-left">
+                <span class="section-tag global-tag">GLOBAL PERFORMANCE & CULTURE</span>
+                <h2 class="section-title">Athletic Feats, Systems Architecture & Culture</h2>
+            </div>
+            <span class="section-count">Global Dossiers</span>
+        </div>
+        <section class="news-grid">
             
+                <article class="news-card">
+                    <div class="news-card-img-wrap">
+                        <img src="assets/doodle_wakefield_champions.jpg" alt="Goal, assist... goal-kick - Kane underlines Ballon d&#x27;Or credentials" class="news-card-img" loading="lazy">
+                        <div class="news-card-badge-overlay">
+                            <span class="category-pill sports">SPORTS & HUMAN FEATS</span>
+                        </div>
+                    </div>
+                    <div class="news-card-body">
+                        <div class="news-card-date-row">
+                            <span>📅 Oct 22, 2026 • 4 MIN READ</span>
+                            <span>BBC Sport</span>
+                        </div>
+                        <h3 class="news-card-title">Goal, assist... goal-kick - Kane underlines Ballon d&#x27;Or credentials</h3>
+                        <p class="news-card-summary">Why Declan Rice backs his England team-mate Harry Kane to win the Ballon d&#x27;Or after Arsenal&#x27;s draw with Bayern Munich in the Champions League.</p>
+                        <div class="news-card-footer">
+                            <span class="news-source-tag">Source: BBC Sport</span>
+                            <a href="https://www.bbc.co.uk/sport/football/articles/ck79p7qq1q9ro?at_medium=RSS&at_campaign=rss" target="_blank" class="read-article-link">Read Dispatch ↗</a>
+                        </div>
+                    </div>
+                </article>
+                
 
-            <article class="news-card">
-                <div class="news-card-img-wrap">
-                    <img src="assets/doodle_wakefield_champions.jpg" alt="Pacers’ Tyrese Haliburton breaks down while reflecting on 16-month road to NBA return" class="news-card-img" loading="lazy">
-                    <div class="news-card-badge-overlay">
-                        <span class="category-pill ai">AI & FRONTIER TECH</span>
+                <article class="news-card">
+                    <div class="news-card-img-wrap">
+                        <img src="assets/doodle_wakefield_champions.jpg" alt="Rice strikes to earn Arsenal draw at Bayern" class="news-card-img" loading="lazy">
+                        <div class="news-card-badge-overlay">
+                            <span class="category-pill sports">SPORTS & HUMAN FEATS</span>
+                        </div>
                     </div>
-                </div>
-                <div class="news-card-body">
-                    <div class="news-card-date-row">
-                        <span>📅 Oct 22, 2026</span>
-                        <span>Yahoo Sports</span>
+                    <div class="news-card-body">
+                        <div class="news-card-date-row">
+                            <span>📅 Oct 22, 2026 • 4 MIN READ</span>
+                            <span>BBC Sport</span>
+                        </div>
+                        <h3 class="news-card-title">Rice strikes to earn Arsenal draw at Bayern</h3>
+                        <p class="news-card-summary">Declan Rice scores a late equaliser as Arsenal and Bayern Munich play out an entertaining draw in the league phase of the Champions League while Bukayo Saka limps off with an early injury.</p>
+                        <div class="news-card-footer">
+                            <span class="news-source-tag">Source: BBC Sport</span>
+                            <a href="https://www.bbc.co.uk/sport/football/videos/crx23nx0vp8jo?at_medium=RSS&at_campaign=rss" target="_blank" class="read-article-link">Read Dispatch ↗</a>
+                        </div>
                     </div>
-                    <h3 class="news-card-title">Pacers’ Tyrese Haliburton breaks down while reflecting on 16-month road to NBA return</h3>
-                    <p class="news-card-summary">Tyrese Haliburton records 23 points and 12 assists in an emotional NBA comeback after Achilles surgery.</p>
-                    <div class="news-card-footer">
-                        <span class="news-source-tag">Source: Yahoo Sports</span>
-                        <a href="https://sports.yahoo.com/articles/pacers-tyrese-haliburton-breaks-down-103000381.html" target="_blank" class="read-article-link">Read Source ↗</a>
-                    </div>
-                </div>
-            </article>
-            
+                </article>
+                
 
-            <article class="news-card">
-                <div class="news-card-img-wrap">
-                    <img src="assets/doodle_wakefield_champions.jpg" alt="Goal, assist... goal-kick - Kane underlines Ballon d&#x27;Or credentials" class="news-card-img" loading="lazy">
-                    <div class="news-card-badge-overlay">
-                        <span class="category-pill sports">SPORTS & HUMAN FEATS</span>
+                <article class="news-card">
+                    <div class="news-card-img-wrap">
+                        <img src="assets/doodle_story_3_doodle_103_scene_51.jpg" alt="Mac Allister scores twice as Liverpool fight back to beat Villarreal" class="news-card-img" loading="lazy">
+                        <div class="news-card-badge-overlay">
+                            <span class="category-pill sports">SPORTS & HUMAN FEATS</span>
+                        </div>
                     </div>
-                </div>
-                <div class="news-card-body">
-                    <div class="news-card-date-row">
-                        <span>📅 Oct 22, 2026</span>
-                        <span>BBC Sport</span>
+                    <div class="news-card-body">
+                        <div class="news-card-date-row">
+                            <span>📅 Oct 22, 2026 • 4 MIN READ</span>
+                            <span>BBC Sport</span>
+                        </div>
+                        <h3 class="news-card-title">Mac Allister scores twice as Liverpool fight back to beat Villarreal</h3>
+                        <p class="news-card-summary">Rio Ngumoha provides the spark as Liverpool come from two goals down to beat Villarreal at Anfield in the Champions League.</p>
+                        <div class="news-card-footer">
+                            <span class="news-source-tag">Source: BBC Sport</span>
+                            <a href="https://www.bbc.co.uk/sport/football/videos/cmvg6qxp6lj7o?at_medium=RSS&at_campaign=rss" target="_blank" class="read-article-link">Read Dispatch ↗</a>
+                        </div>
                     </div>
-                    <h3 class="news-card-title">Goal, assist... goal-kick - Kane underlines Ballon d&#x27;Or credentials</h3>
-                    <p class="news-card-summary">Why Declan Rice backs his England team-mate Harry Kane to win the Ballon d&#x27;Or after Arsenal&#x27;s draw with Bayern Munich in the Champions League.</p>
-                    <div class="news-card-footer">
-                        <span class="news-source-tag">Source: BBC Sport</span>
-                        <a href="https://www.bbc.co.uk/sport/football/articles/ck79p7qq1q9ro?at_medium=RSS&at_campaign=rss" target="_blank" class="read-article-link">Read Source ↗</a>
+                </article>
+                
+
+                <article class="news-card">
+                    <div class="news-card-img-wrap">
+                        <img src="assets/doodle_wakefield_champions.jpg" alt="Villa maintain perfect Champions League start with Viking victory" class="news-card-img" loading="lazy">
+                        <div class="news-card-badge-overlay">
+                            <span class="category-pill sports">SPORTS & HUMAN FEATS</span>
+                        </div>
                     </div>
-                </div>
-            </article>
-            
+                    <div class="news-card-body">
+                        <div class="news-card-date-row">
+                            <span>📅 Oct 22, 2026 • 4 MIN READ</span>
+                            <span>BBC Sport</span>
+                        </div>
+                        <h3 class="news-card-title">Villa maintain perfect Champions League start with Viking victory</h3>
+                        <p class="news-card-summary">Aston Villa win their third game from three in the Champions League by defeating Norwegian side Viking - the dominant display taking them up to second in the league phase.</p>
+                        <div class="news-card-footer">
+                            <span class="news-source-tag">Source: BBC Sport</span>
+                            <a href="https://www.bbc.co.uk/sport/football/videos/cmj47yxry4k9o?at_medium=RSS&at_campaign=rss" target="_blank" class="read-article-link">Read Dispatch ↗</a>
+                        </div>
+                    </div>
+                </article>
+                
         </section>
 
         <!-- Mahmoud Sammour Original Quantitative Outlook Column -->
@@ -2127,7 +2181,7 @@
                 <div class="regime-metric-card">
                     <div class="regime-header-row">
                         <span class="regime-posture-badge">🟢 Strategic Bullish Trend Accumulation</span>
-                        <span class="regime-timestamp">Updated: 2026-10-22 17:57 UTC</span>
+                        <span class="regime-timestamp">Updated: 2026-10-22 18:11 UTC</span>
                     </div>
 
                     <div class="regime-bars-grid">
@@ -2298,6 +2352,15 @@
         </a>
         
 
+            <a href="posts/2026-10-22_nexus_pulse_daily_edition.html" class="archive-item">
+                <div class="archive-item-left">
+                    <span class="archive-date-tag">🗓️ 2026-10-22</span>
+                    <span class="archive-item-title">2026-10-22 Nexus Pulse Daily Edition</span>
+                </div>
+                <span class="archive-arrow">Read Archive →</span>
+            </a>
+            
+
             <a href="posts/2026-10-22_mistral_le_chonk_microstrategy_crypto_surge.html" class="archive-item">
                 <div class="archive-item-left">
                     <span class="archive-date-tag">🗓️ 2026-10-22</span>
@@ -2365,15 +2428,6 @@
                 <div class="archive-item-left">
                     <span class="archive-date-tag">🗓️ 2026-10-15</span>
                     <span class="archive-item-title">2026-10-15 Mistral Le Chonk Microstrategy Crypto Surge</span>
-                </div>
-                <span class="archive-arrow">Read Archive →</span>
-            </a>
-            
-
-            <a href="posts/2026-10-14_mistral_le_chonk_microstrategy_crypto_surge.html" class="archive-item">
-                <div class="archive-item-left">
-                    <span class="archive-date-tag">🗓️ 2026-10-14</span>
-                    <span class="archive-item-title">2026-10-14 Mistral Le Chonk Microstrategy Crypto Surge</span>
                 </div>
                 <span class="archive-arrow">Read Archive →</span>
             </a>
@@ -2453,7 +2507,7 @@
                         _subject: '🔥 New Nexus Pulse Lead Magnet Subscriber!',
                         email: email,
                         source: source,
-                        kit_requested: 'AraPython 2026 Python & AI Architecture Blueprint',
+                        kit_requested: 'Nexus Pulse Daily Morning Wire Dossier',
                         timestamp: new Date().toLocaleString()
                     })
                 }).catch(() => {});
@@ -2463,7 +2517,8 @@
             const successBox = document.getElementById('lead-success-msg');
             if (successBox) {
                 successBox.style.display = 'block';
-                form.querySelector('.lead-input-group').style.display = 'none';
+                const inputGroup = form.querySelector('.dispatch-inline-form') || form.querySelector('.lead-input-group');
+                if (inputGroup) inputGroup.style.display = 'none';
             }
             
             // If submitted from sticky bar
