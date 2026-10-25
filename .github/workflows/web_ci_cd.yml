@@ -1,0 +1,35 @@
+name: Nexus Pulse Web Hub CI/CD
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  web_integrity_gate:
+    name: Web Standards & CI/CD Gate (Tariq)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: 🧪 Execute Web Standards & Ontology Tests (Tariq & Jad)
+        run: |
+          python -m unittest tests/test_web_integrity.py
+
+      - name: 🌐 Validate GitHub Pages Build Files
+        run: |
+          echo "Verifying HTML5 production assets..."
+          test -f index.html
+          test -f control.html
+          test -f privacy.html
+          test -f terms.html
+          test -f .nojekyll
+          echo "✅ All GitHub Pages static distribution files verified."
