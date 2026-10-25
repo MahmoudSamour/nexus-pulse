@@ -1,0 +1,338 @@
+{
+  "project_name": "nexus-pulse",
+  "mission": "Autonomous Media Creation, AI Engineering & Multi-Platform Distribution Swarm",
+  "version": "2.0.0",
+  "last_updated": "2026-10-25T17:30:52.013252+00:00",
+  "ontology_agent": {
+    "name": "Jad",
+    "role": "Swarm Ontologist & Continuity Sentinel",
+    "authority": "Knowledge graph curator, multi-platform media archivist, zero-context-loss guardian"
+  },
+  "entities": {
+    "agents": {
+      "Farouq": {
+        "type": "Chief Compliance Officer",
+        "focus": "Platform anti-ban rules, rate limits, Mahmoud personal profile AI-only filter, proof verification",
+        "status": "ARMED_AND_WATCHING"
+      },
+      "Tariq": {
+        "type": "Chief Technology Officer",
+        "focus": "Automated pipelines, web portal (GitHub Pages), script stability, launchd scheduling",
+        "status": "OPERATIONAL"
+      },
+      "Sinan": {
+        "type": "Chief Operating Officer",
+        "focus": "Daily content production lifecycle (Briefing -> Infographic -> Audio -> Carousel -> Video -> Social)",
+        "status": "ACTIVE"
+      },
+      "Rayan": {
+        "type": "Viral Quality Arbiter",
+        "focus": "High-CTR hooks, 7-slide carousel aesthetics, typography, short-form video retention",
+        "status": "ACTIVE"
+      },
+      "Jad": {
+        "type": "Swarm Ontologist",
+        "focus": "Knowledge graph, memory persistence, media lineage, zero-context-loss session continuity",
+        "status": "ACTIVE"
+      }
+    },
+    "distribution_channels": {
+      "LinkedIn_Company": {
+        "status": "ACTIVE",
+        "formats": [
+          "Carousels",
+          "Infographics",
+          "Articles",
+          "VideoShorts"
+        ]
+      },
+      "LinkedIn_MahmoudPersonal": {
+        "status": "ACTIVE",
+        "formats": [
+          "Reshared AI Content Only"
+        ],
+        "rule": "NO_TRADING_OR_CRYPTO"
+      },
+      "YouTube_Shorts": {
+        "status": "ACTIVE",
+        "formats": [
+          "1080x1920 60s Vertical Shorts"
+        ]
+      },
+      "TikTok": {
+        "status": "ACTIVE",
+        "formats": [
+          "1080x1920 High-Retention Video"
+        ]
+      },
+      "Instagram": {
+        "status": "ACTIVE",
+        "formats": [
+          "Reels",
+          "Infographics"
+        ]
+      },
+      "Reddit": {
+        "status": "ACTIVE",
+        "formats": [
+          "Markdown Tech Analysis"
+        ]
+      },
+      "NexusPulse_Web": {
+        "status": "ACTIVE",
+        "formats": [
+          "Static HTML Blog",
+          "Dark Mode UI"
+        ]
+      }
+    },
+    "core_scripts": {
+      "content_engine/swarm_orchestrator.py": {
+        "type": "Master Media Conductor",
+        "status": "OPERATIONAL",
+        "description": "Orchestrates full daily multi-agent media generation and distribution"
+      },
+      "content_engine/daily_briefing_generator.py": {
+        "type": "AI Research & Briefing Generator",
+        "status": "OPERATIONAL",
+        "description": "Generates dynamic, daily unique research briefs"
+      },
+      "content_engine/linkedin_carousel_writer.py": {
+        "type": "PDF Slide Builder",
+        "status": "OPERATIONAL",
+        "description": "Renders 7-slide 1080x1350 PDF carousels"
+      },
+      "content_engine/video_generator.py": {
+        "type": "Motion Video Synthesizer",
+        "status": "OPERATIONAL",
+        "description": "Produces 1080x1920 video shorts with synthetic voice and subtitles"
+      }
+    }
+  },
+  "knowledge_graph_triples": [
+    [
+      "Farouq",
+      "enforces",
+      "MahmoudPersonalAIOnlyRule"
+    ],
+    [
+      "Farouq",
+      "gates",
+      "AllSocialPublishing"
+    ],
+    [
+      "Farouq",
+      "verifies",
+      "LivePostProofScreenshots"
+    ],
+    [
+      "Sinan",
+      "schedules",
+      "DailyProductionPipeline"
+    ],
+    [
+      "Rayan",
+      "reviews",
+      "VisualAndCopyCTR"
+    ],
+    [
+      "Tariq",
+      "deploysTo",
+      "NexusPulseWebPortal"
+    ],
+    [
+      "Jad",
+      "tracksContinuityFor",
+      "NexusPulseSwarm"
+    ],
+    [
+      "content_engine/swarm_orchestrator.py",
+      "publishesTo",
+      "LinkedInVideoShort"
+    ],
+    [
+      "content_engine/swarm_orchestrator.py",
+      "publishesTo",
+      "YouTubeShorts"
+    ],
+    [
+      "content_engine/swarm_orchestrator.py",
+      "publishesTo",
+      "NexusPulseBlog"
+    ]
+  ],
+  "learnings_and_gotchas": [
+    {
+      "id": "NEXUS-LEARN-001",
+      "timestamp": "2026-10-25T16:00:00Z",
+      "topic": "Mahmoud Personal LinkedIn Profile Policy",
+      "finding": "Mahmoud's personal LinkedIn profile strictly allows category == 'ai'. Absolutely NO trading, crypto, or finance content may ever be reshared there.",
+      "status": "PERMANENT_RULE"
+    },
+    {
+      "id": "NEXUS-LEARN-002",
+      "timestamp": "2026-10-25T16:30:00Z",
+      "topic": "LinkedIn Video Upload Modal Timing",
+      "finding": "LinkedIn video upload requires a 10s wait for media processing and clicking the intermediate 'Next' modal button before typing captions and submitting.",
+      "status": "PERMANENT_RULE"
+    },
+    {
+      "id": "NEXUS-LEARN-003",
+      "timestamp": "2026-10-25T16:45:00Z",
+      "topic": "Infographic Directory Discovery",
+      "finding": "Infographics are stored in Daily_Content_Briefings/infographics; orchestrator checks both project root and Desktop paths.",
+      "status": "PERMANENT_RULE"
+    },
+    {
+      "id": "NEXUS-LEARN-004",
+      "timestamp": "2026-10-25T17:00:00Z",
+      "topic": "Verifiable Proof Sentinel",
+      "finding": "Every social post must be confirmed by browser screenshots or verified API receipts before being declared done.",
+      "status": "PERMANENT_RULE"
+    }
+  ],
+  "history_and_runs": [
+    {
+      "run_id": "RUN-NEXUS-20261025-173051",
+      "timestamp": "2026-10-25T17:30:51.988290+00:00",
+      "run_type": "MEDIA_SWARM_RUN",
+      "mode": "DRY_RUN",
+      "git_commit": "25cc4ed",
+      "status": "SUCCESS",
+      "details": {
+        "date": "2026-10-25",
+        "start_time": "2026-10-25T20:30:51.971112",
+        "dry_run": true,
+        "phases": {
+          "phase_0_farouq": {
+            "status": "PASSED",
+            "report": {
+              "audit_timestamp": "2026-10-25T20:30:51.981581",
+              "preflight_status": "PASSED",
+              "platforms": {
+                "x_twitter": {
+                  "name": "X (Twitter)",
+                  "status": "HEALTHY",
+                  "enabled": true,
+                  "posts_last_24h": 0,
+                  "daily_limit": 2,
+                  "cooldown_minutes": 120.0,
+                  "notes": [
+                    "24h Quota available: 0/2 used",
+                    "Phase: WARMUP (Max 2/day, 120m cooldown, max 2 hashtags, 0 links in root)"
+                  ]
+                },
+                "linkedin": {
+                  "name": "LinkedIn (Nexus Pulse Media)",
+                  "status": "HEALTHY",
+                  "enabled": true,
+                  "posts_last_24h": 0,
+                  "daily_limit": 3,
+                  "cooldown_minutes": 20.0,
+                  "notes": [
+                    "24h Quota available: 0/3 used",
+                    "Enforced: 1 Carousel PDF + 1 Video Short/day"
+                  ]
+                },
+                "youtube": {
+                  "name": "YouTube (Nexus Pulse)",
+                  "status": "HEALTHY",
+                  "enabled": true,
+                  "posts_last_24h": 0,
+                  "daily_limit": 6,
+                  "cooldown_minutes": 10.0,
+                  "notes": [
+                    "24h Quota available: 0/6 used"
+                  ]
+                },
+                "meta": {
+                  "name": "Meta (Instagram Reels & Facebook)",
+                  "status": "HEALTHY",
+                  "enabled": true,
+                  "posts_last_24h": 0,
+                  "daily_limit": 3,
+                  "cooldown_minutes": 20.0,
+                  "notes": [
+                    "24h Quota available: 0/3 used"
+                  ]
+                },
+                "tiktok": {
+                  "name": "TikTok (@nexus.pulse.ai)",
+                  "status": "HEALTHY",
+                  "enabled": true,
+                  "posts_last_24h": 0,
+                  "daily_limit": 4,
+                  "cooldown_minutes": 30.0,
+                  "notes": [
+                    "24h Quota available: 0/4 used"
+                  ]
+                },
+                "telegram": {
+                  "name": "Telegram Channel & Admin DM",
+                  "status": "HEALTHY",
+                  "enabled": true,
+                  "posts_last_24h": 1,
+                  "daily_limit": 20,
+                  "cooldown_minutes": 0.05,
+                  "notes": [
+                    "24h Quota available: 1/20 used",
+                    "Cooldown clear (582m since last post)"
+                  ]
+                },
+                "reddit": {
+                  "name": "Reddit",
+                  "status": "LOCKED",
+                  "enabled": false,
+                  "posts_last_24h": 0,
+                  "daily_limit": 0,
+                  "cooldown_minutes": 1440.0,
+                  "notes": [
+                    "Daily limit set to 0 (Protective hold active)"
+                  ]
+                }
+              },
+              "farouq_certification": "VERIFIED_ANTI_BAN_SAFE"
+            }
+          },
+          "phase_1_tariq": {
+            "status": "HEALTHY",
+            "duckdb_lake": "/Users/mahmoud/Desktop/Projects-Personal/dobby-alphazero-trader/data/telemetry/story_history.duckdb",
+            "duckdb_online": true,
+            "browser_profile_ready": true,
+            "quant_data_verified": true
+          },
+          "phase_2_sinan": {
+            "Multimodal Ingestion Scraping": "SUCCESS",
+            "Executive Daily Briefing Synthesis": "SUCCESS",
+            "Big-Head Doodle Story Engine": "SUCCESS",
+            "Master Executive Carousel PDF": "SUCCESS",
+            "Frontier AI Trend Scout (ArXiv/HN)": "SUCCESS",
+            "Frontier AI Carousel Studio": "SUCCESS",
+            "Daily AI Viral Roadmap Infographic (4:5)": "SUCCESS",
+            "Static Web Edition & Index": "SUCCESS",
+            "High-CTR Thumbnails & Covers": "SUCCESS"
+          },
+          "phase_3_rayan": {
+            "doodle_video_rendered": true,
+            "carousel_pdf_valid": true,
+            "ai_infographic_rendered": true,
+            "vqi_score": 92,
+            "audio_normalization": "-14.0 LUFS Normalized"
+          },
+          "phase_4_syndication": "COMPLETED"
+        },
+        "end_time": "2026-10-25T20:30:51.987858"
+      }
+    }
+  ],
+  "active_context_checkpoint": {
+    "phase": "PHASE_FULL_AUTONOMY",
+    "last_verified_action": "Daily media swarm run completed on 2026-10-25 (dry_run=True). All agent gates cleared.",
+    "active_git_commit": "25cc4ed",
+    "next_objectives": [
+      "Maintain continuous automated state capture via Jad on every media generation run.",
+      "Ensure daily 06:00 AM briefing, carousel, and video short pipelines run without manual intervention.",
+      "Continuously enforce Farouq's anti-repetition and platform rate limit rules."
+    ]
+  }
+}
