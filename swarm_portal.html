@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexus Pulse // Swarm OS & Command Architecture</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #07090e;
+      --card-bg: rgba(15, 23, 42, 0.7);
+      --card-border: rgba(56, 189, 248, 0.15);
+      --accent-cyan: #38bdf8;
+      --accent-purple: #a855f7;
+      --accent-emerald: #10b981;
+      --accent-amber: #f59e0b;
+      --accent-rose: #f43f5e;
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --glass-glow: 0 0 35px rgba(56, 189, 248, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text-main);
+      font-family: 'Outfit', sans-serif;
+      min-height: 100vh;
+      overflow-x: hidden;
+      line-height: 1.6;
+      background-image: 
+        radial-gradient(circle at 15% 10%, rgba(56, 189, 248, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 85% 90%, rgba(168, 85, 247, 0.08) 0%, transparent 40%);
+    }
+
+    header {
+      padding: 2.5rem 2rem 1.5rem;
+      border-bottom: 1px solid var(--card-border);
+      background: rgba(7, 9, 14, 0.85);
+      backdrop-filter: blur(12px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .brand-logo {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--accent-cyan), var(--accent-purple));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-family: 'Space Grotesk', sans-serif;
+      color: #fff;
+      font-size: 1.25rem;
+      box-shadow: 0 0 20px rgba(56, 189, 248, 0.4);
+    }
+
+    .brand-text h1 {
+      font-size: 1.5rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      background: linear-gradient(to right, #fff, var(--accent-cyan));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .brand-text p {
+      font-size: 0.825rem;
+      color: var(--text-muted);
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .system-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(16, 185, 129, 0.1);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      padding: 0.4rem 1rem;
+      border-radius: 9999px;
+      font-size: 0.8rem;
+      font-family: 'JetBrains Mono', monospace;
+      color: var(--accent-emerald);
+    }
+
+    .pulse-dot {
+      width: 8px;
+      height: 8px;
+      background: var(--accent-emerald);
+      border-radius: 50%;
+      box-shadow: 0 0 10px var(--accent-emerald);
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(1.2); }
+    }
+
+    /* NAV TABS */
+    .tabs {
+      display: flex;
+      gap: 0.5rem;
+      padding: 1.5rem 2rem 0;
+      max-width: 1400px;
+      margin: 0 auto;
+      overflow-x: auto;
+    }
+
+    .tab-btn {
+      background: transparent;
+      border: 1px solid transparent;
+      color: var(--text-muted);
+      padding: 0.75rem 1.4rem;
+      border-radius: 10px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      font-family: 'Outfit', sans-serif;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      white-space: nowrap;
+    }
+
+    .tab-btn:hover {
+      color: var(--text-main);
+      background: rgba(255, 255, 255, 0.04);
+    }
+
+    .tab-btn.active {
+      background: rgba(56, 189, 248, 0.1);
+      border-color: rgba(56, 189, 248, 0.3);
+      color: var(--accent-cyan);
+      box-shadow: 0 0 15px rgba(56, 189, 248, 0.15);
+    }
+
+    /* MAIN CONTAINER */
+    main {
+      max-width: 1400px;
+      margin: 1.5rem auto 4rem;
+      padding: 0 2rem;
+    }
+
+    .tab-content {
+      display: none;
+      animation: fadeIn 0.3s ease;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* GRID LAYOUTS */
+    .grid-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 1.5rem;
+      backdrop-filter: blur(12px);
+      box-shadow: var(--glass-glow);
+      transition: transform 0.25s ease, border-color 0.25s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(56, 189, 248, 0.4);
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 1rem;
+    }
+
+    .persona-badge {
+      font-size: 0.75rem;
+      font-family: 'JetBrains Mono', monospace;
+      padding: 0.25rem 0.6rem;
+      border-radius: 6px;
+      background: rgba(56, 189, 248, 0.1);
+      color: var(--accent-cyan);
+      border: 1px solid rgba(56, 189, 248, 0.2);
+    }
+
+    .persona-name {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .persona-role {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+    }
+
+    .persona-desc {
+      font-size: 0.9rem;
+      color: #cbd5e1;
+      margin-bottom: 1.25rem;
+    }
+
+    .metric-list {
+      list-style: none;
+      font-size: 0.825rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      padding-top: 0.85rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .metric-list li {
+      display: flex;
+      justify-content: space-between;
+      color: var(--text-muted);
+    }
+
+    .metric-list li span:last-child {
+      color: var(--text-main);
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 500;
+    }
+
+    /* PLATFORM MATRIX TABLE */
+    .table-container {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      overflow-x: auto;
+      margin-top: 1.5rem;
+      box-shadow: var(--glass-glow);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.9rem;
+    }
+
+    th {
+      background: rgba(15, 23, 42, 0.9);
+      padding: 1rem 1.25rem;
+      font-weight: 700;
+      font-family: 'Space Grotesk', sans-serif;
+      color: var(--accent-cyan);
+      border-bottom: 1px solid var(--card-border);
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      letter-spacing: 0.05em;
+    }
+
+    td {
+      padding: 1rem 1.25rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      color: #cbd5e1;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    tr:hover td {
+      background: rgba(56, 189, 248, 0.03);
+    }
+
+    .status-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.25rem 0.65rem;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 600;
+    }
+
+    .status-live { background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); }
+    .status-warmup { background: rgba(245, 158, 11, 0.15); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.3); }
+    .status-cooldown { background: rgba(168, 85, 247, 0.15); color: #c084fc; border: 1px solid rgba(168, 85, 247, 0.3); }
+    .status-locked { background: rgba(244, 63, 94, 0.15); color: #fb7185; border: 1px solid rgba(244, 63, 94, 0.3); }
+
+    /* PROCESS FLOW */
+    .flow-steps {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+      position: relative;
+    }
+
+    .flow-step {
+      display: flex;
+      gap: 1.5rem;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 1.5rem;
+      backdrop-filter: blur(12px);
+      align-items: flex-start;
+    }
+
+    .step-num {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, rgba(56, 189, 248, 0.2), rgba(168, 85, 247, 0.2));
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      color: var(--accent-cyan);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 1.1rem;
+      flex-shrink: 0;
+    }
+
+    .step-content h3 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 0.35rem;
+    }
+
+    .step-content p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 0.75rem;
+    }
+
+    .step-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .step-tag {
+      font-size: 0.75rem;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 0.2rem 0.6rem;
+      border-radius: 6px;
+      font-family: 'JetBrains Mono', monospace;
+      color: #cbd5e1;
+    }
+
+    /* SECTION TITLES */
+    .section-title {
+      font-size: 1.4rem;
+      font-weight: 800;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .section-desc {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-bottom: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="brand">
+      <div class="brand-logo">NP</div>
+      <div class="brand-text">
+        <h1>NEXUS PULSE // SWARM OS</h1>
+        <p>AUTONOMOUS MEDIA EMPIRE & CONTINUITY ENGINE</p>
+      </div>
+    </div>
+    <div class="system-badge">
+      <div class="pulse-dot"></div>
+      <span>SWARM AUTONOMY: 100% OPERATIONAL</span>
+    </div>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab-btn active" onclick="showTab('council')">👥 Council Personas</button>
+    <button class="tab-btn" onclick="showTab('policies')">🛡️ Platform Anti-Ban Matrix</button>
+    <button class="tab-btn" onclick="showTab('pipeline')">⚙️ 7-Video Production Flow</button>
+    <button class="tab-btn" onclick="showTab('ontology')">📜 Ontology & Knowledge Graph</button>
+    <button class="tab-btn" onclick="showTab('founder')">👤 Founder Actions & Kareem</button>
+  </nav>
+
+  <main>
+    <!-- TAB 1: COUNCIL PERSONAS -->
+    <section id="council" class="tab-content active">
+      <h2 class="section-title">🏛️ Autonomous Swarm Council Leadership</h2>
+      <p class="section-desc">Specialized AI agents working in unison under the command of Conductor Malik.</p>
+
+      <div class="grid-cards">
+        <div class="card">
+          <div class="card-header">
+            <span class="persona-name">🏛️ Malik</span>
+            <span class="persona-badge">CONDUCTOR</span>
+          </div>
+          <div class="persona-role">Swarm General & Central Task Planner</div>
+          <div class="persona-desc">Primary interface to founder Mahmoud. Decomposes goals, routes tasks across specialized subagents, and enforces executive directives.</div>
+          <ul class="metric-list">
+            <li><span>Activation Trigger</span><span>"Hey Malik" in any chat</span></li>
+            <li><span>Authority</span><span>Workspace & Global Global</span></li>
+            <li><span>Status</span><span>🟢 ACTIVE</span></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <span class="persona-name">🛡️ Farouq</span>
+            <span class="persona-badge">COMPLIANCE</span>
+          </div>
+          <div class="persona-role">Chief Compliance Officer & Anti-Ban Governor</div>
+          <div class="persona-desc">Enforces anti-ban cooldowns (20m LinkedIn, 120m X), pre-flight policy gates, SHA-256 duplicate checking, and Mahmoud's AI-only LinkedIn filter.</div>
+          <ul class="metric-list">
+            <li><span>Pre-Flight Gate</span><span>PlatformComplianceOfficer</span></li>
+            <li><span>Anti-Duplicate Window</span><span>30 Days (SHA-256)</span></li>
+            <li><span>Status</span><span>🟢 ARMED & WATCHING</span></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <span class="persona-name">💻 Tariq</span>
+            <span class="persona-badge">CTO</span>
+          </div>
+          <div class="persona-role">Chief Technology Officer & Web CI/CD Lead</div>
+          <div class="persona-desc">Governs local code health, DuckDB Story History Lake, LaunchAgent scheduler (caffeinate), and GitHub Pages zero-downtime deployment.</div>
+          <ul class="metric-list">
+            <li><span>Scheduler Daemon</span><span>com.nexuspulse.dailybriefing</span></li>
+            <li><span>DuckDB Novelty Lake</span><span>🟢 ONLINE</span></li>
+            <li><span>Status</span><span>🟢 OPERATIONAL</span></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <span class="persona-name">⚙️ Sinan</span>
+            <span class="persona-badge">OPERATIONS</span>
+          </div>
+          <div class="persona-role">Chief Operating Officer & Studio Lead</div>
+          <div class="persona-desc">Directs the end-to-end morning media production: scraping news, synthesizing dossiers, big-head doodle animation, carousels, and video encoding.</div>
+          <ul class="metric-list">
+            <li><span>Daily Video Volume</span><span>5–7 Videos / Day</span></li>
+            <li><span>Audio Normalization</span><span>-14.0 LUFS Normalized</span></li>
+            <li><span>Status</span><span>🟢 DISPATCH READY</span></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <span class="persona-name">🎨 Rayan</span>
+            <span class="persona-badge">CREATIVE</span>
+          </div>
+          <div class="persona-role">Viral Quality Arbiter & Creative Director</div>
+          <div class="persona-desc">Holds veto power over rendered assets. Audits high-CTR 3-second hooks, 7-slide mobile-first typography, and ensures VQI score >= 85.</div>
+          <ul class="metric-list">
+            <li><span>Quality Benchmark</span><span>VQI >= 85 (Today: 92/100)</span></li>
+            <li><span>Slide Architecture</span><span>7-Slide Document Format</span></li>
+            <li><span>Status</span><span>🟢 AUDITED</span></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <span class="persona-name">👥 Kareem</span>
+            <span class="persona-badge">COMMUNITY</span>
+          </div>
+          <div class="persona-role">Audience Engagement & Founder Resonance Sentinel</div>
+          <div class="persona-desc">Rings founder Mahmoud on Telegram DM every day with 1–2 provocative trend questions, and monitors inbound audience comments with API/Chrome fallback.</div>
+          <ul class="metric-list">
+            <li><span>Founder Ring Channel</span><span>Telegram DM (8538485644)</span></li>
+            <li><span>Execution Seam</span><span>API First + Chrome Fallback</span></li>
+            <li><span>Status</span><span>🟢 ONLINE</span></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <span class="persona-name">📜 Jad</span>
+            <span class="persona-badge">ONTOLOGY</span>
+          </div>
+          <div class="persona-role">Swarm Ontologist & Continuity Sentinel</div>
+          <div class="persona-desc">Curates the project knowledge graph and persistent state checkpoints in ONTOLOGY.md, guaranteeing zero memory loss across all sessions.</div>
+          <ul class="metric-list">
+            <li><span>Knowledge File</span><span>ONTOLOGY.md</span></li>
+            <li><span>Context Loss Target</span><span>0.00%</span></li>
+            <li><span>Status</span><span>🟢 ACTIVE</span></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <span class="persona-name">🚀 Zayn & Sami</span>
+            <span class="persona-badge">DISTRIBUTION</span>
+          </div>
+          <div class="persona-role">Syndication & Ground-Truth Delivery Sentinels</div>
+          <div class="persona-desc">Dispatches media across official REST APIs (YouTube, Telegram) and persistent Chrome browser sessions (LinkedIn), capturing immutable proof screenshots.</div>
+          <ul class="metric-list">
+            <li><span>Audit Verification</span><span>delivery_verification_agent</span></li>
+            <li><span>Proof Capture</span><span>Screenshot Albums</span></li>
+            <li><span>Status</span><span>🟢 STANDBY</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 2: PLATFORM POLICIES -->
+    <section id="policies" class="tab-content">
+      <h2 class="section-title">🛡️ Multi-Platform Regulatory & Anti-Ban Matrix</h2>
+      <p class="section-desc">Governed by Farouq. Automated rate limits and anti-ban safeguards across all syndication targets.</p>
+
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Platform</th>
+              <th>Formats Distributed</th>
+              <th>Daily Limit</th>
+              <th>Cooldown Window</th>
+              <th>Anti-Ban Policy / Safety Guard</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>LinkedIn</strong></td>
+              <td>7-Slide Carousel PDF, AI Video Short, Articles</td>
+              <td>Max 3 / day</td>
+              <td>20 Minutes</td>
+              <td>Enforced 20m separation between carousel and video; Mahmoud personal profile AI-only filter.</td>
+              <td><span class="status-pill status-cooldown">COOLDOWN_ACTIVE (SAFE)</span></td>
+            </tr>
+            <tr>
+              <td><strong>YouTube</strong></td>
+              <td>9:16 Shorts (5x), 16:9 Master Documentary</td>
+              <td>Max 6 / day</td>
+              <td>10 Minutes</td>
+              <td>Protects 10,000 unit daily API quota; title <= 70 chars; explicit not-made-for-kids flag.</td>
+              <td><span class="status-pill status-live">HEALTHY</span></td>
+            </tr>
+            <tr>
+              <td><strong>Telegram</strong></td>
+              <td>Direct HD MP4 Video Broadcast, Dossier PDF</td>
+              <td>Max 20 / day</td>
+              <td>Instant (3s)</td>
+              <td>Caption capped at 1,024 chars; Markdown syntax linter; 48MB video transcode threshold.</td>
+              <td><span class="status-pill status-live">HEALTHY</span></td>
+            </tr>
+            <tr>
+              <td><strong>Threads</strong></td>
+              <td>Multi-Post Dossier Breakdown, Video Short, Cards</td>
+              <td>Max 5 / day</td>
+              <td>20 Minutes</td>
+              <td>Strict 500-char limit; max 3 hashtags to prevent shadowban; 5-min video cap.</td>
+              <td><span class="status-pill status-live">HEALTHY</span></td>
+            </tr>
+            <tr>
+              <td><strong>Meta (FB & IG)</strong></td>
+              <td>9:16 Reels, 4:5 Roadmap Infographics</td>
+              <td>Max 3 / day</td>
+              <td>20 Minutes</td>
+              <td>Strict 9:16 vertical ratio; captions <= 2,200 chars; 3–8 targeted hashtags.</td>
+              <td><span class="status-pill status-live">HEALTHY</span></td>
+            </tr>
+            <tr>
+              <td><strong>X (Twitter)</strong></td>
+              <td>Hook Threads, Video Clips, Infographics</td>
+              <td>Max 2 / day (Warmup)</td>
+              <td>120 Minutes</td>
+              <td>14-day warm-up mode; 0 external links in root tweet (-60% reach penalty); 30d SHA-256 duplicate filter.</td>
+              <td><span class="status-pill status-warmup">WARMUP_SAFE</span></td>
+            </tr>
+            <tr>
+              <td><strong>Bluesky</strong></td>
+              <td>Micro-Dossier Briefs, Link Cards</td>
+              <td>Max 6 / day</td>
+              <td>15 Minutes</td>
+              <td>Strict 300 grapheme ceiling; max 1 link card per post.</td>
+              <td><span class="status-pill status-live">HEALTHY</span></td>
+            </tr>
+            <tr>
+              <td><strong>TikTok</strong></td>
+              <td>1080x1920 High-Retention Video</td>
+              <td>Max 4 / day</td>
+              <td>30 Minutes</td>
+              <td>Direct REST API integration (App ID 7699505088380831762); browser puzzle captcha bypass guard.</td>
+              <td><span class="status-pill status-live">APP REVIEW</span></td>
+            </tr>
+            <tr>
+              <td><strong>Reddit</strong></td>
+              <td>Markdown Tech Analysis + Source Links</td>
+              <td>0 / day</td>
+              <td>N/A</td>
+              <td>Protective lock active (0 posts/day) to prevent automated shadowbans without manual authorization.</td>
+              <td><span class="status-pill status-locked">LOCKED (0/DAY)</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- TAB 3: PIPELINE FLOW -->
+    <section id="pipeline" class="tab-content">
+      <h2 class="section-title">⚙️ Autonomous Morning Production Pipeline</h2>
+      <p class="section-desc">Triggered at 06:00 AM via launchd with caffeinate. Renders 5-7 videos, carousels, and dossiers.</p>
+
+      <div class="flow-steps">
+        <div class="flow-step">
+          <div class="step-num">01</div>
+          <div class="step-content">
+            <h3>PHASE 0: Farouq Anti-Ban Audit & Tariq Infrastructure Check</h3>
+            <p>Audits 24h publish history, cooldown timers, DuckDB novelty lake, and verifies system health before compute triggers.</p>
+            <div class="step-tags">
+              <span class="step-tag">platform_compliance_agent.py</span>
+              <span class="step-tag">tariq_tech_lead.py</span>
+              <span class="step-tag">DuckDB Novelty Lake</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="flow-step">
+          <div class="step-num">02</div>
+          <div class="step-content">
+            <h3>PHASE 1: News Scraping & Executive Dossier Synthesis</h3>
+            <p>Scrapes verified multimodal feeds across AI, Crypto, Silicon, and Global Macro. Synthesizes daily dossier with zero placeholders.</p>
+            <div class="step-tags">
+              <span class="step-tag">multimodal_feed_scraper.py</span>
+              <span class="step-tag">daily_briefing_generator.py</span>
+              <span class="step-tag">2026-XX-XX_DAILY_BRIEFING.md</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="flow-step">
+          <div class="step-num">03</div>
+          <div class="step-content">
+            <h3>PHASE 2: 7-Video Suite & Master Carousel Media Production</h3>
+            <p>Renders 4 news shorts, 1 big-head doodle narrative, 1 rawi historical marvel, 1 16:9 documentary, and 7-slide PDF carousel.</p>
+            <div class="step-tags">
+              <span class="step-tag">SHORTS_AI.mp4</span>
+              <span class="step-tag">SHORTS_CRYPTO.mp4</span>
+              <span class="step-tag">SHORTS_TECH.mp4</span>
+              <span class="step-tag">DOODLE_STORY.mp4</span>
+              <span class="step-tag">LINKEDIN_CAROUSEL.pdf</span>
+              <span class="step-tag">YOUTUBE_COMPILATION.mp4</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="flow-step">
+          <div class="step-num">04</div>
+          <div class="step-content">
+            <h3>PHASE 3: Rayan Viral Arbiter Quality Gate</h3>
+            <p>VQI algorithm scores hook clarity, font contrast, visual pace, and -14.0 LUFS audio normalization. Vetoes substandard assets.</p>
+            <div class="step-tags">
+              <span class="step-tag">rayan_quality_arbiter.py</span>
+              <span class="step-tag">Target VQI >= 85</span>
+              <span class="step-tag">-14.0 LUFS Audio</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="flow-step">
+          <div class="step-num">05</div>
+          <div class="step-content">
+            <h3>PHASE 4: Omni-Media Syndication & Delivery Verification</h3>
+            <p>Dispatches across official APIs (YouTube, Telegram) and persistent Chrome sessions (LinkedIn), capturing live proof screenshots.</p>
+            <div class="step-tags">
+              <span class="step-tag">social_publisher_agent.py</span>
+              <span class="step-tag">linkedin_browser_publisher.py</span>
+              <span class="step-tag">delivery_verification_agent.py</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="flow-step">
+          <div class="step-num">06</div>
+          <div class="step-content">
+            <h3>PHASE 5: Kareem Founder Ring & Private Telegram Dispatch</h3>
+            <p>Dispatches executive report to Mahmoud's Telegram, pings him for daily trend insights, and begins audience comment listening.</p>
+            <div class="step-tags">
+              <span class="step-tag">admin_telegram_notifier.py</span>
+              <span class="step-tag">inbound_engagement_sentinel.py</span>
+              <span class="step-tag">Telegram DM (8538485644)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 4: ONTOLOGY & GRAPH -->
+    <section id="ontology" class="tab-content">
+      <h2 class="section-title">📜 Knowledge Graph & Verified Core Axioms</h2>
+      <p class="section-desc">Governed by Jad. Context persistence rules that prevent regression across conversations.</p>
+
+      <div class="grid-cards">
+        <div class="card">
+          <div class="card-header">
+            <span class="persona-name">🧠 [NEXUS-LEARN-001]</span>
+            <span class="persona-badge">PERMANENT</span>
+          </div>
+          <div class="persona-role">Mahmoud Personal LinkedIn Policy</div>
+          <div class="persona-desc">Mahmoud's personal LinkedIn profile strictly allows <code>category == 'ai'</code>. Absolutely NO trading, crypto, or finance content may ever be reshared there.</div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <span class="persona-name">🧠 [NEXUS-LEARN-002]</span>
+            <span class="persona-badge">PERMANENT</span>
+          </div>
+          <div class="persona-role">LinkedIn Video Upload Timing</div>
+          <div class="persona-desc">LinkedIn video uploads require a 10s wait for media processing and clicking the intermediate 'Next' modal button before typing captions and submitting.</div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <span class="persona-name">🧠 [NEXUS-LEARN-003]</span>
+            <span class="persona-badge">PERMANENT</span>
+          </div>
+          <div class="persona-role">Infographic Discovery Path</div>
+          <div class="persona-desc">Infographics are stored in <code>Daily_Content_Briefings/infographics</code>; orchestrator checks both project root and Desktop paths dynamically.</div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <span class="persona-name">🧠 [NEXUS-LEARN-004]</span>
+            <span class="persona-badge">PERMANENT</span>
+          </div>
+          <div class="persona-role">Verifiable Proof Sentinel</div>
+          <div class="persona-desc">Every social post must be confirmed by browser screenshots or verified API HTTP receipts before being declared complete.</div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <span class="persona-name">🧠 [NEXUS-LEARN-005]</span>
+            <span class="persona-badge">FOUNDER DECREE</span>
+          </div>
+          <div class="persona-role">Omni-Media Full-Spectrum Syndication</div>
+          <div class="persona-desc">Every produced asset (Dossiers, 9:16 Shorts, 7-Slide Carousels, Infographics) MUST be syndicated across ALL channels including Threads, LinkedIn, YouTube, Meta, X, and Telegram.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 5: FOUNDER & KAREEM -->
+    <section id="founder" class="tab-content">
+      <h2 class="section-title">👤 Founder Action Board & Kareem Ring Sentinel</h2>
+      <p class="section-desc">One-time account authorizations requiring Mahmoud, and Kareem's daily founder engagement loop.</p>
+
+      <div class="card" style="margin-bottom: 1.5rem;">
+        <h3 style="color: var(--accent-cyan); margin-bottom: 0.5rem;">🔔 How Kareem's Daily Ring Works</h3>
+        <p style="color: #cbd5e1; font-size: 0.95rem; margin-bottom: 1rem;">
+          Every morning after the briefing synthesizes, Kareem sends a direct private message to your Telegram DM (<code>8538485644</code>) asking 1–2 sharp, contrarian questions about today's top trend.
+        </p>
+        <p style="color: var(--text-muted); font-size: 0.9rem;">
+          <strong>Why this matters:</strong> By replying with a 30-second voice note or brief text message, your unique founder perspective is instantly injected by Sinan and Rayan into tomorrow's master carousel and viral shorts.
+        </p>
+      </div>
+
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Priority</th>
+              <th>Task / Platform</th>
+              <th>Time Required</th>
+              <th>Where to Complete</th>
+              <th>Why Mahmoud Is Required</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>⚡ Priority 1</strong></td>
+              <td><strong>Bluesky App Password</strong></td>
+              <td>60 Seconds</td>
+              <td>bsky.app -> Settings -> App Passwords</td>
+              <td>Free one-time token for instant REST posting.</td>
+            </tr>
+            <tr>
+              <td><strong>⚡ Priority 1</strong></td>
+              <td><strong>Discord Webhook URL</strong></td>
+              <td>30 Seconds</td>
+              <td>Server -> Channel Settings -> Webhooks</td>
+              <td>Paste URL into social_credentials.json.</td>
+            </tr>
+            <tr>
+              <td><strong>⚡ Priority 1</strong></td>
+              <td><strong>X (Twitter) Warm-up Verification</strong></td>
+              <td>2 Minutes</td>
+              <td>x.com</td>
+              <td>Verify phone/email on dedicated profile.</td>
+            </tr>
+            <tr>
+              <td><strong>🎯 Priority 2</strong></td>
+              <td><strong>LinkedIn Company Page Scope</strong></td>
+              <td>3 Minutes</td>
+              <td>developer.linkedin.com</td>
+              <td>Request w_organization_social scope.</td>
+            </tr>
+            <tr>
+              <td><strong>🎯 Priority 2</strong></td>
+              <td><strong>Meta Graph Token (Threads & IG)</strong></td>
+              <td>5 Minutes</td>
+              <td>developers.facebook.com</td>
+              <td>Generate Page Access Token in Graph Explorer.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    function showTab(tabId) {
+      document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+      document.getElementById(tabId).classList.add('active');
+      event.currentTarget.classList.add('active');
+    }
+  </script>
+</body>
+</html>
