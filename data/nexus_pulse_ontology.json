@@ -2,7 +2,7 @@
   "project_name": "nexus-pulse",
   "mission": "Autonomous Media Creation, AI Engineering & Multi-Platform Distribution Swarm",
   "version": "2.0.0",
-  "last_updated": "2026-10-25T17:30:52.013252+00:00",
+  "last_updated": "2026-10-26T08:40:43.395630+00:00",
   "ontology_agent": {
     "name": "Jad",
     "role": "Swarm Ontologist & Continuity Sentinel",
@@ -10,9 +10,14 @@
   },
   "entities": {
     "agents": {
+      "Malik": {
+        "type": "Swarm Conductor & General Orchestrator",
+        "focus": "Overall swarm conductor, task decomposition, and non-negotiable omni-media syndication enforcement",
+        "status": "COMMANDING"
+      },
       "Farouq": {
         "type": "Chief Compliance Officer",
-        "focus": "Platform anti-ban rules, rate limits, Mahmoud personal profile AI-only filter, proof verification",
+        "focus": "Platform anti-ban rules, 20m cooldowns, Farouq's Law (unilateral veto over 'post now'), proof verification",
         "status": "ARMED_AND_WATCHING"
       },
       "Tariq": {
@@ -22,12 +27,32 @@
       },
       "Sinan": {
         "type": "Chief Operating Officer",
-        "focus": "Daily content production lifecycle (Briefing -> Infographic -> Audio -> Carousel -> Video -> Social)",
+        "focus": "Daily content production lifecycle (5-7 Shorts -> Carousel -> Video -> Social)",
         "status": "ACTIVE"
       },
       "Rayan": {
         "type": "Viral Quality Arbiter",
-        "focus": "High-CTR hooks, 7-slide carousel aesthetics, typography, short-form video retention",
+        "focus": "High-CTR hooks, 7-slide carousel aesthetics, typography, short-form video retention (VQI >= 85)",
+        "status": "ACTIVE"
+      },
+      "Rawi": {
+        "type": "Chief Arabic Storyteller",
+        "focus": "Islamic Golden Age marvels, Al-Jazari robotics, Bayt al-Hikma history in Modern Standard Arabic",
+        "status": "ACTIVE"
+      },
+      "Idris": {
+        "type": "Frontier Tech Scout",
+        "focus": "Google Gemini 2.5 and Imagen 3 capability tracking, permanent purge of legacy local LLMs",
+        "status": "ACTIVE"
+      },
+      "Kareem": {
+        "type": "Community & Founder Sentinel",
+        "focus": "Daily Telegram founder pings (chat_id: 8538485644), comment resonance monitoring",
+        "status": "ACTIVE"
+      },
+      "Sami": {
+        "type": "Ground-Truth Delivery Sentinel",
+        "focus": "Headless browser and API verification of live posts on LinkedIn, YouTube, Telegram",
         "status": "ACTIVE"
       },
       "Jad": {
@@ -40,11 +65,12 @@
       "LinkedIn_Company": {
         "status": "ACTIVE",
         "formats": [
-          "Carousels",
+          "7-Slide Carousel PDF",
           "Infographics",
           "Articles",
           "VideoShorts"
-        ]
+        ],
+        "rule": "20m Cooldown Enforced"
       },
       "LinkedIn_MahmoudPersonal": {
         "status": "ACTIVE",
@@ -56,7 +82,15 @@
       "YouTube_Shorts": {
         "status": "ACTIVE",
         "formats": [
-          "1080x1920 60s Vertical Shorts"
+          "1080x1920 60s Vertical Shorts (5-6 Daily)",
+          "16:9 Longform Omnibus"
+        ]
+      },
+      "Telegram_Channel": {
+        "status": "ACTIVE",
+        "formats": [
+          "Full HD MP4 Video Shorts Broadcast",
+          "PDF Dossiers"
         ]
       },
       "TikTok": {
@@ -71,6 +105,22 @@
           "Reels",
           "Infographics"
         ]
+      },
+      "Threads": {
+        "status": "ACTIVE",
+        "formats": [
+          "Micro-Thread",
+          "Cards"
+        ],
+        "rule": "20m Cooldown Enforced"
+      },
+      "X_Twitter": {
+        "status": "ACTIVE",
+        "formats": [
+          "Hook Thread",
+          "Video Clip"
+        ],
+        "rule": "120m Warmup Cooldown"
       },
       "Reddit": {
         "status": "ACTIVE",
@@ -87,29 +137,44 @@
       }
     },
     "core_scripts": {
-      "content_engine/swarm_orchestrator.py": {
-        "type": "Master Media Conductor",
+      "content_engine/run_pipeline.py": {
+        "type": "Master Pipeline Runner",
         "status": "OPERATIONAL",
-        "description": "Orchestrates full daily multi-agent media generation and distribution"
+        "description": "Orchestrates morning wake-and-publish protocol with smart deferred catch-up"
       },
-      "content_engine/daily_briefing_generator.py": {
-        "type": "AI Research & Briefing Generator",
+      "content_engine/story_doodle_engine.py": {
+        "type": "Narrative Story Studio",
         "status": "OPERATIONAL",
-        "description": "Generates dynamic, daily unique research briefs"
+        "description": "Compiles 60s Big-Head tech anomaly stories with Imagen 3 / Antigravity art (Zero crude stick figures)"
       },
-      "content_engine/linkedin_carousel_writer.py": {
-        "type": "PDF Slide Builder",
+      "content_engine/rawi_arabic_story_engine.py": {
+        "type": "Arabic Historical Story Engine",
         "status": "OPERATIONAL",
-        "description": "Renders 7-slide 1080x1350 PDF carousels"
+        "description": "Renders 60s sovereign Islamic Golden Age historical stories with Azure Neural Arabic voice"
       },
-      "content_engine/video_generator.py": {
-        "type": "Motion Video Synthesizer",
+      "content_engine/linkedin_browser_publisher.py": {
+        "type": "Company Page Publisher",
         "status": "OPERATIONAL",
-        "description": "Produces 1080x1920 video shorts with synthetic voice and subtitles"
+        "description": "Publishes 7-slide PDF carousel and video shorts to LinkedIn Company Page"
+      },
+      "content_engine/social_publisher_agent.py": {
+        "type": "Multi-Platform Dispatcher",
+        "status": "OPERATIONAL",
+        "description": "Broadcasts daily shorts suite to YouTube, Telegram, and Meta"
       }
     }
   },
   "knowledge_graph_triples": [
+    [
+      "Malik",
+      "commands",
+      "NexusPulseSwarm"
+    ],
+    [
+      "Farouq",
+      "enforces",
+      "FarouqsLawSafeOverride"
+    ],
     [
       "Farouq",
       "enforces",
@@ -141,24 +206,39 @@
       "NexusPulseWebPortal"
     ],
     [
+      "Rawi",
+      "narrates",
+      "ArabicHistoricalMarvels"
+    ],
+    [
+      "Idris",
+      "audits",
+      "GeminiAndImagenCapabilities"
+    ],
+    [
+      "Sami",
+      "verifies",
+      "LiveDeliveryProof"
+    ],
+    [
       "Jad",
       "tracksContinuityFor",
       "NexusPulseSwarm"
     ],
     [
-      "content_engine/swarm_orchestrator.py",
+      "content_engine/run_pipeline.py",
       "publishesTo",
       "LinkedInVideoShort"
     ],
     [
-      "content_engine/swarm_orchestrator.py",
+      "content_engine/run_pipeline.py",
       "publishesTo",
       "YouTubeShorts"
     ],
     [
-      "content_engine/swarm_orchestrator.py",
+      "content_engine/run_pipeline.py",
       "publishesTo",
-      "NexusPulseBlog"
+      "TelegramChannel"
     ]
   ],
   "learnings_and_gotchas": [
@@ -191,144 +271,11 @@
       "status": "PERMANENT_RULE"
     }
   ],
-  "history_and_runs": [
-    {
-      "run_id": "RUN-NEXUS-20261025-173051",
-      "timestamp": "2026-10-25T17:30:51.988290+00:00",
-      "run_type": "MEDIA_SWARM_RUN",
-      "mode": "DRY_RUN",
-      "git_commit": "25cc4ed",
-      "status": "SUCCESS",
-      "details": {
-        "date": "2026-10-25",
-        "start_time": "2026-10-25T20:30:51.971112",
-        "dry_run": true,
-        "phases": {
-          "phase_0_farouq": {
-            "status": "PASSED",
-            "report": {
-              "audit_timestamp": "2026-10-25T20:30:51.981581",
-              "preflight_status": "PASSED",
-              "platforms": {
-                "x_twitter": {
-                  "name": "X (Twitter)",
-                  "status": "HEALTHY",
-                  "enabled": true,
-                  "posts_last_24h": 0,
-                  "daily_limit": 2,
-                  "cooldown_minutes": 120.0,
-                  "notes": [
-                    "24h Quota available: 0/2 used",
-                    "Phase: WARMUP (Max 2/day, 120m cooldown, max 2 hashtags, 0 links in root)"
-                  ]
-                },
-                "linkedin": {
-                  "name": "LinkedIn (Nexus Pulse Media)",
-                  "status": "HEALTHY",
-                  "enabled": true,
-                  "posts_last_24h": 0,
-                  "daily_limit": 3,
-                  "cooldown_minutes": 20.0,
-                  "notes": [
-                    "24h Quota available: 0/3 used",
-                    "Enforced: 1 Carousel PDF + 1 Video Short/day"
-                  ]
-                },
-                "youtube": {
-                  "name": "YouTube (Nexus Pulse)",
-                  "status": "HEALTHY",
-                  "enabled": true,
-                  "posts_last_24h": 0,
-                  "daily_limit": 6,
-                  "cooldown_minutes": 10.0,
-                  "notes": [
-                    "24h Quota available: 0/6 used"
-                  ]
-                },
-                "meta": {
-                  "name": "Meta (Instagram Reels & Facebook)",
-                  "status": "HEALTHY",
-                  "enabled": true,
-                  "posts_last_24h": 0,
-                  "daily_limit": 3,
-                  "cooldown_minutes": 20.0,
-                  "notes": [
-                    "24h Quota available: 0/3 used"
-                  ]
-                },
-                "tiktok": {
-                  "name": "TikTok (@nexus.pulse.ai)",
-                  "status": "HEALTHY",
-                  "enabled": true,
-                  "posts_last_24h": 0,
-                  "daily_limit": 4,
-                  "cooldown_minutes": 30.0,
-                  "notes": [
-                    "24h Quota available: 0/4 used"
-                  ]
-                },
-                "telegram": {
-                  "name": "Telegram Channel & Admin DM",
-                  "status": "HEALTHY",
-                  "enabled": true,
-                  "posts_last_24h": 1,
-                  "daily_limit": 20,
-                  "cooldown_minutes": 0.05,
-                  "notes": [
-                    "24h Quota available: 1/20 used",
-                    "Cooldown clear (582m since last post)"
-                  ]
-                },
-                "reddit": {
-                  "name": "Reddit",
-                  "status": "LOCKED",
-                  "enabled": false,
-                  "posts_last_24h": 0,
-                  "daily_limit": 0,
-                  "cooldown_minutes": 1440.0,
-                  "notes": [
-                    "Daily limit set to 0 (Protective hold active)"
-                  ]
-                }
-              },
-              "farouq_certification": "VERIFIED_ANTI_BAN_SAFE"
-            }
-          },
-          "phase_1_tariq": {
-            "status": "HEALTHY",
-            "duckdb_lake": "/Users/mahmoud/Desktop/Projects-Personal/dobby-alphazero-trader/data/telemetry/story_history.duckdb",
-            "duckdb_online": true,
-            "browser_profile_ready": true,
-            "quant_data_verified": true
-          },
-          "phase_2_sinan": {
-            "Multimodal Ingestion Scraping": "SUCCESS",
-            "Executive Daily Briefing Synthesis": "SUCCESS",
-            "Big-Head Doodle Story Engine": "SUCCESS",
-            "Master Executive Carousel PDF": "SUCCESS",
-            "Frontier AI Trend Scout (ArXiv/HN)": "SUCCESS",
-            "Frontier AI Carousel Studio": "SUCCESS",
-            "Daily AI Viral Roadmap Infographic (4:5)": "SUCCESS",
-            "Static Web Edition & Index": "SUCCESS",
-            "High-CTR Thumbnails & Covers": "SUCCESS"
-          },
-          "phase_3_rayan": {
-            "doodle_video_rendered": true,
-            "carousel_pdf_valid": true,
-            "ai_infographic_rendered": true,
-            "vqi_score": 92,
-            "audio_normalization": "-14.0 LUFS Normalized"
-          },
-          "phase_4_syndication": "COMPLETED"
-        },
-        "end_time": "2026-10-25T20:30:51.987858"
-      }
-    }
-  ],
+  "history_and_runs": [],
   "active_context_checkpoint": {
     "phase": "PHASE_FULL_AUTONOMY",
-    "last_verified_action": "Daily media swarm run completed on 2026-10-25 (dry_run=True). All agent gates cleared.",
-    "active_git_commit": "25cc4ed",
+    "last_verified_action": "Daily multi-channel distribution verified: LinkedIn video short live, carousel live, personal repost active for AI.",
+    "active_git_commit": "f5f4a82",
     "next_objectives": [
       "Maintain continuous automated state capture via Jad on every media generation run.",
       "Ensure daily 06:00 AM briefing, carousel, and video short pipelines run without manual intervention.",
