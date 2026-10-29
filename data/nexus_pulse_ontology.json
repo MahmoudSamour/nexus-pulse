@@ -1,5 +1,14 @@
 {
-  "updated_utc": "2026-10-29T11:20:54Z",
+  "updated_utc": "2026-10-29T17:24:07Z",
+  "swarm_architecture_version": "2.1.0",
+  "audio_engine": "Kokoro-82M v1.0 Open-Source Human Narrator (-14 LUFS)",
+  "visual_engine": "Antigravity Warm Cream Editorial Luxury (#FAF7F0)",
+  "scheduler_windows": [
+    "07:00 (morning)",
+    "12:00 (midday)",
+    "16:00 (afternoon)",
+    "20:00 (evening)"
+  ],
   "graph_stats": {
     "total_stories": 59,
     "total_entities": 228,
@@ -14,6 +23,116 @@
   },
   "stories": [
     {
+      "ontology_id": "ont_e5759ccbd7d05010",
+      "title": "Even for Desperate Restaurants, Fake Reviews Just Aren\u2019t Worth It",
+      "category": "GASTRONOMY_AND_TRAVEL",
+      "source_name": "Eater Food News",
+      "canonical_url": "https://www.eater.com/dining-out/996325/restaurants-fake-yelp-reviews-penalties",
+      "published_utc": "2026-10-28T14:59:52-04:00",
+      "dense_summary": "When Yelp was first launched in 2004, it flopped. Furthermore, the company\u2019s initial model of an email-based referral service failed to take off until its creators realized users were taking the platform into their own hands; in lieu of sending one another recommendations via ...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_0ce125c1cb066c3c",
+      "title": "Wales Bonner Reworks adidas Classics in Croc Leather, Suede and Pony Hair",
+      "category": "STYLE_AND_FASHION",
+      "source_name": "Hypebeast",
+      "canonical_url": "https://hypebeast.com/2026/10/adidas-originals-by-wales-bonner-fall-winter-2026-footwear-collection-wb-karintha-wb-gazelle-snake-wb-adizero-adios-suede-cmapaign-images-release-info",
+      "published_utc": "Thu, 29 Oct 2026 10:30:38 +0000",
+      "dense_summary": "Name: adidas Originals by Wales Bonner FW26 Footwear CollectionMSRP: TBCRelease Date: October 29Where to Buy: adidasFollowing the wider reveal of adidas Originals by Wales Bonner\u2019s Fall/Winter 2026 collection, the season\u2019s footwear offering pushes the partnership\u2019s familiar di...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_a7c05d2d8dee24f5",
+      "title": "Tyler Perry Fighting Male Sexual Assault Accuser Over Private Texts With Friends",
+      "category": "CELEBRITIES_AND_CREATORS",
+      "source_name": "TMZ Breaking News",
+      "canonical_url": "https://www.tmz.com/2026/10/29/tyler-perry-wants-to-keep-private-text-messages-out-of-sexual-assault-accusers-possession/",
+      "published_utc": "2026-10-29T11:20:52.603917+00:00",
+      "dense_summary": "Tyler Perry is fighting his sexual assault accuser, Mario Rodriguez, in court over his private texts . Furthermore, according to court docs, obtained by TMZ, Tyler says he turned over private texts with associates to Mario as part of their\u2026.",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_42cf740295afe614",
+      "title": "Russell Brand\u2019s Wife Says Star Was \u201cCaring\u201d Lover At Time Of Rape Allegations",
+      "category": "ENTERTAINMENT_AND_CINEMA",
+      "source_name": "Deadline Hollywood",
+      "canonical_url": "https://deadline.com/2026/10/russell-brand-wife-1237208039/",
+      "published_utc": "Thu, 29 Oct 2026 11:06:06 +0000",
+      "dense_summary": "Russell Brand\u2019s wife has told a court that the Despicable Me star was a caring and considerate lover during the period in which he has been accused of rape. Furthermore, laura Brand took to the witness stand on Thursday at London\u2019s Southwark Crown Court, giving evidence in sup...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_a542f9fa946405ff",
+      "title": "TelevisaUnivision Quarterly U.S. Ad Revenue Falls 24 Percent, But World Cup Boosts Mexico Results",
+      "category": "ENTERTAINMENT_AND_CINEMA",
+      "source_name": "The Hollywood Reporter",
+      "canonical_url": "https://www.hollywoodreporter.com/business/business-news/televisaunivision-q3-earnings-world-cup-us-ad-revenue-down-1236742427/",
+      "published_utc": "Thu, 29 Oct 2026 11:00:00 +0000",
+      "dense_summary": "The Spanish-language media giant also posts record streaming revenue and a non-cash impairment loss of $372 million \"related to the write-down of television broadcast licenses.\"",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_f711198318630435",
+      "title": "Russell Brand\u2019s Wife Calls Him an \u2018Amazing Husband\u2019 at Rape Trial: \u2018I Feel Very Seen by Him\u2019",
+      "category": "ENTERTAINMENT_AND_CINEMA",
+      "source_name": "Variety Film & TV",
+      "canonical_url": "https://variety.com/2026/tv/global/russell-brand-wife-amazing-husband-rape-trial-1236934000/",
+      "published_utc": "Thu, 29 Oct 2026 11:15:40 +0000",
+      "dense_summary": "Russell Brand\u2019s wife, Laura Gallacher, took the stand to defend her husband at his criminal sexual assault trial in London on Thursday. Furthermore, gallacher\u2019s testimony comes after the former actor and comedian said in court on Wednesday that no one with relevant evidence ha...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_d52760db9582b72e",
+      "title": "\u2018The Hunger Games: Sunrise on the Reaping\u2019 first reactions call it a franchise best: \u201cMore brutal than you could imagine\u201d",
+      "category": "MUSIC_AND_AUDIO",
+      "source_name": "NME Music",
+      "canonical_url": "https://www.nme.com/news/film/the-hunger-games-sunrise-on-the-reaping-first-reactions-franchise-best-3974506?utm_source=rss&utm_medium=rss&utm_campaign=the-hunger-games-sunrise-on-the-reaping-first-reactions-franchise-best",
+      "published_utc": "Thu, 29 Oct 2026 10:36:38 +0000",
+      "dense_summary": "Critics have lavished the movie with high praise following its London premiere\n\nThe post \u2018The Hunger Games: Sunrise on the Reaping\u2019 first reactions call it a franchise best: \u201cMore brutal than you could imagine\u201d appeared first on NME.",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_0cdf877e8d27285d",
+      "title": "McDermott: England face 'unique task' to progress and can't get distracted",
+      "category": "SPORTS_AND_ATHLETICS",
+      "source_name": "Sky Sports Football",
+      "canonical_url": "https://www.skysports.com/rugby-league/news/12040/13605180/rugby-league-world-cup-englands-brian-mcdermott-admits-side-face-unique-task-to-progress-and-cant-get-distracted",
+      "published_utc": "Thu, 29 Oct 2026 11:00:00 GMT",
+      "dense_summary": "Brian McDermott has warned his England side not to chase the points as they look to keep their slim Rugby League World Cup hopes alive with a big win against Papua New Guinea.",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_b7d72fb4909ecdb2",
+      "title": "Utah Files Felony Charges Against Kalshi, Co-Founders Over Sports Bets",
+      "category": "CRYPTO_AND_MACRO",
+      "source_name": "Decrypt",
+      "canonical_url": "https://decrypt.co/382124/utah-files-felony-charges-against-kalshi-co-founders-over-sports-bets",
+      "published_utc": "Thu, 29 Oct 2026 11:06:40 +0000",
+      "dense_summary": "The state says an undercover agent placed a dozen sports wagers on Kalshi, a day after the CFTC sued Utah to block its enforcement actions.",
+      "strategic_takeaway": "Signifies structural capital realignment in crypto assets, shifting short-term market microstructure toward institutional accumulation."
+    },
+    {
+      "ontology_id": "ont_82edfc965626382e",
+      "title": "Bitcoin drops to $80,000 on Fed dissent, Samsung, Alphabet earnings; AI tokens slump",
+      "category": "CRYPTO_AND_MACRO",
+      "source_name": "CoinDesk",
+      "canonical_url": "https://www.coindesk.com/markets/2026/10/29/bitcoin-drops-to-usd80-000-on-fed-dissent-samsung-alphabet-earnings-ai-tokens-slump",
+      "published_utc": "Thu, 29 Oct 2026 11:11:48 +0000",
+      "dense_summary": "Bitcoin fell 1.4% since midnight UTC to around $80,100 as disappointing reports from Samsung and Alphabet weighed on tech stocks. Furthermore, the Fed\u2019s preferred inflation gauge is due later today.",
+      "strategic_takeaway": "Signifies structural capital realignment in Bitcoin around key levels ($80,000), shifting short-term market microstructure toward institutional accumulation."
+    },
+    {
+      "ontology_id": "ont_206f7c427abaefcc",
+      "title": "AI has come for Arizona\u2019s water",
+      "category": "AI_AND_FRONTIER_TECH",
+      "source_name": "The Verge AI",
+      "canonical_url": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
+      "published_utc": "2026-10-29T06:00:04-04:00",
+      "dense_summary": "A hulking gray giant rises from the desert. Furthermore, inside, engineers create the force behind our phones and computers and appliances, our streaming services and search engines and chatbots and vibe-coded apps and websites.",
+      "strategic_takeaway": "Accelerates commercialization of frontier models by tier-1 labs, compressing inference cost curves and raising developer switching costs."
+    },
+    {
       "ontology_id": "ont_b27b80d82df5c9bd",
       "title": "Microsoft just shared Azure\u2019s actual revenue in dollars: $33.2 billion",
       "category": "AI_AND_FRONTIER_TECH",
@@ -24,14 +143,44 @@
       "strategic_takeaway": "Accelerates commercialization of frontier models by Microsoft with $33.2 billion benchmark efficiency, compressing inference cost curves and raising developer switching costs."
     },
     {
-      "ontology_id": "ont_0c1d786a9b83fb48",
-      "title": "Bithumb hacked through employee system as South Korean financial firms face cyberattacks",
-      "category": "CRYPTO_AND_MACRO",
-      "source_name": "CoinDesk",
-      "canonical_url": "https://www.coindesk.com/tech/2026/10/28/bithumb-hacked-through-employee-system-as-south-korean-financial-firms-face-cyberattacks",
-      "published_utc": "Wed, 28 Oct 2026 05:10:36 +0000",
-      "dense_summary": "The breach hit an internal employee system that Bithumb says is separate from its trading platform, while the exchange is still determining whether customer information was exposed.",
-      "strategic_takeaway": "Signifies structural capital realignment in crypto assets, shifting short-term market microstructure toward institutional accumulation."
+      "ontology_id": "ont_c9fb5fae61533875",
+      "title": "We urgently need to monitor AI agents\u2019 actions in real time",
+      "category": "AI_AND_FRONTIER_TECH",
+      "source_name": "MIT Tech Review AI",
+      "canonical_url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
+      "published_utc": "Thu, 29 Oct 2026 10:11:12 +0000",
+      "dense_summary": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. Furthermore, they broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they\u2019d be graded.",
+      "strategic_takeaway": "Accelerates commercialization of Agent by OpenAI, compressing inference cost curves and raising developer switching costs."
+    },
+    {
+      "ontology_id": "ont_0ddf138007abbb0a",
+      "title": "JJJJound and Danner Reunite for FW26 Mountain Light Collaboration",
+      "category": "STYLE_AND_FASHION",
+      "source_name": "Hypebeast",
+      "canonical_url": "https://hypebeast.com/2026/10/jjjjound-danner-fw26-mountain-light-boots-collaboration-launch",
+      "published_utc": "Wed, 28 Oct 2026 04:06:56 +0000",
+      "dense_summary": "Summary\n\nMontr\u00e9al design studio JJJJound has revealed an upcoming Fall/Winter 2026 footwear collaboration with heritage bootmaker DannerThe project revisits the iconic Mountain Light silhouette in two understated Black and Charcoal colorwaysBoth iterations feature rugged Vibra...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_78d7810aefee6bb7",
+      "title": "Stevie Wonder's Ex-Fianc\u00e9e Shocked by Eviction Lawsuit After Decades-Long Relationship",
+      "category": "CELEBRITIES_AND_CREATORS",
+      "source_name": "TMZ Breaking News",
+      "canonical_url": "https://www.tmz.com/2026/10/27/stevie-wonders-ex-fiancee-surprised-by-eviction-lawsuit/",
+      "published_utc": "2026-10-28T05:12:42.242755+00:00",
+      "dense_summary": "Stevie Wonder's ex-fianc\u00e9e was stunned by the legendary musician's decision to evict her from the home she's lived in for nearly 40 years . Furthermore, a source close to Carmen Efferson\u00a0tells TMZ .",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_d13664d16368f4ed",
+      "title": "Carrie Ann Inaba & Val Chmerkovskiy Hug It Out After \u2018Dancing With The Stars\u2019 Suspension Drama",
+      "category": "ENTERTAINMENT_AND_CINEMA",
+      "source_name": "Deadline Hollywood",
+      "canonical_url": "https://deadline.com/2026/10/carrie-ann-inaba-val-chmerkovskiy-hug-dancing-with-the-stars-suspension-drama-1237206864/",
+      "published_utc": "Wed, 28 Oct 2026 04:05:20 +0000",
+      "dense_summary": "It was all professional between Carrie Ann Inaba and pro dancer Val Chmerkovskiy on the Dancing with the Stars set after all the drama. Furthermore, the judge and the contestant hugged it out on the set of the ABC dance competition, a moment that has now gone viral, which you ...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
     },
     {
       "ontology_id": "ont_7890750e1106812d",
@@ -54,33 +203,13 @@
       "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
     },
     {
-      "ontology_id": "ont_0ddf138007abbb0a",
-      "title": "JJJJound and Danner Reunite for FW26 Mountain Light Collaboration",
-      "category": "STYLE_AND_FASHION",
-      "source_name": "Hypebeast",
-      "canonical_url": "https://hypebeast.com/2026/10/jjjjound-danner-fw26-mountain-light-boots-collaboration-launch",
-      "published_utc": "Wed, 28 Oct 2026 04:06:56 +0000",
-      "dense_summary": "Summary\n\nMontr\u00e9al design studio JJJJound has revealed an upcoming Fall/Winter 2026 footwear collaboration with heritage bootmaker DannerThe project revisits the iconic Mountain Light silhouette in two understated Black and Charcoal colorwaysBoth iterations feature rugged Vibra...",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_d13664d16368f4ed",
-      "title": "Carrie Ann Inaba & Val Chmerkovskiy Hug It Out After \u2018Dancing With The Stars\u2019 Suspension Drama",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "Deadline Hollywood",
-      "canonical_url": "https://deadline.com/2026/10/carrie-ann-inaba-val-chmerkovskiy-hug-dancing-with-the-stars-suspension-drama-1237206864/",
-      "published_utc": "Wed, 28 Oct 2026 04:05:20 +0000",
-      "dense_summary": "It was all professional between Carrie Ann Inaba and pro dancer Val Chmerkovskiy on the Dancing with the Stars set after all the drama. Furthermore, the judge and the contestant hugged it out on the set of the ABC dance competition, a moment that has now gone viral, which you ...",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_a626c0dc62b2c855",
-      "title": "'Biggest night in the club's history' for fearless Fleetwood",
-      "category": "SPORTS_AND_ATHLETICS",
-      "source_name": "BBC Sport",
-      "canonical_url": "https://www.bbc.co.uk/sport/football/articles/cqgkv2vxeengo?at_medium=RSS&at_campaign=rss",
-      "published_utc": "Wed, 28 Oct 2026 00:39:30 GMT",
-      "dense_summary": "A whopping 83 league places separated Fleetwood from Arsenal, yet the hosts booked their place in the Carabao Cup quarter-final thanks to their penalty shootout win over the Gunners.",
+      "ontology_id": "ont_73d1f9fed4380bdf",
+      "title": "Today\u2019s Wordle answer and hints for #1957 on October 28",
+      "category": "MUSIC_AND_AUDIO",
+      "source_name": "NME Music",
+      "canonical_url": "https://www.nme.com/guides/gaming-guides/heres-the-wordle-answer-for-today-3171240?utm_source=rss&utm_medium=rss&utm_campaign=heres-the-wordle-answer-for-today",
+      "published_utc": "Wed, 28 Oct 2026 00:01:34 +0000",
+      "dense_summary": "There's no need to lose your streak - here's the 'Wordle' answer for today\n\nThe post Today\u2019s Wordle answer and hints for #1957 on October 28 appeared first on NME.",
       "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
     },
     {
@@ -94,36 +223,6 @@
       "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
     },
     {
-      "ontology_id": "ont_73d1f9fed4380bdf",
-      "title": "Today\u2019s Wordle answer and hints for #1957 on October 28",
-      "category": "MUSIC_AND_AUDIO",
-      "source_name": "NME Music",
-      "canonical_url": "https://www.nme.com/guides/gaming-guides/heres-the-wordle-answer-for-today-3171240?utm_source=rss&utm_medium=rss&utm_campaign=heres-the-wordle-answer-for-today",
-      "published_utc": "Wed, 28 Oct 2026 00:01:34 +0000",
-      "dense_summary": "There's no need to lose your streak - here's the 'Wordle' answer for today\n\nThe post Today\u2019s Wordle answer and hints for #1957 on October 28 appeared first on NME.",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_79ea7822bc61e21a",
-      "title": "Counting the Bandages: On measuring the time that AI saves",
-      "category": "AI_AND_FRONTIER_TECH",
-      "source_name": "ArXiv Computer Science AI",
-      "canonical_url": "https://arxiv.org/abs/2610.35942",
-      "published_utc": "Wed, 28 Oct 2026 00:00:00 -0400",
-      "dense_summary": "arXiv:2610.35942v1 Announce Type: new \nAbstract: I consider what it means for AI assistance to save time. Furthermore, i contrast a stopwatch view, on which time saved is whatever the clock records, with a ledger view, on which it is a counterfactual that has to be read next t...",
-      "strategic_takeaway": "Accelerates commercialization of frontier models by SEC with 19% benchmark efficiency, compressing inference cost curves and raising developer switching costs."
-    },
-    {
-      "ontology_id": "ont_68a3585aa502661b",
-      "title": "KORA: Deterministic-First Execution Control for AI Workloads",
-      "category": "AI_AND_FRONTIER_TECH",
-      "source_name": "ArXiv Machine Learning",
-      "canonical_url": "https://arxiv.org/abs/2610.35869",
-      "published_utc": "Wed, 28 Oct 2026 00:00:00 -0400",
-      "dense_summary": "arXiv:2610.35869v1 Announce Type: new \nAbstract: AI applications often invoke a model before they determine whether inference is necessary. Furthermore, that default is useful for ambiguous generative tasks, but it is poorly matched to work that is structured, deterministic, p...",
-      "strategic_takeaway": "Accelerates commercialization of frontier models by KORA, compressing inference cost curves and raising developer switching costs."
-    },
-    {
       "ontology_id": "ont_878f474591cfaf59",
       "title": "Arsenal dumped out of Carabao Cup by League Two Fleetwood",
       "category": "SPORTS_AND_ATHLETICS",
@@ -132,6 +231,26 @@
       "published_utc": "Tue, 27 Oct 2026 21:50:00 GMT",
       "dense_summary": "Fleetwood Town produced one of the biggest shocks in Carabao Cup history as the League Two team dumped out Premier League champions Arsenal on penalties to reach the quarter-finals.",
       "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_a626c0dc62b2c855",
+      "title": "'Biggest night in the club's history' for fearless Fleetwood",
+      "category": "SPORTS_AND_ATHLETICS",
+      "source_name": "BBC Sport",
+      "canonical_url": "https://www.bbc.co.uk/sport/football/articles/cqgkv2vxeengo?at_medium=RSS&at_campaign=rss",
+      "published_utc": "Wed, 28 Oct 2026 00:39:30 GMT",
+      "dense_summary": "A whopping 83 league places separated Fleetwood from Arsenal, yet the hosts booked their place in the Carabao Cup quarter-final thanks to their penalty shootout win over the Gunners.",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_0c1d786a9b83fb48",
+      "title": "Bithumb hacked through employee system as South Korean financial firms face cyberattacks",
+      "category": "CRYPTO_AND_MACRO",
+      "source_name": "CoinDesk",
+      "canonical_url": "https://www.coindesk.com/tech/2026/10/28/bithumb-hacked-through-employee-system-as-south-korean-financial-firms-face-cyberattacks",
+      "published_utc": "Wed, 28 Oct 2026 05:10:36 +0000",
+      "dense_summary": "The breach hit an internal employee system that Bithumb says is separate from its trading platform, while the exchange is still determining whether customer information was exposed.",
+      "strategic_takeaway": "Signifies structural capital realignment in crypto assets, shifting short-term market microstructure toward institutional accumulation."
     },
     {
       "ontology_id": "ont_1588476f20d14a2c",
@@ -144,124 +263,14 @@
       "strategic_takeaway": "Accelerates commercialization of frontier models by tier-1 labs, compressing inference cost curves and raising developer switching costs."
     },
     {
-      "ontology_id": "ont_619a33c55579c773",
-      "title": "Satisfy and adidas Team up on the $600 USD Adizero Adios Pro Evo 2",
-      "category": "STYLE_AND_FASHION",
-      "source_name": "Hypebeast",
-      "canonical_url": "https://hypebeast.com/2026/10/satisfy-adidas-adios-pro-evo-600-usd-kh6636-release-info2-silver",
-      "published_utc": "Tue, 27 Oct 2026 06:19:06 +0000",
-      "dense_summary": "Summary\n\nSatisfy Running and adidas have partnered on the elite Adizero Adios Pro Evo 2 racing shoeEngineered strictly for serious distance athletes the silhouette features an ultralight construction built for pure speed and efficiencyCarrying a $600 USD retail price the limit...",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_c43841c990f6749b",
-      "title": "Bill Kramer Says AMPAS Plans To Expand List Of Festivals That Can Serve As Qualifiers For The International Oscar Category",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "Deadline Hollywood",
-      "canonical_url": "https://deadline.com/2026/10/bill-kramer-international-oscar-category-tokyo-1237205952/",
-      "published_utc": "Tue, 27 Oct 2026 05:39:51 +0000",
-      "dense_summary": "The Academy of Motion Picture Arts and Sciences will expand the list of festivals that can serve as standalone qualifiers for the International Film Oscar category, AMPAS CEO Bill Kramer confirmed this morning during an interview with Deadline at the Tokyo Film Festival. Furth...",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_f08cbed3f312c66c",
-      "title": "Donnie Iris, Pittsburgh\u2019s Favorite Rocker, Who Scored Hits With the Jaggerz and as a Solo Artist, Dies at 83",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "Variety Film & TV",
-      "canonical_url": "https://variety.com/2026/music/obituaries-people-news/donnie-iris-dead-pittsburgh-rocker-jaggerz-rapper-ah-leah-1236931843/",
-      "published_utc": "Tue, 27 Oct 2026 04:30:55 +0000",
-      "dense_summary": "Donnie Iris, regarded as Pittsburgh\u2019s biggest hometown rock hero for a six-decade career that included hit singles in the 1960s and \u201980s, died Monday at 83. Furthermore, he had been fighting bladder cancer for three years.",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_435ce6151643a038",
-      "title": "Sophia Stel announces 2027 US, UK and Europe tour in support of debut album \u2018The Greatest Album Of All Time\u2019",
-      "category": "MUSIC_AND_AUDIO",
-      "source_name": "NME Music",
-      "canonical_url": "https://www.nme.com/news/music/sophia-stel-2027-uk-europe-north-america-tour-dates-buy-tickets-3974318?utm_source=rss&utm_medium=rss&utm_campaign=sophia-stel-2027-uk-europe-north-america-tour-dates-buy-tickets",
-      "published_utc": "Tue, 27 Oct 2026 04:05:05 +0000",
-      "dense_summary": "The former NME Cover star\u2019s 12-date tour will feature stops in London, Paris, San Francisco and more\n\nThe post Sophia Stel announces 2027 US, UK and Europe tour in support of debut album \u2018The Greatest Album Of All Time\u2019 appeared first on NME.",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_aa3421a908aac58f",
-      "title": "Cold Storage Goes South: bitcoin++ Announces Antarctica Edition",
-      "category": "CRYPTO_AND_MACRO",
-      "source_name": "Bitcoin Magazine",
-      "canonical_url": "https://bitcoinmagazine.com/news/cold-storage-bitcoin-antarctica",
-      "published_utc": "Tue, 27 Oct 2026 00:00:04 +0000",
-      "dense_summary": "Bitcoin Magazine\n\nCold Storage Goes South: bitcoin++ Announces Antarctica Edition\n\nbitcoin++ is planning its first cold-storage edition on a 13-day expedition to the Antarctic Peninsula. Furthermore, this post Cold Storage Goes South: bitcoin++ Announces Antarctica Edition fir...",
-      "strategic_takeaway": "Signifies structural capital realignment in Bitcoin, shifting short-term market microstructure toward institutional accumulation."
-    },
-    {
-      "ontology_id": "ont_a29ea22bc7759f91",
-      "title": "Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation",
-      "category": "AI_AND_FRONTIER_TECH",
-      "source_name": "ArXiv Computer Science AI",
-      "canonical_url": "https://arxiv.org/abs/2610.31701",
-      "published_utc": "Tue, 27 Oct 2026 00:00:00 -0400",
-      "dense_summary": "arXiv:2610.31701v1 Announce Type: new \nAbstract: Enterprise customer journeys are shaped not only by product experiences and marketing, but also by recurring resource-allocation decisions. Furthermore, in B2B go-to-market (GTM) organizations, territory carving determines which...",
-      "strategic_takeaway": "Accelerates commercialization of Objective Decision System by Aware Territory Design, compressing inference cost curves and raising developer switching costs."
-    },
-    {
-      "ontology_id": "ont_a0c77958d513b628",
-      "title": "Collaborative In-Context Learning for Indoor Radio Map Estimation",
+      "ontology_id": "ont_68a3585aa502661b",
+      "title": "KORA: Deterministic-First Execution Control for AI Workloads",
       "category": "AI_AND_FRONTIER_TECH",
       "source_name": "ArXiv Machine Learning",
-      "canonical_url": "https://arxiv.org/abs/2610.31702",
-      "published_utc": "Tue, 27 Oct 2026 00:00:00 -0400",
-      "dense_summary": "arXiv:2610.31702v1 Announce Type: new \nAbstract: Indoor radio map estimation (RME) is essential for wireless applications such as coverage planning, localization, and network deployment. Furthermore, however, most existing methods follow a supervised learning paradigm that req...",
-      "strategic_takeaway": "Accelerates commercialization of frontier models by Collaborative In, compressing inference cost curves and raising developer switching costs."
-    },
-    {
-      "ontology_id": "ont_f711198318630435",
-      "title": "Russell Brand\u2019s Wife Calls Him an \u2018Amazing Husband\u2019 at Rape Trial: \u2018I Feel Very Seen by Him\u2019",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "Variety Film & TV",
-      "canonical_url": "https://variety.com/2026/tv/global/russell-brand-wife-amazing-husband-rape-trial-1236934000/",
-      "published_utc": "Thu, 29 Oct 2026 11:15:40 +0000",
-      "dense_summary": "Russell Brand\u2019s wife, Laura Gallacher, took the stand to defend her husband at his criminal sexual assault trial in London on Thursday. Furthermore, gallacher\u2019s testimony comes after the former actor and comedian said in court on Wednesday that no one with relevant evidence ha...",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_82edfc965626382e",
-      "title": "Bitcoin drops to $80,000 on Fed dissent, Samsung, Alphabet earnings; AI tokens slump",
-      "category": "CRYPTO_AND_MACRO",
-      "source_name": "CoinDesk",
-      "canonical_url": "https://www.coindesk.com/markets/2026/10/29/bitcoin-drops-to-usd80-000-on-fed-dissent-samsung-alphabet-earnings-ai-tokens-slump",
-      "published_utc": "Thu, 29 Oct 2026 11:11:48 +0000",
-      "dense_summary": "Bitcoin fell 1.4% since midnight UTC to around $80,100 as disappointing reports from Samsung and Alphabet weighed on tech stocks. Furthermore, the Fed\u2019s preferred inflation gauge is due later today.",
-      "strategic_takeaway": "Signifies structural capital realignment in Bitcoin around key levels ($80,000), shifting short-term market microstructure toward institutional accumulation."
-    },
-    {
-      "ontology_id": "ont_b7d72fb4909ecdb2",
-      "title": "Utah Files Felony Charges Against Kalshi, Co-Founders Over Sports Bets",
-      "category": "CRYPTO_AND_MACRO",
-      "source_name": "Decrypt",
-      "canonical_url": "https://decrypt.co/382124/utah-files-felony-charges-against-kalshi-co-founders-over-sports-bets",
-      "published_utc": "Thu, 29 Oct 2026 11:06:40 +0000",
-      "dense_summary": "The state says an undercover agent placed a dozen sports wagers on Kalshi, a day after the CFTC sued Utah to block its enforcement actions.",
-      "strategic_takeaway": "Signifies structural capital realignment in crypto assets, shifting short-term market microstructure toward institutional accumulation."
-    },
-    {
-      "ontology_id": "ont_42cf740295afe614",
-      "title": "Russell Brand\u2019s Wife Says Star Was \u201cCaring\u201d Lover At Time Of Rape Allegations",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "Deadline Hollywood",
-      "canonical_url": "https://deadline.com/2026/10/russell-brand-wife-1237208039/",
-      "published_utc": "Thu, 29 Oct 2026 11:06:06 +0000",
-      "dense_summary": "Russell Brand\u2019s wife has told a court that the Despicable Me star was a caring and considerate lover during the period in which he has been accused of rape. Furthermore, laura Brand took to the witness stand on Thursday at London\u2019s Southwark Crown Court, giving evidence in sup...",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_0cdf877e8d27285d",
-      "title": "McDermott: England face 'unique task' to progress and can't get distracted",
-      "category": "SPORTS_AND_ATHLETICS",
-      "source_name": "Sky Sports Football",
-      "canonical_url": "https://www.skysports.com/rugby-league/news/12040/13605180/rugby-league-world-cup-englands-brian-mcdermott-admits-side-face-unique-task-to-progress-and-cant-get-distracted",
-      "published_utc": "Thu, 29 Oct 2026 11:00:00 GMT",
-      "dense_summary": "Brian McDermott has warned his England side not to chase the points as they look to keep their slim Rugby League World Cup hopes alive with a big win against Papua New Guinea.",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+      "canonical_url": "https://arxiv.org/abs/2610.35869",
+      "published_utc": "Wed, 28 Oct 2026 00:00:00 -0400",
+      "dense_summary": "arXiv:2610.35869v1 Announce Type: new \nAbstract: AI applications often invoke a model before they determine whether inference is necessary. Furthermore, that default is useful for ambiguous generative tasks, but it is poorly matched to work that is structured, deterministic, p...",
+      "strategic_takeaway": "Accelerates commercialization of frontier models by KORA, compressing inference cost curves and raising developer switching costs."
     }
   ]
 }
