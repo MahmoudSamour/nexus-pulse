@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-01T05:04:12Z",
+  "updated_utc": "2026-11-02T05:04:42Z",
   "swarm_architecture_version": "2.1.0",
   "audio_engine": "Kokoro-82M v1.0 Open-Source Human Narrator (-14 LUFS)",
   "visual_engine": "Antigravity Warm Cream Editorial Luxury (#FAF7F0)",
@@ -10,18 +10,118 @@
     "20:00 (evening)"
   ],
   "graph_stats": {
-    "total_stories": 124,
-    "total_entities": 498,
-    "total_knowledge_triples": 60,
+    "total_stories": 141,
+    "total_entities": 570,
+    "total_knowledge_triples": 81,
     "entity_breakdown": {
-      "METRICS": 41,
-      "ORGANIZATIONS": 235,
-      "PEOPLE": 211,
-      "TECHNOLOGIES": 11
+      "METRICS": 53,
+      "ORGANIZATIONS": 261,
+      "PEOPLE": 244,
+      "TECHNOLOGIES": 12
     },
-    "density_ratio": 0.12
+    "density_ratio": 0.14
   },
   "stories": [
+    {
+      "ontology_id": "ont_bc8cfdd0b37c74b5",
+      "title": "Ausify Campaign Returns as Australian Music\u2019s Streaming  Share Hits New\u00a0Low",
+      "category": "CELEBRITIES_AND_CREATORS",
+      "source_name": "Billboard Creators & Culture",
+      "canonical_url": "https://www.billboard.com/pro/ausify-campaign-returns/",
+      "published_utc": "Mon, 02 Nov 2026 03:50:58 +0000",
+      "dense_summary": "Ben Lee, Missy Higgins and Budjerah are among the artists backing the month-long push, which asks fans to make their support for local music public.",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_cb43d33707620868",
+      "title": "Horrifying Audio of Palm Beach Plane Flight Moments Before Crash Revealed",
+      "category": "CELEBRITIES_AND_CREATORS",
+      "source_name": "TMZ Breaking News",
+      "canonical_url": "https://www.tmz.com/2026/11/01/florida-plane-crash-audio/",
+      "published_utc": "2026-11-02T05:00:22.095074+00:00",
+      "dense_summary": "Audio between air traffic control and a Learjet flight in the moments before it crashed show the plane's crew scrambling to respond as they plummeted in a nose dive. Furthermore, in audio first reported by the California Post, one female crew member yelled ...\u2026.",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_31e7e2c0b4fdfba9",
+      "title": "Dave Bautista Packs On 20 Pounds & Looks A Lot More Like Kratos",
+      "category": "ENTERTAINMENT_AND_CINEMA",
+      "source_name": "Deadline Hollywood",
+      "canonical_url": "https://deadline.com/2026/11/dave-bautista-kratos-weight-gain-1237211049/",
+      "published_utc": "Mon, 02 Nov 2026 04:32:44 +0000",
+      "dense_summary": "Ever since Deadline reported he was circling the role of Kratos in Prime Video\u2019s upcoming God of War series, Dave Bautista has been sharing his physical progress transforming himself for the part. Furthermore, (In Greek mythology, which the God of War video game is partially i...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_2aecd9e312df0007",
+      "title": "Tokyo: \u2018Diamond Diplomacy\u2019 Doc Tracks the History of Baseball in Japan and Its Impact on U.S. Relations",
+      "category": "ENTERTAINMENT_AND_CINEMA",
+      "source_name": "The Hollywood Reporter",
+      "canonical_url": "https://www.hollywoodreporter.com/movies/movie-features/tokyo-diamond-diplomacy-doc-baseball-japan-shohei-ohtani-1236739515/",
+      "published_utc": "Mon, 02 Nov 2026 01:30:00 +0000",
+      "dense_summary": "Film traces stories of players from both countries crossing the Pacific, racial and diplomatic tensions, wartime baseball, through to the phenomenon that is Shohei Ohtani.",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_c7a2de726f85ece7",
+      "title": "John Oliver Reviews \u2018You Can See Everything\u2019: Elizabeth Holmes and Billy Evans Are \u2018Complete Lunatics\u2019",
+      "category": "ENTERTAINMENT_AND_CINEMA",
+      "source_name": "Variety Film & TV",
+      "canonical_url": "https://variety.com/2026/tv/news/john-oliver-you-can-see-everything-elizabeth-holmes-billy-evans-lunatics-1236937192/",
+      "published_utc": "Mon, 02 Nov 2026 04:50:31 +0000",
+      "dense_summary": "Unlike his HBO network-mate Bill Maher, who\u2019s been embroiled in a bizarre pissing match with his dinner-mate Donald Trump, John Oliver has been laser-focused on the Nov. Furthermore, just last week, Oliver dedicated the bulk of \u201cLast Week Tonight\u201d to exposing the disturbing ti...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_a1b308023bcb1539",
+      "title": "'It's a mentality thing' - Hamilton hits out at Leclerc after Mexico clash",
+      "category": "SPORTS_AND_ATHLETICS",
+      "source_name": "Sky Sports Football",
+      "canonical_url": "https://www.skysports.com/f1/news/12040/13606690/lewis-hamilton-hits-out-at-charles-leclerc-after-ferrari-drivers-mexico-city-gp-clash-as-he-questions-team-mates-approach",
+      "published_utc": "Sun, 01 Nov 2026 22:30:00 GMT",
+      "dense_summary": "Lewis Hamilton criticised Charles Leclerc over the lap-one incident that cost Ferrari likely victory in the Mexico City Grand Prix, suggesting his team-mate's driving came down to \"a mentality thing\".",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_3b165ebf01818ad6",
+      "title": "Bitcoin ETF Investors Head for the Exits After Record Binance Hack",
+      "category": "CRYPTO_AND_MACRO",
+      "source_name": "Decrypt",
+      "canonical_url": "https://decrypt.co/382309/bitcoin-etf-investors-exits-record-binance-hack",
+      "published_utc": "Sun, 01 Nov 2026 16:01:02 +0000",
+      "dense_summary": "Bitcoin ETFs saw $643.2 million in outflows Friday, the first full trading session after the $6.4 billion Binance hack, ending October with roughly $516 million in net outflows.",
+      "strategic_takeaway": "Signifies structural capital realignment in Bitcoin around key levels ($643.2 million), shifting short-term market microstructure toward institutional accumulation."
+    },
+    {
+      "ontology_id": "ont_0380dc8a0b6a8676",
+      "title": "Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack",
+      "category": "CRYPTO_AND_MACRO",
+      "source_name": "CoinDesk",
+      "canonical_url": "https://www.coindesk.com/markets/2026/11/02/bitcoin-claws-back-toward-usd79-000-as-markets-shake-off-crypto-s-biggest-hack",
+      "published_utc": "Mon, 02 Nov 2026 04:42:22 +0000",
+      "dense_summary": "ZEC led the majors and oil slid on a report that Trump wants to give Iran diplomacy more time, with U.S. midterm elections on Tuesday.",
+      "strategic_takeaway": "Signifies structural capital realignment in Bitcoin around key levels ($79,000), shifting short-term market microstructure toward institutional accumulation."
+    },
+    {
+      "ontology_id": "ont_e640918f1c62e671",
+      "title": "Automatic Construction of Strong Simple Baselines",
+      "category": "AI_AND_FRONTIER_TECH",
+      "source_name": "ArXiv Machine Learning",
+      "canonical_url": "https://arxiv.org/abs/2610.40700",
+      "published_utc": "Mon, 02 Nov 2026 00:00:00 -0500",
+      "dense_summary": "arXiv:2610.40700v1 Announce Type: new \nAbstract: To rigorously establish the value of a novel deep learning method, it must be compared against appropriate baselines. Furthermore, as deep learning has become increasingly common in the physical and life sciences, there have bee...",
+      "strategic_takeaway": "Accelerates commercialization of frontier models by Strong Simple Baselines with 95.5% benchmark efficiency, compressing inference cost curves and raising developer switching costs."
+    },
+    {
+      "ontology_id": "ont_73624eae85128491",
+      "title": "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
+      "category": "AI_AND_FRONTIER_TECH",
+      "source_name": "ArXiv Computer Science AI",
+      "canonical_url": "https://arxiv.org/abs/2610.40758",
+      "published_utc": "Mon, 02 Nov 2026 00:00:00 -0500",
+      "dense_summary": "arXiv:2610.40758v1 Announce Type: new \nAbstract: Self-evolving agents rewrite a persistent state from feedback, but it is largely untested whether this lets them learn a rule nobody told them. Furthermore, an agent can also pass by writing down each correction as an exception,...",
+      "strategic_takeaway": "Accelerates commercialization of Agent by CLR with 12% benchmark efficiency, compressing inference cost curves and raising developer switching costs."
+    },
     {
       "ontology_id": "ont_942f19efe0026e9d",
       "title": "Louis Vuitton Unveils Weather-Defying SS27 Men's Pre-Collection",
@@ -170,106 +270,6 @@
       "canonical_url": "https://variety.com/2026/film/festivals/keanu-reeves-hidari-ss-rajamouli-1236935934/",
       "published_utc": "Sat, 31 Oct 2026 04:38:17 +0000",
       "dense_summary": "Keanu Reeves joined Japanese stop-motion feature \u201cHidari\u201d after watching the project\u2019s pilot film, with his team getting back to the filmmakers about a week after the screening was arranged to set up a Zoom call, director Kawamura Masashi said at the Tokyo International Film F...",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_b13f33d42176aaf4",
-      "title": "More Thunder woes: Holmgren out 8-10 weeks after knee procedure",
-      "category": "SPORTS_AND_ATHLETICS",
-      "source_name": "ESPN Top News",
-      "canonical_url": "https://www.espn.com/nba/story/_/id/50332283/thunder-say-chet-holmgren-8-10-weeks-due-knee",
-      "published_utc": "Sat, 31 Oct 2026 00:17:08 EST",
-      "dense_summary": "Chet Holmgren will be out eight to 10 weeks because of a knee injury, the latest setback for an OKC team that lost Jalen Williams and Cason Wallace for an extended time early this week.",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_e511140a36f54bdf",
-      "title": "MSTR Q3 2026 Earnings Call: Analyst Q&A",
-      "category": "CRYPTO_AND_MACRO",
-      "source_name": "Bitcoin Magazine",
-      "canonical_url": "https://bitcoinmagazine.com/videos/mstr-q3-2026-earnings-call-analyst-qa",
-      "published_utc": "Sat, 31 Oct 2026 01:08:31 +0000",
-      "dense_summary": "\u25b6\n\nBitcoin Magazine\n\nMSTR Q3 2026 Earnings Call: Analyst Q&A\n\nStrategy's MSTR Q3 earnings Q&A: Michael Saylor and Phong Le answer analysts on digital credit, Stretch (STRC) at par, preferreds, and Bitcoin's financialization. Furthermore, this post MSTR Q3 2026 Earnings Call: A...",
-      "strategic_takeaway": "Signifies structural capital realignment in Bitcoin, shifting short-term market microstructure toward institutional accumulation."
-    },
-    {
-      "ontology_id": "ont_2db3fc41e862d0df",
-      "title": "OpenAI reportedly cuts fundraising and valuation targets amid AI jitters",
-      "category": "CRYPTO_AND_MACRO",
-      "source_name": "CoinDesk",
-      "canonical_url": "https://www.coindesk.com/business/2026/10/30/openai-reportedly-cuts-fundraising-target-amid-ai-jitters",
-      "published_utc": "Sat, 31 Oct 2026 00:48:56 +0000",
-      "dense_summary": "Anxiety about the AI boom has sent the Nasdaq 100 slumping by about 10% in just three weeks since hitting a record high on October 6, including a 4.5% drop on Friday.",
-      "strategic_takeaway": "Signifies structural capital realignment in crypto assets around key levels (10%), shifting short-term market microstructure toward institutional accumulation."
-    },
-    {
-      "ontology_id": "ont_4b870eb106d0bf8b",
-      "title": "Apple Intelligence is finally coming to China with iOS 27.3",
-      "category": "AI_AND_FRONTIER_TECH",
-      "source_name": "The Verge AI",
-      "canonical_url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
-      "published_utc": "2026-10-30T18:32:53-04:00",
-      "dense_summary": "Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website, as reported by MacRumors. Furthermore, the Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a f...",
-      "strategic_takeaway": "Accelerates commercialization of frontier models by Apple, compressing inference cost curves and raising developer switching costs."
-    },
-    {
-      "ontology_id": "ont_h_6fedd71f3208",
-      "title": "Al-Jahiz and the Hilarious Philosophy of Medieval Baghdad (868 AD)",
-      "category": "LITERATURE_AND_HERITAGE",
-      "source_name": "Nexus Heritage Vault (Rawi)",
-      "canonical_url": "https://nexus-pulse.internal/heritage/h_6fedd71f3208",
-      "published_utc": "Abbasid Caliphate (Basra & Baghdad)",
-      "dense_summary": "Era & Setting: Abbasid Caliphate (Basra & Baghdad). Furthermore, historical Stakes: .",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_h_ee7f8ff2d50b",
-      "title": "Hezarfen Celebi Glides Across the Bosporus (1632 AD)",
-      "category": "LITERATURE_AND_HERITAGE",
-      "source_name": "Nexus Heritage Vault (Rawi)",
-      "canonical_url": "https://nexus-pulse.internal/heritage/h_ee7f8ff2d50b",
-      "published_utc": "Ottoman Caliphate (Istanbul)",
-      "dense_summary": "Era & Setting: Ottoman Caliphate (Istanbul). Furthermore, historical Stakes: .",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_h_45c9a6050bae",
-      "title": "Fatih Sultan Mehmed Rolls 70 Warships Over Mountains (1453 AD)",
-      "category": "LITERATURE_AND_HERITAGE",
-      "source_name": "Nexus Heritage Vault (Rawi)",
-      "canonical_url": "https://nexus-pulse.internal/heritage/h_45c9a6050bae",
-      "published_utc": "Ottoman Caliphate (Constantinople / Istanbul)",
-      "dense_summary": "Era & Setting: Ottoman Caliphate (Constantinople / Istanbul). Furthermore, historical Stakes: .",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_h_131c9ff80cb0",
-      "title": "Ziryab: The Baghdad Musician Who Invented Modern Lifestyle (822 AD)",
-      "category": "LITERATURE_AND_HERITAGE",
-      "source_name": "Nexus Heritage Vault (Rawi)",
-      "canonical_url": "https://nexus-pulse.internal/heritage/h_131c9ff80cb0",
-      "published_utc": "Andalusian Golden Age (Cordoba)",
-      "dense_summary": "Era & Setting: Andalusian Golden Age (Cordoba). Furthermore, historical Stakes: .",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_h_f465592418a2",
-      "title": "Abbas ibn Firnas: The First Man Who Took to the Skies (875 AD)",
-      "category": "LITERATURE_AND_HERITAGE",
-      "source_name": "Nexus Heritage Vault (Rawi)",
-      "canonical_url": "https://nexus-pulse.internal/heritage/h_f465592418a2",
-      "published_utc": "Andalusian Golden Age (Cordoba)",
-      "dense_summary": "Era & Setting: Andalusian Golden Age (Cordoba). Furthermore, historical Stakes: .",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_h_2bccf1cbb991",
-      "title": "The Falcon of Quraysh: A Prince's Impossible Escape (750 AD)",
-      "category": "LITERATURE_AND_HERITAGE",
-      "source_name": "Nexus Heritage Vault (Rawi)",
-      "canonical_url": "https://nexus-pulse.internal/heritage/h_2bccf1cbb991",
-      "published_utc": "Umayyad Caliphate (Syria to Cordoba)",
-      "dense_summary": "Era & Setting: Umayyad Caliphate (Syria to Cordoba). Furthermore, historical Stakes: .",
       "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
     }
   ]
