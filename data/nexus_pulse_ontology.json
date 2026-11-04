@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-03T09:21:02Z",
+  "updated_utc": "2026-11-04T05:04:59Z",
   "swarm_architecture_version": "2.1.0",
   "audio_engine": "Kokoro-82M v1.0 Open-Source Human Narrator (-14 LUFS)",
   "visual_engine": "Antigravity Warm Cream Editorial Luxury (#FAF7F0)",
@@ -10,18 +10,198 @@
     "20:00 (evening)"
   ],
   "graph_stats": {
-    "total_stories": 196,
-    "total_entities": 866,
-    "total_knowledge_triples": 112,
+    "total_stories": 215,
+    "total_entities": 1027,
+    "total_knowledge_triples": 126,
     "entity_breakdown": {
-      "METRICS": 76,
-      "ORGANIZATIONS": 390,
-      "PEOPLE": 382,
-      "TECHNOLOGIES": 18
+      "METRICS": 91,
+      "ORGANIZATIONS": 465,
+      "PEOPLE": 452,
+      "TECHNOLOGIES": 19
     },
-    "density_ratio": 0.13
+    "density_ratio": 0.12
   },
   "stories": [
+    {
+      "ontology_id": "ont_4006eb6c9b42be33",
+      "title": "What Is the UNESCO Tentative List, and How Do You Get on It?",
+      "category": "GASTRONOMY_AND_TRAVEL",
+      "source_name": "Cond\u00e9 Nast Traveler",
+      "canonical_url": "https://www.cntraveler.com/story/what-is-the-unesco-tentative-list-and-how-do-you-get-on-it",
+      "published_utc": "Wed, 04 Nov 2026 00:00:05 +0000",
+      "dense_summary": "Before a destination becomes a World Heritage Site, it must first be put on a UNESCO Tentative List. Furthermore, but what exactly does that mean?.",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_779aa6304d3fc2b8",
+      "title": "How Flavored Syrup Became a Coffee-Shop Culture War",
+      "category": "GASTRONOMY_AND_TRAVEL",
+      "source_name": "Eater Food News",
+      "canonical_url": "https://www.eater.com/dining-out/997706/house-made-syrup-coffee-shop-trend-torani-monin-backlash",
+      "published_utc": "2026-11-03T09:30:00-05:00",
+      "dense_summary": "In a TikTok video with over 82,000 likes, the person behind the camera zooms into the shelves at a Pennsylvania coffee shop, three rows stacked with an array of Torani syrups in flavors like blueberry, brown-sugar cinnamon, English toffee, and salted caramel. Furthermore, \u201cI j...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_b2cc1299d53707e4",
+      "title": "Supreme Said, Streetwear Son or Edgy Daughter?",
+      "category": "STYLE_AND_FASHION",
+      "source_name": "Highsnobiety",
+      "canonical_url": "https://www.highsnobiety.com/p/vaquera-supreme-new-collab-fw26/",
+      "published_utc": "Tue, 03 Nov 2026 23:09:17 GMT",
+      "dense_summary": "The fashion equivalent of gay-son-thot-daughter is here with Supreme x Vaquera, a FW26 limited edition capsule that wants you do be both. Furthermore, the limited edition capsule, available this Thursday in the US and across Asia on Saturday, reads like Vaquera\u2019s greatest prov...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_903d8a8eb99f22ba",
+      "title": "Santa Claus Meets 'Reacher' in the Official Trailer for 'The Man with the Bag'",
+      "category": "STYLE_AND_FASHION",
+      "source_name": "Hypebeast",
+      "canonical_url": "https://hypebeast.com/2026/11/prime-video-arnold-schwarzenegger-alan-ritchson-the-man-with-the-bag-official-trailer-release-info",
+      "published_utc": "Wed, 04 Nov 2026 04:08:32 +0000",
+      "dense_summary": "Summary\n\nAmazon MGM Studios has released the first full trailer for the holiday heist comedy 'The Man with the Bag' starring Arnold Schwarzenegger and Alan RitchsonDirected by Adam Shankman the film follows Santa Claus teaming up with an ex-convict to recover his stolen sack o...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_88ddb4c810c27f87",
+      "title": "KATSEYE Postpones Detroit Concert Due to\u00a0Illness",
+      "category": "CELEBRITIES_AND_CREATORS",
+      "source_name": "Billboard Creators & Culture",
+      "canonical_url": "https://www.billboard.com/music/pop/katseye-postpones-detroit-concert-illness-1236373677/",
+      "published_utc": "Wed, 04 Nov 2026 03:50:08 +0000",
+      "dense_summary": "\u201cUnfortunately, Megan is unwell and unable to perform tonight, and we want to make sure she has time she needs to rest and recover,\" the group confirms. Furthermore, lars Brandle More Stories by Lars Diana Ross Sets One-Off Australia\u00a0Concert Rosal\u00eda aborda el desastre ferrovia...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_afa3af24ebf6ecb1",
+      "title": "Keisha Lance Bottoms Makes History: Elected First Black Female Governor",
+      "category": "CELEBRITIES_AND_CREATORS",
+      "source_name": "TMZ Breaking News",
+      "canonical_url": "https://www.tmz.com/2026/11/03/keisha-lance-bottoms-elected-governor/",
+      "published_utc": "2026-11-04T05:00:38.984045+00:00",
+      "dense_summary": "Keisha Lance Bottoms won the Georgia Governor race \u2026 and made history in the process. Furthermore, on Tuesday, Keisha, the former Atlanta mayor, was named the winner in her fight with billionaire Republican, Rick Jackson.",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_a8c1644b3f9cbd80",
+      "title": "Midterm Elections: Democrats Win Control Of U.S. Senate; Maine And Michigan Races Still Not Yet Called",
+      "category": "ENTERTAINMENT_AND_CINEMA",
+      "source_name": "Deadline Hollywood",
+      "canonical_url": "https://deadline.com/2026/11/election-2026-latest-1237212469/",
+      "published_utc": "Wed, 04 Nov 2026 04:41:00 +0000",
+      "dense_summary": "Refresh for latest\u2026 Democrats will control the Senate and the House in the next Congress, regaining both chambers in what will be a consequential rebuke and check on Donald Trump. Furthermore, the AP projected that the party would take control, shortly after major network calls.",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_437c63742102a349",
+      "title": "Katseye Postpones Detroit Show As Megan Recovers From Illness",
+      "category": "MUSIC_AND_AUDIO",
+      "source_name": "Rolling Stone Music",
+      "canonical_url": "https://www.rollingstone.com/music/music-news/katseye-postpones-detroit-show-megan-recovers-illness-1235652359/",
+      "published_utc": "Wed, 04 Nov 2026 02:46:47 +0000",
+      "dense_summary": "The announcement was made just hours before the Little Caesars Arena show was set to begin\n\nRollingstone Logo Click to expand the Mega Menu Click to Expand Search Input Music Politics TV & Movies Culture VIBE Got A Tip?. Furthermore, account Welcome Manage Account Manage Print...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_f1fb9758d12d5b3e",
+      "title": "Saya Gray Drops Qwerty III EP",
+      "category": "MUSIC_AND_AUDIO",
+      "source_name": "Pitchfork News",
+      "canonical_url": "https://pitchfork.com/story/saya-gray-drops-qwerty-iii-ep/",
+      "published_utc": "Tue, 03 Nov 2026 15:59:57 +0000",
+      "dense_summary": "\u201cI feel weird because we\u2019re living in a weird world\u201d \u2014 Jughead from Riverdale Saya Gray\n\n\u201cQ EPs are experiments between projects,\u201d Gray elaborated in a statement accompanying the release. Furthermore, the cathartic moments that don\u2019t fit between eras of change.\u201d She continued,...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_a36a1dbbe7c122d1",
+      "title": "Rybakina and Sabalenka lead field at WTA Finals - live on Sky Sports",
+      "category": "SPORTS_AND_ATHLETICS",
+      "source_name": "Sky Sports Football",
+      "canonical_url": "https://www.skysports.com/tennis/news/12040/13607526/wta-finals-in-indian-wells-format-schedule-players-as-elena-rybakina-and-aryna-sabalenka-lead-field-at-end-of-season-event",
+      "published_utc": "Tue, 03 Nov 2026 23:55:00 GMT",
+      "dense_summary": "Defending champion Elena Rybakina leads the field at Indian Wells for the WTA Finals - live on Sky Sports from 8-15 November. Furthermore, document.currentScript.parentNode.config = {\"id\":\"leaderboard\",\"ad-type\":\"leaderboard\",\"test-id\":\"advert-unit--leaderboard\",\"targeting\":{\"...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_8375db46a07e1ac7",
+      "title": "A half-time speech, a retaken penalty - and a win to save Carrick's job?",
+      "category": "SPORTS_AND_ATHLETICS",
+      "source_name": "BBC Sport",
+      "canonical_url": "https://www.bbc.co.uk/sport/football/articles/c6q8n98y4023o?at_medium=RSS&at_campaign=rss",
+      "published_utc": "Wed, 04 Nov 2026 00:27:37 GMT",
+      "dense_summary": "At 2-0 down Michael Carrick's position as Manchester United head coach looked terminal - but will the win over Roma prove a turning point?. Furthermore, bBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_d4aea760514b22ad",
+      "title": "Tether Holds 150,000 Bitcoin CEO Says, 50,000 More Than Its Reserve Report Shows",
+      "category": "CRYPTO_AND_MACRO",
+      "source_name": "Bitcoin Magazine",
+      "canonical_url": "https://bitcoinmagazine.com/news/tether-holds-150000-bitcoin-ceo-says",
+      "published_utc": "Tue, 03 Nov 2026 18:06:27 +0000",
+      "dense_summary": "Bitcoin Magazine\n\nTether Holds 150,000 Bitcoin CEO Says, 50,000 More Than Its Reserve Report Shows\n\nTether CEO Paolo Ardoino said in Lugano that the company holds about 150,000 bitcoin worth $11.5 billion. Furthermore, this post Tether Holds 150,000 Bitcoin CEO Says, 50,000 Mo...",
+      "strategic_takeaway": "Signifies structural capital realignment in Bitcoin around key levels ($11.5 billion), shifting short-term market microstructure toward institutional accumulation."
+    },
+    {
+      "ontology_id": "ont_cde1d5d0a84b4f92",
+      "title": "OpenAI Wants to Rebrand AI Data Centers, Use Them to 'Protect the Grid'",
+      "category": "CRYPTO_AND_MACRO",
+      "source_name": "Decrypt",
+      "canonical_url": "https://decrypt.co/382476/openai-ai-data-centers-rebrand-protect-power-grid",
+      "published_utc": "Tue, 03 Nov 2026 23:48:32 +0000",
+      "dense_summary": "The ChatGPT maker says future facilities could ease pressure on power grids by cutting demand during emergencies. Furthermore, openAI Wants to Rebrand AI Data Centers, Use Them to 'Protect the Grid'\n\nBTC $77,459.00 +0.64% ETH $2,280.95 +1.02% SOL $92.34 +0.06% XRP $1.27 +1.42%...",
+      "strategic_takeaway": "Signifies structural capital realignment in crypto assets around key levels ($77,459.00), shifting short-term market microstructure toward institutional accumulation."
+    },
+    {
+      "ontology_id": "ont_0c140289d054c561",
+      "title": "Democrats surge toward Senate, House majorities, with crypto braced for new direction",
+      "category": "CRYPTO_AND_MACRO",
+      "source_name": "CoinDesk",
+      "canonical_url": "https://www.coindesk.com/policy/2026/11/03/democrats-surge-toward-senate-house-majorities-with-crypto-braced-for-new-direction",
+      "published_utc": "Wed, 04 Nov 2026 04:55:11 +0000",
+      "dense_summary": "The dominance of Republicans in all three government branches has been broken by the midterms, and the industry will feel the result as Congress changes hands. Furthermore, the crypto industry's massive election spending against former Senator Sherrod Brown in Ohio also failed...",
+      "strategic_takeaway": "Signifies structural capital realignment in crypto assets around key levels (59%), shifting short-term market microstructure toward institutional accumulation."
+    },
+    {
+      "ontology_id": "ont_814e6f9ea78a2748",
+      "title": "The biggest modding site in PC gaming is taking a stance on AI",
+      "category": "AI_AND_FRONTIER_TECH",
+      "source_name": "The Verge AI",
+      "canonical_url": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
+      "published_utc": "2026-11-03T19:42:10-05:00",
+      "dense_summary": "The PC gaming mods repository Nexus Mods is making disclosures about AI mandatory for uploads of new mods, meaning that mod authors will have to declare \"whether AI has been used in their work,\" the site announced today as part of a big post about AI-generated content on the p...",
+      "strategic_takeaway": "Accelerates commercialization of frontier models by Jay Peters Close Jay Peters Senior Reporter Posts, compressing inference cost curves and raising developer switching costs."
+    },
+    {
+      "ontology_id": "ont_254f66b0a35fbab0",
+      "title": "Anthropic is working on a system to prove AI models\u2019 identity",
+      "category": "AI_AND_FRONTIER_TECH",
+      "source_name": "TechCrunch AI",
+      "canonical_url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+      "published_utc": "Tue, 03 Nov 2026 22:41:03 +0000",
+      "dense_summary": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from. Furthermore, buy One Founder Summit Ticket, Get a Second for Free.",
+      "strategic_takeaway": "Accelerates commercialization of frontier models by Anthropic, compressing inference cost curves and raising developer switching costs."
+    },
+    {
+      "ontology_id": "ont_0474d95dcc5abc88",
+      "title": "How \u201creverse game theory\u201d could keep AI agents in check",
+      "category": "AI_AND_FRONTIER_TECH",
+      "source_name": "MIT Tech Review AI",
+      "canonical_url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+      "published_utc": "Tue, 03 Nov 2026 10:43:41 +0000",
+      "dense_summary": "A new approach known as \u201creverse game theory\u201d aims to control powerful AI models by designing systems that incentivize them to stick to the rules. Furthermore, as AI models become more capable, safety researchers are scrambling to ensure they are \u201caligned\u201d with human desires\u2014t...",
+      "strategic_takeaway": "Accelerates commercialization of frontier models by MIT, compressing inference cost curves and raising developer switching costs."
+    },
+    {
+      "ontology_id": "ont_dc5b5a63ec215ea9",
+      "title": "Subspace Node Pruning",
+      "category": "AI_AND_FRONTIER_TECH",
+      "source_name": "ArXiv Machine Learning",
+      "canonical_url": "https://arxiv.org/abs/2405.17506",
+      "published_utc": "Wed, 04 Nov 2026 00:00:00 -0500",
+      "dense_summary": "arXiv:2405.17506v4 Announce Type: replace \nAbstract: Node pruning is the art of removing computational units such as neurons, filters, attention heads, or even entire layers to significantly reduce inference time while retaining network performance. Furthermore, in this work, ...",
+      "strategic_takeaway": "Accelerates commercialization of LLM by Subspace Node Pruning, compressing inference cost curves and raising developer switching costs."
+    },
     {
       "ontology_id": "ont_5eef09fb78b848ca",
       "title": "From Salomon to New Balance, the Seven Best Sneakers to Cop This Week",
@@ -90,186 +270,6 @@
       "canonical_url": "https://www.bbc.co.uk/sport/football/articles/ck62yvz046pjo?at_medium=RSS&at_campaign=rss",
       "published_utc": "Tue, 03 Nov 2026 09:09:18 GMT",
       "dense_summary": "Tenerife forward Jesus de Miguel dies after suffering an on-field collision during a Spanish second-division match. Furthermore, bBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More ...",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_15c43f8fb4baf294",
-      "title": "Mercado Bitcoin pledges to cover all user losses after near $40 million hack",
-      "category": "CRYPTO_AND_MACRO",
-      "source_name": "CoinDesk",
-      "canonical_url": "https://www.coindesk.com/business/2026/11/03/mercado-bitcoin-pledges-to-cover-all-user-losses-after-near-usd40-million-hack",
-      "published_utc": "Tue, 03 Nov 2026 08:56:48 +0000",
-      "dense_summary": "Partners like Tether, Circle, and Chainalysis helped freeze $11M of the stolen assets. Furthermore, the attack drained funds from its hot wallets across at least 10 blockchains, leading Mercado Bitcoin to temporarily suspend access to its platform as a precaution.",
-      "strategic_takeaway": "Signifies structural capital realignment in Bitcoin around key levels ($40 million), shifting short-term market microstructure toward institutional accumulation."
-    },
-    {
-      "ontology_id": "ont_dcb14fb779e9a8ae",
-      "title": "Output-Aware Block Influence: Jacobian-Lens Weighting for Depth Pruning",
-      "category": "AI_AND_FRONTIER_TECH",
-      "source_name": "ArXiv Machine Learning",
-      "canonical_url": "https://arxiv.org/abs/2611.00015",
-      "published_utc": "Tue, 03 Nov 2026 00:00:00 -0500",
-      "dense_summary": "arXiv:2611.00015v1 Announce Type: new \nAbstract: Depth pruning removes entire transformer blocks and therefore depends on a reliable criterion for identifying which blocks can be removed. Furthermore, block Influence (BI) ranks blocks by how minimally they rotate the hidden st...",
-      "strategic_takeaway": "Accelerates commercialization of Transformer by Perplexity with $, benchmark efficiency, compressing inference cost curves and raising developer switching costs."
-    },
-    {
-      "ontology_id": "ont_8bbb817334ac8429",
-      "title": "A Generalized Sparse Fuzzy Clustering Framework with Automated Cluster Cardinality Estimation Ability",
-      "category": "AI_AND_FRONTIER_TECH",
-      "source_name": "ArXiv Computer Science AI",
-      "canonical_url": "https://arxiv.org/abs/2611.00159",
-      "published_utc": "Tue, 03 Nov 2026 00:00:00 -0500",
-      "dense_summary": "arXiv:2611.00159v1 Announce Type: new \nAbstract: Fuzzy clustering provides a robust framework for handling ambiguous and overlapping data boundaries, yet its traditional formulation generates entirely dense membership assignments that limit noise resilience and prevent estimat...",
-      "strategic_takeaway": "Accelerates commercialization of frontier models by Generalized Sparse Fuzzy Clustering Framework, compressing inference cost curves and raising developer switching costs."
-    },
-    {
-      "ontology_id": "ont_8a24a53aa0c764d0",
-      "title": "Jon Stewart, Jimmy Kimmel, Seth Meyers Take Aim at Trump, Michigan\u2019s Haley Stevens on Eve of Election Day",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "The Hollywood Reporter",
-      "canonical_url": "https://www.hollywoodreporter.com/tv/tv-news/stewart-kimmel-meyers-mock-trump-haley-stevens-eve-election-1236746597/",
-      "published_utc": "Tue, 03 Nov 2026 08:22:49 +0000",
-      "dense_summary": "Late night hosts delighted in the rather demented final days of midterms, focusing on Trump's meandering rallies and Stevens' bizarre endorsement of GOP candidate Mike Rogers.",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_01db99f3a729da85",
-      "title": "BTS, Katseye Drive Hybe to Record Quarterly Revenue and Profit",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "Variety Film & TV",
-      "canonical_url": "https://variety.com/2026/music/news/bts-katseye-hybe-record-quarterly-revenue-profit-1236938217/",
-      "published_utc": "Tue, 03 Nov 2026 08:24:40 +0000",
-      "dense_summary": "BTS\u2019 world tour sent K-pop powerhouse Hybe to the highest quarterly revenue and operating profit in its history in the third quarter of 2026. Furthermore, revenue for the quarter reached KRW1.5257 trillion ($1.13 billion) and operating profit came in at KRW188.5 billion ($140....",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_204ae0878a8f8701",
-      "title": "Diemme x Clarks Originals Sends Clarks\u2019 Classics Straight Up the Mountain",
-      "category": "STYLE_AND_FASHION",
-      "source_name": "Hypebeast",
-      "canonical_url": "https://hypebeast.com/2026/11/diemme-clarks-originals-wallabee-desert-boot-desert-trek-collaboration-release-info",
-      "published_utc": "Tue, 03 Nov 2026 08:05:01 +0000",
-      "dense_summary": "Name: Diemme x Clarks Originals Wallabee, Diemme x Clarks Originals Desert Boot, Diemme x Clarks Originals Desert TrekColorway: Champagne, Cola, BlackSKU: TBCMSRP: $620 USDRelease Date: November 5Where to Buy: DiemmeDiemme and Clarks Originals have teamed up on a three-piece f...",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_2770eed193a47ad3",
-      "title": "'Dukes of Hazzard' John Schneider Admits Owing Ex-Wife Millions In Divorce Battle",
-      "category": "CELEBRITIES_AND_CREATORS",
-      "source_name": "TMZ Breaking News",
-      "canonical_url": "https://www.tmz.com/2026/11/03/the-dukes-of-hazzard-john-schneider-owes-ex-wife-millions/",
-      "published_utc": "2026-11-03T08:17:23.380873+00:00",
-      "dense_summary": "'Dukes of Hazzard' star John Schneider is changing course in his divorce battle with his ex-wife, Elvira Schneider . Furthermore, he's now admitting he owes her millions .",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_f5d314ea31ef171a",
-      "title": "Marilyn Monroe, Audrey Hepburn, P\u00d6FF Garments Bring the Glitz to New Fashion Museum Near Tallinn",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "The Hollywood Reporter",
-      "canonical_url": "https://www.hollywoodreporter.com/lifestyle/style/marilyn-monroe-audrey-hepburn-poff-tallinn-fashion-museum-1236741709/",
-      "published_utc": "Tue, 03 Nov 2026 08:01:00 +0000",
-      "dense_summary": "Cinema meets couture at Keila-Joa Castle, also known as Schloss Fall, with its inaugural exhibition, \"Red Carpet: From Ballrooms to Film Galas,\" with one room dedicated to the Tallinn Black Nights Film Festival.",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_301145087b7f805d",
-      "title": "Netflix Steampunk Western \u2018Bass x Machina\u2019 Is a Crackling Mix of Fantasy and Reality: TV Review",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "Variety Film & TV",
-      "canonical_url": "https://variety.com/2026/tv/reviews/bass-x-machina-review-netflix-steampunk-1236937785/",
-      "published_utc": "Tue, 03 Nov 2026 08:01:00 +0000",
-      "dense_summary": "Marshal Bass Reeves was a real person; an escaped slave turned groundbreaking lawman, Reeves\u2019 remarkable biography has inspired a Taylor Sheridan show and HBO\u2019s \u201cWatchmen,\u201d among other pieces of pop culture. Furthermore, the Netflix animated series \u201cBass x Machina,\u201d created by...",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_714b21f326c14c4d",
-      "title": "Yoshitomo Nara\u2019s Largest Auction Painting, \u201cIn the Milky Lake / Thinking One,\u201d Could Fetch $15 Million USD",
-      "category": "STYLE_AND_FASHION",
-      "source_name": "Hypebeast",
-      "canonical_url": "https://hypebeast.com/2026/11/yoshitomo-nara-milky-lake-fair-warning-new-york-15-million-usd-estimate-auction-info",
-      "published_utc": "Tue, 03 Nov 2026 07:32:50 +0000",
-      "dense_summary": "Summary\n\nYoshitomo Nara\u2019s In the \"Milky Lake / Thinking One*,\" his only major 2011 painting, hits the block November 19. Furthermore, the 102 by 71 inch canvas is Nara\u2019s largest work ever to reach auction.",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_c5eb35ed3c8b4759",
-      "title": "Bill Hader to Guest Star on \u2018Abbott Elementary\u2019",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "Variety Film & TV",
-      "canonical_url": "https://variety.com/2026/tv/news/bill-hader-guest-star-abbott-elementary-1236938191/",
-      "published_utc": "Tue, 03 Nov 2026 07:42:39 +0000",
-      "dense_summary": "Bill Hader and Quinta Brunson are voice stars of the upcoming animated film \u201cThe Cat in the Hat\u201d \u2014 and now they\u2019re collaborating in live action as well. Furthermore, hader revealed on Monday night\u2019s episode of \u201cJimmy Kimmel Live\u201d that he will make a guest appearance sometime l...",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_0a650fad27564bb3",
-      "title": "Mohammad Rasoulof Cites Jafar Panahi\u2019s New Prison Sentence as He and O Mipo Receive Tokyo\u2019s Kurosawa Akira Award: \u2018Iranian Cinema Continues to Face Repression\u2019",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "Variety Film & TV",
-      "canonical_url": "https://variety.com/2026/film/festivals/mohammad-rasoulof-cites-jafar-panahi-sentence-tokyo-kurosawa-award-1236938188/",
-      "published_utc": "Tue, 03 Nov 2026 07:32:00 +0000",
-      "dense_summary": "Exiled Iranian director Mohammad Rasoulof pointed to Jafar Panahi\u2019s latest prison sentence as proof that Iranian cinema remains under repression, speaking at a Tokyo International Film Festival press conference for the Kurosawa Akira Award. Furthermore, rasoulof and Japanese d...",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_efa0aa0d3cd25350",
-      "title": "INVINCIBLE and adidas Consortium\u2019s \u201cForm in Motion\u201d Collection Hides Its Best Details Until You Move",
-      "category": "STYLE_AND_FASHION",
-      "source_name": "Hypebeast",
-      "canonical_url": "https://hypebeast.com/2026/11/invincible-adidas-consortium-form-in-motion-release-info",
-      "published_utc": "Tue, 03 Nov 2026 06:45:59 +0000",
-      "dense_summary": "Name: INVINCIBLE x adidas Consortium \u201cForm in Motion\u201dColorway: TBCSKU: TBCMSRP: TBCRelease Date: November 7, November 13Where to Buy: INVINCIBLE, adidas, Confirmed AppINVINCIBLE and adidas Consortium have unveiled \u201cForm in Motion,\u201d a FW26 capsule that reworks the adidas Samba ...",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_b1202e9ddbe6f992",
-      "title": "\u2018Wicker\u2019 Edges \u2018Primetime\u2019 for U.K., Ireland Box Office Crown as \u2018Godzilla,\u2019 \u2018Ramayana\u2019 Loom",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "Variety Film & TV",
-      "canonical_url": "https://variety.com/2026/film/box-office/wicker-primetime-uk-ireland-box-office-crown-godzilla-ramayana-1236938181/",
-      "published_utc": "Tue, 03 Nov 2026 07:05:25 +0000",
-      "dense_summary": "Black Bear\u2019s period comedy \u201cWicker,\u201d directed by Alex Huston Fischer and Eleanor Wilson and starring Olivia Colman, Alexander Skarsg\u00e5rd, Peter Dinklage, and Elizabeth Debicki, clinched the top spot at the U.K. Furthermore, and Ireland box office, debuting at No.",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_fe2901ddfec3383d",
-      "title": "Brundle: Russell must find 'overdrive' in 2027 or it's 'game over'",
-      "category": "SPORTS_AND_ATHLETICS",
-      "source_name": "Sky Sports Football",
-      "canonical_url": "https://www.skysports.com/f1/news/12040/13607194/george-russell-must-find-overdrive-in-2027-or-its-game-over-after-seeing-kimi-antonelli-become-f1-world-champion-says-martin-brundle",
-      "published_utc": "Tue, 03 Nov 2026 07:00:00 GMT",
-      "dense_summary": "Sky Sports F1's Martin Brundle believes George Russell must find an \"overdrive\" to hit back at losing this year's Formula 1 Drivers' Championship to Kimi Antonelli.",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_bb39e0eac26d5cc4",
-      "title": "The Razer x \u2018Evangelion\u2019 EVA-01 Collection Kits Out an Entire Battlestation in Purple and Green",
-      "category": "STYLE_AND_FASHION",
-      "source_name": "Hypebeast",
-      "canonical_url": "https://hypebeast.com/2026/11/razer-neon-genesis-evangelion-eva-01-collection-release-info",
-      "published_utc": "Tue, 03 Nov 2026 06:20:48 +0000",
-      "dense_summary": "Summary\n\nRazer and 'Evangelion' have built a five-piece gaming setup around the purple-and-green armor of EVA-01 and its pilot, Shinji IkariThe lineup spans a wireless esports mouse, a tenkeyless mechanical keyboard, a desktop soundbar, an XXL mouse mat and an ergonomic gaming...",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_c093f9401c5bbe26",
-      "title": "The referee who became a role model after bouncing back from Diaz error",
-      "category": "SPORTS_AND_ATHLETICS",
-      "source_name": "BBC Sport",
-      "canonical_url": "https://www.bbc.co.uk/sport/football/articles/cdj4z0lwjzlo?at_medium=RSS&at_campaign=rss",
-      "published_utc": "Tue, 03 Nov 2026 06:41:31 GMT",
-      "dense_summary": "Referee Darren England shares how he has moved on from the VAR error that stalled his career to the FA Cup final and the Champions League.",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_b96e6bf3defb8e7d",
-      "title": "Hamilton calls for 'serious talks' at Ferrari after Leclerc incident",
-      "category": "SPORTS_AND_ATHLETICS",
-      "source_name": "Sky Sports Football",
-      "canonical_url": "https://www.skysports.com/f1/news/12040/13607145/lewis-hamilton-demands-serious-talks-at-ferrari-after-charles-leclerc-incident-at-mexico-city-grand-prix",
-      "published_utc": "Tue, 03 Nov 2026 06:00:00 GMT",
-      "dense_summary": "Lewis Hamilton has called for \"serious talks\" at Ferrari after his opening lap incident with Charles Leclerc at the Mexico City Grand Prix, while team principal Frederic Vasseur suggested there was not enough \"respect\" given.",
       "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
     }
   ]
