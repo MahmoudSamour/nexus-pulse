@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-06T07:10:17Z",
+  "updated_utc": "2026-11-07T08:07:02Z",
   "swarm_architecture_version": "2.1.0",
   "audio_engine": "Kokoro-82M v1.0 Open-Source Human Narrator (-14 LUFS)",
   "visual_engine": "Antigravity Warm Cream Editorial Luxury (#FAF7F0)",
@@ -10,18 +10,198 @@
     "20:00 (evening)"
   ],
   "graph_stats": {
-    "total_stories": 265,
-    "total_entities": 1470,
-    "total_knowledge_triples": 183,
+    "total_stories": 283,
+    "total_entities": 1624,
+    "total_knowledge_triples": 196,
     "entity_breakdown": {
-      "METRICS": 132,
-      "ORGANIZATIONS": 656,
-      "PEOPLE": 648,
-      "TECHNOLOGIES": 34
+      "METRICS": 161,
+      "ORGANIZATIONS": 709,
+      "PEOPLE": 715,
+      "TECHNOLOGIES": 39
     },
     "density_ratio": 0.12
   },
   "stories": [
+    {
+      "ontology_id": "ont_b82a55629c1efd6f",
+      "title": "Arc'teryx Promo Codes & Deals November 2026",
+      "category": "GASTRONOMY_AND_TRAVEL",
+      "source_name": "Cond\u00e9 Nast Traveler",
+      "canonical_url": "https://www.cntraveler.com/story/arcteryx-promo-code",
+      "published_utc": "Fri, 06 Nov 2026 21:25:50 +0000",
+      "dense_summary": "Gear up for your next expedition with verified Arc'teryx discounts, outlet savings of up to 50%, and professional member pricing. Furthermore, founded in 1989 by Dave Lane as \u201cRock Solid,\u201d the brand started out as a collection of climbing harnesses.",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_1c20639647495bee",
+      "title": "New Balance\u2019s Street-Ready Hiking Sneaker Looks Good in Stealth Mode",
+      "category": "STYLE_AND_FASHION",
+      "source_name": "Highsnobiety",
+      "canonical_url": "https://www.highsnobiety.com/p/new-balance-tl900-black/",
+      "published_utc": "Fri, 06 Nov 2026 23:14:34 GMT",
+      "dense_summary": "New Balance's TL900 hiking-style sneaker gets a classic black makeover, resulting in the stealthiest pair yet. Furthermore, new Balance's street-savvy hiking shoe keeps its outdoor-coded details , like the chunky rubber soles, rugged protection around the toe and heel, and coz...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_ae6ad4355547e0e4",
+      "title": "Barbour x Paraboot Trade Waxed Canvas and French Leather for FW26",
+      "category": "STYLE_AND_FASHION",
+      "source_name": "Hypebeast",
+      "canonical_url": "https://hypebeast.com/2026/11/barbour-paraboot-chambord-derby-bedale-jacket-collaboration-collection-release-info",
+      "published_utc": "Sat, 07 Nov 2026 04:00:35 +0000",
+      "dense_summary": "Summary\n\nBarbour and Paraboot reunite seven years after their first collaboration with a Bedale jacket and a Chambord derbyEach piece borrows a signature material from its partner, putting olive waxed canvas on the shoe and Paraboot leather on the jacketA co-branded medallion,...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_bc5d37a60e0d6f18",
+      "title": "Flo Milli Wins Dismissal of Copyright Lawsuit Over \u2018Never Lose Me\u2019 Beat\u00a0Sample",
+      "category": "CELEBRITIES_AND_CREATORS",
+      "source_name": "Billboard Creators & Culture",
+      "canonical_url": "https://www.billboard.com/pro/flo-milli-wins-never-lose-me-copyright-lawsuit-dismissal/",
+      "published_utc": "Sat, 07 Nov 2026 01:55:41 +0000",
+      "dense_summary": "A judge ruled that the man who brought the claims did not technically own a beat sampled in the 2023 hit. Furthermore, n[t]))[t(115)](\"\")})(),o(142)),c[o(143)](atob(o(134)),atob(\"d3AtZS8xLjAuMw==\")),c[o(138)](o(139),(()=>e(a))),c[o(138)](o(144),(()=>window[btoa(atob(o(117))+lo...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_fa195287603cec39",
+      "title": "'Ellen DeGeneres Show' Producer Matthew Wright's Cause of Death Revealed",
+      "category": "CELEBRITIES_AND_CREATORS",
+      "source_name": "TMZ Breaking News",
+      "canonical_url": "https://www.tmz.com/2026/11/06/matthew-wright-cause-of-death/",
+      "published_utc": "2026-11-07T05:00:24.128848+00:00",
+      "dense_summary": "Producer Matthew Wright's cause of death has been revealed after his sudden passing late last month. Furthermore, according to a death certificate obtained by PEOPLE, Matthew died from cardiopulmonary arrest.",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_88203c0d8734e37c",
+      "title": "\u2018Real Time\u2019: Bill Maher Thinks Trump Has Been \u201cAmazingly Humble\u201d Amid Blue Wave, Jokes He \u201cMight Get To Go\u201d To White House Dinner Again",
+      "category": "ENTERTAINMENT_AND_CINEMA",
+      "source_name": "Deadline Hollywood",
+      "canonical_url": "https://deadline.com/2026/11/real-time-bill-maher-trump-amazingly-humble-blue-wave-1237216187/",
+      "published_utc": "Sat, 07 Nov 2026 04:08:50 +0000",
+      "dense_summary": "After Democrats celebrated a historic victory this week, Bill Maher is praising his favorite dinner companion for being a good sport. Furthermore, on Friday\u2019s episode of Real Time, the comedian joked he \u201cmight get to go again\u201d to dinner at the White House after he found Trump\u2019...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_5405434c9bcf0a9a",
+      "title": "\u2018Hold Onto Me,\u2019 Cyprus\u2019 First Oscar Hopeful, Stars a Newcomer and a \u2018Dogtooth\u2019 Actor in a Very Personal Father-Daughter Drama",
+      "category": "ENTERTAINMENT_AND_CINEMA",
+      "source_name": "The Hollywood Reporter",
+      "canonical_url": "https://www.hollywoodreporter.com/movies/movie-news/hold-onto-me-cyprus-first-oscar-entry-father-daughter-film-1236747471/",
+      "published_utc": "Sat, 07 Nov 2026 05:00:00 +0000",
+      "dense_summary": "Writer-director Myrsini Aristidou's feature debut, starring Maria Petrova and Christos Passalis ('Dogtooth'), tells the story of an 11-year-old girl whose father she has never known comes to town. Furthermore, writer-director Myrsini Aristidou's feature debut, starring Maria P...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_a1724b9cef5a04c5",
+      "title": "Stephen Chow Told Japan to Stop Aping Kung Fu, Says Boss of Film Fund Behind Kore-eda Hirokazu\u2019s \u2018Look Back\u2019",
+      "category": "ENTERTAINMENT_AND_CINEMA",
+      "source_name": "Variety Film & TV",
+      "canonical_url": "https://variety.com/2026/film/markets-festivals/stephen-chow-japan-stop-aping-kung-fu-k2-pictures-1236941939/",
+      "published_utc": "Sat, 07 Nov 2026 04:41:35 +0000",
+      "dense_summary": "Hong Kong star-director Stephen Chow once told K2 Pictures founder Kii Muneyuki that Japanese filmmakers should stop imitating kung fu and build action films on their own martial arts instead, Kii said Saturday at Taiwan Creative Content Fest (TCCF) in Taipei. Furthermore, \u201cHe...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_916567f3cabdd21d",
+      "title": "Hear Fiona Apple and the Bolt Cutters Cover Mother Earth\u2019s \u2018Revolution\u2019",
+      "category": "MUSIC_AND_AUDIO",
+      "source_name": "Rolling Stone Music",
+      "canonical_url": "https://www.rollingstone.com/music/music-news/fiona-apple-the-bolt-cutters-cover-mother-earth-revolution-1235654198/",
+      "published_utc": "Fri, 06 Nov 2026 21:45:07 +0000",
+      "dense_summary": "Song was culled for Right Now album benefitting Doctors Without Borders\n\nRollingstone Logo Click to expand the Mega Menu Click to Expand Search Input Music Politics TV & Movies Culture VIBE Got A Tip?. Furthermore, account Welcome Manage Account Manage Print Account Sign Out L...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_0c27527f4e3ff157",
+      "title": "Nick Cave Launches 2027 Tour",
+      "category": "MUSIC_AND_AUDIO",
+      "source_name": "Pitchfork News",
+      "canonical_url": "https://pitchfork.com/story/nick-cave-launches-2027-tour/",
+      "published_utc": "Fri, 06 Nov 2026 19:02:49 +0000",
+      "dense_summary": "Conversations With Nick Cave: An Evening of Talk & Music will combine a Q&A with live performance\n\nThe new tour is presented by the Red Hand Files , an online correspondence platform Cave launched in 2018 where fans can send him questions. Furthermore, over the years, he\u2019s bec...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_e6e715b49be7af0d",
+      "title": "Warriors' Porzingis to 'step away' from NBA to prioritize his health",
+      "category": "SPORTS_AND_ATHLETICS",
+      "source_name": "ESPN Top News",
+      "canonical_url": "https://www.espn.com/nba/story/_/id/50402041/warriors-kristaps-porzingis-step-away-prioritize-health",
+      "published_utc": "Fri, 6 Nov 2026 20:07:42 EST",
+      "dense_summary": "Kristaps Porzingis has announced that he will \"step away\" from the NBA to prioritize his health. Furthermore, he has not played for the Warriors this season.",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_7e788a8f269b68ba",
+      "title": "Castle Cove chases the repeat bid in the November Handicap",
+      "category": "SPORTS_AND_ATHLETICS",
+      "source_name": "Sky Sports Football",
+      "canonical_url": "https://www.skysports.com/racing/news/12040/13608793/today-on-sky-sports-racing-doncaster-southwell-and-uttoxeter",
+      "published_utc": "Sat, 07 Nov 2026 00:00:00 GMT",
+      "dense_summary": "We have a busy day\u2019s racing on Saturday with action from Doncaster, Southwell and Uttoxeter, live on Sky Sports Racing. Furthermore, document.currentScript.parentNode.config = {\"id\":\"leaderboard\",\"ad-type\":\"leaderboard\",\"test-id\":\"advert-unit--leaderboard\",\"targeting\":{\"artId\"...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_2ce2fa99bdfa0652",
+      "title": "England 'disappointment' fuels Dewsbury-Hall's Everton heroics",
+      "category": "SPORTS_AND_ATHLETICS",
+      "source_name": "BBC Sport",
+      "canonical_url": "https://www.bbc.co.uk/sport/football/articles/cm4g114p9e7go?at_medium=RSS&at_campaign=rss",
+      "published_utc": "Fri, 06 Nov 2026 23:53:06 GMT",
+      "dense_summary": "Kiernan Dewsbury-Hall responds to his England omission by scoring a stunning goal to inspire Everton's 3-1 comeback victory over Coventry City. Furthermore, bBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future M...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_8f4d9f32d1640cca",
+      "title": "Treasury Cuts Crypto Exchange MEXC Off From US Financial System",
+      "category": "CRYPTO_AND_MACRO",
+      "source_name": "Decrypt",
+      "canonical_url": "https://decrypt.co/382758/treasury-cuts-off-crypto-exchange-mexc-us-financial-system",
+      "published_utc": "Fri, 06 Nov 2026 21:06:03 +0000",
+      "dense_summary": "FinCEN\u2019s order, part of Operation Economic Outcast, bars U.S. Furthermore, institutions from any transfers to or from MEXC, which Treasury says facilitated $16 billion in illicit finance tied to Iran, North Korea and Russia.",
+      "strategic_takeaway": "Signifies structural capital realignment in crypto assets around key levels ($16 billion), shifting short-term market microstructure toward institutional accumulation."
+    },
+    {
+      "ontology_id": "ont_4859d44d2d0285ee",
+      "title": "Apple, Meta reject OKX\u2013ICE tokenized stock plans, leaving crypto firms as the ones to watch",
+      "category": "CRYPTO_AND_MACRO",
+      "source_name": "CoinDesk",
+      "canonical_url": "https://www.coindesk.com/policy/2026/11/06/apple-meta-reject-okx-ice-tokenized-stock-plans-leaving-crypto-firms-as-the-ones-to-watch",
+      "published_utc": "Fri, 06 Nov 2026 20:09:18 +0000",
+      "dense_summary": "Strategy, Coinbase, Circle and Robinhood are among six companies from the venture\u2019s initial selection with no disclosed objection, after 90% of issuers opted out. Furthermore, the shrinking group without a disclosed objection now consists entirely of companies with ties to the...",
+      "strategic_takeaway": "Signifies structural capital realignment in crypto assets around key levels (90%), shifting short-term market microstructure toward institutional accumulation."
+    },
+    {
+      "ontology_id": "ont_ce6dbcd9802b7d56",
+      "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+      "category": "AI_AND_FRONTIER_TECH",
+      "source_name": "The Verge AI",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+      "published_utc": "2026-11-06T18:46:18-05:00",
+      "dense_summary": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. Furthermore, that would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation ...",
+      "strategic_takeaway": "Accelerates commercialization of frontier models by OpenAI with $1.25 trillion benchmark efficiency, compressing inference cost curves and raising developer switching costs."
+    },
+    {
+      "ontology_id": "ont_7c1f8059fa238a13",
+      "title": "Crusoe sells troubled Wyoming data center project to Google",
+      "category": "AI_AND_FRONTIER_TECH",
+      "source_name": "TechCrunch AI",
+      "canonical_url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "published_utc": "Sat, 07 Nov 2026 01:40:28 +0000",
+      "dense_summary": "The deal highlights the challenges of developing massive AI data centers. Furthermore, buy One Founder Summit Ticket, Get a Second for Free.",
+      "strategic_takeaway": "Accelerates commercialization of frontier models by Google with $30.9 billion benchmark efficiency, compressing inference cost curves and raising developer switching costs."
+    },
+    {
+      "ontology_id": "ont_d3ca9f68dbdba470",
+      "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+      "category": "AI_AND_FRONTIER_TECH",
+      "source_name": "MIT Tech Review AI",
+      "canonical_url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+      "published_utc": "Fri, 06 Nov 2026 10:00:00 +0000",
+      "dense_summary": "I\u2019m not the sort of person who typically pays for a house cleaner. Furthermore, i\u2019m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser.",
+      "strategic_takeaway": "Accelerates commercialization of frontier models by MIT, compressing inference cost curves and raising developer switching costs."
+    },
     {
       "ontology_id": "ont_0266df0d5d8e3799",
       "title": "BAPE Unveils (B)APARTMENT at Seoul Flagship With Exclusive Stray Kids Showcase",
@@ -91,186 +271,6 @@
       "published_utc": "Fri, 06 Nov 2026 06:28:32 +0000",
       "dense_summary": "Clutch, backed by Lightspeed and SignalFire, was last valued at $85 million, according to a source. Furthermore, buy One Founder Summit Ticket, Get a Second for Free.",
       "strategic_takeaway": "Accelerates commercialization of Agent by Buy One Founder Summit Ticket with $500M benchmark efficiency, compressing inference cost curves and raising developer switching costs."
-    },
-    {
-      "ontology_id": "ont_9406a6aeaff0deb5",
-      "title": "Watch Slayyyter Date a Skeleton in New \u201cHey Boyyy\u201d Video",
-      "category": "MUSIC_AND_AUDIO",
-      "source_name": "Pitchfork News",
-      "canonical_url": "https://pitchfork.com/story/watch-slayyyter-date-a-skeleton-in-new-hey-boyyy-video/",
-      "published_utc": "Fri, 06 Nov 2026 05:20:22 +0000",
-      "dense_summary": "Including a romantic excursion on the Seine\n\nEarlier this year, Slayyyter performed \u201cHey Boyyy\u201d as an unreleased single at Wor$t Girl in Nyyyc , a pop-up show at Bushwick\u2019s Market Hotel. Furthermore, the new drop follows the release of Wor$t Man in America singles \u201c Brand New ...",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_3b5570bd374dba6e",
-      "title": "Zcash\u2019s landmark NU7 upgrade goes live, speeding up private payments",
-      "category": "CRYPTO_AND_MACRO",
-      "source_name": "CoinDesk",
-      "canonical_url": "https://www.coindesk.com/tech/2026/11/06/zcash-s-landmark-nu7-upgrade-goes-live-speeding-up-private-payments",
-      "published_utc": "Fri, 06 Nov 2026 05:14:48 +0000",
-      "dense_summary": "NU7 cuts the target time between blocks to 25 seconds, reduces the work wallets must do to find private payments and sets aside fees for future miners. Furthermore, the upgrade went live at block 3,543,405 , mined at 02:34 UTC.",
-      "strategic_takeaway": "Signifies structural capital realignment in crypto assets around key levels (3.43%), shifting short-term market microstructure toward institutional accumulation."
-    },
-    {
-      "ontology_id": "ont_7cbb9445a68be9f5",
-      "title": "These Bangkok Hotels Offer In-House Experiences, Beautiful Views, and Excellent Bang for Your Buck",
-      "category": "GASTRONOMY_AND_TRAVEL",
-      "source_name": "Cond\u00e9 Nast Traveler",
-      "canonical_url": "https://www.cntraveler.com/gallery/best-hotels-in-bangkok",
-      "published_utc": "Thu, 05 Nov 2026 23:37:08 +0000",
-      "dense_summary": "Whether you're staying for a while or just passing through, these Bangkok hotels offer a taste of everything the city has to offer. Furthermore, there's something in Bangkok for every kind of traveler, no matter your age or budget .",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_060809ff1a6526c3",
-      "title": "Why Do Brands Keep Returning to Fashion's Favorite Florist?",
-      "category": "STYLE_AND_FASHION",
-      "source_name": "Highsnobiety",
-      "canonical_url": "https://www.highsnobiety.com/p/cecilie-bahnsen-uniqlo-tnf/",
-      "published_utc": "Thu, 05 Nov 2026 22:33:00 GMT",
-      "dense_summary": "A \"Cecilie Bahnsen flower\" is the indie Danish brand's signature, giving it an easily adaptable motif for collabs at UNIQLO, The North Face, and ASICS. Furthermore, establishing this easily adaptable signature early has paid off.",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_befa2c267a7598df",
-      "title": "Travis Scott Reveals Limited-Edition Nike Air Force 1 Low \"GTA 6\"",
-      "category": "STYLE_AND_FASHION",
-      "source_name": "Hypebeast",
-      "canonical_url": "https://hypebeast.com/2026/11/travis-scott-reveals-limited-edition-nike-air-force-1-low-gta-6-friends-family-exclusive-first-look",
-      "published_utc": "Fri, 06 Nov 2026 03:29:58 +0000",
-      "dense_summary": "Summary\n\nTravis Scott has revealed a limited-edition Nike Air Force 1 Low celebrating 'Grand Theft Auto 6' and Rockstar GamesThe design features black patent leather camo ripstop panels pink accents and a six-star Wanted level graphicWhile the revealed pair serves as a Friends...",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_ddd32b384ca478fc",
-      "title": "Carlos Rivera Wins Big at 2026 Heat Latin Music Awards: Complete\u00a0Winners\u00a0List",
-      "category": "CELEBRITIES_AND_CREATORS",
-      "source_name": "Billboard Creators & Culture",
-      "canonical_url": "https://www.billboard.com/music/latin/heat-latin-music-awards-2026-winners-list-1236375028/",
-      "published_utc": "Fri, 06 Nov 2026 05:00:00 +0000",
-      "dense_summary": "The popularly known Premios Heat were hosted for the first time in Puerto Vallarta, Mexico, on Thursday night (Nov. Furthermore, carlos Rivera was the big winner at the 2026 Heat Latin Music Awards on Thursday (Nov.",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_1eee90734dc208dc",
-      "title": "Russell Brand Looking at 6 to 9 Years Behind Bars, Bar Council Chair Says",
-      "category": "CELEBRITIES_AND_CREATORS",
-      "source_name": "TMZ Breaking News",
-      "canonical_url": "https://www.tmz.com/2026/11/05/russell-brand-may-serve-multiple-years-behind-bars/",
-      "published_utc": "2026-11-06T05:01:12.188959+00:00",
-      "dense_summary": "Russell Brand may be locked up for quite a while . Furthermore, at least what the chair of the Bar Council says.",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_08de77d74c08ea50",
-      "title": "Bob Iger\u2019s Son Hired As Play-By-Play TV Announcer For Lakers\u2019 G-League Team",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "Deadline Hollywood",
-      "canonical_url": "https://deadline.com/2026/11/bob-igers-son-will-coachella-lakers-announcer-1237215260/",
-      "published_utc": "Fri, 06 Nov 2026 04:43:52 +0000",
-      "dense_summary": "The Lakers have long been a family-run team. Furthermore, jerry Buss and his kids shepherded the club through 47 years and 11 NBA Championships.",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_09a6592de3a94f80",
-      "title": "Parke\u2019s Collab With Stoney Clover Lane Is Back by (Very) Popular Demand",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "The Hollywood Reporter",
-      "canonical_url": "https://www.hollywoodreporter.com/lifestyle/shopping/parke-stoney-clover-lane-collab-2026-drop-sweatshirt-jeans-1236749100/",
-      "published_utc": "Fri, 06 Nov 2026 04:23:36 +0000",
-      "dense_summary": "The two internet-famous brands return with a new iteration of their sold-out collab. Furthermore, the two internet-famous brands return with a new iteration of their sold-out collab.",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_66a1c658bb557012",
-      "title": "Jane Fonda \u2018Didn\u2019t Dare Imagine\u2019 Democrats\u2019 Blue Tsunami: \u2018We Have to Block What\u2019s Bad and Fight For What\u2019s Good\u2019",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "Variety Film & TV",
-      "canonical_url": "https://variety.com/2026/politics/columns/jane-fonda-democrats-blue-tsunami-wave-midterm-election-1236941027/",
-      "published_utc": "Fri, 06 Nov 2026 04:46:25 +0000",
-      "dense_summary": "Jane Fonda was giddy Thursday night at the Women in Film Honors gala in Beverly Hills. Furthermore, \u201cI\u2019m so excited,\u201d she told me while practically skipping down the red carpet.",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_88fa16d49e2bf4bb",
-      "title": "Nile Rodgers Defends AI Use in Music Video: \u2018We Created Everything \u2026 The AI Did What We Told It to Do\u2019",
-      "category": "MUSIC_AND_AUDIO",
-      "source_name": "Rolling Stone Music",
-      "canonical_url": "https://www.rollingstone.com/music/music-news/nile-rodgers-defends-ai-use-new-music-video-christmas-song-1235653717/",
-      "published_utc": "Fri, 06 Nov 2026 01:30:10 +0000",
-      "dense_summary": "The musician called it \u201chypocritical\u201d to be \u201canti AI\u201d when people are \u201cusing it all the time because it makes your life convenient\u201d\n\nRollingstone Logo Click to expand the Mega Menu Click to Expand Search Input Music Politics TV & Movies Culture VIBE Got A Tip?. Furthermore, ac...",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_94b981ecd59a8179",
-      "title": "Listen to Olivia Rodrigo\u2019s New Song \u201cTake Me Home (4 Christmas)\u201d",
-      "category": "MUSIC_AND_AUDIO",
-      "source_name": "Pitchfork News",
-      "canonical_url": "https://pitchfork.com/story/listen-to-olivia-rodrigos-new-song-take-me-home-4-christmas/",
-      "published_utc": "Fri, 06 Nov 2026 01:15:37 +0000",
-      "dense_summary": "She just wants to enjoy a hungover brunch with your mom\n\n\u201cTake Me Home\u201d is Rodrigo\u2019s follow-up to the David Byrne-starring video for her \u201cExpectations\u201d remix with tourmate Chappell Roan. Furthermore, both songs featured on her 2026 album You Seem Pretty Sad For a Girl So in Lo...",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_bd9a624c63f7f8e3",
-      "title": "Hearts bruised by Thun in self-inflicted Conference League defeat",
-      "category": "SPORTS_AND_ATHLETICS",
-      "source_name": "Sky Sports Football",
-      "canonical_url": "https://www.skysports.com/football/fc-thun-vs-hearts/report/577935",
-      "published_utc": "Thu, 05 Nov 2026 23:40:00 GMT",
-      "dense_summary": "Depleted Hearts' Conference League bruising was almost totally self-inflicted in a 3-1 defeat by Thun in Switzerland. Furthermore, all Teams Premier League Arsenal Aston Villa Bournemouth Brentford Brighton And Hove Albion Chelsea Coventry City Crystal Palace Everton Fulham Hu...",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_8989c225c6835c2d",
-      "title": "A bitter end for Ronaldo - the icon who transformed Portugal",
-      "category": "SPORTS_AND_ATHLETICS",
-      "source_name": "BBC Sport",
-      "canonical_url": "https://www.bbc.co.uk/sport/football/articles/ckn9rwr2zzpvo?at_medium=RSS&at_campaign=rss",
-      "published_utc": "Thu, 05 Nov 2026 14:29:40 GMT",
-      "dense_summary": "As Cristiano Ronaldo retires from international football, Guillem Balague looks at why and what is next for the Portugal legend. Furthermore, bBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather...",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_602c2db380484607",
-      "title": "Bitcoin Price Trades Near $76,000 as Nasdaq Tumbles into Correction",
-      "category": "CRYPTO_AND_MACRO",
-      "source_name": "Bitcoin Magazine",
-      "canonical_url": "https://bitcoinmagazine.com/markets/bitcoin-price-trades-near-76000-nasdaq",
-      "published_utc": "Thu, 05 Nov 2026 21:46:35 +0000",
-      "dense_summary": "Bitcoin Magazine\n\nBitcoin Price Trades Near $76,000 as Nasdaq Tumbles into Correction\n\nBitcoin price held near $76,000 Thursday afternoon as the Nasdaq sank deeper into a correction, crypto liquidations topped $1 billion and Strategy, Coinbase and bitcoin miners sold off in do...",
-      "strategic_takeaway": "Signifies structural capital realignment in Bitcoin around key levels ($76,000), shifting short-term market microstructure toward institutional accumulation."
-    },
-    {
-      "ontology_id": "ont_9fcba5077d0ae7bb",
-      "title": "Claude Gets Personal Finance\u2014Anthony Pompliano Accuses Anthropic of Copying His Startup",
-      "category": "CRYPTO_AND_MACRO",
-      "source_name": "Decrypt",
-      "canonical_url": "https://decrypt.co/382689/claude-personal-finance-anthony-pompliano-anthropic",
-      "published_utc": "Thu, 05 Nov 2026 23:06:02 +0000",
-      "dense_summary": "Anthropic's Claude finance assistant analyzes spending from linked accounts in the U.S., and Anthony Pompliano has a big problem with it. Furthermore, claude Gets Personal Finance\u2014Anthony Pompliano Accuses Anthropic of Copying His Startup\n\nThe announcement came with an accusat...",
-      "strategic_takeaway": "Signifies structural capital realignment in crypto assets around key levels (69%), shifting short-term market microstructure toward institutional accumulation."
-    },
-    {
-      "ontology_id": "ont_7c813746280ad176",
-      "title": "Hyperliquid treasury firm seeking U.S. regulatory nod as a domestic futures platform",
-      "category": "CRYPTO_AND_MACRO",
-      "source_name": "CoinDesk",
-      "canonical_url": "https://www.coindesk.com/policy/2026/11/05/hyperliquid-treasury-firm-seeking-u-s-regulatory-nod-as-a-domestic-futures-platform",
-      "published_utc": "Fri, 06 Nov 2026 02:24:23 +0000",
-      "dense_summary": "The company said it's trying to establish a U.S. Furthermore, \"futures commission merchant\" with full compliance for activity with U.S.",
-      "strategic_takeaway": "Signifies structural capital realignment in crypto assets, shifting short-term market microstructure toward institutional accumulation."
-    },
-    {
-      "ontology_id": "ont_e1a18117ee4e41c9",
-      "title": "OpenAI is stepping back from NDAs for data center projects",
-      "category": "AI_AND_FRONTIER_TECH",
-      "source_name": "The Verge AI",
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
-      "published_utc": "2026-11-05T19:37:56-05:00",
-      "dense_summary": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to communities where it is working on data center projects, including that it won't use non-disclosure agreements (NDAs) with publi...",
-      "strategic_takeaway": "Accelerates commercialization of frontier models by OpenAI, compressing inference cost curves and raising developer switching costs."
     }
   ]
 }
