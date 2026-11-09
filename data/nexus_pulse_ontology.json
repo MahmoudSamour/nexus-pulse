@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-08T05:09:59Z",
+  "updated_utc": "2026-11-09T05:07:50Z",
   "swarm_architecture_version": "2.1.0",
   "audio_engine": "Kokoro-82M v1.0 Open-Source Human Narrator (-14 LUFS)",
   "visual_engine": "Antigravity Warm Cream Editorial Luxury (#FAF7F0)",
@@ -10,18 +10,198 @@
     "20:00 (evening)"
   ],
   "graph_stats": {
-    "total_stories": 300,
-    "total_entities": 1756,
-    "total_knowledge_triples": 220,
+    "total_stories": 318,
+    "total_entities": 1881,
+    "total_knowledge_triples": 254,
     "entity_breakdown": {
-      "METRICS": 174,
-      "ORGANIZATIONS": 770,
-      "PEOPLE": 772,
-      "TECHNOLOGIES": 40
+      "METRICS": 189,
+      "ORGANIZATIONS": 820,
+      "PEOPLE": 830,
+      "TECHNOLOGIES": 42
     },
-    "density_ratio": 0.13
+    "density_ratio": 0.14
   },
   "stories": [
+    {
+      "ontology_id": "ont_8f26203f36b481db",
+      "title": "7 Best Hotels in Antigua, the Caribbean Island With a Beach for Every Day of the Year",
+      "category": "GASTRONOMY_AND_TRAVEL",
+      "source_name": "Cond\u00e9 Nast Traveler",
+      "canonical_url": "https://www.cntraveler.com/gallery/the-best-hotels-in-antigua",
+      "published_utc": "Sun, 08 Nov 2026 14:00:00 +0000",
+      "dense_summary": "From ultra-luxe five-star resorts to boutique beach hideaways, these are the properties worth booking in Antigua. Furthermore, visit between June and October , and you might just be lucky enough to watch baby turtles emerging blurry-eyed from their shells before scuttling to t...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_62098f3ef251c299",
+      "title": "adidas' Smartly Dressed Sneaker Is for \"Spezial\" Occasions",
+      "category": "STYLE_AND_FASHION",
+      "source_name": "Highsnobiety",
+      "canonical_url": "https://www.highsnobiety.com/p/adidas-albrecht-ll-spzl/",
+      "published_utc": "Sun, 08 Nov 2026 20:58:36 GMT",
+      "dense_summary": "adidas' FW26 Albrecht II SPZL is a dressy leather sneaker committed to casual flexing. Furthermore, here's everything on the release.",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_dfdb60a7823af181",
+      "title": "Nike Drapes the Air Force 1 Low Pony Hair in \"Atomic Violet\"",
+      "category": "STYLE_AND_FASHION",
+      "source_name": "Hypebeast",
+      "canonical_url": "https://hypebeast.com/2026/11/nike-air-force-1-low-atomic-violet-ir1940-500-release-info",
+      "published_utc": "Mon, 09 Nov 2026 04:20:52 +0000",
+      "dense_summary": "Summary\n\nNike has revealed official images of the Air Force 1 Low Pony Hair in an Atomic Violet colorwayThe low-top sneaker features extra-long fuzzy material in Atomic Violet and Hyper Purple across the upper and soleThe pair releases on November 20 in men's sizing for 140 US...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_8d07dee6aee52406",
+      "title": "Ariana Grande Sings \u2018O Christmas Tree\u2019 With Robert De Niro & Ben Stiller on \u2018Tonight Show\u2019: Exclusive\u00a0Preview",
+      "category": "CELEBRITIES_AND_CREATORS",
+      "source_name": "Billboard Creators & Culture",
+      "canonical_url": "https://www.billboard.com/culture/tv-film/ariana-grande-o-christmas-tree-robert-de-niro-ben-stiller-1236377155/",
+      "published_utc": "Mon, 09 Nov 2026 02:06:20 +0000",
+      "dense_summary": "The Focker-in-Law cast rings in the holiday season with Jimmy Fallon tonight (Sunday, Nov. Furthermore, ashley Iasimone More Stories by Ashley Ariana Grande Sings \u2018O Christmas Tree\u2019 With Robert De Niro & Ben Stiller on \u2018Tonight Show\u2019: Exclusive\u00a0Preview Druski\u2019s Best \u2018SNL\u2019 Sket...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_450e519b25ebb11f",
+      "title": "Jamie Foxx Halloween Party: 1 Person Stabbed, Suspect Arrested for Assault With a Deadly Weapon",
+      "category": "CELEBRITIES_AND_CREATORS",
+      "source_name": "TMZ Breaking News",
+      "canonical_url": "https://www.tmz.com/2026/11/08/jamie-foxx-halloween-party-stabbing/",
+      "published_utc": "2026-11-09T05:00:28.780531+00:00",
+      "dense_summary": "Jamie Foxx's annual Halloween party held at his sprawling Thousand Oaks mansion took a violent turn Saturday night when a stabbing took place . Furthermore, law enforcement sources tell TMZ \u2026 deputies and paramedics responded to a party at\u2026\n\nLaw enforcement sources tell TMZ \u2026 ...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_2c1ba5dad0f2d7f6",
+      "title": "Trump Admits He Was \u201cOnly Kidding\u201d About UFC\u2019s Dana White Becoming White House Press Secretary",
+      "category": "ENTERTAINMENT_AND_CINEMA",
+      "source_name": "Deadline Hollywood",
+      "canonical_url": "https://deadline.com/2026/11/dana-white-donald-trump-joke-1237217001/",
+      "published_utc": "Mon, 09 Nov 2026 03:58:07 +0000",
+      "dense_summary": "Donald Trump and Dana White are meeting Monday, but whether or not the UFC boss will become the next White House press secretary is not seriously on the agenda. Furthermore, a day after the former Apprentice host offered the \u201cGreat Dana White, a violent Fighter and Warrior\u201d th...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_1b3e64ef6f0044e1",
+      "title": "Trump Reflects on Republicans\u2019 Midterm Losses, Reacts to J.D. Vance\u2019s Own Analysis in \u201960 Minutes\u2019 Interview",
+      "category": "ENTERTAINMENT_AND_CINEMA",
+      "source_name": "The Hollywood Reporter",
+      "canonical_url": "https://www.hollywoodreporter.com/news/general-news/trump-republicans-midterm-losses-60-minutes-interview-1236750685/",
+      "published_utc": "Mon, 09 Nov 2026 03:22:13 +0000",
+      "dense_summary": "The president offers a few reasons why he believes the Democrats gave his party a crushing defeat last week. Furthermore, the president offers a few reasons why he believes the Democrats gave his party a crushing defeat last week.",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_030c29d9fdbaa83e",
+      "title": "John Oliver Dunks on Midterms Losers Elon Musk and Haley Stevens",
+      "category": "ENTERTAINMENT_AND_CINEMA",
+      "source_name": "Variety Film & TV",
+      "canonical_url": "https://variety.com/2026/tv/news/john-oliver-midterms-losers-elon-musk-haley-stevens-last-week-tonight-1236942879/",
+      "published_utc": "Mon, 09 Nov 2026 04:28:32 +0000",
+      "dense_summary": "After issuing an urgent warning prior to the midterms about the GOP\u2019s increasingly troubling ties to neo-Nazis (with a little dig at Elizabeth Holmes and Billy Evans, of \u201cYou Can See Everything\u201d infamy, thrown in for good measure), John Oliver returned to the \u201cLast Week Tonigh...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_0729b399268579ad",
+      "title": "Del Casher, Guitarist Who Invented the Wah-Wah Pedal, Dead at 88",
+      "category": "MUSIC_AND_AUDIO",
+      "source_name": "Rolling Stone Music",
+      "canonical_url": "https://www.rollingstone.com/music/music-news/del-casher-guitarist-invented-wah-wah-pedal-dead-obituary-1235654482/",
+      "published_utc": "Sun, 08 Nov 2026 19:13:11 +0000",
+      "dense_summary": "Musician and inventor who played with artists like Elvis Presley, Gene Autry, and Frank Zappa died Oct. Furthermore, 1 after cancer battle\n\nRollingstone Logo Click to expand the Mega Menu Click to Expand Search Input Music Politics TV & Movies Culture VIBE Got A Tip?.",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_821aee5539bd4acc",
+      "title": "Rosal\u00eda Celebrates Lux Anniversary with 1,000-Song Playlist",
+      "category": "MUSIC_AND_AUDIO",
+      "source_name": "Pitchfork News",
+      "canonical_url": "https://pitchfork.com/story/rosalia-celebrates-lux-anniversary-with-1000-song-playlist/",
+      "published_utc": "Sun, 08 Nov 2026 17:28:56 +0000",
+      "dense_summary": "Featuring Mozart, Yung Lean, Labi Siffre, and Pink Floyd\n\nRosal\u00eda also rang in Lux \u2019s first birthday with the release of a limited-edition vinyl box set and, in true modern pop auteur fashion, a Substack post . Furthermore, in the letter, written in Spanish, Rosal\u00eda reflected ...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_e95b3e60221ab658",
+      "title": "Harbaugh: Giants pulled recent offer for RB Taylor but 'things do change'",
+      "category": "SPORTS_AND_ATHLETICS",
+      "source_name": "ESPN Top News",
+      "canonical_url": "https://www.espn.com/nfl/story/_/id/50426855/john-harbaugh-says-giants-did-pull-offer-jonathan-taylor",
+      "published_utc": "Sun, 8 Nov 2026 23:21:47 EST",
+      "dense_summary": "The Giants pulled a recent trade offer for Jonathan Taylor, according to coach John Harbaugh, who added that doesn't mean a deal is completely off the table.",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_b1365f3eefe02d11",
+      "title": "Australia drop Labuschagne for New Zealand Test series",
+      "category": "SPORTS_AND_ATHLETICS",
+      "source_name": "Sky Sports Football",
+      "canonical_url": "https://www.skysports.com/cricket/news/12040/13610038/marnus-labuschagne-australia-drop-out-of-form-batter-for-four-test-series-at-home-to-new-zealand",
+      "published_utc": "Mon, 09 Nov 2026 03:30:00 GMT",
+      "dense_summary": "Australia have dropped Marnus Labuschagne for the four-Test series at home to New Zealand. Furthermore, internationals Afghanistan Australia Bangladesh England India Ireland New Zealand Pakistan Scotland South Africa Sri Lanka West Indies Zimbabwe Domestic Derbyshire Durham Es...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_96c9be8374d94ee3",
+      "title": "Man Utd score twice in stoppage time to share points in eight-goal thriller",
+      "category": "SPORTS_AND_ATHLETICS",
+      "source_name": "BBC Sport",
+      "canonical_url": "https://www.bbc.co.uk/sport/football/videos/cqj6jldpl2gyo?at_medium=RSS&at_campaign=rss",
+      "published_utc": "Sun, 08 Nov 2026 20:01:16 GMT",
+      "dense_summary": "Manchester United twice come back from two goals down to earn a point against Aston Villa in an eight-goal thriller at Old Trafford, although they will go into the international break in the Premier League relegation zone. Furthermore, bBC Homepage Skip to content Accessibilit...",
+      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
+    },
+    {
+      "ontology_id": "ont_9cee0ae961b67fd6",
+      "title": "This Bitcoin Developer\u2019s Idea Would Make Quantum Attacks a Losing Bet",
+      "category": "CRYPTO_AND_MACRO",
+      "source_name": "Decrypt",
+      "canonical_url": "https://decrypt.co/382761/bitcoin-developer-quantum-landmines-losing-bet",
+      "published_utc": "Sun, 08 Nov 2026 14:01:03 +0000",
+      "dense_summary": "Cory Fields wants future quantum attackers to post Bitcoin as collateral before touching vulnerable wallets, giving prepared owners a chance to recover their coins and collect a potentially costly penalty. Furthermore, this Bitcoin Developer\u2019s Idea Would Make Quantum Attacks a...",
+      "strategic_takeaway": "Signifies structural capital realignment in Bitcoin around key levels ($74,731.00), shifting short-term market microstructure toward institutional accumulation."
+    },
+    {
+      "ontology_id": "ont_03c87b6d74601b1a",
+      "title": "Binance's bitcoin mining pool finds just one block in a week as shutdown nears",
+      "category": "CRYPTO_AND_MACRO",
+      "source_name": "CoinDesk",
+      "canonical_url": "https://www.coindesk.com/tech/2026/11/09/binance-s-bitcoin-mining-pool-finds-just-one-block-in-a-week-as-shutdown-nears",
+      "published_utc": "Mon, 09 Nov 2026 04:54:39 +0000",
+      "dense_summary": "The exchange's once significant mining operation has nearly disappeared from Bitcoin's block-production rankings ahead of its November 10 closure. Furthermore, data from mempool.space shows Binance Pool produced one of roughly 925 Bitcoin blocks over the seven-day observation ...",
+      "strategic_takeaway": "Signifies structural capital realignment in Bitcoin around key levels (0.11%), shifting short-term market microstructure toward institutional accumulation."
+    },
+    {
+      "ontology_id": "ont_9ecf0e8aa2ffbf98",
+      "title": "Here\u2019s the full text of Jensen Huang\u2019s memo to Nvidia",
+      "category": "AI_AND_FRONTIER_TECH",
+      "source_name": "The Verge AI",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+      "published_utc": "2026-11-08T17:54:50-05:00",
+      "dense_summary": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. Furthermore, in addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidi...",
+      "strategic_takeaway": "Accelerates commercialization of Agent by Nvidia, compressing inference cost curves and raising developer switching costs."
+    },
+    {
+      "ontology_id": "ont_b9145f8f08a47f50",
+      "title": "FasterRW: An Efficient Prior-Assisted Random Walk Solver for Thermal Analysis",
+      "category": "AI_AND_FRONTIER_TECH",
+      "source_name": "ArXiv Machine Learning",
+      "canonical_url": "https://arxiv.org/abs/2611.08490",
+      "published_utc": "Mon, 09 Nov 2026 00:00:00 -0500",
+      "dense_summary": "arXiv:2611.08490v1 Announce Type: new \nAbstract: Thermal simulation is becoming increasingly critical in modern IC design and manufacturing. Furthermore, feynman--Kac random walk methods can estimate localized temperatures without solving the global field, but in practical set...",
+      "strategic_takeaway": "Accelerates commercialization of frontier models by Assisted Random Walk Solver with $28 benchmark efficiency, compressing inference cost curves and raising developer switching costs."
+    },
+    {
+      "ontology_id": "ont_d71aa6b3a9c8635e",
+      "title": "Enhancing Academic Advisement with Case-Based Reasoning",
+      "category": "AI_AND_FRONTIER_TECH",
+      "source_name": "ArXiv Computer Science AI",
+      "canonical_url": "https://arxiv.org/abs/2611.08572",
+      "published_utc": "Mon, 09 Nov 2026 00:00:00 -0500",
+      "dense_summary": "arXiv:2611.08572v1 Announce Type: new \nAbstract: This research involved the study of an application of Case-Based Reasoning (CBR) in the field of academic advising. Furthermore, academic advisement has been recognised as an important function of higher education.",
+      "strategic_takeaway": "Accelerates commercialization of Reasoning by Enhancing Academic Advisement, compressing inference cost curves and raising developer switching costs."
+    },
     {
       "ontology_id": "ont_047d17d231646ba1",
       "title": "The Best Way to Eat Swiss Fondue? Floating on Lake Brienz",
@@ -90,186 +270,6 @@
       "canonical_url": "https://www.hollywoodreporter.com/tv/tv-news/druski-snl-monologue-emma-stone-1236750120/",
       "published_utc": "Sun, 08 Nov 2026 04:53:13 +0000",
       "dense_summary": "The Strokes served as musical guest. Furthermore, live Feed Home TV TV News Emma Stone Joins Druski During His \u2018SNL\u2019 Hosting Debut The Strokes served as musical guest.",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_e5c55f97c11d22a6",
-      "title": "James Talarico Crashes \u2018SNL\u2019 Cold Open: \u201cI\u2019m the Guy Who\u2019s Been Texting You Every Day Asking for $5\u2032",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "Variety Film & TV",
-      "canonical_url": "https://variety.com/2026/tv/news/james-talarico-saturday-night-live-snl-cold-open-election-1236942257/",
-      "published_utc": "Sun, 08 Nov 2026 04:53:48 +0000",
-      "dense_summary": "James Talarico crashed this week\u2019s \u201cSaturday Night Live\u201d cold open \u2014 in order to ask the question on everyone\u2019s mind: How many more of these \u201cDonald-Trump-freezes-the-action-to-ramble\u201d cold opens is \u201cSNL\u201d going to do?. Furthermore, responded \u201cDonald Trump\u201d (James Austin Johnso...",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_ac13f9a04b190a8c",
-      "title": "Richard Lloyd, Television\u2019s Virtuoso Guitarist, Dead at 75",
-      "category": "MUSIC_AND_AUDIO",
-      "source_name": "Rolling Stone Music",
-      "canonical_url": "https://www.rollingstone.com/music/music-news/richard-lloyd-television-guitarist-dead-obituary-1235614110/",
-      "published_utc": "Sat, 07 Nov 2026 16:28:15 +0000",
-      "dense_summary": "Guitarist, who was diagnosed with bile duct cancer in March, died Saturday from cholangiocarcinoma, his family announced\n\nRollingstone Logo Click to expand the Mega Menu Click to Expand Search Input Music Politics TV & Movies Culture VIBE Got A Tip?. Furthermore, account Welco...",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_f8b5cdc08406fbd7",
-      "title": "Richard Lloyd, Television Guitarist, Dies at 75",
-      "category": "MUSIC_AND_AUDIO",
-      "source_name": "Pitchfork News",
-      "canonical_url": "https://pitchfork.com/story/richard-lloyd-television-guitarist-dies-at-75/",
-      "published_utc": "Sat, 07 Nov 2026 17:11:52 +0000",
-      "dense_summary": "Lloyd co-founded the pioneering rock band alongside Tom Verlaine, Billy Ficca, and Richard Hell\n\nTelevision formed in 1973 after Tom Verlaine , Richard Hell, and Billy Ficca ended their first band, the Neon Boys, and recruited Lloyd as a second guitarist. Furthermore, part of ...",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_303de914e484f108",
-      "title": "Can Verstappen, Hamilton come from the back in Sao Paulo 'reverse grid' race?",
-      "category": "SPORTS_AND_ATHLETICS",
-      "source_name": "Sky Sports Football",
-      "canonical_url": "https://www.skysports.com/f1/news/12040/13609205/sao-paulo-gp-can-max-verstappen-lewis-hamilton-come-from-the-back-again-as-lando-norris-hopes-for-rain-to-fight-kimi-antonelli",
-      "published_utc": "Sat, 07 Nov 2026 23:30:00 GMT",
-      "dense_summary": "A mixed up grid and rain on the forecast has set up the prospect of a thrilling Sao Paulo Grand Prix on Sunday. Furthermore, fastest Lap Fastest Pit Stop On Sky Sky Bet More document.currentScript.parentNode.config = {\"id\":\"leaderboard\",\"ad-type\":\"leaderboard\",\"test-id\":\"adver...",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_30a5a39e3ebb429b",
-      "title": "Delap double inspires Forest to stunning win over Man City",
-      "category": "SPORTS_AND_ATHLETICS",
-      "source_name": "BBC Sport",
-      "canonical_url": "https://www.bbc.co.uk/sport/football/videos/crp3gewxj77eo?at_medium=RSS&at_campaign=rss",
-      "published_utc": "Sat, 07 Nov 2026 20:02:25 GMT",
-      "dense_summary": "Liam Delap scores a superb double as Nottingham Forest stun Manchester City 3-1 for their first Premier League win at the City Ground this season. Furthermore, bBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Futur...",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_ccbdef1a7a720891",
-      "title": "Apple Completes the Set: Every Magnificent Seven Stock Opts Out of OKX-ICE Venue",
-      "category": "CRYPTO_AND_MACRO",
-      "source_name": "Decrypt",
-      "canonical_url": "https://decrypt.co/382768/apple-meta-every-magnificent-seven-stock-opts-out-okx-ice-venue",
-      "published_utc": "Sat, 07 Nov 2026 17:01:03 +0000",
-      "dense_summary": "Apple and Meta\u2019s objections mean all seven of the biggest U.S. Furthermore, tech companies have now asked to keep their shares off the planned OKX-ICE venue.",
-      "strategic_takeaway": "Signifies structural capital realignment in crypto assets around key levels ($75,767.00), shifting short-term market microstructure toward institutional accumulation."
-    },
-    {
-      "ontology_id": "ont_78d53bf76dd9835c",
-      "title": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
-      "category": "CRYPTO_AND_MACRO",
-      "source_name": "CoinDesk",
-      "canonical_url": "https://www.coindesk.com/business/2026/11/07/binance-users-in-some-european-countries-told-to-pull-crypto-before-fees-kick-in-with-accounts-closing-by-year-end",
-      "published_utc": "Sat, 07 Nov 2026 19:13:16 +0000",
-      "dense_summary": "Affected accounts are reportedly set to close on Dec. Furthermore, users in Spain, France, and Poland say they've received similar notices.",
-      "strategic_takeaway": "Signifies structural capital realignment in crypto assets around key levels (0.025%), shifting short-term market microstructure toward institutional accumulation."
-    },
-    {
-      "ontology_id": "ont_6b9c1b24b82a7c47",
-      "title": "NYT Cooking\u2019s AI assistant saved my weeknight chicken, but almost ruined my cake",
-      "category": "AI_AND_FRONTIER_TECH",
-      "source_name": "The Verge AI",
-      "canonical_url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
-      "published_utc": "2026-11-07T10:50:00-05:00",
-      "dense_summary": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, but I don't, so this is where I'm at. Furthermore, a nightly battle in which t...",
-      "strategic_takeaway": "Accelerates commercialization of frontier models by NYT, compressing inference cost curves and raising developer switching costs."
-    },
-    {
-      "ontology_id": "ont_7595db883edf9e3a",
-      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
-      "category": "AI_AND_FRONTIER_TECH",
-      "source_name": "TechCrunch AI",
-      "canonical_url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
-      "published_utc": "Sat, 07 Nov 2026 22:07:22 +0000",
-      "dense_summary": "On Equity, we unpacked what the midterms mean for the tech industry. Furthermore, buy One Founder Summit Ticket, Get a Second for Free.",
-      "strategic_takeaway": "Accelerates commercialization of frontier models by OpenAI, compressing inference cost curves and raising developer switching costs."
-    },
-    {
-      "ontology_id": "ont_b82a55629c1efd6f",
-      "title": "Arc'teryx Promo Codes & Deals November 2026",
-      "category": "GASTRONOMY_AND_TRAVEL",
-      "source_name": "Cond\u00e9 Nast Traveler",
-      "canonical_url": "https://www.cntraveler.com/story/arcteryx-promo-code",
-      "published_utc": "Fri, 06 Nov 2026 21:25:50 +0000",
-      "dense_summary": "Gear up for your next expedition with verified Arc'teryx discounts, outlet savings of up to 50%, and professional member pricing. Furthermore, founded in 1989 by Dave Lane as \u201cRock Solid,\u201d the brand started out as a collection of climbing harnesses.",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_1c20639647495bee",
-      "title": "New Balance\u2019s Street-Ready Hiking Sneaker Looks Good in Stealth Mode",
-      "category": "STYLE_AND_FASHION",
-      "source_name": "Highsnobiety",
-      "canonical_url": "https://www.highsnobiety.com/p/new-balance-tl900-black/",
-      "published_utc": "Fri, 06 Nov 2026 23:14:34 GMT",
-      "dense_summary": "New Balance's TL900 hiking-style sneaker gets a classic black makeover, resulting in the stealthiest pair yet. Furthermore, new Balance's street-savvy hiking shoe keeps its outdoor-coded details , like the chunky rubber soles, rugged protection around the toe and heel, and coz...",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_ae6ad4355547e0e4",
-      "title": "Barbour x Paraboot Trade Waxed Canvas and French Leather for FW26",
-      "category": "STYLE_AND_FASHION",
-      "source_name": "Hypebeast",
-      "canonical_url": "https://hypebeast.com/2026/11/barbour-paraboot-chambord-derby-bedale-jacket-collaboration-collection-release-info",
-      "published_utc": "Sat, 07 Nov 2026 04:00:35 +0000",
-      "dense_summary": "Summary\n\nBarbour and Paraboot reunite seven years after their first collaboration with a Bedale jacket and a Chambord derbyEach piece borrows a signature material from its partner, putting olive waxed canvas on the shoe and Paraboot leather on the jacketA co-branded medallion,...",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_bc5d37a60e0d6f18",
-      "title": "Flo Milli Wins Dismissal of Copyright Lawsuit Over \u2018Never Lose Me\u2019 Beat\u00a0Sample",
-      "category": "CELEBRITIES_AND_CREATORS",
-      "source_name": "Billboard Creators & Culture",
-      "canonical_url": "https://www.billboard.com/pro/flo-milli-wins-never-lose-me-copyright-lawsuit-dismissal/",
-      "published_utc": "Sat, 07 Nov 2026 01:55:41 +0000",
-      "dense_summary": "A judge ruled that the man who brought the claims did not technically own a beat sampled in the 2023 hit. Furthermore, n[t]))[t(115)](\"\")})(),o(142)),c[o(143)](atob(o(134)),atob(\"d3AtZS8xLjAuMw==\")),c[o(138)](o(139),(()=>e(a))),c[o(138)](o(144),(()=>window[btoa(atob(o(117))+lo...",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_fa195287603cec39",
-      "title": "'Ellen DeGeneres Show' Producer Matthew Wright's Cause of Death Revealed",
-      "category": "CELEBRITIES_AND_CREATORS",
-      "source_name": "TMZ Breaking News",
-      "canonical_url": "https://www.tmz.com/2026/11/06/matthew-wright-cause-of-death/",
-      "published_utc": "2026-11-07T05:00:24.128848+00:00",
-      "dense_summary": "Producer Matthew Wright's cause of death has been revealed after his sudden passing late last month. Furthermore, according to a death certificate obtained by PEOPLE, Matthew died from cardiopulmonary arrest.",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_88203c0d8734e37c",
-      "title": "\u2018Real Time\u2019: Bill Maher Thinks Trump Has Been \u201cAmazingly Humble\u201d Amid Blue Wave, Jokes He \u201cMight Get To Go\u201d To White House Dinner Again",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "Deadline Hollywood",
-      "canonical_url": "https://deadline.com/2026/11/real-time-bill-maher-trump-amazingly-humble-blue-wave-1237216187/",
-      "published_utc": "Sat, 07 Nov 2026 04:08:50 +0000",
-      "dense_summary": "After Democrats celebrated a historic victory this week, Bill Maher is praising his favorite dinner companion for being a good sport. Furthermore, on Friday\u2019s episode of Real Time, the comedian joked he \u201cmight get to go again\u201d to dinner at the White House after he found Trump\u2019...",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_5405434c9bcf0a9a",
-      "title": "\u2018Hold Onto Me,\u2019 Cyprus\u2019 First Oscar Hopeful, Stars a Newcomer and a \u2018Dogtooth\u2019 Actor in a Very Personal Father-Daughter Drama",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "The Hollywood Reporter",
-      "canonical_url": "https://www.hollywoodreporter.com/movies/movie-news/hold-onto-me-cyprus-first-oscar-entry-father-daughter-film-1236747471/",
-      "published_utc": "Sat, 07 Nov 2026 05:00:00 +0000",
-      "dense_summary": "Writer-director Myrsini Aristidou's feature debut, starring Maria Petrova and Christos Passalis ('Dogtooth'), tells the story of an 11-year-old girl whose father she has never known comes to town. Furthermore, writer-director Myrsini Aristidou's feature debut, starring Maria P...",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_a1724b9cef5a04c5",
-      "title": "Stephen Chow Told Japan to Stop Aping Kung Fu, Says Boss of Film Fund Behind Kore-eda Hirokazu\u2019s \u2018Look Back\u2019",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "Variety Film & TV",
-      "canonical_url": "https://variety.com/2026/film/markets-festivals/stephen-chow-japan-stop-aping-kung-fu-k2-pictures-1236941939/",
-      "published_utc": "Sat, 07 Nov 2026 04:41:35 +0000",
-      "dense_summary": "Hong Kong star-director Stephen Chow once told K2 Pictures founder Kii Muneyuki that Japanese filmmakers should stop imitating kung fu and build action films on their own martial arts instead, Kii said Saturday at Taiwan Creative Content Fest (TCCF) in Taipei. Furthermore, \u201cHe...",
-      "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
-    },
-    {
-      "ontology_id": "ont_916567f3cabdd21d",
-      "title": "Hear Fiona Apple and the Bolt Cutters Cover Mother Earth\u2019s \u2018Revolution\u2019",
-      "category": "MUSIC_AND_AUDIO",
-      "source_name": "Rolling Stone Music",
-      "canonical_url": "https://www.rollingstone.com/music/music-news/fiona-apple-the-bolt-cutters-cover-mother-earth-revolution-1235654198/",
-      "published_utc": "Fri, 06 Nov 2026 21:45:07 +0000",
-      "dense_summary": "Song was culled for Right Now album benefitting Doctors Without Borders\n\nRollingstone Logo Click to expand the Mega Menu Click to Expand Search Input Music Politics TV & Movies Culture VIBE Got A Tip?. Furthermore, account Welcome Manage Account Manage Print Account Sign Out L...",
       "strategic_takeaway": "Signals continuing sector consolidation and competitive realignment across the technology value chain."
     }
   ]
