@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-12T05:14:03Z",
+  "updated_utc": "2026-11-13T05:18:34Z",
   "swarm_architecture_version": "2.1.0",
   "audio_engine": "Kokoro-82M v1.0 Open-Source Human Narrator (-14 LUFS)",
   "visual_engine": "Antigravity Warm Cream Editorial Luxury (#FAF7F0)",
@@ -10,18 +10,198 @@
     "20:00 (evening)"
   ],
   "graph_stats": {
-    "total_stories": 374,
-    "total_entities": 2272,
-    "total_knowledge_triples": 271,
+    "total_stories": 393,
+    "total_entities": 2428,
+    "total_knowledge_triples": 303,
     "entity_breakdown": {
-      "METRICS": 231,
-      "ORGANIZATIONS": 980,
-      "PEOPLE": 1014,
-      "TECHNOLOGIES": 47
+      "METRICS": 242,
+      "ORGANIZATIONS": 1055,
+      "PEOPLE": 1081,
+      "TECHNOLOGIES": 50
     },
     "density_ratio": 0.12
   },
   "stories": [
+    {
+      "ontology_id": "ont_f7c7d2747d793281",
+      "title": "15 Hotels With Actually Luxurious Indoor Pools",
+      "category": "GASTRONOMY_AND_TRAVEL",
+      "source_name": "Cond\u00e9 Nast Traveler",
+      "canonical_url": "https://www.cntraveler.com/gallery/hotels-with-actually-luxurious-indoor-pools",
+      "published_utc": "Thu, 12 Nov 2026 22:39:52 +0000",
+      "dense_summary": "From thermal baths powered by hot springs to top-level tanks with skyline views, these indoor pools are sure to stun. Furthermore, indoor hotel pools in North America Indoor hotel pools in South America Indoor hotel pools in Europe Indoor hotel pools in Asia Indoor hotel pools...",
+      "strategic_takeaway": "Hotels With Actually Luxurious Indoor Pools\nFrom recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_51a67f546316501b",
+      "title": "Highly Specific Observations While Scouting for the 2026 Eater Awards",
+      "category": "GASTRONOMY_AND_TRAVEL",
+      "source_name": "Eater Food News",
+      "canonical_url": "https://www.eater.com/dining-out/999548/eater-awards-restaurant-research-observations",
+      "published_utc": "2026-11-12T10:00:00-05:00",
+      "dense_summary": "The past year has been one of \u201cGreat Chickenings\u201d and fine dining flips, British food invasions and restaurants whose dining rooms feel like living rooms, vibrant global steakhouses and unserious Y2K food. Furthermore, among the slate of our 2026 Eater Award winners \u2014 which al...",
+      "strategic_takeaway": "Runway recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_1e288edf07aaf863",
+      "title": "The Seven Best adidas Sneaker Releases This Week",
+      "category": "STYLE_AND_FASHION",
+      "source_name": "Highsnobiety",
+      "canonical_url": "https://www.highsnobiety.com/p/adidas-sneaker-releases-november-week-2/",
+      "published_utc": "Thu, 12 Nov 2026 22:30:00 GMT",
+      "dense_summary": "This week was so chock-full of adidas standouts, we picked. Furthermore, that\u2019s the thrust of it, anyway.",
+      "strategic_takeaway": "Sneaker Releases This Week\nThis recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_4989c50e78c7fbbc",
+      "title": "HUF and Godzilla Reunite for FW26 Collaboration",
+      "category": "STYLE_AND_FASHION",
+      "source_name": "Hypebeast",
+      "canonical_url": "https://hypebeast.com/2026/11/huf-godzilla-fw26-collaboration-release-info",
+      "published_utc": "Fri, 13 Nov 2026 04:02:48 +0000",
+      "dense_summary": "Summary\n\nHUF and Godzilla have reunited for a Fall/Winter 2026 collaboration coinciding with the theatrical release of Godzilla-0.0The collection reconstructs vintage kaiju visuals Japanese typography and film artwork across apparel headwear accessories and 7-ply maple skate d...",
+      "strategic_takeaway": "HUF recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_4ef5cc690b9c3687",
+      "title": "Sienna Spiro Cancels Appearance at 2026 ARIA Awards: \u2018I Have to Listen to My\u00a0Body\u2019",
+      "category": "CELEBRITIES_AND_CREATORS",
+      "source_name": "Billboard Creators & Culture",
+      "canonical_url": "https://www.billboard.com/music/awards/sienna-spiro-cancels-2026-aria-awards-1236381349/",
+      "published_utc": "Fri, 13 Nov 2026 04:22:38 +0000",
+      "dense_summary": "Melbourne-based hyperpop trio Blusher will take Spiro's spot in the line-up for the the 40th annual ARIAs. Furthermore, lars Brandle More Stories by Lars Sienna Spiro Cancels Appearance at 2026 ARIA Awards: \u2018I Have to Listen to My\u00a0Body\u2019 Genesis Owusu Doubles Up at 2026 J\u00a0Award...",
+      "strategic_takeaway": "Google recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_bfd17ca9212c8bb0",
+      "title": "Camgirl's Screams During Live Stream Help Expose Alleged Abuse, TMZ Doc Reveals",
+      "category": "CELEBRITIES_AND_CREATORS",
+      "source_name": "TMZ Breaking News",
+      "canonical_url": "https://www.tmz.com/2026/11/12/nikita-tyukalo-camgirl-abuse-exposed/",
+      "published_utc": "2026-11-13T05:00:28.353884+00:00",
+      "dense_summary": "A disturbing scream was heard during a camgirl live stream . Furthermore, and it was one of the chilling moments that helped expose an alleged criminal operation.",
+      "strategic_takeaway": "Tmz released Jeffrey Epstein, creating a measurable shift in operational leverage."
+    },
+    {
+      "ontology_id": "ont_c99b0d7ed0ab28ee",
+      "title": "Microsoft Outlook Still Down In 365 Outage: Company Sees Sporadic Improvements, Though No Sustained Recovery",
+      "category": "ENTERTAINMENT_AND_CINEMA",
+      "source_name": "Deadline Hollywood",
+      "canonical_url": "https://deadline.com/2026/11/microsoft-outlook-is-down-email-365-1237221945/",
+      "published_utc": "Fri, 13 Nov 2026 04:53:24 +0000",
+      "dense_summary": "UPDATED with latest company comments: Earlier this evening Microsoft posted an update on the outages to its 365 platform noting \u201cpositive results with our efforts to restart affected infrastructure and recover server availability.\u201d The optimism was short lived. Furthermore, ab...",
+      "strategic_takeaway": "Microsoft recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_4c128047b517834d",
+      "title": "Latin Grammys 2026: Rosal\u00eda Wins Album of the Year",
+      "category": "ENTERTAINMENT_AND_CINEMA",
+      "source_name": "The Hollywood Reporter",
+      "canonical_url": "https://www.hollywoodreporter.com/music/music-news/latin-grammys-2026-winners-rosalia-album-of-the-year-1236754523/",
+      "published_utc": "Fri, 13 Nov 2026 04:25:05 +0000",
+      "dense_summary": "Janet Jackson also presented Daddy Yankee with the person of the year honor. Furthermore, janet Jackson also presented Daddy Yankee with the person of the year honor.",
+      "strategic_takeaway": "Related Stories invested in La Perla, creating a measurable shift in operational leverage."
+    },
+    {
+      "ontology_id": "ont_34aa11670134043d",
+      "title": "Latin Grammys Full Winners List: Rosal\u00eda Wins Big With Album and Song of the Year Honors",
+      "category": "ENTERTAINMENT_AND_CINEMA",
+      "source_name": "Variety Film & TV",
+      "canonical_url": "https://variety.com/2026/music/news/latin-grammys-winners-list-rosalia-1236946768/",
+      "published_utc": "Fri, 13 Nov 2026 04:21:41 +0000",
+      "dense_summary": "The 2026 Latin Grammys took place on Nov. Furthermore, 12 at the MGM Grand Garden Arena in Las Vegas.",
+      "strategic_takeaway": "Latin Grammys Full Winners List recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_2a269d512fecb60d",
+      "title": "Sting Is Officially a Latin Grammy Winner",
+      "category": "MUSIC_AND_AUDIO",
+      "source_name": "Rolling Stone Music",
+      "canonical_url": "https://www.rollingstone.com/music/music-news/sting-first-latin-grammy-win-1235657253/",
+      "published_utc": "Fri, 13 Nov 2026 01:45:50 +0000",
+      "dense_summary": "The rocker won Best Pop/Rock Song for his work on Ca7riel & Paco Amoroso's latest album\n\nRollingstone Logo Click to expand the Mega Menu Click to Expand Search Input Music Politics TV & Movies Culture VIBE Got A Tip?. Furthermore, account Welcome Manage Account Manage Print Ac...",
+      "strategic_takeaway": "Google recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_759be4897568197d",
+      "title": "Watch Rosal\u00eda Perform a Lux Medley at the 2026 Latin Grammys",
+      "category": "MUSIC_AND_AUDIO",
+      "source_name": "Pitchfork News",
+      "canonical_url": "https://pitchfork.com/story/watch-rosalia-perform-a-lux-medley-at-the-2026-latin-grammys/",
+      "published_utc": "Fri, 13 Nov 2026 02:33:11 +0000",
+      "dense_summary": "Her 2025 album is up for seven statuettes tonight\n\nIt\u2019s already been an exciting month for Rosal\u00eda. Furthermore, this week, her role in Wet \u2014a so-far-extremely-mysterious new film from Alma Har\u2019el\u2014was confirmed.",
+      "strategic_takeaway": "Latin Grammys\nHer recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_fa81379d8750f8b8",
+      "title": "England crumble vs Australia as ODI debutant Beardman runs riot LIVE!",
+      "category": "SPORTS_AND_ATHLETICS",
+      "source_name": "Sky Sports Football",
+      "canonical_url": "https://www.skysports.com/cricket/live-blog/12040/13611517/australia-vs-england-first-odi-live-latest-cricket-score-and-updates-from-series-opener-in-perth",
+      "published_utc": "Fri, 13 Nov 2026 03:10:00 GMT",
+      "dense_summary": "Football F1 Cricket Rugby Union Rugby League Golf Boxing NFL Tennis NBA Racing Darts Netball MMA More Sports Scores Football F1 Cricket Rugby Union Rugby League Golf NFL Tennis Watch Sky Bet More Podcasts Upcoming on Sky Get Sky Sports Sky Sports App Sky Sports with no contrac...",
+      "strategic_takeaway": "Football F1 Cricket Rugby Union Rugby League Golf Boxing recorded metric World Cup, creating a measurable shift in operational leverage."
+    },
+    {
+      "ontology_id": "ont_c1b5475157e91cd8",
+      "title": "How Pochettino came on Man Utd's radar - and what Carrick was told when",
+      "category": "SPORTS_AND_ATHLETICS",
+      "source_name": "BBC Sport",
+      "canonical_url": "https://www.bbc.co.uk/sport/football/articles/cqdr1jlr1707o?at_medium=RSS&at_campaign=rss",
+      "published_utc": "Thu, 12 Nov 2026 16:12:39 GMT",
+      "dense_summary": "How Man Utd identified Mauricio Pochettino as their new head coach - and what happened in the week Michael Carrick was left waiting. Furthermore, bBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Wea...",
+      "strategic_takeaway": "How Man Utd recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_c6d5206a29a6d56e",
+      "title": "Republican Senator Wants to Freeze AI Data Center Boom as Congress Pushes to Expand It",
+      "category": "CRYPTO_AND_MACRO",
+      "source_name": "Decrypt",
+      "canonical_url": "https://decrypt.co/383206/republican-senator-freeze-ai-data-center-boom-congress-pushes-expand",
+      "published_utc": "Thu, 12 Nov 2026 22:36:02 +0000",
+      "dense_summary": "Senator Josh Hawley wants a nationwide construction pause until households are protected from rising power bills, even as Congress advances legislation designed to accelerate America's already massive AI infrastructure buildout. Furthermore, republican Senator Wants to Freeze ...",
+      "strategic_takeaway": "Order flow in digital asset markets at 6% reflects tightening market liquidity and higher institutional verification standards."
+    },
+    {
+      "ontology_id": "ont_4f75f26ec508efab",
+      "title": "Bitcoin dips below $70,000 as Dollar Index hits 19-month high",
+      "category": "CRYPTO_AND_MACRO",
+      "source_name": "CoinDesk",
+      "canonical_url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-dips-below-usd70-000-as-selloff-gathers-pace",
+      "published_utc": "Fri, 13 Nov 2026 03:37:00 +0000",
+      "dense_summary": "The crypto market selloff gathered pace early Friday. Furthermore, bitcoin dropped below $70,000 and ether traded below $2,000, triggering large liquidations in futures market.",
+      "strategic_takeaway": "Order flow in Solana at $70,000 reflects tightening market liquidity and higher institutional verification standards."
+    },
+    {
+      "ontology_id": "ont_18dbc0e02dc7312c",
+      "title": "Google\u2019s new Gemini model is better at understanding complicated questions",
+      "category": "AI_AND_FRONTIER_TECH",
+      "source_name": "The Verge AI",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+      "published_utc": "2026-11-12T16:55:32-05:00",
+      "dense_summary": "Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex questions, including \"questions with multiple parts, hard-to-understand typos, or highly specific requests.\" The new model can break down your questions and address each part in its responses....",
+      "strategic_takeaway": "Google deploys frontier models, moving the benchmark from laboratory theory to production workload execution."
+    },
+    {
+      "ontology_id": "ont_36df7086af7a57c0",
+      "title": "Democrats launch Nvidia investigation, write scathing letter on Huang\u2019s \u2018scheme\u2019 with Trump",
+      "category": "AI_AND_FRONTIER_TECH",
+      "source_name": "TechCrunch AI",
+      "canonical_url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+      "published_utc": "Thu, 12 Nov 2026 22:42:51 +0000",
+      "dense_summary": "This Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke. Furthermore, democrats launch Nvidia investigation, write scathing letter on Huang\u2019s \u2018scheme\u2019 with Trump Julie Bort 2:4...",
+      "strategic_takeaway": "President Trump released United States, creating a measurable shift in operational leverage."
+    },
+    {
+      "ontology_id": "ont_0a0014e3f5d1243c",
+      "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+      "category": "AI_AND_FRONTIER_TECH",
+      "source_name": "MIT Tech Review AI",
+      "canonical_url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+      "published_utc": "Thu, 12 Nov 2026 20:16:24 +0000",
+      "dense_summary": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group ...",
+      "strategic_takeaway": "Nvidia announced Bill Foster, creating a measurable shift in operational leverage."
+    },
     {
       "ontology_id": "ont_5320cb4e7dd4e538",
       "title": "The Seasonal Style Guide to the Low-Key, Not Low-Effort Look",
@@ -91,186 +271,6 @@
       "published_utc": "Thu, 12 Nov 2026 04:42:51 +0000",
       "dense_summary": "In the fifth episode of \u201cSouth Park\u201d Season 29, the blue wave swept through the mountain town of South America, making it a particularly good time to bring Craig Tucker and Tweek Tweak back to the show\u2019s forefront for the first time in years. Furthermore, the episode kicks off...",
       "strategic_takeaway": "Brings Back Craig recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_5f5179553cf2913d",
-      "title": "Phoebe Bridgers, Slayyyter, Billy Strings to Headline Hinterland 2027",
-      "category": "MUSIC_AND_AUDIO",
-      "source_name": "Rolling Stone Music",
-      "canonical_url": "https://www.rollingstone.com/music/music-news/phoebe-bridgers-slayyyter-billy-strings-hinterland-2027-1235655891/",
-      "published_utc": "Wed, 11 Nov 2026 22:43:33 +0000",
-      "dense_summary": "Remi Wolf, Caroline Polachek, Westside Cowboy, and others also set to perform at Iowa fest\n\nRollingstone Logo Click to expand the Mega Menu Click to Expand Search Input Music Politics TV & Movies Culture VIBE Got A Tip?. Furthermore, account Welcome Manage Account Manage Print...",
-      "strategic_takeaway": "Google recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_c0776204bcbd11d7",
-      "title": "Merge Holiday Album to Feature Original New Pornographers, Tubs Songs",
-      "category": "MUSIC_AND_AUDIO",
-      "source_name": "Pitchfork News",
-      "canonical_url": "https://pitchfork.com/story/merge-holiday-album-to-feature-original-new-poronographers-tubs-songs/",
-      "published_utc": "Wed, 11 Nov 2026 19:49:12 +0000",
-      "dense_summary": "One of them is called \u201cI Am an Elf\u201d\n\nSnowed In is the sequel to Merge\u2019s 2019 holiday album, You Wish . Furthermore, other chestnuts this go-round include Dawn Richard\u2019s \u201cOn a Night Like This,\u201d Fruit Bats\u2019 \u201cO!.",
-      "strategic_takeaway": "Merge Holiday Album recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_86d479d484f0e008",
-      "title": "Sources: Rivers-to-NC State deal set to be finalized after Friday board meeting",
-      "category": "SPORTS_AND_ATHLETICS",
-      "source_name": "ESPN Top News",
-      "canonical_url": "https://www.espn.com/college-football/story/_/id/50456831/sources-philip-rivers-nc-state-deal-set-finalized",
-      "published_utc": "Wed, 11 Nov 2026 23:33:01 EST",
-      "dense_summary": "Philip Rivers is set to return to NC State, this time as head football coach, once its trustees finalizes his contract after a meeting Friday, sources said.",
-      "strategic_takeaway": "Industry participants recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_95bf3d2b7c4880e4",
-      "title": "WTA Finals: Sabalenka stunned by Andreeva as Svitolina battles back vs Muchova",
-      "category": "SPORTS_AND_ATHLETICS",
-      "source_name": "Sky Sports Football",
-      "canonical_url": "https://www.skysports.com/tennis/news/12040/13611153/wta-finals-aryna-sabalenka-stunned-by-mirra-andreeva-as-elina-svitolina-battles-back-vs-karolina-muchova-at-indian-wells",
-      "published_utc": "Wed, 11 Nov 2026 16:01:00 GMT",
-      "dense_summary": "World No 3\u00a0Mirra Andreeva booked her place \u200cin the semi-finals of the WTA Finals with a stunning 6-4 6-0 win over Aryna \u200cSabalenka on Wednesday, while Elina Svitolina battled back to beat Karolina \u200bMuchova and keep her hopes alive. Furthermore, document.currentScript.parentNod...",
-      "strategic_takeaway": "WTA recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_cfa31167335256e8",
-      "title": "Pochettino a decade in Man Utd's making - but Carrick deserves better",
-      "category": "SPORTS_AND_ATHLETICS",
-      "source_name": "BBC Sport",
-      "canonical_url": "https://www.bbc.co.uk/sport/football/articles/cwzd9pvjy426o?at_medium=RSS&at_campaign=rss",
-      "published_utc": "Wed, 11 Nov 2026 12:58:17 GMT",
-      "dense_summary": "Mauricio Pochettino looks set to turn a decade-long courtship with Man Utd into a full-blown relationship, says chief football writer Phil McNulty. Furthermore, bBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Futu...",
-      "strategic_takeaway": "BBC recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_f1c307b944e23944",
-      "title": "MSCI Removes Strategy (MSTR) From Its USA Index, Forcing Index Funds to Sell by Nov. 30",
-      "category": "CRYPTO_AND_MACRO",
-      "source_name": "Bitcoin Magazine",
-      "canonical_url": "https://bitcoinmagazine.com/markets/msci-removes-strategy-mstr-usa-index",
-      "published_utc": "Wed, 11 Nov 2026 23:36:56 +0000",
-      "dense_summary": "Bitcoin Magazine\n\nMSCI Removes Strategy (MSTR) From Its USA Index, Forcing Index Funds to Sell by Nov. Furthermore, 30\n\nMSCI will take Strategy, Metaplanet, Yellow Cake, Skel and Upexi out of its global indexes as of the Nov.",
-      "strategic_takeaway": "Order flow in Bitcoin reflects tightening market liquidity and higher institutional verification standards."
-    },
-    {
-      "ontology_id": "ont_0b2523a7823d0f2d",
-      "title": "Bitcoin listless, Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
-      "category": "CRYPTO_AND_MACRO",
-      "source_name": "CoinDesk",
-      "canonical_url": "https://www.coindesk.com/markets/2026/11/12/bitcoin-listless-nvidia-perps-crash-7-as-ceo-jensen-huang-reportedly-faces-the-axe",
-      "published_utc": "Thu, 12 Nov 2026 04:03:47 +0000",
-      "dense_summary": "Nvidia perps are down 7% on Hyperliquid as traders react to reports that CEO Jensen Huang may be removed. Furthermore, bitcoin continues to trade in a familiar price range.",
-      "strategic_takeaway": "Order flow in Bitcoin at 7% reflects tightening market liquidity and higher institutional verification standards."
-    },
-    {
-      "ontology_id": "ont_4804f48dc59c00d9",
-      "title": "Nvidia is reportedly preparing to fire Jensen Huang",
-      "category": "AI_AND_FRONTIER_TECH",
-      "source_name": "The Verge AI",
-      "canonical_url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
-      "published_utc": "2026-11-11T17:44:36-05:00",
-      "dense_summary": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from the New York Times about a second alleged extramarital affair, just days after he admitted to a separate affair with a woman alleged to be a Chinese spy, The Wall Street Journal reports. Furthermor...",
-      "strategic_takeaway": "Nvidia deploys frontier models, moving the benchmark from laboratory theory to production workload execution."
-    },
-    {
-      "ontology_id": "ont_bf66795b5bec1eb0",
-      "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
-      "category": "AI_AND_FRONTIER_TECH",
-      "source_name": "TechCrunch AI",
-      "canonical_url": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
-      "published_utc": "Thu, 12 Nov 2026 03:13:10 +0000",
-      "dense_summary": "Nvidia has no succession plan and a CEO in hot water, so we\u2019ve drafted a shortlist. Furthermore, who could replace Jensen Huang?.",
-      "strategic_takeaway": "Nvidia deploys frontier models reaching 30%, moving the benchmark from laboratory theory to production workload execution."
-    },
-    {
-      "ontology_id": "ont_8193cbbf6dbc2559",
-      "title": "20% Off Away Promo Code | November 2026",
-      "category": "GASTRONOMY_AND_TRAVEL",
-      "source_name": "Cond\u00e9 Nast Traveler",
-      "canonical_url": "https://www.cntraveler.com/story/away-promo-codes",
-      "published_utc": "Tue, 10 Nov 2026 19:10:26 +0000",
-      "dense_summary": "Save on new travel gear this Black Friday with verified Away discounts for 20% off luggage sets, $40 off for referrals, and more great deals this fall. Furthermore, if you\u2019ve been waiting to invest in your next travel companion, know that verified Away promo codes can help you...",
-      "strategic_takeaway": "Work From Anywhere recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_3d83d69af334aad4",
-      "title": "The Best New Restaurants in America in 2026",
-      "category": "GASTRONOMY_AND_TRAVEL",
-      "source_name": "Eater Food News",
-      "canonical_url": "https://www.eater.com/dining-out/993544/best-new-restaurants-america-2026",
-      "published_utc": "2026-11-10T10:00:00-05:00",
-      "dense_summary": "These are the 15 new restaurants that best captured the year in dining. Furthermore, our team of editors and scouts traveled across the country, drawing on years of experience to build the 2026 winners list.",
-      "strategic_takeaway": "Link Rye Bunny recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_9310b3eeb67546a0",
-      "title": "Don\u2019t Call Ever Lola Bunny's Clean Air Jordan \u201cDoll\u201d",
-      "category": "STYLE_AND_FASHION",
-      "source_name": "Highsnobiety",
-      "canonical_url": "https://www.highsnobiety.com/p/jordan-3-space-jam-lola-bunny/",
-      "published_utc": "Tue, 10 Nov 2026 21:56:43 GMT",
-      "dense_summary": "Lola Bunny gets her own clean pink Air Jordan 3 Retro sneaker for 30th anniversary of \"Space Jam.\"\n\nThe Jordan Brand dedicates a specially clean Air Jordan 3 Retro sneaker to the character. Furthermore, it features crisp white leather uppers with soft pink gradient finishes.",
-      "strategic_takeaway": "Call Ever Lola Bunny recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_6da1a219d8e33d77",
-      "title": "\u2018Beyond Anything I Could Have Imagined\u2019: Carl Cox  Presented With OBE By Prince\u00a0William",
-      "category": "CELEBRITIES_AND_CREATORS",
-      "source_name": "Billboard Creators & Culture",
-      "canonical_url": "https://www.billboard.com/music/awards/carl-cox-presented-obe-prince-william-1236379201/",
-      "published_utc": "Wed, 11 Nov 2026 04:15:00 +0000",
-      "dense_summary": "The pioneering DJ and record producer was honored during a ceremony at Windsor Castle. Furthermore, lars Brandle More Stories by Lars \u2018Beyond Anything I Could Have Imagined\u2019: Carl Cox Presented With OBE By Prince\u00a0William Ninajirachi Wins 2026 NSW Music\u00a0Prize JISOO Slows Down T...",
-      "strategic_takeaway": "Google recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_9f14e522abd1a11a",
-      "title": "Turning Point USA Denies Involvement in Alleged Rutgers University Assault",
-      "category": "CELEBRITIES_AND_CREATORS",
-      "source_name": "TMZ Breaking News",
-      "canonical_url": "https://www.tmz.com/2026/11/10/turning-point-usa-denies-staff-involvement-in-alleged-rutgers-incident/",
-      "published_utc": "2026-11-11T05:00:33.739852+00:00",
-      "dense_summary": "A woman who claims to be a former volunteer Rutgers University student chapter Vice President of Turning Point USA says she was assaulted at one of their events in Maryland, however Turning Point denies their employees knew of the situation or were\u2026\n\nThe woman said in video sh...",
-      "strategic_takeaway": "USA recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_c76f0b6b1d7f7d50",
-      "title": "\u2018VisionQuest\u2019 Teases Surprise \u2018Avengers: Doomsday\u2019 Character Return In Post-Credits Scene",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "Deadline Hollywood",
-      "canonical_url": "https://deadline.com/2026/11/visionquest-teases-avengers-doomsday-character-post-credits-scene-1237220017/",
-      "published_utc": "Wed, 11 Nov 2026 04:43:25 +0000",
-      "dense_summary": "SPOILERS: This post contains details about the VisionQuest Season 1 finale episode \u201cForever\u201d A major player appears to be returning to the MCU following the Season 1 finale of VisionQuest. Furthermore, in a post-credits scene from Tuesday\u2019s finale episode \u201cForever\u201d, a hooded f...",
-      "strategic_takeaway": "Character Return In Post recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_7efae139c5ee5a34",
-      "title": "\u2018You\u2019ve Got Mail\u2019 Reboot in the Works at Warner Bros.",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "The Hollywood Reporter",
-      "canonical_url": "https://www.hollywoodreporter.com/movies/movie-news/youve-got-mail-reboot-warner-bros-1236752627/",
-      "published_utc": "Wed, 11 Nov 2026 03:52:30 +0000",
-      "dense_summary": "The film from director Jason Orley will be a new take on the original 1998 rom-com starring Tom Hanks and Meg Ryan. Furthermore, the film from director Jason Orley will be a new take on the original 1998 rom-com starring Tom Hanks and Meg Ryan.",
-      "strategic_takeaway": "Related Stories Business Pam Abdy Laments Exits announced New Boss David Ellison\n\nThe, creating a measurable shift in operational leverage."
-    },
-    {
-      "ontology_id": "ont_1f5a30eb0127409e",
-      "title": "MCU Surprise: \u2018VisionQuest\u2019 Finale Teases the Return of [SPOILER] in \u2018Avengers: Doomsday\u2019",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "Variety Film & TV",
-      "canonical_url": "https://variety.com/2026/film/news/visionquest-elizabeth-olsen-avengers-doomsday-scarlet-witch-1235365599/",
-      "published_utc": "Wed, 11 Nov 2026 03:40:57 +0000",
-      "dense_summary": "SPOILER WARNING: This story contains major spoilers for \u201cForever,\u201d the finale of \u201cVisionQuest,\u201d now streaming on Disney+. Furthermore, the \u201cWandaVision\u201d Saga has come to a close with the final episode of the Disney+ series \u201cVisionQuest.\u201d But it seems as though the story of the...",
-      "strategic_takeaway": "MCU recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_4bedf291a80a7dda",
-      "title": "Sade Are Not Attending Rock & Roll Hall of Fame Induction Ceremony",
-      "category": "MUSIC_AND_AUDIO",
-      "source_name": "Rolling Stone Music",
-      "canonical_url": "https://www.rollingstone.com/music/music-news/sade-not-attending-rock-roll-hall-fame-induction-ceremony-1235655607/",
-      "published_utc": "Wed, 11 Nov 2026 00:07:44 +0000",
-      "dense_summary": "\u201cPlease know that our absence takes nothing away from how much this recognition means to us,\u201d band writes\n\nRollingstone Logo Click to expand the Mega Menu Click to Expand Search Input Music Politics TV & Movies Culture VIBE Got A Tip?. Furthermore, account Welcome Manage Accou...",
-      "strategic_takeaway": "Google recalibrates operational strategy to defend unit economics and distribution access."
     }
   ]
 }
