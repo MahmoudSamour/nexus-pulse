@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-18T09:39:54Z",
+  "updated_utc": "2026-11-20T05:19:06Z",
   "swarm_architecture_version": "2.1.0",
   "audio_engine": "Kokoro-82M v1.0 Open-Source Human Narrator (-14 LUFS)",
   "visual_engine": "Antigravity Warm Cream Editorial Luxury (#FAF7F0)",
@@ -10,267 +10,267 @@
     "20:00 (evening)"
   ],
   "graph_stats": {
-    "total_stories": 526,
-    "total_entities": 3392,
-    "total_knowledge_triples": 529,
+    "total_stories": 580,
+    "total_entities": 3786,
+    "total_knowledge_triples": 595,
     "entity_breakdown": {
-      "METRICS": 326,
-      "ORGANIZATIONS": 1445,
-      "PEOPLE": 1551,
-      "TECHNOLOGIES": 70
+      "METRICS": 355,
+      "ORGANIZATIONS": 1617,
+      "PEOPLE": 1730,
+      "TECHNOLOGIES": 84
     },
     "density_ratio": 0.16
   },
   "stories": [
     {
-      "ontology_id": "ont_af7fada8082c9cef",
-      "title": "How I Travel: Audra McDonald Needs a Humidifier in Her Hotel Room",
+      "ontology_id": "ont_fc235fea123da006",
+      "title": "Over Arepas and Cachitos, Venezuelans in Madrid Find a Sense of Home",
       "category": "GASTRONOMY_AND_TRAVEL",
       "source_name": "Cond\u00e9 Nast Traveler",
-      "canonical_url": "https://www.cntraveler.com/story/how-i-travel-audra-mcdonald-needs-a-humidifier-in-her-hotel-room",
-      "published_utc": "Tue, 17 Nov 2026 22:48:01 +0000",
-      "dense_summary": "We peek into the airport routines and bizarre quirks of the world's most well-traveled people. Furthermore, while her role in the period drama The Gilded Age doesn\u2019t require singing\u2014yet!\u2014McDonald and the many Broadway legends in the cast released a holiday album this month, \u2018V...",
-      "strategic_takeaway": "Gilded Age released Hbo, creating a measurable shift in operational leverage."
+      "canonical_url": "https://www.cntraveler.com/story/over-arepas-and-cachitos-venezuelans-in-madrid-find-a-sense-of-home",
+      "published_utc": "Thu, 19 Nov 2026 22:20:02 +0000",
+      "dense_summary": "With some 130,000 Venezuelans now living in Madrid, family-run restaurants, community-oriented caf\u00e9s, and beloved empanada stalls keep the country's flavors close. Furthermore, i make my way to the prepared-food stalls aisle, where the woman at Buda Bar Delicias Venezolanas dr...",
+      "strategic_takeaway": "Buda Bar Delicias Venezolanas recalibrates operational strategy to defend unit economics and distribution access."
     },
     {
-      "ontology_id": "ont_9b2de1e9af442e64",
-      "title": "The Best Thanksgiving Side Recipes, According to Eater Editors",
-      "category": "GASTRONOMY_AND_TRAVEL",
-      "source_name": "Eater Food News",
-      "canonical_url": "https://www.eater.com/eater-at-home/998231/the-best-thanksgiving-side-stuffing-recipes-according-to-eater-editors",
-      "published_utc": "2026-11-17T13:08:37-05:00",
-      "dense_summary": "The sides are objectively the best part of Thanksgiving, and it\u2019s not even an argument. Furthermore, mashed potatoes and stuffing are the reason we\u2019re all convening at the table, right?.",
-      "strategic_takeaway": "Amazon recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_a36cad157070c563",
-      "title": "Nike's Most Controversial Silhouette Just Got Monochromed",
+      "ontology_id": "ont_6d039195114c6cf5",
+      "title": "Evisu\u2019s Y2K Denim Didn\u2019t Change. It Grew Up. (EXCLUSIVE)",
       "category": "STYLE_AND_FASHION",
       "source_name": "Highsnobiety",
-      "canonical_url": "https://www.highsnobiety.com/p/nike-air-bakin-black-white/",
-      "published_utc": "Wed, 18 Nov 2026 09:10:00 GMT",
-      "dense_summary": "We\u2019re happy to see the Swoosh's most controversial model back, looking more pared-back than we\u2019re used to, as the Nike Air Bakin Black/White. Furthermore, rising to fame on the feet of Miami Heat legend Tim Hardaway and infamous for its turbulent history regarding its original...",
-      "strategic_takeaway": "Most Controversial Silhouette Just Got Monochromed\nWe recalibrates operational strategy to defend unit economics and distribution access."
+      "canonical_url": "https://www.highsnobiety.com/p/evisu-rebrand-interview/",
+      "published_utc": "Fri, 20 Nov 2026 00:33:39 GMT",
+      "dense_summary": "Evisu's brand director lays out how the Y2K denim giant is evolving into a sophisticated modern brand that also hinges on painted jeans. Furthermore, but since its heyday in the aughts, when Evisu was the quintessential cool-guy jeans \u2014 and preferably paired with BAPES \u2014 the 3...",
+      "strategic_takeaway": "It Grew Up recalibrates operational strategy to defend unit economics and distribution access."
     },
     {
-      "ontology_id": "ont_9b5b33d6b38c0aa3",
-      "title": "McDonald's and 'Home Alone' Unveil the Festive Home Alone Meal",
+      "ontology_id": "ont_fd7d235c5ed6ffb4",
+      "title": "Hiroshi Fujiwara Injects FRGMT DNA Into Bentley",
       "category": "STYLE_AND_FASHION",
       "source_name": "Hypebeast",
-      "canonical_url": "https://hypebeast.com/2026/11/mcdonalds-home-alone-festive-meal-socks-collaboration-release-info",
-      "published_utc": "Wed, 18 Nov 2026 08:36:22 +0000",
-      "dense_summary": "Summary\n\nMcDonald's is dropping four collectible pairs of Home Alone socks as part of a new holiday meal promotionThe nostalgic merchandise arrives alongside thematic menu updates like Little Nero's Pizza McShaker FriesMacaulay Culkin officially returns as Kevin McCallister to...",
-      "strategic_takeaway": "Festive Home Alone Meal\nSummary recalibrates operational strategy to defend unit economics and distribution access."
+      "canonical_url": "https://hypebeast.com/2026/11/hiroshi-fujiwara-injects-frgmt-dna-into-bentley",
+      "published_utc": "Fri, 20 Nov 2026 04:18:08 +0000",
+      "dense_summary": "Summary\n\nHiroshi Fujiwara and Bentley collaborated on the limited 20-unit Torcal FRGMT Commission.The stealthy vehicle features a minimalist, all-black exterior with subtle FRGMT branding.Inside, bespoke blue and black leather highlights exclusive co-branding. Furthermore, ben...",
+      "strategic_takeaway": "Hiroshi Fujiwara Injects recalibrates operational strategy to defend unit economics and distribution access."
     },
     {
-      "ontology_id": "ont_6cde5e1328d87c3e",
-      "title": "Don Toliver Hits the \u2018Nitrous,\u2019 Readies Second Album for 2026: \u2018Press the\u00a0Button\u2019",
+      "ontology_id": "ont_62e566ecba1c733e",
+      "title": "\u2018Grand Theft Auto VI: The Album\u2019 Is Here: Stream the Project Featuring Dua Lipa, Playboi Carti, Lana Del Rey, Cardi B &\u00a0More",
       "category": "CELEBRITIES_AND_CREATORS",
       "source_name": "Billboard Creators & Culture",
-      "canonical_url": "https://www.billboard.com/music/rb-hip-hop/don-toliver-nitrous-album-release-date-1236381755/",
-      "published_utc": "Wed, 18 Nov 2026 09:09:03 +0000",
-      "dense_summary": "The Cactus Jack rapper will make his Saturday Night Live debut on Dec. Furthermore, michael Saponara More Stories by Michael Don Toliver Hits the \u2018Nitrous,\u2019 Readies Second Album for 2026: \u2018Press the\u00a0Button\u2019 Chris Brown Gives Elderly Woman a Night to Remember With Sultry \u2018Take ...",
+      "canonical_url": "https://www.billboard.com/music/music-news/grand-theft-auto-vi-the-album-1236385865/",
+      "published_utc": "Fri, 20 Nov 2026 05:00:00 +0000",
+      "dense_summary": "The long-awaited video game, which was released on Thursday (Nov. Furthermore, 19), has already reportedly generated seven figures in sales.",
       "strategic_takeaway": "Google recalibrates operational strategy to defend unit economics and distribution access."
     },
     {
-      "ontology_id": "ont_32a329efa7ac224f",
-      "title": "Hayden Panettiere: Airbnb Where She Died Is Taking Bookings Again After Brief Hiatus",
+      "ontology_id": "ont_af7c48a5d6a584f3",
+      "title": "Thomas Markle Confuses Meghan and Her Sister During Court-Ordered Psych Evaluation",
       "category": "CELEBRITIES_AND_CREATORS",
       "source_name": "TMZ Breaking News",
-      "canonical_url": "https://www.tmz.com/2026/11/18/hayden-panettiere-death-airbnb-ready-to-rent-out-again/",
-      "published_utc": "2026-11-18T09:20:25.789240+00:00",
-      "dense_summary": "The Airbnb where Hayden Panettiere died in South Carolina is taking bookings again after pausing for a few months after she overdosed inside . Furthermore, the 1-bedroom, 1-bathroom unit is in Judson Mill Lofts in Greenville.",
-      "strategic_takeaway": "Airbnb Where She Died Is Taking Bookings Again After Brief Hiatus\nThe Airbnb recalibrates operational strategy to defend unit economics and distribution access."
+      "canonical_url": "https://www.tmz.com/2026/11/19/meghan-markle-dad-confuses-her-and-sister-samantha/",
+      "published_utc": "2026-11-20T05:00:44.101599+00:00",
+      "dense_summary": "Thomas Markle didn't quite have his info straight during his court-ordered psych evaluation . Furthermore, because he confused Meghan Markle and his other daughter.",
+      "strategic_takeaway": "Thomas Markle Confuses Meghan recalibrates operational strategy to defend unit economics and distribution access."
     },
     {
-      "ontology_id": "ont_44041349c220177a",
-      "title": "\u2018Intimacy on Prescription\u2019 Wins Main Prize at Tallinn\u2019s TV Beats Co-Financing Market",
+      "ontology_id": "ont_74e61d6481f0edcc",
+      "title": "\u2018Sunrise On The Reaping\u2019 Epilogue Scene Explained: How Everything Ties Together",
+      "category": "ENTERTAINMENT_AND_CINEMA",
+      "source_name": "Deadline Hollywood",
+      "canonical_url": "https://deadline.com/2026/11/sunrise-on-the-reaping-epilogue-scene-explained-cameos-1237229907/",
+      "published_utc": "Fri, 20 Nov 2026 04:38:15 +0000",
+      "dense_summary": "SPOILER ALERT: This post spoils the end of The Hunger Games: Sunrise on the Reaping. Furthermore, the epilogue scene at the end of The Hunger Games: Sunrise On The Reaping echoes the chapter that closes Suzanne Collins\u2019 novel of the same name.",
+      "strategic_takeaway": "Sunrise On The Reaping recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_06d51a9b1791863f",
+      "title": "How High Can \u2018Hunger Games: Sunrise on the Reaping\u2019 Reach in Its Box Office Opening?",
       "category": "ENTERTAINMENT_AND_CINEMA",
       "source_name": "The Hollywood Reporter",
-      "canonical_url": "https://www.hollywoodreporter.com/tv/tv-news/intimacy-on-prescription-main-prize-tallinn-tv-beats-market-1236758301/",
-      "published_utc": "Wed, 18 Nov 2026 08:23:05 +0000",
-      "dense_summary": "\"Can good sex save every marriage?\" reads a synopsis of the show. Furthermore, \"In 1970s Czechoslovakia, two therapists try to prove it.\"\n\n\"Can good sex save every marriage?\" reads a synopsis of the show.",
-      "strategic_takeaway": "Wins Main Prize recalibrates operational strategy to defend unit economics and distribution access."
+      "canonical_url": "https://www.hollywoodreporter.com/movies/movie-news/hunger-games-sunrise-on-the-reaping-box-office-opening-win-1236759813/",
+      "published_utc": "Fri, 20 Nov 2026 04:26:26 +0000",
+      "dense_summary": "The Lionsgate franchise's sixth installment stars Joseph Zada as Haymitch Abernathy and opens on the heels of the launch for the new 'Grand Theft Auto' video game. Furthermore, heat Vision Home Movies Movie News How High Can \u2018Hunger Games: Sunrise on the Reaping\u2019 Reach in Its ...",
+      "strategic_takeaway": "Suzanne Collins released Jennifer Lawrence, creating a measurable shift in operational leverage."
     },
     {
-      "ontology_id": "ont_d56e75f79a6a3b7c",
-      "title": "\u2018Hazara Town\u2019 Review: A Restrained but Deeply Affecting Doc Portrait of an Afghan Refugee Family Living in Limbo",
+      "ontology_id": "ont_40e7f14362b54cd8",
+      "title": "\u2018Project 11,\u2019 Shot by 11 Directors in 11 Global Cities, Returns on Oh Short Flips (EXCLUSIVE)",
       "category": "ENTERTAINMENT_AND_CINEMA",
       "source_name": "Variety Film & TV",
-      "canonical_url": "https://variety.com/2026/film/reviews/hazara-town-review-1236948926/",
-      "published_utc": "Wed, 18 Nov 2026 09:19:16 +0000",
-      "dense_summary": "A gauze of dust covers everything in the Pakistani desert city of Quetta, rendering just about everything the same shade of bleached, parched beige \u2014 an in-between color for an in-between place, where many residents await change with no clear timeline. Furthermore, in the city...",
-      "strategic_takeaway": "Microsoft recalibrates operational strategy to defend unit economics and distribution access."
+      "canonical_url": "https://variety.com/2026/film/markets-festivals/project-11-shot-11-directors-11-cities-re-release-1236952973/",
+      "published_utc": "Fri, 20 Nov 2026 04:30:00 +0000",
+      "dense_summary": "\u201cProject 11,\u201d a 2011 survival thriller made by 11 directors working remotely from 11 cities, will be re-released Nov. Furthermore, 26 as the first title under Oh Short Flips\u2019 new Classic Shorts vertical.",
+      "strategic_takeaway": "Oh Short Flips recalibrates operational strategy to defend unit economics and distribution access."
     },
     {
-      "ontology_id": "ont_15ae40b29f73f7be",
-      "title": "Jackson Roy\u2019s tender and unpredictable alt-folk is a world worth exploring",
-      "category": "MUSIC_AND_AUDIO",
-      "source_name": "NME Music",
-      "canonical_url": "https://www.nme.com/features/music-interviews/jackson-roy-second-life-ep-interview-radar-3976252",
-      "published_utc": "Wed, 18 Nov 2026 09:00:27 +0000",
-      "dense_summary": "Ahead of his second EP \u2018Still Life\u2019, the rising solo artist tells NME how the creative community on his South East London doorstep has brought his deeply imaginative songwriting to life\n\nThe post Jackson Roy\u2019s tender and unpredictable alt-folk is a world worth exploring appear...",
-      "strategic_takeaway": "NME recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_a0076d9e1eb5e85a",
-      "title": "Harry Styles, Billie Eilish, Cher to Headline Glastonbury 2027",
+      "ontology_id": "ont_64b89e23920ae1b5",
+      "title": "Bruno Mars Mourns His Father\u2019s Death: \u2018The Man That Taught Me Everything I Know\u2019",
       "category": "MUSIC_AND_AUDIO",
       "source_name": "Rolling Stone Music",
-      "canonical_url": "https://www.rollingstone.com/music/music-news/harry-styles-billie-eilish-cher-glastonbury-lineup-2027-1235660230/",
-      "published_utc": "Wed, 18 Nov 2026 08:45:24 +0000",
-      "dense_summary": "The festival, set for June 23-27, will also feature Sam Fender, Lily Allen, Kacey Musgraves, Robyn, and Sombr\n\nRollingstone Logo Click to expand the Mega Menu Click to Expand Search Input Music Politics TV & Movies Culture VIBE Got A Tip?. Furthermore, account Welcome Manage A...",
+      "canonical_url": "https://www.rollingstone.com/music/music-news/bruno-mars-mourns-father-death-peter-hernandez-1235661510/",
+      "published_utc": "Fri, 20 Nov 2026 00:44:22 +0000",
+      "dense_summary": "The singer praised his father, Peter \u201cDr. Furthermore, doo-Wop\u201d Hernandez, often during interviews and credited him for his signature style\n\nRollingstone Logo Click to expand the Mega Menu Click to Expand Search Input Music Politics TV & Movies Culture VIBE Got A Tip?.",
       "strategic_takeaway": "Google recalibrates operational strategy to defend unit economics and distribution access."
     },
     {
-      "ontology_id": "ont_47ef07499e870748",
-      "title": "Matthew Dear, Armand Hammer, and More: This Week\u2019s Pitchfork Selects Playlist",
+      "ontology_id": "ont_12e3107cb7a3877c",
+      "title": "Here\u2019s Every Rapper Who Appears in GTA VI",
       "category": "MUSIC_AND_AUDIO",
       "source_name": "Pitchfork News",
-      "canonical_url": "https://pitchfork.com/story/matthew-dear-armand-hammer-and-more-this-weeks-pitchfork-selects-playlist/",
-      "published_utc": "Tue, 17 Nov 2026 20:55:47 +0000",
-      "dense_summary": "Our weekly playlist highlights songs that our writers, editors, and contributors are listening to on repeat\n\nThis week\u2019s Pitchfork Selects playlist features Armand Hammer, Esther Rose, Matthew Dear and more. Furthermore, listen below and follow our playlists on Apple Music and...",
-      "strategic_takeaway": "Apple recalibrates operational strategy to defend unit economics and distribution access."
+      "canonical_url": "https://pitchfork.com/story/heres-every-rapper-who-appears-in-gta-vi/",
+      "published_utc": "Fri, 20 Nov 2026 00:25:24 +0000",
+      "dense_summary": "You\u2019ll run into Sexyy Red, Gucci Mane, Trina, JT, and many more in Vice City\n\nIt wouldn\u2019t be a GTA game without heavy hip-hop influence . Furthermore, as far back as 2001\u2019s GTA III (the first installment to include an all-rap in-game radio station, Game FM), the franchise has ...",
+      "strategic_takeaway": "Every Rapper Who Appears recalibrates operational strategy to defend unit economics and distribution access."
     },
     {
-      "ontology_id": "ont_f6ecc90f95a2725d",
-      "title": "'It was cheating' - Bancroft accuses Cummins of sandpaper knowledge",
+      "ontology_id": "ont_5c33d0aba5d8799d",
+      "title": "Luis Jr. ends fight to play at LSU after Wade instructed to stop playing star",
+      "category": "SPORTS_AND_ATHLETICS",
+      "source_name": "ESPN Top News",
+      "canonical_url": "https://www.espn.com/mens-college-basketball/story/_/id/50536621/lsu-president-tells-wade-not-play-rj-luis-jr",
+      "published_utc": "Thu, 19 Nov 2026 23:22:00 EST",
+      "dense_summary": "has decided to \"stand down\" in his fight to pursue another year of eligibility at LSU, his attorney told ESPN on Thursday night.",
+      "strategic_takeaway": "LSU recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_76b7f8ac13c72db8",
+      "title": "Las Vegas GP: Leclerc, Norris impressing in wet second practice LIVE!",
       "category": "SPORTS_AND_ATHLETICS",
       "source_name": "Sky Sports Football",
-      "canonical_url": "https://www.skysports.com/cricket/news/12040/13613489/cameron-bancroft-former-australia-batter-releases-explosive-statement-accusing-pat-cummins-and-bowlers-of-sandpaper-knowledge",
-      "published_utc": "Wed, 18 Nov 2026 08:40:00 GMT",
-      "dense_summary": "Cameron Bancroft has directly accused Pat Cummins of knowledge of the use of sandpaper against South Africa in 2018, despite the Australia captain's press conference on Friday denying being complicit. Furthermore, internationals Afghanistan Australia Bangladesh England India I...",
-      "strategic_takeaway": "Internationals Afghanistan Australia Bangladesh England India Ireland New Zealand Pakistan Scotland South Africa Sri Lanka West Indies Zimbabwe Domestic Derbyshire Durham Essex Glamorgan Gloucestershire Hampshire Kent Lancashire Leicestershire Middlesex Northamptonshire Nottinghamshire Somerset Surrey Sussex Warwickshire Worcestershire Yorkshire Indian Premier League Chennai Super Kings Delhi Capitals Gujarat Lions Kings recalibrates operational strategy to defend unit economics and distribution access."
+      "canonical_url": "https://www.skysports.com/f1/live-blog/12040/13613211/f1-las-vegas-gp-live-friday-practice-updates-results-stream-highlights-from-formula-1-race-weekend-in-the-usa",
+      "published_utc": "Thu, 19 Nov 2026 23:25:00 GMT",
+      "dense_summary": "Football F1 Cricket Rugby Union Rugby League Golf Boxing NFL Tennis NBA Racing Darts Netball MMA More Sports Scores Football F1 Cricket Rugby Union Rugby League Golf NFL Tennis Watch Sky Bet More Podcasts Upcoming on Sky Get Sky Sports Sky Sports App Sky Sports with no contrac...",
+      "strategic_takeaway": "Football F1 Cricket Rugby Union Rugby League Golf Boxing recorded metric Tennis Watch Sky Bet More Podcasts Upcoming, creating a measurable shift in operational leverage."
     },
     {
-      "ontology_id": "ont_346abcadb30d731b",
-      "title": "The 3pm football blackout: Outdated or still relevant in 2026?",
+      "ontology_id": "ont_f64278390e39b383",
+      "title": "Culture, defence, Fernandes - Pochettino's priorities at Man Utd",
       "category": "SPORTS_AND_ATHLETICS",
       "source_name": "BBC Sport",
-      "canonical_url": "https://www.bbc.co.uk/sport/football/articles/cwvg2mxkd4x8o?at_medium=RSS&at_campaign=rss",
-      "published_utc": "Wed, 18 Nov 2026 06:27:11 GMT",
-      "dense_summary": "After 60 years, is time finally running out on the 3pm blackout in football?. Furthermore, bBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sp...",
-      "strategic_takeaway": "Bbc recorded metric Premier League, creating a measurable shift in operational leverage."
+      "canonical_url": "https://www.bbc.co.uk/sport/football/articles/cxlylzyg38l8o?at_medium=RSS&at_campaign=rss",
+      "published_utc": "Thu, 19 Nov 2026 15:05:21 GMT",
+      "dense_summary": "Culture, defence and Bruno Fernandes - the key issues facing Mauricio Pochettino as he takes over as Manchester United boss. Furthermore, bBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sou...",
+      "strategic_takeaway": "Man Utd\nCulture recalibrates operational strategy to defend unit economics and distribution access."
     },
     {
-      "ontology_id": "ont_b1221bf19a447618",
-      "title": "Bitcoin Policy Institute Rebrands as Finney Foundation for Open Technology",
+      "ontology_id": "ont_656f6770c574ec02",
+      "title": "Inside Bukele\u2019s Casa Presidencial Dinner: Bitcoiners Discuss Energy, Immigration, and El Salvador\u2019s Future",
       "category": "CRYPTO_AND_MACRO",
       "source_name": "Bitcoin Magazine",
-      "canonical_url": "https://bitcoinmagazine.com/videos/bitcoin-policy-institute-rebrands-as-finney-foundation-for-open-technology",
-      "published_utc": "Tue, 17 Nov 2026 22:45:03 +0000",
-      "dense_summary": "\u25b6\n\nBitcoin Magazine\n\nBitcoin Policy Institute Rebrands as Finney Foundation for Open Technology\n\nAndrew Bailey, head of strategy at the Finney Foundation for Open Technology, joins BMTV on the day the Bitcoin Policy Institute takes that new name and expands its work from into ...",
+      "canonical_url": "https://bitcoinmagazine.com/news/inside-bukeles-casa-presidencial-dinner-bitcoiners-discuss-energy-immigration-and-el-salvadors-future",
+      "published_utc": "Thu, 19 Nov 2026 22:20:01 +0000",
+      "dense_summary": "Bitcoin Magazine\n\nInside Bukele\u2019s Casa Presidencial Dinner: Bitcoiners Discuss Energy, Immigration, and El Salvador\u2019s Future\n\nOn November 10, 2026, President Nayib Bukele hosted roughly 30 Bitcoiners at Casa Presidencial during Bitcoin Hist\u00f3rico. Furthermore, guests included R...",
       "strategic_takeaway": "Order flow in Bitcoin reflects tightening market liquidity and higher institutional verification standards."
     },
     {
-      "ontology_id": "ont_4fd435c30a936cde",
-      "title": "Why Microsoft Thinks Smaller, Cheaper AI Can Beat Claude and GPT",
+      "ontology_id": "ont_5963ff95b8a279ac",
+      "title": "Citi Says Customers Are Responsible When AI Banking Agents Go Rogue\u2014Even After a Hack",
       "category": "CRYPTO_AND_MACRO",
       "source_name": "Decrypt",
-      "canonical_url": "https://decrypt.co/383468/why-microsoft-thinks-smaller-cheaper-ai-beat-claude-gpt",
-      "published_utc": "Tue, 17 Nov 2026 23:16:03 +0000",
-      "dense_summary": "Microsoft's new coding, cybersecurity and image models challenge bigger rivals on performance and price. Furthermore, the company's bet is that doing one job exceptionally well matters more than doing absolutely everything.",
-      "strategic_takeaway": "Why Microsoft Thinks Smaller outperforms Gpt, creating a measurable shift in operational leverage."
+      "canonical_url": "https://decrypt.co/383677/citi-customers-responsible-ai-banking-agents-rogue-hack",
+      "published_utc": "Thu, 19 Nov 2026 22:36:02 +0000",
+      "dense_summary": "Citibank\u2019s updated terms put customers on the hook for outside AI agents, including leaked logins. Furthermore, citi Says Customers Are Responsible When AI Banking Agents Go Rogue\u2014Even After a Hack\n\nThe change, reported by TechCrunch Wednesday, makes explicit how the bank inte...",
+      "strategic_takeaway": "Order flow in Agent at $0.00 reflects tightening market liquidity and higher institutional verification standards."
     },
     {
-      "ontology_id": "ont_b51842d826fd9720",
-      "title": "Hyundai tests AI agent commerce on JPMorgan\u2019s Kinexys blockchain",
+      "ontology_id": "ont_e604f3acd783dcd9",
+      "title": "Ethereum\u2019s next big upgrade is pushed into 2027 by apps it would break",
       "category": "CRYPTO_AND_MACRO",
       "source_name": "CoinDesk",
-      "canonical_url": "https://www.coindesk.com/business/2026/11/18/hyundai-tests-ai-agent-commerce-on-jpmorgan-s-kinexys-blockchain",
-      "published_utc": "Wed, 18 Nov 2026 09:14:15 +0000",
-      "dense_summary": "The exploration of AI agents with JPMorgan builds on Hyundai\u2019s recent stablecoin-based cross-border remittance pilot. Furthermore, finance Hyundai tests AI agent commerce on JPMorgan\u2019s Kinexys blockchain The exploration of AI agents with JPMorgan builds on Hyundai\u2019s recent sta...",
+      "canonical_url": "https://www.coindesk.com/tech/2026/11/20/ethereum-s-next-big-upgrade-is-pushed-into-2027-by-apps-it-would-break",
+      "published_utc": "Fri, 20 Nov 2026 04:58:08 +0000",
+      "dense_summary": "Glamsterdam was originally targeted for December, but developers now say January is the earliest possible date as companies work to fix affected smart contracts. Furthermore, tech Ethereum\u2019s next big upgrade is pushed into 2027 by apps it would break Glamsterdam was originally...",
       "strategic_takeaway": "Order flow in Ethereum reflects tightening market liquidity and higher institutional verification standards."
     },
     {
-      "ontology_id": "ont_fc6f6442d09c0e9a",
-      "title": "Satya Nadella says he\u2019s AGI-pilled now",
+      "ontology_id": "ont_f1240bd26fcafd2c",
+      "title": "Apple is hiring engineers to build its own AI agent",
       "category": "AI_AND_FRONTIER_TECH",
       "source_name": "The Verge AI",
-      "canonical_url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
-      "published_utc": "2026-11-17T18:41:18-05:00",
-      "dense_summary": "Microsoft CEO Satya Nadella says he's AGI-pilled, at least when it comes to how AI might make startling changes to the structure of the economy and how politics might change because of it. Furthermore, \"I am AGI-pilled in the sense that at an economy level, what is the politic...",
-      "strategic_takeaway": "Anthropic deploys frontier models, moving the benchmark from laboratory theory to production workload execution."
+      "canonical_url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+      "published_utc": "2026-11-19T17:31:41-05:00",
+      "dense_summary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. Furthermore, that's according to a job listing spotted by Bloomberg, which says Apple is looking for an engineer...",
+      "strategic_takeaway": "OpenAI deploys Agent, moving the benchmark from laboratory theory to production workload execution."
     },
     {
-      "ontology_id": "ont_40c47cbcdfcf5835",
-      "title": "Nvidia\u2019s startup stakes ballooned to $65B, but Huang\u2019s exit puts future  deals in doubt",
+      "ontology_id": "ont_096e44648f44a234",
+      "title": "Apple may be developing its own AI agent that runs your Mac",
       "category": "AI_AND_FRONTIER_TECH",
       "source_name": "TechCrunch AI",
-      "canonical_url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
-      "published_utc": "Wed, 18 Nov 2026 01:44:21 +0000",
-      "dense_summary": "The value of Nvidia\u2019s private investments has nearly tripled over the past nine months, fueled by Jensen Huang\u2019s aggressive dealmaking and rising valuations of its existing portfolio companies. Furthermore, nvidia\u2019s startup stakes ballooned to $65B, but Huang\u2019s exit puts futur...",
-      "strategic_takeaway": "Nvidia announced $65.5 Billion, creating a measurable shift in operational leverage."
+      "canonical_url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+      "published_utc": "Fri, 20 Nov 2026 00:56:01 +0000",
+      "dense_summary": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots. Furthermore, apple may be developing its own AI agent that runs your Mac Lucas Ropek 4:56 PM PST \u00b7 November 19, 2026 Apple appears to be working on i...",
+      "strategic_takeaway": "Anthropic released Meta, creating a measurable shift in operational leverage."
     },
     {
-      "ontology_id": "ont_1ef52496badd930f",
-      "title": "Research Reports",
-      "category": "AI_AND_FRONTIER_TECH",
-      "source_name": "MIT Tech Review AI",
-      "canonical_url": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
-      "published_utc": "Tue, 17 Nov 2026 14:39:46 +0000",
-      "dense_summary": "To access a report, click on the corresponding image below. Furthermore, share story on facebook Share story on email Popular Don\u2019t be fooled\u2014LLMs don\u2019t reason Thore Graepel \u201cWe were looking at it wrong\u201d: The explosive claim that\u2019s upended the AI world Will Douglas Heaven Don\u2019...",
-      "strategic_takeaway": "Research Reports\nTo deploys frontier models, moving the benchmark from laboratory theory to production workload execution."
-    },
-    {
-      "ontology_id": "ont_5074e2b2b91b418c",
-      "title": "DeltaHarness: Self-Evolving Harnesses for Resource-Adaptive Tool Execution",
+      "ontology_id": "ont_b00019e2f29660ae",
+      "title": "PsyWorld: Profile-Conditioned World Modeling for Human Behavior Prediction",
       "category": "AI_AND_FRONTIER_TECH",
       "source_name": "ArXiv Machine Learning",
-      "canonical_url": "https://arxiv.org/abs/2611.21688",
-      "published_utc": "Wed, 18 Nov 2026 00:00:00 -0500",
-      "dense_summary": "arXiv:2611.21688v1 Announce Type: new \nAbstract: Tool-using agents rely on execution harnesses to organize and schedule tool operations. Furthermore, the same task and resource description can conceal runtime conditions that reverse the latency ordering of valid execution plans.",
-      "strategic_takeaway": "Adaptive Tool Execution deploys Agent reaching 30.0%, moving the benchmark from laboratory theory to production workload execution."
+      "canonical_url": "https://arxiv.org/abs/2611.24999",
+      "published_utc": "Fri, 20 Nov 2026 00:00:00 -0500",
+      "dense_summary": "arXiv:2611.24999v1 Announce Type: new \nAbstract: Understanding how stable psychometric traits and time-varying states jointly inform behavior is an important problem in computational behavioral science. Furthermore, existing personalized agents commonly condition actions direc...",
+      "strategic_takeaway": "Human Behavior Prediction deploys Conditioned World Modeling, moving the benchmark from laboratory theory to production workload execution."
     },
     {
-      "ontology_id": "ont_cbe10bcc6c2947c2",
-      "title": "NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models",
+      "ontology_id": "ont_6cfc78674d25beac",
+      "title": "Closing the Analyze-to-Design Gap: An Authorization-Bounded Agent for Self-Driving Laboratories",
       "category": "AI_AND_FRONTIER_TECH",
       "source_name": "ArXiv Computer Science AI",
-      "canonical_url": "https://arxiv.org/abs/2611.21682",
-      "published_utc": "Wed, 18 Nov 2026 00:00:00 -0500",
-      "dense_summary": "arXiv:2611.21682v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly being explored for knowledge-intensive and safety-critical applications in nuclear engineering. Furthermore, however, existing nuclear-domain benchmarks provide limited content cover...",
-      "strategic_takeaway": "Evaluating Nuclear Domain Competence deploys LLM reaching 34.0%, moving the benchmark from laboratory theory to production workload execution."
+      "canonical_url": "https://arxiv.org/abs/2611.25043",
+      "published_utc": "Fri, 20 Nov 2026 00:00:00 -0500",
+      "dense_summary": "arXiv:2611.25043v1 Announce Type: new \nAbstract: Artificial intelligence (AI) agents are increasingly integrated into self-driving laboratories (SDLs) to plan experiments and interpret results. Furthermore, however, analytical reasoning alone does not make a laboratory autonom...",
+      "strategic_takeaway": "Announce Type powers Driving Laboratories, creating a measurable shift in operational leverage."
     },
     {
-      "ontology_id": "ont_fdd96b827976048b",
-      "title": "Patagonia Promo Code: Up to 50% Off in 2026",
+      "ontology_id": "ont_14e27d8670527e62",
+      "title": "The Best Places to Go in Central and South America 2027",
       "category": "GASTRONOMY_AND_TRAVEL",
       "source_name": "Cond\u00e9 Nast Traveler",
-      "canonical_url": "https://www.cntraveler.com/story/patagonia-coupon",
-      "published_utc": "Tue, 17 Nov 2026 00:43:52 +0000",
-      "dense_summary": "Gear up for your next adventure and save up to 15% with a verified Patagonia coupon code, free shipping, plus find up to 50% off jackets, backpacks, and more with Web Specials this winter. Furthermore, patagonia does not often feature coupon codes ; the brand instead focuses o...",
-      "strategic_takeaway": "Light Gust Hooded recalibrates operational strategy to defend unit economics and distribution access."
+      "canonical_url": "https://www.cntraveler.com/story/best-places-to-go-in-central-and-south-america-2027",
+      "published_utc": "Thu, 19 Nov 2026 07:00:00 +0000",
+      "dense_summary": "For winter ice-hiking, chef-driven retreats, and jaw-dropping nature. Furthermore, it may be a fool\u2019s errand to distill all this wonder into a list of just 10 destinations.",
+      "strategic_takeaway": "Jericoacoara National Park recalibrates operational strategy to defend unit economics and distribution access."
     },
     {
-      "ontology_id": "ont_48ac4f07a9b9269a",
-      "title": "Where Chef Esther Choi Eats on Her Day Off in NYC",
-      "category": "GASTRONOMY_AND_TRAVEL",
-      "source_name": "Eater Food News",
-      "canonical_url": "https://www.eater.com/dining-out/1001062/esther-choi-favorite-restaurants-nyc",
-      "published_utc": "2026-11-16T15:04:58-05:00",
-      "dense_summary": "Celebrity chef and cookbook author Esther Choi, the chef behind Korean restaurants like m\u01d2kbar and Ms. Furthermore, yoo, shows us the cafe, bakery, and restaurants she visits weekly for everything from taro-mochi doughnuts to soup dumplings.",
-      "strategic_takeaway": "Where Chef Esther Choi Eats recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_e13fbdd54c5037c5",
-      "title": "Nike Should Be Much Weirder",
+      "ontology_id": "ont_ddaffe4d6f65c5cb",
+      "title": "The Black Friday Pre-Game Has Well and Truly Begun",
       "category": "STYLE_AND_FASHION",
       "source_name": "Highsnobiety",
-      "canonical_url": "https://www.highsnobiety.com/p/nike-performance-air-rift-new-shoes/",
-      "published_utc": "Mon, 16 Nov 2026 22:36:01 GMT",
-      "dense_summary": "Nike is a leader in sportswear brands, that\u2019s not up for debate. Furthermore, but, in the modern age, what keeps it at the fore is a dedication to getting freaky.",
-      "strategic_takeaway": "Nike Should Be Much Weirder\nNike recalibrates operational strategy to defend unit economics and distribution access."
+      "canonical_url": "https://www.highsnobiety.com/p/the-best-early-black-friday-sales/",
+      "published_utc": "Thu, 19 Nov 2026 09:10:18 GMT",
+      "dense_summary": "In November 17s Shopper, Shopping Writer Patrick Grady sources the Early Black Friday sales worth your time. Furthermore, we assume you\u2019re familiar with the big event looming on the horizon.",
+      "strategic_takeaway": "Game Has Well recalibrates operational strategy to defend unit economics and distribution access."
     },
     {
-      "ontology_id": "ont_45891ac698285e1b",
-      "title": "BEAMS and adidas Unveil a Collaborative Loafer and Apparel Pack for Retailer's 50th Anniversary",
+      "ontology_id": "ont_4a26c83f1480ba8b",
+      "title": "Gucci to Present Cruise 2028 Collection in Shanghai",
       "category": "STYLE_AND_FASHION",
       "source_name": "Hypebeast",
-      "canonical_url": "https://hypebeast.com/2026/11/beams-50th-anniversary-adidas-loafer-apparel-pack-collaboration-release-info",
-      "published_utc": "Tue, 17 Nov 2026 04:12:15 +0000",
-      "dense_summary": "Summary\n\nBEAMS and adidas Originals have teamed up to release a new loafer pack as part of the Japanese retailer's 50th-anniversary collectionThe collaborative footwear arrives in \"Preppy\" and \"Yankee\" styles featuring tassels, Three Stripes branding, and a chunky lug soleThe ...",
-      "strategic_takeaway": "BEAMS recalibrates operational strategy to defend unit economics and distribution access."
+      "canonical_url": "https://hypebeast.com/2026/11/gucci-demna-present-cruise-2028-collection-shanghai-china-announcement",
+      "published_utc": "Thu, 19 Nov 2026 09:42:19 +0000",
+      "dense_summary": "Summary\n\nGucci has officially announced its Cruise 2028 runway show will take place in Shanghai on May 17The upcoming presentation marks artistic director Demna's first show in the Chinese metropolisThe event coincides with the 30th anniversary of the brand's original store op...",
+      "strategic_takeaway": "Present Cruise announced Runway, creating a measurable shift in operational leverage."
+    },
+    {
+      "ontology_id": "ont_dd6d0b1c51801952",
+      "title": "Tom Busby\u2019s \u2018Rockhampton Hangover\u2019 Named 2026 Queensland Album of the\u00a0Year",
+      "category": "CELEBRITIES_AND_CREATORS",
+      "source_name": "Billboard Creators & Culture",
+      "canonical_url": "https://www.billboard.com/music/awards/tom-busby-rockhampton-hangover-queensland-album-of-the-year-1236385524/",
+      "published_utc": "Thu, 19 Nov 2026 08:17:22 +0000",
+      "dense_summary": "Busby beat out a shortlist of albums from the likes of Clea, Radium Dolls, Platonic Sex, 2 Charm and The Jungle Giants. Furthermore, lars Brandle More Stories by Lars Tom Busby\u2019s \u2018Rockhampton Hangover\u2019 Named 2026 Queensland Album of the\u00a0Year 50 Cent Steps Out With Reebok G-Uni...",
+      "strategic_takeaway": "Tom Busby outperforms Radium Dolls, creating a measurable shift in operational leverage."
+    },
+    {
+      "ontology_id": "ont_963a7fb331399b11",
+      "title": "Miss North Carolina USA Winner Says She Never Approved N-Word Apology",
+      "category": "CELEBRITIES_AND_CREATORS",
+      "source_name": "TMZ Breaking News",
+      "canonical_url": "https://www.tmz.com/2026/11/19/brittany-boltinhouse-denies-n-word-apology/",
+      "published_utc": "2026-11-19T10:15:47.230450+00:00",
+      "dense_summary": "Miss North Carolina USA winner Brittany Boltinhouse is firing back at the organization's attempt to toss her lawsuit . Furthermore, insisting she never agreed to apologize for using the n-word in old social media posts.",
+      "strategic_takeaway": "Miss North Carolina recalibrates operational strategy to defend unit economics and distribution access."
     }
   ]
 }
