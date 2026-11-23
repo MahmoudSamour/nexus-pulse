@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-22T05:15:37Z",
+  "updated_utc": "2026-11-23T05:23:40Z",
   "swarm_architecture_version": "2.1.0",
   "audio_engine": "Kokoro-82M v1.0 Open-Source Human Narrator (-14 LUFS)",
   "visual_engine": "Antigravity Warm Cream Editorial Luxury (#FAF7F0)",
@@ -10,18 +10,188 @@
     "20:00 (evening)"
   ],
   "graph_stats": {
-    "total_stories": 626,
-    "total_entities": 4100,
-    "total_knowledge_triples": 673,
+    "total_stories": 644,
+    "total_entities": 4239,
+    "total_knowledge_triples": 702,
     "entity_breakdown": {
-      "METRICS": 378,
-      "ORGANIZATIONS": 1747,
-      "PEOPLE": 1887,
-      "TECHNOLOGIES": 88
+      "METRICS": 397,
+      "ORGANIZATIONS": 1808,
+      "PEOPLE": 1944,
+      "TECHNOLOGIES": 90
     },
-    "density_ratio": 0.16
+    "density_ratio": 0.17
   },
   "stories": [
+    {
+      "ontology_id": "ont_c69cefbe6be365db",
+      "title": "How to Spend 3 Perfect Days in Naples",
+      "category": "GASTRONOMY_AND_TRAVEL",
+      "source_name": "Cond\u00e9 Nast Traveler",
+      "canonical_url": "https://www.cntraveler.com/story/how-to-spend-3-perfect-days-in-naples",
+      "published_utc": "Sun, 22 Nov 2026 12:00:00 +0000",
+      "dense_summary": "From archaeological must-sees to the best places for sipping a spritz, according to someone who has known the city for decades. Furthermore, i\u2019ve been visiting for over 30 years and have seen huge changes, most of them positive.",
+      "strategic_takeaway": "Teatro San Carlo recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_c32a036168ca9573",
+      "title": "adidas\u2019 Steel-Toe Superstar Works Hard, Flexes Harder",
+      "category": "STYLE_AND_FASHION",
+      "source_name": "Highsnobiety",
+      "canonical_url": "https://www.highsnobiety.com/p/nati-lopez-adidas-superstar-ii-shoes/",
+      "published_utc": "Sun, 22 Nov 2026 21:10:37 GMT",
+      "dense_summary": "Nati Lopez treats her adidas Superstar II sneaker like a work boot, giving it \"steel toes\" & vintage-style leather. Furthermore, the Los Angeles tattoo artist has cooked up a genuinely cool collaboration with adidas, giving the Superstars the work-boot treatment.",
+      "strategic_takeaway": "Runway recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_6e39920e0a426d0d",
+      "title": "Tom Brady Reportedly Purchases Minority Stake in Chelsea FC Following Birmingham City Departure",
+      "category": "STYLE_AND_FASHION",
+      "source_name": "Hypebeast",
+      "canonical_url": "https://hypebeast.com/2026/11/tom-brady-reportedly-purchases-minority-stake-in-chelsea-fc-following-birmingham-city-departure",
+      "published_utc": "Mon, 23 Nov 2026 04:24:35 +0000",
+      "dense_summary": "Summary\n\nSeven-time Super Bowl champion Tom Brady has purchased a minority stake in Premier League club Chelsea FCThe NFL legend joins the Clearlake Capital vehicle that controls the team and will serve in an advisory capacityThe major investment arrives shortly after Brady de...",
+      "strategic_takeaway": "Tom Brady Reportedly Purchases Minority Stake recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_245e3cd8a7d967c4",
+      "title": "Molly Meldrum, Australian Music Broadcaster and \u2018Countdown\u2019 Host, Dies at\u00a083",
+      "category": "CELEBRITIES_AND_CREATORS",
+      "source_name": "Billboard Creators & Culture",
+      "canonical_url": "https://www.billboard.com/music/music-news/molly-meldrum-countdown-host-dies-83-1236387631/",
+      "published_utc": "Mon, 23 Nov 2026 00:30:36 +0000",
+      "dense_summary": "\"Affectionately dubbed 'The Guru,' Molly was the heartbeat, the champion and the spirit of Australian music,\" his family said in a statement. Furthermore, jessica Lynch More Stories by Jessica Molly Meldrum, Australian Music Broadcaster and \u2018Countdown\u2019 Host, Dies at\u00a083 Miley C...",
+      "strategic_takeaway": "Google recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_0c4bc5ba419a0003",
+      "title": "Bruce Willis' Daughter Tallulah Apologizes for Sharing 'Too Intimate' Pic Of Her & Dad",
+      "category": "CELEBRITIES_AND_CREATORS",
+      "source_name": "TMZ Breaking News",
+      "canonical_url": "https://www.tmz.com/2026/11/22/bruce-willis-daughter-tallulah-apologizes-for-posting-picture/",
+      "published_utc": "2026-11-23T05:00:36.615855+00:00",
+      "dense_summary": "Bruce Willis' daughter Tallulah Willis is speaking out after she shared a sweet photo of her and her dad . Furthermore, revealing she now thinks the pic was \"too intimate\" to post.",
+      "strategic_takeaway": "Daughter Tallulah Apologizes recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_699fa811b17cc2eb",
+      "title": "Hailee Steinfeld Confirms She\u2019s In \u2018Avengers: Doomsday\u2019",
+      "category": "ENTERTAINMENT_AND_CINEMA",
+      "source_name": "Deadline Hollywood",
+      "canonical_url": "https://deadline.com/2026/11/hailee-steinfeld-confirms-avengers-doomsday-1237231382/",
+      "published_utc": "Mon, 23 Nov 2026 03:27:25 +0000",
+      "dense_summary": "In a nifty bit of cross promotion, Disney used its surefire blockbuster and a helpful coincidence to reveal an Avengers: Doomsday casting as well as promote a smaller animated title. Furthermore, earlier today, Marvel and Walt Disney Animation posted a video of Hailee Steinfel...",
+      "strategic_takeaway": "Hailee Steinfeld Confirms She recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_86a53360c390c274",
+      "title": "\u2018You Can See Everything\u2019 Crosses $100M Globally, Becomes First Doc to Hit 1M Letterboxd Watches",
+      "category": "ENTERTAINMENT_AND_CINEMA",
+      "source_name": "The Hollywood Reporter",
+      "canonical_url": "https://www.hollywoodreporter.com/movies/movie-news/you-can-see-everything-box-office-100-million-letterboxd-1236746421/",
+      "published_utc": "Mon, 23 Nov 2026 03:29:15 +0000",
+      "dense_summary": "Nathan Fielder and Lance Oppenheim's A24 documentary continues stirring conversation about Elizabeth Holmes through its sixth weekend in domestic release. Furthermore, nathan Fielder and Lance Oppenheim's A24 documentary continues stirring conversation about Elizabeth Holmes t...",
+      "strategic_takeaway": "You Can See Everything recorded metric Letterboxd Watches\nNathan Fielder, creating a measurable shift in operational leverage."
+    },
+    {
+      "ontology_id": "ont_bb9fa958a792dd25",
+      "title": "Korea Box Office: Mystery Thriller \u2018White Blast\u2019 Opens at No. 1, Ending Five-Week \u2018Chiikawa\u2019 Reign",
+      "category": "ENTERTAINMENT_AND_CINEMA",
+      "source_name": "Variety Film & TV",
+      "canonical_url": "https://variety.com/2026/film/box-office/korea-box-office-mystery-thriller-white-blast-1236955658/",
+      "published_utc": "Mon, 23 Nov 2026 04:49:39 +0000",
+      "dense_summary": "Showbox\u2019s mystery thriller \u201cWhite Blast\u201d debuted atop the South Korean box office over the weekend of Nov. Furthermore, 20\u201322, ending the five-week chart-topping run of Japanese anime sensation \u201cChiikawa the Movie: The Secret of the Mermaid Island.\u201d According to data from KOBI...",
+      "strategic_takeaway": "Ending Five announced South Korean, creating a measurable shift in operational leverage."
+    },
+    {
+      "ontology_id": "ont_cf41f3552ac5e5e1",
+      "title": "Watch Olivia Rodrigo Cover \u2018Dead Leaves and the Dirty Ground\u2019 at Jack White\u2019s Blue Room",
+      "category": "MUSIC_AND_AUDIO",
+      "source_name": "Rolling Stone Music",
+      "canonical_url": "https://www.rollingstone.com/music/music-news/olivia-rodrigo-dead-leaves-and-the-dirty-ground-cover-live-1235662456/",
+      "published_utc": "Mon, 23 Nov 2026 03:35:49 +0000",
+      "dense_summary": "The singer played a tight set during a performance recorded for Third Man Records\n\nRollingstone Logo Click to expand the Mega Menu Click to Expand Search Input Music Politics TV & Movies Culture VIBE Got A Tip?. Furthermore, account Welcome Manage Account Manage Print Account ...",
+      "strategic_takeaway": "Watch Olivia Rodrigo Cover recorded metric Third Man Records\n\nRollingstone Logo Click, creating a measurable shift in operational leverage."
+    },
+    {
+      "ontology_id": "ont_b3f7a70b65066319",
+      "title": "Hojgaard shares PGA Tour lead as RSM Classic dragged into Monday finish",
+      "category": "SPORTS_AND_ATHLETICS",
+      "source_name": "Sky Sports Football",
+      "canonical_url": "https://www.skysports.com/golf/news/12040/13615327/pga-tour-rasmus-hojgaard-shares-lead-at-weather-affected-rsm-classic-as-fedexcup-fall-finale-heads-to-monday-finish",
+      "published_utc": "Sun, 22 Nov 2026 22:10:00 GMT",
+      "dense_summary": "Rasmus Hojgaard holds a share of the lead heading into a weather-delayed final day of the RSM Classic, with England's Marco Penge in contention as he looks to secure his PGA Tour future. Furthermore, tours DP World Tour PGA Tour Ryder Cup LPGA Tour LET Tour Majors The Masters ...",
+      "strategic_takeaway": "PGA recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_88921cb3bec37772",
+      "title": "Chaotic week, nightmare start and huge reality check for Pochettino",
+      "category": "SPORTS_AND_ATHLETICS",
+      "source_name": "BBC Sport",
+      "canonical_url": "https://www.bbc.co.uk/sport/football/articles/cwd012903kvgo?at_medium=RSS&at_campaign=rss",
+      "published_utc": "Sun, 22 Nov 2026 21:22:10 GMT",
+      "dense_summary": "Mauricio Pochettino's reign as Manchester United boss could barely have got off to a more chastening start, writes Simon Stone. Furthermore, bBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather ...",
+      "strategic_takeaway": "Pochettino\nMauricio Pochettino recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_95824475c83c4519",
+      "title": "Google's Quantum Chip Beats Classical Limits in 'Impossible' Game",
+      "category": "CRYPTO_AND_MACRO",
+      "source_name": "Decrypt",
+      "canonical_url": "https://decrypt.co/383743/googles-quantum-chip-beats-classical-limits-in-impossible-game-tests-105-qubits",
+      "published_utc": "Sun, 22 Nov 2026 14:01:02 +0000",
+      "dense_summary": "Google\u2019s Willow quantum processor beat the classical ceiling in a four-qubit coordination game, revealing a promising hardware test rather than commercial quantum computing. Furthermore, google's Quantum Chip Beats Classical Limits in 'Impossible' Game\n\nThe experiment tests qu...",
+      "strategic_takeaway": "Order flow in digital asset markets at 98.3% reflects tightening market liquidity and higher institutional verification standards."
+    },
+    {
+      "ontology_id": "ont_88444d1b521719d2",
+      "title": "Market rout kills 50 basis points December Fed rate hike bets",
+      "category": "CRYPTO_AND_MACRO",
+      "source_name": "CoinDesk",
+      "canonical_url": "https://www.coindesk.com/markets/2026/11/23/market-rout-kills-50-basis-points-december-fed-rate-hike-bets",
+      "published_utc": "Mon, 23 Nov 2026 04:45:47 +0000",
+      "dense_summary": "Traders have removed the possibility of a 50-basis-point December Fed rate hike after last week\u2019s market rout. Furthermore, as of this writing, Fed funds futures show no expectation that the Fed will raise its benchmark borrowing cost by 50 basis points to 4.5% at the December...",
+      "strategic_takeaway": "Fed priced at 4.5%, creating a measurable shift in operational leverage."
+    },
+    {
+      "ontology_id": "ont_b3c4b29a584e8704",
+      "title": "We haven\u2019t seen the last of the major tech outages",
+      "category": "AI_AND_FRONTIER_TECH",
+      "source_name": "The Verge AI",
+      "canonical_url": "https://www.theverge.com/tech/1039851/major-tech-outages",
+      "published_utc": "2026-11-22T17:48:02-05:00",
+      "dense_summary": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. Furthermore, but the consensus is that there are more to come.",
+      "strategic_takeaway": "Microsoft deploys frontier models, moving the benchmark from laboratory theory to production workload execution."
+    },
+    {
+      "ontology_id": "ont_4680e906c4f3ea5b",
+      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+      "category": "AI_AND_FRONTIER_TECH",
+      "source_name": "TechCrunch AI",
+      "canonical_url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+      "published_utc": "Mon, 23 Nov 2026 01:25:53 +0000",
+      "dense_summary": "Three significant backers share what gave them conviction to bet billions on Anthropic. Furthermore, how Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO Marina Temkin 5:25 PM PST \u00b7 November 22, 2026 When Notable Capital poured roughly 10% of the U.S.",
+      "strategic_takeaway": "OpenAI deploys frontier models reaching 10%, moving the benchmark from laboratory theory to production workload execution."
+    },
+    {
+      "ontology_id": "ont_a0a7f456e151154a",
+      "title": "On the loss landscape of the linear neural network: beyond critical points",
+      "category": "AI_AND_FRONTIER_TECH",
+      "source_name": "ArXiv Machine Learning",
+      "canonical_url": "https://arxiv.org/abs/2611.26671",
+      "published_utc": "Mon, 23 Nov 2026 00:00:00 -0500",
+      "dense_summary": "arXiv:2611.26671v1 Announce Type: new \nAbstract: While the critical points of the loss landscape in linear neural networks have been extensively studied since the seminal work of Baldi \\& Hornik in the late 1980s, a description of this landscape at an intermediate or global sc...",
+      "strategic_takeaway": "tier-1 labs deploys frontier models reaching 1980s, moving the benchmark from laboratory theory to production workload execution."
+    },
+    {
+      "ontology_id": "ont_309f6341a5a3a7e7",
+      "title": "Adding One More Agent: How AI Team Size and Formation Shape Productivity and Diversity in Human-AI Brainstorming Teams",
+      "category": "AI_AND_FRONTIER_TECH",
+      "source_name": "ArXiv Computer Science AI",
+      "canonical_url": "https://arxiv.org/abs/2611.26663",
+      "published_utc": "Mon, 23 Nov 2026 00:00:00 -0500",
+      "dense_summary": "arXiv:2611.26663v1 Announce Type: new \nAbstract: Generative AI has improved individual productivity, but whether adding a plurality of AI partners helps or hurts remains open. Furthermore, we crossed AI partnership (one versus two) with behavioral formation (calibrated to aver...",
+      "strategic_takeaway": "Adding One More Agent deploys Agent, moving the benchmark from laboratory theory to production workload execution."
+    },
     {
       "ontology_id": "ont_c323dcc78fd5361d",
       "title": "The Right Tote Bag Is the Ultimate Travel Companion\u2014These Are Our Editors\u2019 Favorites",
@@ -101,176 +271,6 @@
       "published_utc": "Sun, 22 Nov 2026 01:00:57 +0000",
       "dense_summary": "Jennifer Lopez and Jane Fonda might reunite for a \u201cMonster-in-Law\u201d follow-up, the singer and actress teased recently. Furthermore, in a clip from Lopez\u2019s upcoming appearance on \u201cThe Drew Barrymore Show,\u201d she reminisced with the host about past projects, including the 2005 rom-...",
       "strategic_takeaway": "Related Stories Mel Gibson invested in Rai, creating a measurable shift in operational leverage."
-    },
-    {
-      "ontology_id": "ont_4ce8e5eb824677a4",
-      "title": "Las Vegas GP: Verstappen leads Russell, Hadjar suffers front-wing failure LIVE!",
-      "category": "SPORTS_AND_ATHLETICS",
-      "source_name": "Sky Sports Football",
-      "canonical_url": "https://www.skysports.com/f1/live-blog/12040/13615079/f1-las-vegas-gp-live-race-updates-results-stream-and-highlights-from-21st-round-of-2026-formula-1-season-in-usa",
-      "published_utc": "Sun, 22 Nov 2026 02:53:00 GMT",
-      "dense_summary": "Follow live updates and watch the best video from the Las Vegas Grand Prix. Furthermore, watch live on Sky Sports F1 and Main Event\n\nFootball F1 Cricket Rugby Union Rugby League Golf Boxing NFL Tennis NBA Racing Darts Netball MMA More Sports Scores Football F1 Cricket Rugby Un...",
-      "strategic_takeaway": "Live recorded metric Las Vegas, creating a measurable shift in operational leverage."
-    },
-    {
-      "ontology_id": "ont_112f2a304aa99b9f",
-      "title": "Can win over All Blacks finally break England's boom-bust cycle?",
-      "category": "SPORTS_AND_ATHLETICS",
-      "source_name": "BBC Sport",
-      "canonical_url": "https://www.bbc.co.uk/sport/rugby-union/articles/c6gregx71gjro?at_medium=RSS&at_campaign=rss",
-      "published_utc": "Sat, 21 Nov 2026 22:27:36 GMT",
-      "dense_summary": "Twelve months ago, England beat New Zealand and flopped in the following Six Nations. Furthermore, can their 2026 success pave the way to more permanent success?.",
-      "strategic_takeaway": "Bbc recorded metric All Blacks, creating a measurable shift in operational leverage."
-    },
-    {
-      "ontology_id": "ont_1437be955be4698d",
-      "title": "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
-      "category": "CRYPTO_AND_MACRO",
-      "source_name": "CoinDesk",
-      "canonical_url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open",
-      "published_utc": "Sat, 21 Nov 2026 17:50:00 +0000",
-      "dense_summary": "The selloff wiped out $1.8 billion in leveraged crypto positions, mostly from bullish bets on rising prices. Furthermore, the recovery brings bitcoin back into a range it was last seeing in the summer.",
-      "strategic_takeaway": "Bitcoin recorded metric Blackrock, creating a measurable shift in operational leverage."
-    },
-    {
-      "ontology_id": "ont_6abe94de3d7744e2",
-      "title": "The UN fails to agree on rules regulating \u2018killer robots\u2019",
-      "category": "AI_AND_FRONTIER_TECH",
-      "source_name": "The Verge AI",
-      "canonical_url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
-      "published_utc": "2026-11-21T15:03:37-05:00",
-      "dense_summary": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fru...",
-      "strategic_takeaway": "NPR deploys frontier models, moving the benchmark from laboratory theory to production workload execution."
-    },
-    {
-      "ontology_id": "ont_f4923ef9f2e81bfe",
-      "title": "Signal restricts mobile screenshots as it confronts \u2018existential threat\u2019 of AI surveillance",
-      "category": "AI_AND_FRONTIER_TECH",
-      "source_name": "TechCrunch AI",
-      "canonical_url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
-      "published_utc": "Sat, 21 Nov 2026 21:37:10 +0000",
-      "dense_summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps. Furthermore, signal announced Friday that it\u2019s limiting users\u2019 ability to take screenshots within the secure messaging app \u2014 a response to what President Meredith Whittaker described as the...",
-      "strategic_takeaway": "President Meredith Whittaker deploys Agent, moving the benchmark from laboratory theory to production workload execution."
-    },
-    {
-      "ontology_id": "ont_c921d7ba377b2aae",
-      "title": "The Best Places to Go in Australia, New Zealand, and the South Pacific in 2027",
-      "category": "GASTRONOMY_AND_TRAVEL",
-      "source_name": "Cond\u00e9 Nast Traveler",
-      "canonical_url": "https://www.cntraveler.com/story/best-places-to-go-in-australia-new-zealand-and-the-south-pacific-2027",
-      "published_utc": "Sat, 21 Nov 2026 07:00:00 +0000",
-      "dense_summary": "For castaway islands, earthy food-and-wine scenes, and underrated cities. Furthermore, this is part of our global guide to the Best Places to Go in 2027 \u2014find more travel inspiration here .",
-      "strategic_takeaway": "Cook Islands East Kimberly recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_5833a3ea85de688f",
-      "title": "Nike Hits the Grid With a Long-Term Formula 1 Partnership Starting in 2027",
-      "category": "STYLE_AND_FASHION",
-      "source_name": "Hypebeast",
-      "canonical_url": "https://hypebeast.com/2026/11/nike-formula-1-f1-partnership-announcement-info",
-      "published_utc": "Sat, 21 Nov 2026 08:00:35 +0000",
-      "dense_summary": "Summary\n\nNike becomes an official Formula 1 partner from the 2027 season under a long-term global agreementThe deal spans uniforms for F1 event staff, sporting apparel for F1 ACADEMY and fan collections across footwear, apparel and accessoriesA limited Nike x Las Vegas Grand P...",
-      "strategic_takeaway": "Las Vegas Grand Prix recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_a19f036f618ba4cc",
-      "title": "Mashd N Kutcher Remix Rogue Traders and Dannii Minogue\u2019s \u2018Dirty Dirty\u00a0Disco\u2019",
-      "category": "CELEBRITIES_AND_CREATORS",
-      "source_name": "Billboard Creators & Culture",
-      "canonical_url": "https://www.billboard.com/music/music-news/mashd-n-kutcher-remix-rogue-traders-dannii-minogue-dirty-dirty-disco-1236387275/",
-      "published_utc": "Sat, 21 Nov 2026 07:22:09 +0000",
-      "dense_summary": "The Australian duo's Midnight Mix arrives as part of a second remix package for the single. Furthermore, jessica Lynch More Stories by Jessica Mashd N Kutcher Remix Rogue Traders and Dannii Minogue\u2019s \u2018Dirty Dirty\u00a0Disco\u2019 Phil Collins Says Cher Sang His \u2018We Are the World\u2019 Line a...",
-      "strategic_takeaway": "Google recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_fdcc332646ec2f73",
-      "title": "Mary Bonnet Says She's Moving Away From L.A. After Leaving 'Selling Sunset'",
-      "category": "CELEBRITIES_AND_CREATORS",
-      "source_name": "TMZ Breaking News",
-      "canonical_url": "https://www.tmz.com/2026/11/21/mary-bonnet-wants-to-move-to-nashville/",
-      "published_utc": "2026-11-21T10:15:38.159495+00:00",
-      "dense_summary": "First she said so long to \"Selling Sunset,\" and now Mary Bonnet might be saying so long to Los Angeles!. Furthermore, we caught up with the real estate broker at the opening of Kyu L.A.",
-      "strategic_takeaway": "Mary Bonnet Says She recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_aa9863e6326d42f5",
-      "title": "\u2018Al Hayba\u2019 Star Taim Hasan To Play Syrian Whistleblower Farid Al-Madhhan In Neon-Backed \u2018Caesar\u2019 Biopic",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "Deadline Hollywood",
-      "canonical_url": "https://deadline.com/2026/11/al-hayba-taim-hassan-syrian-neon-department-m-caesar-biopic-1237230860/",
-      "published_utc": "Sat, 21 Nov 2026 09:53:09 +0000",
-      "dense_summary": "Syrian actor Taim Hasan (Al Haybar) has signed to star in Neon-backed biopic Caesar, about military officer Farid Al-Madhhan who risked his life to expose torture and human-rights abuses in prisons under Bashar Al Assad\u2019s reign as president. Furthermore, at the same time, Amee...",
-      "strategic_takeaway": "Al Hayba invested in Biopic\nSyrian, creating a measurable shift in operational leverage."
-    },
-    {
-      "ontology_id": "ont_49dd4e66da7bf4fb",
-      "title": "\u2018Concrete Music,\u2019 \u2018Leopard Spots\u2019 Among Industry@Tallinn and Baltic Event Award Winners",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "The Hollywood Reporter",
-      "canonical_url": "https://www.hollywoodreporter.com/news/general-news/concrete-music-leopard-spots-itbe-2026-award-winners-tallinn-1236760061/",
-      "published_utc": "Sat, 21 Nov 2026 08:30:00 +0000",
-      "dense_summary": "The honorees also include the likes of 'Blind Whistle,' 'Otok,' 'The Reef,' 'The Elderly Store,' 'Wild Love' and 'My 19-Year-Old Granny.'\n\nThe honorees also include the likes of 'Blind Whistle,' 'Otok,' 'The Reef,' 'The Elderly Store,' 'Wild Love' and 'My 19-Year-Old Granny.'\n...",
-      "strategic_takeaway": "Baltic Event Award Winners\nThe recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_0f8799cbacd420b5",
-      "title": "Robert Pattinson\u2019s James Bond Movie \u2018Talking About\u2019 Shooting at U.K.\u2019s Pinewood Studios, Director Says: \u2018We\u2019re the Home of Bond\u2019",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "Variety Film & TV",
-      "canonical_url": "https://variety.com/2026/film/global/robert-pattinson-bond-movie-shoot-pinewood-studios-1236954829/",
-      "published_utc": "Sat, 21 Nov 2026 09:07:49 +0000",
-      "dense_summary": "Corporate affairs director of the U.K.\u2019s famed Pinewood Studios, Andrew M. Furthermore, smith, said he cannot yet confirm whether or not the next Bond film will be shot on their lot, but that he and his team are keeping their \u201cfingers crossed.\u201d Speaking at a panel about locati...",
-      "strategic_takeaway": "Robert Pattinson announced Daniel Craig, creating a measurable shift in operational leverage."
-    },
-    {
-      "ontology_id": "ont_76ea773fb5fe3576",
-      "title": "Watch LCD Soundsystem play \u2018Disco Infiltrator\u2019 for first time in 21 years",
-      "category": "MUSIC_AND_AUDIO",
-      "source_name": "NME Music",
-      "canonical_url": "https://www.nme.com/news/music/watch-lcd-soundsystem-play-disco-infiltrator-for-first-time-in-21-years-3976623",
-      "published_utc": "Sat, 21 Nov 2026 10:00:37 +0000",
-      "dense_summary": "They also performed 'All I Want' for the first time since 2011 during the opening night of their New York residency\n\nThe post Watch LCD Soundsystem play \u2018Disco Infiltrator\u2019 for first time in 21 years appeared first on NME.",
-      "strategic_takeaway": "LCD recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_c7f590aacc856a4f",
-      "title": "Australia lose wicket in first over, chasing 188 in first T20 vs England LIVE!",
-      "category": "SPORTS_AND_ATHLETICS",
-      "source_name": "Sky Sports Football",
-      "canonical_url": "https://www.skysports.com/cricket/live-blog/12040/13614441/australia-vs-england-first-t20i-live-score-over-by-over-updates-and-analysis-from-series-opener-in-melbourne",
-      "published_utc": "Sat, 21 Nov 2026 07:30:00 GMT",
-      "dense_summary": "Football F1 Cricket Rugby Union Rugby League Golf Boxing NFL Tennis NBA Racing Darts Netball MMA More Sports Scores Football F1 Cricket Rugby Union Rugby League Golf NFL Tennis Watch Sky Bet More Podcasts Upcoming on Sky Get Sky Sports Sky Sports App Sky Sports with no contrac...",
-      "strategic_takeaway": "Football F1 Cricket Rugby Union Rugby League Golf Boxing recorded metric Tennis Watch Sky Bet More Podcasts Upcoming, creating a measurable shift in operational leverage."
-    },
-    {
-      "ontology_id": "ont_3a12ffa0057cb714",
-      "title": "'Somebody has to stand up to that guy' - and Russell has his chance in Vegas",
-      "category": "SPORTS_AND_ATHLETICS",
-      "source_name": "BBC Sport",
-      "canonical_url": "https://www.bbc.co.uk/sport/formula1/articles/c34gnrvl9zvro?at_medium=RSS&at_campaign=rss",
-      "published_utc": "Sat, 21 Nov 2026 08:13:58 GMT",
-      "dense_summary": "The George Russell-Max Verstappen feud surfaced again in Las Vegas, adding spice to a race where they will start on the front row. Furthermore, bBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weath...",
-      "strategic_takeaway": "Vegas\nThe George Russell recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_9186091221e53b2b",
-      "title": "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug",
-      "category": "CRYPTO_AND_MACRO",
-      "source_name": "CoinDesk",
-      "canonical_url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-nodes-could-be-stalled-by-repeating-one-id-50-000-times-ai-found-the-bug",
-      "published_utc": "Sat, 21 Nov 2026 06:16:42 +0000",
-      "dense_summary": "Bitcoin Core shipped fixes on Friday for a bug flagged by Loupe, an open-source scanner from Block\u2019s Spiral that uses AI agents to examine bitcoin code. Furthermore, bitcoin Core, software used to run those nodes, disclosed the bug on Friday as CVE-2026-117348 and released ver...",
-      "strategic_takeaway": "Order flow in Bitcoin reflects tightening market liquidity and higher institutional verification standards."
-    },
-    {
-      "ontology_id": "ont_49dc816cbdfb423d",
-      "title": "The Best Hotels Near Disneyland Paris With Cinderella Suites, 'Toy Story'\u2013Themed Rooms, and Quaint Cottages",
-      "category": "GASTRONOMY_AND_TRAVEL",
-      "source_name": "Cond\u00e9 Nast Traveler",
-      "canonical_url": "https://www.cntraveler.com/gallery/the-best-hotels-near-disneyland-paris-with-cinderella-suites-toy-story-themed-rooms-and-quaint-cottages",
-      "published_utc": "Fri, 20 Nov 2026 23:02:00 +0000",
-      "dense_summary": "Here's where to stay near the park to maximize your time\u2014and shorten your commute between the airport and the city. Furthermore, there's also never been a better time to visit.",
-      "strategic_takeaway": "Quaint Cottages\nHere recalibrates operational strategy to defend unit economics and distribution access."
     }
   ]
 }
