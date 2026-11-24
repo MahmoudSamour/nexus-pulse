@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-23T05:23:40Z",
+  "updated_utc": "2026-11-24T05:53:48Z",
   "swarm_architecture_version": "2.1.0",
   "audio_engine": "Kokoro-82M v1.0 Open-Source Human Narrator (-14 LUFS)",
   "visual_engine": "Antigravity Warm Cream Editorial Luxury (#FAF7F0)",
@@ -10,18 +10,198 @@
     "20:00 (evening)"
   ],
   "graph_stats": {
-    "total_stories": 644,
-    "total_entities": 4239,
+    "total_stories": 663,
+    "total_entities": 4377,
     "total_knowledge_triples": 702,
     "entity_breakdown": {
-      "METRICS": 397,
-      "ORGANIZATIONS": 1808,
-      "PEOPLE": 1944,
-      "TECHNOLOGIES": 90
+      "METRICS": 401,
+      "ORGANIZATIONS": 1869,
+      "PEOPLE": 2010,
+      "TECHNOLOGIES": 97
     },
-    "density_ratio": 0.17
+    "density_ratio": 0.16
   },
   "stories": [
+    {
+      "ontology_id": "ont_b2d9ab9fdeebd5ed",
+      "title": "On Location: Dig Stars Amy Poehler and Geraldine Viswanathan on Italian Gelato, Go-Karting\u2014and Tailgating",
+      "category": "GASTRONOMY_AND_TRAVEL",
+      "source_name": "Cond\u00e9 Nast Traveler",
+      "canonical_url": "https://www.cntraveler.com/story/on-location-dig-stars-amy-poehler-and-geraldine-viswanathan-on-italian-gelato-go-karting-and-tailgating",
+      "published_utc": "Tue, 24 Nov 2026 02:49:52 +0000",
+      "dense_summary": "The 10-part Peacock series set on an Greek archaeological site found its muse in Italy\u2019s Puglia region. Furthermore, amy Poehler had never been to Greece , but she was immediately entranced by Kate Myers\u2019s novel Excavations about four women coming together for an archaeologica...",
+      "strategic_takeaway": "Dig Stars Amy Poehler recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_99695efe454a5b52",
+      "title": "New Balance\u2019s Remastered 990 Dad Shoe Joins the Dark Side",
+      "category": "STYLE_AND_FASHION",
+      "source_name": "Highsnobiety",
+      "canonical_url": "https://www.highsnobiety.com/p/new-balance-990v7-black/",
+      "published_utc": "Mon, 23 Nov 2026 23:43:12 GMT",
+      "dense_summary": "The New Balance 990v7 run continues with the release of an all-black colorway. Furthermore, here's everything on the newest drop.",
+      "strategic_takeaway": "Runway recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_51d4599c3b914055",
+      "title": "What\u2019s Your NEXT Move? HKSTP Brings Together Three Generations of Pioneers To Explore What Comes Next",
+      "category": "STYLE_AND_FASHION",
+      "source_name": "Hypebeast",
+      "canonical_url": "https://hypebeast.com/2026/11/whats-your-next-move-hkstp-brings-together-three-generations-of-pioneers-to-explore-what-comes-next",
+      "published_utc": "Tue, 24 Nov 2026 04:16:41 +0000",
+      "dense_summary": "Innovation is rarely bound by age or industry. Furthermore, regardless of the stage of life, those who drive cultural and technological shifts share the same instinct: to look beyond the present and explore what could come next.",
+      "strategic_takeaway": "NEXT recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_f9b0c1adaaaf70ba",
+      "title": "See the Sasha & Digweed Poster That Sold for $21,500 at\u00a0Auction",
+      "category": "CELEBRITIES_AND_CREATORS",
+      "source_name": "Billboard Creators & Culture",
+      "canonical_url": "https://www.billboard.com/music/music-news/sasha-digweed-poster-sold-21500-auction-photo-1236388407/",
+      "published_utc": "Tue, 24 Nov 2026 00:41:55 +0000",
+      "dense_summary": "The poster for the duo's 1994 mix album Renaissance: The Mix Collection was originally created as a temporary ad. Furthermore, katie Bain More Stories by Katie See the Sasha & Digweed Poster That Sold for $21,500 at\u00a0Auction \u2018It\u2019s Not Just a Song on the Radio\u2019: How Music Became...",
+      "strategic_takeaway": "Google recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_5e471750eedf9999",
+      "title": "Hila Klein Will Not Work on New Show Amid Alleged Affair Drama",
+      "category": "CELEBRITIES_AND_CREATORS",
+      "source_name": "TMZ Breaking News",
+      "canonical_url": "https://www.tmz.com/2026/11/23/hila-klein-quitting-new-podcast-amid-divorce/",
+      "published_utc": "2026-11-24T05:00:47.308557+00:00",
+      "dense_summary": "Hila Klein says her plan to take part in a new show after her marriage imploded is DOA . Furthermore, announcing she has other priorities and won't continue working on the new project.",
+      "strategic_takeaway": "Hila Klein Will Not Work recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_4e550d65d45664b9",
+      "title": "Skydance Products & Publishing Chief Josh Silverman Sets Exec Team And Reveals A Departure",
+      "category": "ENTERTAINMENT_AND_CINEMA",
+      "source_name": "Deadline Hollywood",
+      "canonical_url": "https://deadline.com/2026/11/skydance-products-publishing-chief-sets-executive-team-1237232267/",
+      "published_utc": "Tue, 24 Nov 2026 03:56:13 +0000",
+      "dense_summary": "Josh Silverman, President of Global Products & Publishing for Skydance, has set the division\u2019s senior leadership team and announced the departure of one high-level executive. Furthermore, since the close of the $110 billion merger of Paramount and Warner Bros.",
+      "strategic_takeaway": "Publishing Chief Josh Silverman Sets Exec Team And Reveals recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_5a15995a9ed7b5db",
+      "title": "2026 International Emmy Winners Revealed: \u2018Car\u00eame\u2019 Wins Best Drama",
+      "category": "ENTERTAINMENT_AND_CINEMA",
+      "source_name": "The Hollywood Reporter",
+      "canonical_url": "https://www.hollywoodreporter.com/tv/tv-news/2026-international-emmys-winners-list-1236761237/",
+      "published_utc": "Tue, 24 Nov 2026 03:12:23 +0000",
+      "dense_summary": "Other top winners include 'Divisi\u00f3n Palermo' for best comedy, best actor Bobby Schofield for 'Unforgivable' and best actress Mona Mina Leon for 'Holy Sh!t.'\n\nOther top winners include 'Divisi\u00f3n Palermo' for best comedy, best actor Bobby Schofield for 'Unforgivable' and best ac...",
+      "strategic_takeaway": "Apple recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_35b7509ad6aa5464",
+      "title": "Berlinale Alum Sreemoyee Singh\u2019s WAVES Film Bazaar Selection \u2018Fireflowers,\u2019 About a Mother\u2019s Lost Singing Voice, Boards Dutch Co-Producer (EXCLUSIVE)",
+      "category": "ENTERTAINMENT_AND_CINEMA",
+      "source_name": "Variety Film & TV",
+      "canonical_url": "https://variety.com/2026/film/markets-festivals/waves-film-bazaar-doc-fireflowers-dutch-co-producer-1236956745/",
+      "published_utc": "Tue, 24 Nov 2026 04:58:03 +0000",
+      "dense_summary": "Indian filmmaker Sreemoyee Singh\u2019s personal documentary \u201cFireflowers,\u201d about a mother who lost her singing voice after her husband died, has added Dutch outfit New Amsterdam Film Company, through Sander Verdonk, as co-producer. Furthermore, the project is also among the select...",
+      "strategic_takeaway": "Berlinale Alum Sreemoyee Singh recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_b20bbf1be80d8d8b",
+      "title": "Bob Seger and the Silver Bullet Band Bassist Chris Campbell Dead at 78",
+      "category": "MUSIC_AND_AUDIO",
+      "source_name": "Rolling Stone Music",
+      "canonical_url": "https://www.rollingstone.com/music/music-news/bob-seger-silver-bullet-band-bassist-chris-campbell-dead-1235662929/",
+      "published_utc": "Tue, 24 Nov 2026 01:11:22 +0000",
+      "dense_summary": "He spent 50 years playing alongside Seger and appears on \"Turn the Page,\" \"Night Moves,\" \"Rock and Roll Never Forgets,\" \"Still the Same,\" \"Hollywood Nights,\" and \"Against the Wind\"\n\nRollingstone Logo Click to expand the Mega Menu Click to Expand Search Input Music Politics TV ...",
+      "strategic_takeaway": "Google recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_676dcc0ed8a0c706",
+      "title": "Ad\u00e9la Announces 2027 World Tour",
+      "category": "MUSIC_AND_AUDIO",
+      "source_name": "Pitchfork News",
+      "canonical_url": "https://pitchfork.com/story/adela-announces-2027-world-tour/",
+      "published_utc": "Mon, 23 Nov 2026 21:23:36 +0000",
+      "dense_summary": "It runs nearly every single night from January to April\n\nAd\u00e9la 2027 Tour Buy Now at Ticketmaster Buy Now at Stubhub 01-11 Prague, Czech Republic - Forum Karlin 01-13 Dublin, Ireland - 3Olympia Theatre 01-14 Dublin, Ireland - 3Olympia Theatre 01-16 Manchester, England - O2 Vict...",
+      "strategic_takeaway": "World Tour\nIt recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_58e61366d91ef52e",
+      "title": "Five-time Solheim Cup player Khang secures LPGA Tour card for 2027",
+      "category": "SPORTS_AND_ATHLETICS",
+      "source_name": "Sky Sports Football",
+      "canonical_url": "https://www.skysports.com/golf/news/12040/13615841/lpga-tour-q-series-megan-khang-secures-tour-card-for-2027-as-megha-ganne-wins-final-qualifying-stage",
+      "published_utc": "Mon, 23 Nov 2026 22:26:00 GMT",
+      "dense_summary": "Megha Ganne won the 2026 LPGA Q-Series final qualifying stage as 27 tour cards were claimed for the 2027 season, with five-time USA Solheim Cup team member Megan Khang among those successful. Furthermore, tours DP World Tour PGA Tour Ryder Cup LPGA Tour LET Tour Majors The Mas...",
+      "strategic_takeaway": "LPGA recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_6a7b049470f7e123",
+      "title": "Tarkowski's first Premier League red ruins Moyes' night - was it deserved?",
+      "category": "SPORTS_AND_ATHLETICS",
+      "source_name": "BBC Sport",
+      "canonical_url": "https://www.bbc.co.uk/sport/football/articles/cmqx5eynvpqno?at_medium=RSS&at_campaign=rss",
+      "published_utc": "Mon, 23 Nov 2026 22:43:39 GMT",
+      "dense_summary": "Everton captain James Tarkowski was sent off for the first time in his Premier League career in Monday's 4-0 loss at Brentford - but was it a harsh decision?. Furthermore, bBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel C...",
+      "strategic_takeaway": "BBC recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_ec743325e655d32f",
+      "title": "\u201cThis Is An Excellent Entry Point\u201d \u2013 UTXO\u2019s Loren Asmus Gives Bitcoin Outlook",
+      "category": "CRYPTO_AND_MACRO",
+      "source_name": "Bitcoin Magazine",
+      "canonical_url": "https://bitcoinmagazine.com/videos/this-is-an-excellent-entry-point-utxos-loren-asmus-gives-bitcoin-outlook",
+      "published_utc": "Mon, 23 Nov 2026 21:30:11 +0000",
+      "dense_summary": "\u25b6\n\nBitcoin Magazine\n\n\u201cThis Is An Excellent Entry Point\u201d \u2013 UTXO\u2019s Loren Asmus Gives Bitcoin Outlook\n\nLoren Asmus of UTXO Management says Bitcoin's long-term case is intact after a brutal year for price. Furthermore, this post \u201cThis Is An Excellent Entry Point\u201d \u2013 UTXO\u2019s Loren As...",
+      "strategic_takeaway": "Order flow in Bitcoin reflects tightening market liquidity and higher institutional verification standards."
+    },
+    {
+      "ontology_id": "ont_f356476dda86483c",
+      "title": "China's Z.ai Says Its New AI Model Can Think Like One Four Times Its Size",
+      "category": "CRYPTO_AND_MACRO",
+      "source_name": "Decrypt",
+      "canonical_url": "https://decrypt.co/383851/chinas-zai-new-ai-model-glm-think-like-four-times-size",
+      "published_utc": "Mon, 23 Nov 2026 23:06:02 +0000",
+      "dense_summary": "GLM-5.4 uses a looping architecture to squeeze more reasoning power from fewer parameters, challenging the expensive approach favored by American AI giants. Furthermore, china's Z.ai Says Its New AI Model Can Think Like One Four Times Its Size\n\nThe Beijing-based company says i...",
+      "strategic_takeaway": "Order flow in Transformer reflects tightening market liquidity and higher institutional verification standards."
+    },
+    {
+      "ontology_id": "ont_88a4580548355df7",
+      "title": "U.S. CFTC sets policies on event contract data, using crypto to check financial boxes",
+      "category": "CRYPTO_AND_MACRO",
+      "source_name": "CoinDesk",
+      "canonical_url": "https://www.coindesk.com/policy/2026/11/23/u-s-cftc-sets-policies-on-event-contract-data-using-crypto-to-check-financial-boxes",
+      "published_utc": "Tue, 24 Nov 2026 00:25:04 +0000",
+      "dense_summary": "The derivatives regulator issues a rule on data reporting for event contracts and new guidance for how crypto assets can be used to meet regulatory requirements. Furthermore, copy link X icon X (Twitter) LinkedIn Facebook Email Make preferred on Enlarge image CFTC Chairman Mik...",
+      "strategic_takeaway": "Order flow in Bitcoin at $60 reflects tightening market liquidity and higher institutional verification standards."
+    },
+    {
+      "ontology_id": "ont_13d88229da2493d6",
+      "title": "Trump engineered a risky comeback for Jensen Huang",
+      "category": "AI_AND_FRONTIER_TECH",
+      "source_name": "The Verge AI",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
+      "published_utc": "2026-11-23T17:25:12-05:00",
+      "dense_summary": "After Nvidia's board accepted Jensen Huang's resignation as CEO, following reports that Huang had an affair with an alleged Chinese spy, President Donald Trump, too, appeared to submit to the new reality. Furthermore, smith's radio show shortly after the news came out, Trump s...",
+      "strategic_takeaway": "Nvidia deploys frontier models, moving the benchmark from laboratory theory to production workload execution."
+    },
+    {
+      "ontology_id": "ont_c0f68be746109292",
+      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+      "category": "AI_AND_FRONTIER_TECH",
+      "source_name": "TechCrunch AI",
+      "canonical_url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "published_utc": "Mon, 23 Nov 2026 22:05:50 +0000",
+      "dense_summary": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals. Furthermore, anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes Sarah Perez 2:05 PM PST \u00b7 Novembe...",
+      "strategic_takeaway": "Anthropic deploys Agent, moving the benchmark from laboratory theory to production workload execution."
+    },
+    {
+      "ontology_id": "ont_d3ffb24198c485f8",
+      "title": "A legendary philosopher isn\u2019t buying Anthropic\u2019s consciousness argument",
+      "category": "AI_AND_FRONTIER_TECH",
+      "source_name": "MIT Tech Review AI",
+      "canonical_url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+      "published_utc": "Mon, 23 Nov 2026 17:36:08 +0000",
+      "dense_summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. Furthermore, to get stories like this in your inbox first,\u00a0sign up here.",
+      "strategic_takeaway": "Anthropic deploys frontier models reaching 33%, moving the benchmark from laboratory theory to production workload execution."
+    },
     {
       "ontology_id": "ont_c69cefbe6be365db",
       "title": "How to Spend 3 Perfect Days in Naples",
@@ -91,186 +271,6 @@
       "published_utc": "Mon, 23 Nov 2026 03:29:15 +0000",
       "dense_summary": "Nathan Fielder and Lance Oppenheim's A24 documentary continues stirring conversation about Elizabeth Holmes through its sixth weekend in domestic release. Furthermore, nathan Fielder and Lance Oppenheim's A24 documentary continues stirring conversation about Elizabeth Holmes t...",
       "strategic_takeaway": "You Can See Everything recorded metric Letterboxd Watches\nNathan Fielder, creating a measurable shift in operational leverage."
-    },
-    {
-      "ontology_id": "ont_bb9fa958a792dd25",
-      "title": "Korea Box Office: Mystery Thriller \u2018White Blast\u2019 Opens at No. 1, Ending Five-Week \u2018Chiikawa\u2019 Reign",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "Variety Film & TV",
-      "canonical_url": "https://variety.com/2026/film/box-office/korea-box-office-mystery-thriller-white-blast-1236955658/",
-      "published_utc": "Mon, 23 Nov 2026 04:49:39 +0000",
-      "dense_summary": "Showbox\u2019s mystery thriller \u201cWhite Blast\u201d debuted atop the South Korean box office over the weekend of Nov. Furthermore, 20\u201322, ending the five-week chart-topping run of Japanese anime sensation \u201cChiikawa the Movie: The Secret of the Mermaid Island.\u201d According to data from KOBI...",
-      "strategic_takeaway": "Ending Five announced South Korean, creating a measurable shift in operational leverage."
-    },
-    {
-      "ontology_id": "ont_cf41f3552ac5e5e1",
-      "title": "Watch Olivia Rodrigo Cover \u2018Dead Leaves and the Dirty Ground\u2019 at Jack White\u2019s Blue Room",
-      "category": "MUSIC_AND_AUDIO",
-      "source_name": "Rolling Stone Music",
-      "canonical_url": "https://www.rollingstone.com/music/music-news/olivia-rodrigo-dead-leaves-and-the-dirty-ground-cover-live-1235662456/",
-      "published_utc": "Mon, 23 Nov 2026 03:35:49 +0000",
-      "dense_summary": "The singer played a tight set during a performance recorded for Third Man Records\n\nRollingstone Logo Click to expand the Mega Menu Click to Expand Search Input Music Politics TV & Movies Culture VIBE Got A Tip?. Furthermore, account Welcome Manage Account Manage Print Account ...",
-      "strategic_takeaway": "Watch Olivia Rodrigo Cover recorded metric Third Man Records\n\nRollingstone Logo Click, creating a measurable shift in operational leverage."
-    },
-    {
-      "ontology_id": "ont_b3f7a70b65066319",
-      "title": "Hojgaard shares PGA Tour lead as RSM Classic dragged into Monday finish",
-      "category": "SPORTS_AND_ATHLETICS",
-      "source_name": "Sky Sports Football",
-      "canonical_url": "https://www.skysports.com/golf/news/12040/13615327/pga-tour-rasmus-hojgaard-shares-lead-at-weather-affected-rsm-classic-as-fedexcup-fall-finale-heads-to-monday-finish",
-      "published_utc": "Sun, 22 Nov 2026 22:10:00 GMT",
-      "dense_summary": "Rasmus Hojgaard holds a share of the lead heading into a weather-delayed final day of the RSM Classic, with England's Marco Penge in contention as he looks to secure his PGA Tour future. Furthermore, tours DP World Tour PGA Tour Ryder Cup LPGA Tour LET Tour Majors The Masters ...",
-      "strategic_takeaway": "PGA recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_88921cb3bec37772",
-      "title": "Chaotic week, nightmare start and huge reality check for Pochettino",
-      "category": "SPORTS_AND_ATHLETICS",
-      "source_name": "BBC Sport",
-      "canonical_url": "https://www.bbc.co.uk/sport/football/articles/cwd012903kvgo?at_medium=RSS&at_campaign=rss",
-      "published_utc": "Sun, 22 Nov 2026 21:22:10 GMT",
-      "dense_summary": "Mauricio Pochettino's reign as Manchester United boss could barely have got off to a more chastening start, writes Simon Stone. Furthermore, bBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather ...",
-      "strategic_takeaway": "Pochettino\nMauricio Pochettino recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_95824475c83c4519",
-      "title": "Google's Quantum Chip Beats Classical Limits in 'Impossible' Game",
-      "category": "CRYPTO_AND_MACRO",
-      "source_name": "Decrypt",
-      "canonical_url": "https://decrypt.co/383743/googles-quantum-chip-beats-classical-limits-in-impossible-game-tests-105-qubits",
-      "published_utc": "Sun, 22 Nov 2026 14:01:02 +0000",
-      "dense_summary": "Google\u2019s Willow quantum processor beat the classical ceiling in a four-qubit coordination game, revealing a promising hardware test rather than commercial quantum computing. Furthermore, google's Quantum Chip Beats Classical Limits in 'Impossible' Game\n\nThe experiment tests qu...",
-      "strategic_takeaway": "Order flow in digital asset markets at 98.3% reflects tightening market liquidity and higher institutional verification standards."
-    },
-    {
-      "ontology_id": "ont_88444d1b521719d2",
-      "title": "Market rout kills 50 basis points December Fed rate hike bets",
-      "category": "CRYPTO_AND_MACRO",
-      "source_name": "CoinDesk",
-      "canonical_url": "https://www.coindesk.com/markets/2026/11/23/market-rout-kills-50-basis-points-december-fed-rate-hike-bets",
-      "published_utc": "Mon, 23 Nov 2026 04:45:47 +0000",
-      "dense_summary": "Traders have removed the possibility of a 50-basis-point December Fed rate hike after last week\u2019s market rout. Furthermore, as of this writing, Fed funds futures show no expectation that the Fed will raise its benchmark borrowing cost by 50 basis points to 4.5% at the December...",
-      "strategic_takeaway": "Fed priced at 4.5%, creating a measurable shift in operational leverage."
-    },
-    {
-      "ontology_id": "ont_b3c4b29a584e8704",
-      "title": "We haven\u2019t seen the last of the major tech outages",
-      "category": "AI_AND_FRONTIER_TECH",
-      "source_name": "The Verge AI",
-      "canonical_url": "https://www.theverge.com/tech/1039851/major-tech-outages",
-      "published_utc": "2026-11-22T17:48:02-05:00",
-      "dense_summary": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. Furthermore, but the consensus is that there are more to come.",
-      "strategic_takeaway": "Microsoft deploys frontier models, moving the benchmark from laboratory theory to production workload execution."
-    },
-    {
-      "ontology_id": "ont_4680e906c4f3ea5b",
-      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
-      "category": "AI_AND_FRONTIER_TECH",
-      "source_name": "TechCrunch AI",
-      "canonical_url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
-      "published_utc": "Mon, 23 Nov 2026 01:25:53 +0000",
-      "dense_summary": "Three significant backers share what gave them conviction to bet billions on Anthropic. Furthermore, how Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO Marina Temkin 5:25 PM PST \u00b7 November 22, 2026 When Notable Capital poured roughly 10% of the U.S.",
-      "strategic_takeaway": "OpenAI deploys frontier models reaching 10%, moving the benchmark from laboratory theory to production workload execution."
-    },
-    {
-      "ontology_id": "ont_a0a7f456e151154a",
-      "title": "On the loss landscape of the linear neural network: beyond critical points",
-      "category": "AI_AND_FRONTIER_TECH",
-      "source_name": "ArXiv Machine Learning",
-      "canonical_url": "https://arxiv.org/abs/2611.26671",
-      "published_utc": "Mon, 23 Nov 2026 00:00:00 -0500",
-      "dense_summary": "arXiv:2611.26671v1 Announce Type: new \nAbstract: While the critical points of the loss landscape in linear neural networks have been extensively studied since the seminal work of Baldi \\& Hornik in the late 1980s, a description of this landscape at an intermediate or global sc...",
-      "strategic_takeaway": "tier-1 labs deploys frontier models reaching 1980s, moving the benchmark from laboratory theory to production workload execution."
-    },
-    {
-      "ontology_id": "ont_309f6341a5a3a7e7",
-      "title": "Adding One More Agent: How AI Team Size and Formation Shape Productivity and Diversity in Human-AI Brainstorming Teams",
-      "category": "AI_AND_FRONTIER_TECH",
-      "source_name": "ArXiv Computer Science AI",
-      "canonical_url": "https://arxiv.org/abs/2611.26663",
-      "published_utc": "Mon, 23 Nov 2026 00:00:00 -0500",
-      "dense_summary": "arXiv:2611.26663v1 Announce Type: new \nAbstract: Generative AI has improved individual productivity, but whether adding a plurality of AI partners helps or hurts remains open. Furthermore, we crossed AI partnership (one versus two) with behavioral formation (calibrated to aver...",
-      "strategic_takeaway": "Adding One More Agent deploys Agent, moving the benchmark from laboratory theory to production workload execution."
-    },
-    {
-      "ontology_id": "ont_c323dcc78fd5361d",
-      "title": "The Right Tote Bag Is the Ultimate Travel Companion\u2014These Are Our Editors\u2019 Favorites",
-      "category": "GASTRONOMY_AND_TRAVEL",
-      "source_name": "Cond\u00e9 Nast Traveler",
-      "canonical_url": "https://www.cntraveler.com/story/best-tote-bags",
-      "published_utc": "Sat, 21 Nov 2026 14:00:00 +0000",
-      "dense_summary": "From everyday office commutes to never-ending travel days, these tote bags are our most trusted sidekicks. Furthermore, though the design of a tote bag is inherently simple, our favorite brands have curated precise variations to suit every kind of traveler.",
-      "strategic_takeaway": "Amazon recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_d6163394d025a5b1",
-      "title": "adidas Took the New Balance Route With Its All-New Techy Sneaker-Loafer",
-      "category": "STYLE_AND_FASHION",
-      "source_name": "Highsnobiety",
-      "canonical_url": "https://www.highsnobiety.com/p/adidas-formotion-f50-loafer/",
-      "published_utc": "Sat, 21 Nov 2026 21:50:10 GMT",
-      "dense_summary": "adidas drops a Formotion F50 Loafer inspired by its dadcore running shoe. Furthermore, it's also oozing New Balance energy.",
-      "strategic_takeaway": "Runway recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_14a9bc4214483d0f",
-      "title": "POST ARCHIVE FACTION (PAF) Opens Hannam Flagship Store in Seoul Alongside FW26 Drop",
-      "category": "STYLE_AND_FASHION",
-      "source_name": "Hypebeast",
-      "canonical_url": "https://hypebeast.com/2026/11/post-archive-faction-paf-opens-hannam-flagship-store-seoul-alongside-fw26-drop",
-      "published_utc": "Sun, 22 Nov 2026 04:00:16 +0000",
-      "dense_summary": "Summary\n\nPOST ARCHIVE FACTION (PAF) has officially opened the doors to its new flagship store in the Hannam-dong neighborhood of SeoulThe immersive two-story space features adjustable display panels and a bespoke sound system developed with artist Erika CoxThe retail launch co...",
-      "strategic_takeaway": "POST recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_50d697c70df2fe0c",
-      "title": "CORTIS\u2019 Martin Calls Panic \u201cLegends\u201d After Their \u201cLeft-Handed\u201d Performance | MAMA Awards\u00a02026",
-      "category": "CELEBRITIES_AND_CREATORS",
-      "source_name": "Billboard Creators & Culture",
-      "canonical_url": "https://www.billboard.com/video/cortis-martin-calls-panic-legends-after-left-handed-performance-mama-awards-2026/",
-      "published_utc": "Sun, 22 Nov 2026 00:36:18 +0000",
-      "dense_summary": "CORTIS caught up with Billboard\u2019s Tetris Kelly on the red carpet at the MAMA Awards 2026. Furthermore, cORTIS\u2019 Martin Calls Panic \u201cLegends\u201d After Their \u201cLeft-Handed\u201d Performance | MAMA Awards\u00a02026 Share on Facebook Share on X + additional share options added Share on Pinterest...",
-      "strategic_takeaway": "CORTIS recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_5d08f6a5336ae4db",
-      "title": "Miley Cyrus Wipes Away Tears at the Altar in First Look at Wedding Dress, Ceremony",
-      "category": "CELEBRITIES_AND_CREATORS",
-      "source_name": "TMZ Breaking News",
-      "canonical_url": "https://www.tmz.com/2026/11/21/miley-cyrus-wedding-dress-ceremony-pics-video/",
-      "published_utc": "2026-11-22T05:00:20.904108+00:00",
-      "dense_summary": "Miley Cyrus was seen wiping a tear away from her face in emotional photos and video from her Palm Springs wedding ceremony . Furthermore, offering the first look of her stunning wedding dress.",
-      "strategic_takeaway": "Miley Cyrus Wipes Away Tears recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_c42508d9f2475b06",
-      "title": "\u2018American Psycho\u2019 Gets Axed: Luca Guadagnino Confirms His Adaptation Is \u201cNot Happening\u201d",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "Deadline Hollywood",
-      "canonical_url": "https://deadline.com/2026/11/luca-guadagnino-american-psycho-not-happening-1237231106/",
-      "published_utc": "Sun, 22 Nov 2026 04:21:37 +0000",
-      "dense_summary": "Luca Guadagnino has to return some videotapes. Furthermore, the Oscar-nominated director is passing on Scott Z.",
-      "strategic_takeaway": "Crew Call announced Bret Easton Ellis, creating a measurable shift in operational leverage."
-    },
-    {
-      "ontology_id": "ont_5814c36cf74669ab",
-      "title": "Miley Cyrus and Maxx Morando Are Married",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "The Hollywood Reporter",
-      "canonical_url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/miley-cyrus-maxx-morando-married-1236760559/",
-      "published_utc": "Sun, 22 Nov 2026 01:07:59 +0000",
-      "dense_summary": "The couple began dating in 2021 after meeting on a blind date. Furthermore, the couple began dating in 2021 after meeting on a blind date.",
-      "strategic_takeaway": "Maxx Morando Are Married\nThe recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_fa7cd74ef339d089",
-      "title": "Jennifer Lopez Teases \u2018Monster-in-Law\u2019 Sequel With Jane Fonda: \u2018We\u2019re Talking About Maybe Doing Another One\u2019",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "Variety Film & TV",
-      "canonical_url": "https://variety.com/2026/film/news/jennifer-lopez-jane-fonda-monster-in-law-follow-up-1236955143/",
-      "published_utc": "Sun, 22 Nov 2026 01:00:57 +0000",
-      "dense_summary": "Jennifer Lopez and Jane Fonda might reunite for a \u201cMonster-in-Law\u201d follow-up, the singer and actress teased recently. Furthermore, in a clip from Lopez\u2019s upcoming appearance on \u201cThe Drew Barrymore Show,\u201d she reminisced with the host about past projects, including the 2005 rom-...",
-      "strategic_takeaway": "Related Stories Mel Gibson invested in Rai, creating a measurable shift in operational leverage."
     }
   ]
 }
