@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-24T05:53:48Z",
+  "updated_utc": "2026-11-26T05:21:28Z",
   "swarm_architecture_version": "2.1.0",
   "audio_engine": "Kokoro-82M v1.0 Open-Source Human Narrator (-14 LUFS)",
   "visual_engine": "Antigravity Warm Cream Editorial Luxury (#FAF7F0)",
@@ -10,267 +10,267 @@
     "20:00 (evening)"
   ],
   "graph_stats": {
-    "total_stories": 663,
-    "total_entities": 4377,
-    "total_knowledge_triples": 702,
+    "total_stories": 691,
+    "total_entities": 4555,
+    "total_knowledge_triples": 739,
     "entity_breakdown": {
-      "METRICS": 401,
-      "ORGANIZATIONS": 1869,
-      "PEOPLE": 2010,
-      "TECHNOLOGIES": 97
+      "METRICS": 417,
+      "ORGANIZATIONS": 1951,
+      "PEOPLE": 2079,
+      "TECHNOLOGIES": 108
     },
     "density_ratio": 0.16
   },
   "stories": [
     {
-      "ontology_id": "ont_b2d9ab9fdeebd5ed",
-      "title": "On Location: Dig Stars Amy Poehler and Geraldine Viswanathan on Italian Gelato, Go-Karting\u2014and Tailgating",
-      "category": "GASTRONOMY_AND_TRAVEL",
-      "source_name": "Cond\u00e9 Nast Traveler",
-      "canonical_url": "https://www.cntraveler.com/story/on-location-dig-stars-amy-poehler-and-geraldine-viswanathan-on-italian-gelato-go-karting-and-tailgating",
-      "published_utc": "Tue, 24 Nov 2026 02:49:52 +0000",
-      "dense_summary": "The 10-part Peacock series set on an Greek archaeological site found its muse in Italy\u2019s Puglia region. Furthermore, amy Poehler had never been to Greece , but she was immediately entranced by Kate Myers\u2019s novel Excavations about four women coming together for an archaeologica...",
-      "strategic_takeaway": "Dig Stars Amy Poehler recalibrates operational strategy to defend unit economics and distribution access."
+      "ontology_id": "ont_d6cd40c6d4d45c95",
+      "title": "Introducing Search for Agents",
+      "category": "ENGINEERING_AND_SYSTEMS_HISTORY",
+      "source_name": "Cloudflare Engineering Blog",
+      "canonical_url": "https://blog.cloudflare.com/search-for-agents/",
+      "published_utc": "Wed, 25 Nov 2026 14:00:00 GMT",
+      "dense_summary": "Flip one toggle to make your site searchable by AI agents \u2014 complete with automatic content indexing, a discoverable search API, and native HTTP QUERY support. Furthermore, aI Search , our service that indexes your content and lets you add search to any application or agent wi...",
+      "strategic_takeaway": "API recalibrates operational strategy to defend unit economics and distribution access."
     },
     {
-      "ontology_id": "ont_99695efe454a5b52",
-      "title": "New Balance\u2019s Remastered 990 Dad Shoe Joins the Dark Side",
-      "category": "STYLE_AND_FASHION",
-      "source_name": "Highsnobiety",
-      "canonical_url": "https://www.highsnobiety.com/p/new-balance-990v7-black/",
-      "published_utc": "Mon, 23 Nov 2026 23:43:12 GMT",
-      "dense_summary": "The New Balance 990v7 run continues with the release of an all-black colorway. Furthermore, here's everything on the newest drop.",
-      "strategic_takeaway": "Runway recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_51d4599c3b914055",
-      "title": "What\u2019s Your NEXT Move? HKSTP Brings Together Three Generations of Pioneers To Explore What Comes Next",
-      "category": "STYLE_AND_FASHION",
-      "source_name": "Hypebeast",
-      "canonical_url": "https://hypebeast.com/2026/11/whats-your-next-move-hkstp-brings-together-three-generations-of-pioneers-to-explore-what-comes-next",
-      "published_utc": "Tue, 24 Nov 2026 04:16:41 +0000",
-      "dense_summary": "Innovation is rarely bound by age or industry. Furthermore, regardless of the stage of life, those who drive cultural and technological shifts share the same instinct: to look beyond the present and explore what could come next.",
-      "strategic_takeaway": "NEXT recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_f9b0c1adaaaf70ba",
-      "title": "See the Sasha & Digweed Poster That Sold for $21,500 at\u00a0Auction",
-      "category": "CELEBRITIES_AND_CREATORS",
-      "source_name": "Billboard Creators & Culture",
-      "canonical_url": "https://www.billboard.com/music/music-news/sasha-digweed-poster-sold-21500-auction-photo-1236388407/",
-      "published_utc": "Tue, 24 Nov 2026 00:41:55 +0000",
-      "dense_summary": "The poster for the duo's 1994 mix album Renaissance: The Mix Collection was originally created as a temporary ad. Furthermore, katie Bain More Stories by Katie See the Sasha & Digweed Poster That Sold for $21,500 at\u00a0Auction \u2018It\u2019s Not Just a Song on the Radio\u2019: How Music Became...",
-      "strategic_takeaway": "Google recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_5e471750eedf9999",
-      "title": "Hila Klein Will Not Work on New Show Amid Alleged Affair Drama",
-      "category": "CELEBRITIES_AND_CREATORS",
-      "source_name": "TMZ Breaking News",
-      "canonical_url": "https://www.tmz.com/2026/11/23/hila-klein-quitting-new-podcast-amid-divorce/",
-      "published_utc": "2026-11-24T05:00:47.308557+00:00",
-      "dense_summary": "Hila Klein says her plan to take part in a new show after her marriage imploded is DOA . Furthermore, announcing she has other priorities and won't continue working on the new project.",
-      "strategic_takeaway": "Hila Klein Will Not Work recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_4e550d65d45664b9",
-      "title": "Skydance Products & Publishing Chief Josh Silverman Sets Exec Team And Reveals A Departure",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "Deadline Hollywood",
-      "canonical_url": "https://deadline.com/2026/11/skydance-products-publishing-chief-sets-executive-team-1237232267/",
-      "published_utc": "Tue, 24 Nov 2026 03:56:13 +0000",
-      "dense_summary": "Josh Silverman, President of Global Products & Publishing for Skydance, has set the division\u2019s senior leadership team and announced the departure of one high-level executive. Furthermore, since the close of the $110 billion merger of Paramount and Warner Bros.",
-      "strategic_takeaway": "Publishing Chief Josh Silverman Sets Exec Team And Reveals recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_5a15995a9ed7b5db",
-      "title": "2026 International Emmy Winners Revealed: \u2018Car\u00eame\u2019 Wins Best Drama",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "The Hollywood Reporter",
-      "canonical_url": "https://www.hollywoodreporter.com/tv/tv-news/2026-international-emmys-winners-list-1236761237/",
-      "published_utc": "Tue, 24 Nov 2026 03:12:23 +0000",
-      "dense_summary": "Other top winners include 'Divisi\u00f3n Palermo' for best comedy, best actor Bobby Schofield for 'Unforgivable' and best actress Mona Mina Leon for 'Holy Sh!t.'\n\nOther top winners include 'Divisi\u00f3n Palermo' for best comedy, best actor Bobby Schofield for 'Unforgivable' and best ac...",
-      "strategic_takeaway": "Apple recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_35b7509ad6aa5464",
-      "title": "Berlinale Alum Sreemoyee Singh\u2019s WAVES Film Bazaar Selection \u2018Fireflowers,\u2019 About a Mother\u2019s Lost Singing Voice, Boards Dutch Co-Producer (EXCLUSIVE)",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "Variety Film & TV",
-      "canonical_url": "https://variety.com/2026/film/markets-festivals/waves-film-bazaar-doc-fireflowers-dutch-co-producer-1236956745/",
-      "published_utc": "Tue, 24 Nov 2026 04:58:03 +0000",
-      "dense_summary": "Indian filmmaker Sreemoyee Singh\u2019s personal documentary \u201cFireflowers,\u201d about a mother who lost her singing voice after her husband died, has added Dutch outfit New Amsterdam Film Company, through Sander Verdonk, as co-producer. Furthermore, the project is also among the select...",
-      "strategic_takeaway": "Berlinale Alum Sreemoyee Singh recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_b20bbf1be80d8d8b",
-      "title": "Bob Seger and the Silver Bullet Band Bassist Chris Campbell Dead at 78",
-      "category": "MUSIC_AND_AUDIO",
-      "source_name": "Rolling Stone Music",
-      "canonical_url": "https://www.rollingstone.com/music/music-news/bob-seger-silver-bullet-band-bassist-chris-campbell-dead-1235662929/",
-      "published_utc": "Tue, 24 Nov 2026 01:11:22 +0000",
-      "dense_summary": "He spent 50 years playing alongside Seger and appears on \"Turn the Page,\" \"Night Moves,\" \"Rock and Roll Never Forgets,\" \"Still the Same,\" \"Hollywood Nights,\" and \"Against the Wind\"\n\nRollingstone Logo Click to expand the Mega Menu Click to Expand Search Input Music Politics TV ...",
-      "strategic_takeaway": "Google recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_676dcc0ed8a0c706",
-      "title": "Ad\u00e9la Announces 2027 World Tour",
-      "category": "MUSIC_AND_AUDIO",
-      "source_name": "Pitchfork News",
-      "canonical_url": "https://pitchfork.com/story/adela-announces-2027-world-tour/",
-      "published_utc": "Mon, 23 Nov 2026 21:23:36 +0000",
-      "dense_summary": "It runs nearly every single night from January to April\n\nAd\u00e9la 2027 Tour Buy Now at Ticketmaster Buy Now at Stubhub 01-11 Prague, Czech Republic - Forum Karlin 01-13 Dublin, Ireland - 3Olympia Theatre 01-14 Dublin, Ireland - 3Olympia Theatre 01-16 Manchester, England - O2 Vict...",
-      "strategic_takeaway": "World Tour\nIt recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_58e61366d91ef52e",
-      "title": "Five-time Solheim Cup player Khang secures LPGA Tour card for 2027",
-      "category": "SPORTS_AND_ATHLETICS",
-      "source_name": "Sky Sports Football",
-      "canonical_url": "https://www.skysports.com/golf/news/12040/13615841/lpga-tour-q-series-megan-khang-secures-tour-card-for-2027-as-megha-ganne-wins-final-qualifying-stage",
-      "published_utc": "Mon, 23 Nov 2026 22:26:00 GMT",
-      "dense_summary": "Megha Ganne won the 2026 LPGA Q-Series final qualifying stage as 27 tour cards were claimed for the 2027 season, with five-time USA Solheim Cup team member Megan Khang among those successful. Furthermore, tours DP World Tour PGA Tour Ryder Cup LPGA Tour LET Tour Majors The Mas...",
-      "strategic_takeaway": "LPGA recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_6a7b049470f7e123",
-      "title": "Tarkowski's first Premier League red ruins Moyes' night - was it deserved?",
-      "category": "SPORTS_AND_ATHLETICS",
-      "source_name": "BBC Sport",
-      "canonical_url": "https://www.bbc.co.uk/sport/football/articles/cmqx5eynvpqno?at_medium=RSS&at_campaign=rss",
-      "published_utc": "Mon, 23 Nov 2026 22:43:39 GMT",
-      "dense_summary": "Everton captain James Tarkowski was sent off for the first time in his Premier League career in Monday's 4-0 loss at Brentford - but was it a harsh decision?. Furthermore, bBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel C...",
-      "strategic_takeaway": "BBC recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_ec743325e655d32f",
-      "title": "\u201cThis Is An Excellent Entry Point\u201d \u2013 UTXO\u2019s Loren Asmus Gives Bitcoin Outlook",
+      "ontology_id": "ont_63e02ef900086a4e",
+      "title": "Bitcoin is Vanishing into \u201cDeep Storage\u201d Faster than Miners Make It",
       "category": "CRYPTO_AND_MACRO",
       "source_name": "Bitcoin Magazine",
-      "canonical_url": "https://bitcoinmagazine.com/videos/this-is-an-excellent-entry-point-utxos-loren-asmus-gives-bitcoin-outlook",
-      "published_utc": "Mon, 23 Nov 2026 21:30:11 +0000",
-      "dense_summary": "\u25b6\n\nBitcoin Magazine\n\n\u201cThis Is An Excellent Entry Point\u201d \u2013 UTXO\u2019s Loren Asmus Gives Bitcoin Outlook\n\nLoren Asmus of UTXO Management says Bitcoin's long-term case is intact after a brutal year for price. Furthermore, this post \u201cThis Is An Excellent Entry Point\u201d \u2013 UTXO\u2019s Loren As...",
+      "canonical_url": "https://bitcoinmagazine.com/videos/bitcoin-is-vanishing-into-deep-storage-faster-than-miners-make-it",
+      "published_utc": "Wed, 25 Nov 2026 23:30:12 +0000",
+      "dense_summary": "\u25b6\n\nBitcoin Magazine\n\nBitcoin is Vanishing into \u201cDeep Storage\u201d Faster than Miners Make It\n\nMiners produce about 450 new Bitcoin a day, but over the past year about 630 a day moved into wallets dormant for 10 years. Furthermore, this post Bitcoin is Vanishing into \u201cDeep Storage\u201d...",
       "strategic_takeaway": "Order flow in Bitcoin reflects tightening market liquidity and higher institutional verification standards."
     },
     {
-      "ontology_id": "ont_f356476dda86483c",
-      "title": "China's Z.ai Says Its New AI Model Can Think Like One Four Times Its Size",
+      "ontology_id": "ont_bd22bd6deef9f054",
+      "title": "China's Google Just Released Its Fast New AI Model for Free",
       "category": "CRYPTO_AND_MACRO",
       "source_name": "Decrypt",
-      "canonical_url": "https://decrypt.co/383851/chinas-zai-new-ai-model-glm-think-like-four-times-size",
-      "published_utc": "Mon, 23 Nov 2026 23:06:02 +0000",
-      "dense_summary": "GLM-5.4 uses a looping architecture to squeeze more reasoning power from fewer parameters, challenging the expensive approach favored by American AI giants. Furthermore, china's Z.ai Says Its New AI Model Can Think Like One Four Times Its Size\n\nThe Beijing-based company says i...",
-      "strategic_takeaway": "Order flow in Transformer reflects tightening market liquidity and higher institutional verification standards."
+      "canonical_url": "https://decrypt.co/384015/china-google-released-fast-new-ai-model-free-baidu-ernie",
+      "published_utc": "Wed, 25 Nov 2026 22:38:09 +0000",
+      "dense_summary": "Baidu has released the weights of its new high-speed reasoning model, giving developers a commercially usable alternative to proprietary AI services from OpenAI, Google, and Anthropic\n\nChina's Google Just Released Its Fast New AI Model for Free\n\nThe release comes nearly two we...",
+      "strategic_takeaway": "Google released Free\nBaidu, creating a measurable shift in operational leverage."
     },
     {
-      "ontology_id": "ont_88a4580548355df7",
-      "title": "U.S. CFTC sets policies on event contract data, using crypto to check financial boxes",
+      "ontology_id": "ont_dc78b672b384a1e5",
+      "title": "Bill to lock up U.S. government bitcoin for 20 years advances to full House",
       "category": "CRYPTO_AND_MACRO",
       "source_name": "CoinDesk",
-      "canonical_url": "https://www.coindesk.com/policy/2026/11/23/u-s-cftc-sets-policies-on-event-contract-data-using-crypto-to-check-financial-boxes",
-      "published_utc": "Tue, 24 Nov 2026 00:25:04 +0000",
-      "dense_summary": "The derivatives regulator issues a rule on data reporting for event contracts and new guidance for how crypto assets can be used to meet regulatory requirements. Furthermore, copy link X icon X (Twitter) LinkedIn Facebook Email Make preferred on Enlarge image CFTC Chairman Mik...",
-      "strategic_takeaway": "Order flow in Bitcoin at $60 reflects tightening market liquidity and higher institutional verification standards."
+      "canonical_url": "https://www.coindesk.com/policy/2026/11/26/strategic-bitcoin-reserve-bill-to-lock-up-u-s-government-held-bitcoin-for-20-years-goes-to-full-house",
+      "published_utc": "Thu, 26 Nov 2026 04:46:01 +0000",
+      "dense_summary": "A bill to codify Trump\u2019s Strategic Bitcoin Reserve has cleared committee and is eligible for a House vote, but it faces a tight deadline. Furthermore, copy link X icon X (Twitter) LinkedIn Facebook Email Make preferred on Enlarge image Strategic Bitcoin Reserve bill heads to a...",
+      "strategic_takeaway": "American Reserve Modernization Act released Alaska Republican Rep, creating a measurable shift in operational leverage."
     },
     {
-      "ontology_id": "ont_13d88229da2493d6",
-      "title": "Trump engineered a risky comeback for Jensen Huang",
+      "ontology_id": "ont_3c305f6c2e8b33c9",
+      "title": "Tracking Incidents of Hacking Using AI Tools",
+      "category": "CYBER_AND_THREAT_INTEL",
+      "source_name": "Schneier on Security",
+      "canonical_url": "https://www.schneier.com/blog/archives/2026/11/tracking-incidents-of-hacking-using-ai-tools.html",
+      "published_utc": "2026-11-25T12:07:21Z",
+      "dense_summary": "Daniel Meissler is tracking incidents of AI-enhanced hacking, and the offensive harnesses the hackers are using. Furthermore, daniel Meissler is tracking incidents of AI-enhanced hacking, and the offensive harnesses the hackers are using.",
+      "strategic_takeaway": "Tracking Incidents recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_c1c4da771c71120a",
+      "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+      "category": "CYBER_AND_THREAT_INTEL",
+      "source_name": "The Hacker News",
+      "canonical_url": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
+      "published_utc": "Thu, 26 Nov 2026 09:18:52 +0530",
+      "dense_summary": "Cybersecurity researchers have discovered 13 malicious NuGet packages that are designed to target Windows .NET developers under the guise of a fake take-home job assessment. Furthermore, \"Most of the packages pose as WinUI 3 and WPF [Windows Presentation Foundation] button con...",
+      "strategic_takeaway": "Microsoft recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_d6f09c37a60cc204",
+      "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+      "category": "CYBER_AND_THREAT_INTEL",
+      "source_name": "BleepingComputer Security",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+      "published_utc": "Wed, 25 Nov 2026 17:05:09 -0500",
+      "dense_summary": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet.",
+      "strategic_takeaway": "PAN recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_35f5cc8e977c381b",
+      "title": "Google\u2019s patent for custom AI video feeds paints a bleak picture of entertainment\u2019s future",
       "category": "AI_AND_FRONTIER_TECH",
       "source_name": "The Verge AI",
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
-      "published_utc": "2026-11-23T17:25:12-05:00",
-      "dense_summary": "After Nvidia's board accepted Jensen Huang's resignation as CEO, following reports that Huang had an affair with an alleged Chinese spy, President Donald Trump, too, appeared to submit to the new reality. Furthermore, smith's radio show shortly after the news came out, Trump s...",
-      "strategic_takeaway": "Nvidia deploys frontier models, moving the benchmark from laboratory theory to production workload execution."
+      "canonical_url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+      "published_utc": "2026-11-25T16:51:26-05:00",
+      "dense_summary": "Last year, Google filed a patent for a system called My Channel that's designed to create feeds filled with personalized, AI-generated videos and advertisements based on information the company knows about its users. Furthermore, the patent has been rejected, but unfortunately...",
+      "strategic_takeaway": "Google deploys LLM, moving the benchmark from laboratory theory to production workload execution."
     },
     {
-      "ontology_id": "ont_c0f68be746109292",
-      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+      "ontology_id": "ont_c6f2b127a8b1c741",
+      "title": "S&P considers Nvidia credit downgrade over governance and \u2018key man\u2019 risks",
       "category": "AI_AND_FRONTIER_TECH",
       "source_name": "TechCrunch AI",
-      "canonical_url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
-      "published_utc": "Mon, 23 Nov 2026 22:05:50 +0000",
-      "dense_summary": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals. Furthermore, anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes Sarah Perez 2:05 PM PST \u00b7 Novembe...",
-      "strategic_takeaway": "Anthropic deploys Agent, moving the benchmark from laboratory theory to production workload execution."
+      "canonical_url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+      "published_utc": "Wed, 25 Nov 2026 22:44:32 +0000",
+      "dense_summary": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating. Furthermore, s&P Global Ratings, one of the three major credit rating agencies, is considering downgrading Nvidia\u2019s rating, citing concerns about the company\u2019s management and governanc...",
+      "strategic_takeaway": "Nvidia announced Goldman Sachs, creating a measurable shift in operational leverage."
     },
     {
-      "ontology_id": "ont_d3ffb24198c485f8",
-      "title": "A legendary philosopher isn\u2019t buying Anthropic\u2019s consciousness argument",
+      "ontology_id": "ont_6337f692e9cce1ef",
+      "title": "AI is straining America\u2019s open records systems",
       "category": "AI_AND_FRONTIER_TECH",
       "source_name": "MIT Tech Review AI",
-      "canonical_url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
-      "published_utc": "Mon, 23 Nov 2026 17:36:08 +0000",
-      "dense_summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. Furthermore, to get stories like this in your inbox first,\u00a0sign up here.",
-      "strategic_takeaway": "Anthropic deploys frontier models reaching 33%, moving the benchmark from laboratory theory to production workload execution."
+      "canonical_url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+      "published_utc": "Wed, 25 Nov 2026 10:00:00 +0000",
+      "dense_summary": "In Panton, Vermont, population 660, town clerk Kyle Rowe did it all. Furthermore, he crafted budgets, paid vendors, handled property tax disputes, and served as the town\u2019s zoning supervisor and presiding elections officer.",
+      "strategic_takeaway": "MIT deploys frontier models, moving the benchmark from laboratory theory to production workload execution."
     },
     {
-      "ontology_id": "ont_c69cefbe6be365db",
-      "title": "How to Spend 3 Perfect Days in Naples",
-      "category": "GASTRONOMY_AND_TRAVEL",
-      "source_name": "Cond\u00e9 Nast Traveler",
-      "canonical_url": "https://www.cntraveler.com/story/how-to-spend-3-perfect-days-in-naples",
-      "published_utc": "Sun, 22 Nov 2026 12:00:00 +0000",
-      "dense_summary": "From archaeological must-sees to the best places for sipping a spritz, according to someone who has known the city for decades. Furthermore, i\u2019ve been visiting for over 30 years and have seen huge changes, most of them positive.",
-      "strategic_takeaway": "Teatro San Carlo recalibrates operational strategy to defend unit economics and distribution access."
+      "ontology_id": "ont_0ef2de7977070548",
+      "title": "Context Scaling: A New Frontier of AI Scaling",
+      "category": "AI_AND_FRONTIER_TECH",
+      "source_name": "ArXiv Computer Science AI",
+      "canonical_url": "https://arxiv.org/abs/2611.33160",
+      "published_utc": "Thu, 26 Nov 2026 00:00:00 -0500",
+      "dense_summary": "arXiv:2611.33160v1 Announce Type: new \nAbstract: Many failures of deployed AI arise not from weak inference but from a mismatch between the state a task depends on and the context available when the system acts. Furthermore, relevant user state, repository revisions, tool trac...",
+      "strategic_takeaway": "Fidelity deploys frontier models reaching $,, moving the benchmark from laboratory theory to production workload execution."
     },
     {
-      "ontology_id": "ont_c32a036168ca9573",
-      "title": "adidas\u2019 Steel-Toe Superstar Works Hard, Flexes Harder",
-      "category": "STYLE_AND_FASHION",
-      "source_name": "Highsnobiety",
-      "canonical_url": "https://www.highsnobiety.com/p/nati-lopez-adidas-superstar-ii-shoes/",
-      "published_utc": "Sun, 22 Nov 2026 21:10:37 GMT",
-      "dense_summary": "Nati Lopez treats her adidas Superstar II sneaker like a work boot, giving it \"steel toes\" & vintage-style leather. Furthermore, the Los Angeles tattoo artist has cooked up a genuinely cool collaboration with adidas, giving the Superstars the work-boot treatment.",
-      "strategic_takeaway": "Runway recalibrates operational strategy to defend unit economics and distribution access."
+      "ontology_id": "ont_ff2345446e69bb6c",
+      "title": "Local subspace encoding for spectral prediction: from TabPFN to operator-adaptive calibration",
+      "category": "AI_AND_FRONTIER_TECH",
+      "source_name": "ArXiv Machine Learning",
+      "canonical_url": "https://arxiv.org/abs/2611.31245",
+      "published_utc": "Wed, 25 Nov 2026 00:00:00 -0500",
+      "dense_summary": "arXiv:2611.31245v1 Announce Type: new \nAbstract: TabPFN has already shown useful predictive performance on near-infrared spectra. Furthermore, ramanPFN subsequently proposed two spectral representations for tabular inference: Global Compositional Unmixing (GCU) and Local Vibra...",
+      "strategic_takeaway": "Global Compositional Unmixing deploys frontier models reaching 10.22%, moving the benchmark from laboratory theory to production workload execution."
     },
     {
-      "ontology_id": "ont_6e39920e0a426d0d",
-      "title": "Tom Brady Reportedly Purchases Minority Stake in Chelsea FC Following Birmingham City Departure",
-      "category": "STYLE_AND_FASHION",
-      "source_name": "Hypebeast",
-      "canonical_url": "https://hypebeast.com/2026/11/tom-brady-reportedly-purchases-minority-stake-in-chelsea-fc-following-birmingham-city-departure",
-      "published_utc": "Mon, 23 Nov 2026 04:24:35 +0000",
-      "dense_summary": "Summary\n\nSeven-time Super Bowl champion Tom Brady has purchased a minority stake in Premier League club Chelsea FCThe NFL legend joins the Clearlake Capital vehicle that controls the team and will serve in an advisory capacityThe major investment arrives shortly after Brady de...",
-      "strategic_takeaway": "Tom Brady Reportedly Purchases Minority Stake recalibrates operational strategy to defend unit economics and distribution access."
+      "ontology_id": "ont_762164599991d527",
+      "title": "Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition",
+      "category": "AI_AND_FRONTIER_TECH",
+      "source_name": "ArXiv Computer Science AI",
+      "canonical_url": "https://arxiv.org/abs/2611.31284",
+      "published_utc": "Wed, 25 Nov 2026 00:00:00 -0500",
+      "dense_summary": "arXiv:2611.31284v1 Announce Type: new \nAbstract: Autonomous agent governance is commonly framed as a problem of enforcing correct execution. Furthermore, however, in multi-agent systems, an equally fundamental question precedes execution: which agents are allowed to act.",
+      "strategic_takeaway": "Irreducible Governance Structure deploys Agent, moving the benchmark from laboratory theory to production workload execution."
     },
     {
-      "ontology_id": "ont_245e3cd8a7d967c4",
-      "title": "Molly Meldrum, Australian Music Broadcaster and \u2018Countdown\u2019 Host, Dies at\u00a083",
-      "category": "CELEBRITIES_AND_CREATORS",
-      "source_name": "Billboard Creators & Culture",
-      "canonical_url": "https://www.billboard.com/music/music-news/molly-meldrum-countdown-host-dies-83-1236387631/",
-      "published_utc": "Mon, 23 Nov 2026 00:30:36 +0000",
-      "dense_summary": "\"Affectionately dubbed 'The Guru,' Molly was the heartbeat, the champion and the spirit of Australian music,\" his family said in a statement. Furthermore, jessica Lynch More Stories by Jessica Molly Meldrum, Australian Music Broadcaster and \u2018Countdown\u2019 Host, Dies at\u00a083 Miley C...",
-      "strategic_takeaway": "Google recalibrates operational strategy to defend unit economics and distribution access."
+      "ontology_id": "ont_47aa823147484c2c",
+      "title": "New type of attack can slip past the defenses in your computer\u2019s processor",
+      "category": "ENGINEERING_AND_SYSTEMS_HISTORY",
+      "source_name": "MIT News Computing",
+      "canonical_url": "https://news.mit.edu/2026/new-type-of-attack-can-slip-past-computer-processor-defenses-0827",
+      "published_utc": "Thu, 27 Aug 2026 11:40:00 -0400",
+      "dense_summary": "MIT CSAIL researchers found a way to exploit a split-second gap in chip security \u2014 and used it to acquire a Linux system\u2019s password file. Furthermore, massachusetts Institute of Technology MIT Top Menu \u2193 Education Research Innovation Admissions + Aid Campus Life News Alumni Ab...",
+      "strategic_takeaway": "MIT recalibrates operational strategy to defend unit economics and distribution access."
     },
     {
-      "ontology_id": "ont_0c4bc5ba419a0003",
-      "title": "Bruce Willis' Daughter Tallulah Apologizes for Sharing 'Too Intimate' Pic Of Her & Dad",
-      "category": "CELEBRITIES_AND_CREATORS",
-      "source_name": "TMZ Breaking News",
-      "canonical_url": "https://www.tmz.com/2026/11/22/bruce-willis-daughter-tallulah-apologizes-for-posting-picture/",
-      "published_utc": "2026-11-23T05:00:36.615855+00:00",
-      "dense_summary": "Bruce Willis' daughter Tallulah Willis is speaking out after she shared a sweet photo of her and her dad . Furthermore, revealing she now thinks the pic was \"too intimate\" to post.",
-      "strategic_takeaway": "Daughter Tallulah Apologizes recalibrates operational strategy to defend unit economics and distribution access."
+      "ontology_id": "ont_573aa113fee9c4b3",
+      "title": "How Bee implemented Zero Operator Access for personal AI on AWS",
+      "category": "ENGINEERING_AND_SYSTEMS_HISTORY",
+      "source_name": "AWS Architecture Blog",
+      "canonical_url": "https://aws.amazon.com/blogs/architecture/how-bee-implemented-zero-operator-access-for-personal-ai-on-aws/",
+      "published_utc": "Fri, 20 Nov 2026 18:49:05 +0000",
+      "dense_summary": "Bee, an Amazon company, built a personal AI wearable with no mechanism for operators (Bee engineers, other Amazon employees, or AWS infrastructure operators) to access customer data. Furthermore, learn how Bee uses Amazon EC2 instance attestation and the AWS Nitro System to ac...",
+      "strategic_takeaway": "Aws priced at Modernization Multicloud, creating a measurable shift in operational leverage."
     },
     {
-      "ontology_id": "ont_699fa811b17cc2eb",
-      "title": "Hailee Steinfeld Confirms She\u2019s In \u2018Avengers: Doomsday\u2019",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "Deadline Hollywood",
-      "canonical_url": "https://deadline.com/2026/11/hailee-steinfeld-confirms-avengers-doomsday-1237231382/",
-      "published_utc": "Mon, 23 Nov 2026 03:27:25 +0000",
-      "dense_summary": "In a nifty bit of cross promotion, Disney used its surefire blockbuster and a helpful coincidence to reveal an Avengers: Doomsday casting as well as promote a smaller animated title. Furthermore, earlier today, Marvel and Walt Disney Animation posted a video of Hailee Steinfel...",
-      "strategic_takeaway": "Hailee Steinfeld Confirms She recalibrates operational strategy to defend unit economics and distribution access."
+      "ontology_id": "ont_0d4b535eb83d3bbe",
+      "title": "Probing DNS at Cloudflare",
+      "category": "ENGINEERING_AND_SYSTEMS_HISTORY",
+      "source_name": "Cloudflare Engineering Blog",
+      "canonical_url": "https://blog.cloudflare.com/probing-dns-at-cloudflare/",
+      "published_utc": "Mon, 23 Nov 2026 14:00:00 GMT",
+      "dense_summary": "At Cloudflare we\u2019ve built tools to enable teams to extend our internal testing framework and build test tooling for networking protocols. Furthermore, this is the story of how this was used for DNS.",
+      "strategic_takeaway": "DNS recalibrates operational strategy to defend unit economics and distribution access."
     },
     {
-      "ontology_id": "ont_86a53360c390c274",
-      "title": "\u2018You Can See Everything\u2019 Crosses $100M Globally, Becomes First Doc to Hit 1M Letterboxd Watches",
-      "category": "ENTERTAINMENT_AND_CINEMA",
-      "source_name": "The Hollywood Reporter",
-      "canonical_url": "https://www.hollywoodreporter.com/movies/movie-news/you-can-see-everything-box-office-100-million-letterboxd-1236746421/",
-      "published_utc": "Mon, 23 Nov 2026 03:29:15 +0000",
-      "dense_summary": "Nathan Fielder and Lance Oppenheim's A24 documentary continues stirring conversation about Elizabeth Holmes through its sixth weekend in domestic release. Furthermore, nathan Fielder and Lance Oppenheim's A24 documentary continues stirring conversation about Elizabeth Holmes t...",
-      "strategic_takeaway": "You Can See Everything recorded metric Letterboxd Watches\nNathan Fielder, creating a measurable shift in operational leverage."
+      "ontology_id": "ont_013939e75666599d",
+      "title": "Mitsubishi Electric Research Lab CEO on How He Reached the C-Suite",
+      "category": "ENGINEERING_AND_SYSTEMS_HISTORY",
+      "source_name": "IEEE Spectrum",
+      "canonical_url": "https://spectrum.ieee.org/mitsubishi-electric-research-lab-ceo",
+      "published_utc": "Tue, 24 Nov 2026 19:00:01 +0000",
+      "dense_summary": "The trajectory from researcher to top executive at a leading R&D organization doesn\u2019t happen overnight. Furthermore, it took Anthony Vetro nearly 30 years to climb the corporate ladder at Mitsubishi Electric Research Laboratories, in Cambridge, Mass.",
+      "strategic_takeaway": "Mitsubishi Electric Research Lab recorded metric Suite\nThe, creating a measurable shift in operational leverage."
+    },
+    {
+      "ontology_id": "ont_0a346f6366d72ad9",
+      "title": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
+      "category": "CRYPTO_AND_MACRO",
+      "source_name": "Federal Reserve Press Releases",
+      "canonical_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm",
+      "published_utc": "Tue, 24 Nov 2026 19:00:00 GMT",
+      "dense_summary": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026\n\nOfficial websites use .gov A .gov website belongs to an official government organization in the United States. Furthermore, secure .gov websites use HTTPS A lock ( Lock Locked padlock icon ) or h...",
+      "strategic_takeaway": "Order flow in digital asset markets reflects tightening market liquidity and higher institutional verification standards."
+    },
+    {
+      "ontology_id": "ont_e7be881a27844b2d",
+      "title": "Bitcoin Faces 6-Year Moving Average Test Only Seen During FTX Collapse",
+      "category": "CRYPTO_AND_MACRO",
+      "source_name": "Bitcoin Magazine",
+      "canonical_url": "https://bitcoinmagazine.com/videos/bitcoin-faces-6-year-moving-average-test-only-seen-during-ftx-collapse",
+      "published_utc": "Tue, 24 Nov 2026 22:30:03 +0000",
+      "dense_summary": "\u25b6\n\nBitcoin Magazine\n\nBitcoin Faces 6-Year Moving Average Test Only Seen During FTX Collapse\n\nSince 2016, the only time Bitcoin closed below its six-year moving average was the FTX crash. Furthermore, this post Bitcoin Faces 6-Year Moving Average Test Only Seen During FTX Colla...",
+      "strategic_takeaway": "Order flow in Bitcoin reflects tightening market liquidity and higher institutional verification standards."
+    },
+    {
+      "ontology_id": "ont_51a15c87e7dc73d6",
+      "title": "OpenAI and Anthropic Insiders Fear Their Next AI Models Are Too Dangerous to Release",
+      "category": "CRYPTO_AND_MACRO",
+      "source_name": "Decrypt",
+      "canonical_url": "https://decrypt.co/383933/openai-and-anthropic-insiders-fear-next-ai-models-too-dangerous",
+      "published_utc": "Tue, 24 Nov 2026 22:36:02 +0000",
+      "dense_summary": "Employees at both AI labs reportedly question whether their strongest models should ever reach the public, as researchers struggle to keep increasingly capable systems under control during training and testing. Furthermore, openAI and Anthropic Insiders Fear Their Next AI Mode...",
+      "strategic_takeaway": "Order flow in Reasoning at 4% reflects tightening market liquidity and higher institutional verification standards."
+    },
+    {
+      "ontology_id": "ont_2b26490784e9f853",
+      "title": "Crypto traders can now hedge Nvidia, Anthropic and oil bets on Derive",
+      "category": "CRYPTO_AND_MACRO",
+      "source_name": "CoinDesk",
+      "canonical_url": "https://www.coindesk.com/markets/2026/11/25/crypto-traders-can-now-hedge-nvidia-and-oil-bets-on-derive",
+      "published_utc": "Wed, 25 Nov 2026 04:57:22 +0000",
+      "dense_summary": "Derive\u2019s new options on Nvidia, Anthropic, stock indices and oil bring hedging tools to onchain RWA markets. Furthermore, copy link X icon X (Twitter) LinkedIn Facebook Email Make preferred on Enlarge image Derive offers options tied to NVDA, oil and indexes.",
+      "strategic_takeaway": "Order flow in Bitcoin at $155.31 reflects tightening market liquidity and higher institutional verification standards."
+    },
+    {
+      "ontology_id": "ont_6f7fcb220f403b04",
+      "title": "We Get the Infrastructure We Pay For",
+      "category": "CYBER_AND_THREAT_INTEL",
+      "source_name": "Schneier on Security",
+      "canonical_url": "https://www.schneier.com/blog/archives/2026/11/we-get-the-infrastructure-we-pay-for.html",
+      "published_utc": "2026-11-24T12:06:50Z",
+      "dense_summary": "This essay originally appeared as part of a round table in The Free Press entitled \u201cIs America\u2019s Infrastructure Under Attack?\u201d\n\nMicrosoft, the FAA, banks, United Airlines, the NSA\u2014it\u2019s been a really bad week in cyberspace. Furthermore, but, amazing as it might seem, these are ...",
+      "strategic_takeaway": "Microsoft recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_0b5987c76230c7f4",
+      "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+      "category": "CYBER_AND_THREAT_INTEL",
+      "source_name": "The Hacker News",
+      "canonical_url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+      "published_utc": "Tue, 24 Nov 2026 22:24:07 +0530",
+      "dense_summary": "A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, and critical infrastructure in Cyprus. Furthermore, central to the group's operations is a backdoor called KuboShell that uses the InterPla...",
+      "strategic_takeaway": "Aligned Volant Manticore Uses recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_b2f16a3f3c926afe",
+      "title": "Rackspace shuts down Spot cloud platform after security breach",
+      "category": "CYBER_AND_THREAT_INTEL",
+      "source_name": "BleepingComputer Security",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
+      "published_utc": "Tue, 24 Nov 2026 16:37:30 -0500",
+      "dense_summary": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and download their data.",
+      "strategic_takeaway": "Industry participants recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_0a2344c5b0dab6c0",
+      "title": "CTO of \u2018RansomwareHelp\u2019 Indicted for Wire Fraud",
+      "category": "CYBER_AND_THREAT_INTEL",
+      "source_name": "Krebs on Security",
+      "canonical_url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+      "published_utc": "Sat, 21 Nov 2026 00:36:39 +0000",
+      "dense_summary": "The chief technology officer and co-founder of ransomwarehelp.com, a six year old Florida business that claimed to use \"advanced cryptographic tools\" to restore data locked by ransomware, has been charged with wire fraud after an FBI sting operation found the company was simpl...",
+      "strategic_takeaway": "Cto regulates Fbi, creating a measurable shift in operational leverage."
     }
   ]
 }
