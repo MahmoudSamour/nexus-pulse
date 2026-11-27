@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-26T05:21:28Z",
+  "updated_utc": "2026-11-27T05:15:27Z",
   "swarm_architecture_version": "2.1.0",
   "audio_engine": "Kokoro-82M v1.0 Open-Source Human Narrator (-14 LUFS)",
   "visual_engine": "Antigravity Warm Cream Editorial Luxury (#FAF7F0)",
@@ -10,18 +10,158 @@
     "20:00 (evening)"
   ],
   "graph_stats": {
-    "total_stories": 691,
-    "total_entities": 4555,
-    "total_knowledge_triples": 739,
+    "total_stories": 705,
+    "total_entities": 4613,
+    "total_knowledge_triples": 750,
     "entity_breakdown": {
-      "METRICS": 417,
-      "ORGANIZATIONS": 1951,
-      "PEOPLE": 2079,
-      "TECHNOLOGIES": 108
+      "METRICS": 423,
+      "ORGANIZATIONS": 1972,
+      "PEOPLE": 2107,
+      "TECHNOLOGIES": 111
     },
     "density_ratio": 0.16
   },
   "stories": [
+    {
+      "ontology_id": "ont_d3e59eb08415a475",
+      "title": "Vibecoded GTA 6 PC Ports Are Now Rendering In-Game Graphics Despite Take-Two Crackdown",
+      "category": "CRYPTO_AND_MACRO",
+      "source_name": "Decrypt",
+      "canonical_url": "https://decrypt.co/384061/vibecoded-gta-6-pc-ports-are-now-rendering-in-game-graphics-despite-take-two-crackdown",
+      "published_utc": "Thu, 26 Nov 2026 22:01:02 +0000",
+      "dense_summary": "Some unofficial ports now hit around 20 frames per second, as developers move their work into private communities to dodge takedowns. Furthermore, vibecoded GTA 6 PC Ports Are Now Rendering In-Game Graphics Despite Take-Two Crackdown\n\nUnofficial PC ports of GTA 6 are now capab...",
+      "strategic_takeaway": "Order flow in digital asset markets reflects tightening market liquidity and higher institutional verification standards."
+    },
+    {
+      "ontology_id": "ont_efb669563361dddb",
+      "title": "Binance says customer withdrawals are fully restored, four weeks after the $6.3 billion hack",
+      "category": "CRYPTO_AND_MACRO",
+      "source_name": "CoinDesk",
+      "canonical_url": "https://www.coindesk.com/markets/2026/11/27/binance-says-its-withdrawal-suspension-is-over-four-weeks-after-a-usd6-3-billion-hack",
+      "published_utc": "Fri, 27 Nov 2026 04:45:47 +0000",
+      "dense_summary": "Binance says it has fully lifted withdrawal suspensions imposed after October\u2019s $6.3 billion hack, though a small number of networks remain paused for unrelated maintenance. Furthermore, copy link X icon X (Twitter) LinkedIn Facebook Email Make preferred on Enlarge image Binan...",
+      "strategic_takeaway": "Order flow in digital asset markets at $6.3 billion reflects tightening market liquidity and higher institutional verification standards."
+    },
+    {
+      "ontology_id": "ont_08c881060fafad50",
+      "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+      "category": "CYBER_AND_THREAT_INTEL",
+      "source_name": "The Hacker News",
+      "canonical_url": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+      "published_utc": "Fri, 27 Nov 2026 01:09:57 +0530",
+      "dense_summary": "A website can look perfectly fine to the person running it. Furthermore, log out, visit the same page, and things might look different.",
+      "strategic_takeaway": "NGINX recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_78618ec9baa82ad5",
+      "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
+      "category": "CYBER_AND_THREAT_INTEL",
+      "source_name": "BleepingComputer Security",
+      "canonical_url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+      "published_utc": "Thu, 26 Nov 2026 16:06:22 -0500",
+      "dense_summary": "OpenAI confirmed that it fixed a 'bug' that incorrectly discounted GPT-6.2 usage, which means you'll now hit GPT usage limits 40% faster than before.",
+      "strategic_takeaway": "Openai recorded metric 40%, creating a measurable shift in operational leverage."
+    },
+    {
+      "ontology_id": "ont_81a54538c0c9f651",
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "category": "AI_AND_FRONTIER_TECH",
+      "source_name": "TechCrunch AI",
+      "canonical_url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "published_utc": "Thu, 26 Nov 2026 20:03:54 +0000",
+      "dense_summary": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. Furthermore, tightens its push to keep AI chips out of China.",
+      "strategic_takeaway": "Nvidia deploys frontier models reaching 24%, moving the benchmark from laboratory theory to production workload execution."
+    },
+    {
+      "ontology_id": "ont_7305d1b3b13fba5c",
+      "title": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
+      "category": "CRYPTO_AND_MACRO",
+      "source_name": "Federal Reserve Press Releases",
+      "canonical_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125b.htm",
+      "published_utc": "Wed, 25 Nov 2026 20:00:00 GMT",
+      "dense_summary": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions\n\nOfficial websites use .gov A .gov website belongs to an official government organization in the United States. Furthermore, secure ....",
+      "strategic_takeaway": "Est announced Consumer Leasing, creating a measurable shift in operational leverage."
+    },
+    {
+      "ontology_id": "ont_9c9f0cb08a607ffc",
+      "title": "The Agentic Economy Is WAY Bigger Than You Think | Xen Baynham-Herd",
+      "category": "CRYPTO_AND_MACRO",
+      "source_name": "Bitcoin Magazine",
+      "canonical_url": "https://bitcoinmagazine.com/videos/the-agentic-economy-is-way-bigger-than-you-think-xen-baynham-herd",
+      "published_utc": "Thu, 26 Nov 2026 16:30:12 +0000",
+      "dense_summary": "\u25b6\n\nBitcoin Magazine\n\nThe Agentic Economy Is WAY Bigger Than You Think | Xen Baynham-Herd\n\nTokenized stocks on Base grabbed about a third of weekly spot trading in their market just months after launch, and Xen Baynham-Herd, Director of Marketing and Global Expansion at Base, s...",
+      "strategic_takeaway": "Order flow in Bitcoin reflects tightening market liquidity and higher institutional verification standards."
+    },
+    {
+      "ontology_id": "ont_c96b98364316b774",
+      "title": "Spain Lets Its Financial Intelligence Unit Freeze Crypto Accounts Without a Court Order",
+      "category": "CRYPTO_AND_MACRO",
+      "source_name": "Decrypt",
+      "canonical_url": "https://decrypt.co/384063/spain-lets-its-financial-intelligence-unit-freeze-crypto-accounts-without-a-court-order",
+      "published_utc": "Thu, 26 Nov 2026 16:43:02 +0000",
+      "dense_summary": "Sepblac can now suspend crypto, bank and payment accounts for up to five working days, with courts deciding on any extension. Furthermore, spain Lets Its Financial Intelligence Unit Freeze Crypto Accounts Without a Court Order\n\nThe measure is tucked into a sweeping decree on c...",
+      "strategic_takeaway": "Order flow in digital asset markets at 24% reflects tightening market liquidity and higher institutional verification standards."
+    },
+    {
+      "ontology_id": "ont_be1b15213d4ff5ec",
+      "title": "A tiny payment can expose the IP address behind a bitcoin wallet, developer finds",
+      "category": "CRYPTO_AND_MACRO",
+      "source_name": "CoinDesk",
+      "canonical_url": "https://www.coindesk.com/tech/2026/11/26/a-tiny-payment-can-expose-the-ip-address-behind-a-bitcoin-wallet-developer-finds",
+      "published_utc": "Thu, 26 Nov 2026 17:30:00 +0000",
+      "dense_summary": "A Bitcoin Core contributor found that the wallet's habit of resending stuck payments lets anyone link an address to the computer watching it, for under 35 cents. Furthermore, copy link X icon X (Twitter) LinkedIn Facebook Email Make preferred on Enlarge image A tiny payment ca...",
+      "strategic_takeaway": "Order flow in Bitcoin reflects tightening market liquidity and higher institutional verification standards."
+    },
+    {
+      "ontology_id": "ont_88e77811bbfdd65f",
+      "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+      "category": "CYBER_AND_THREAT_INTEL",
+      "source_name": "The Hacker News",
+      "canonical_url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+      "published_utc": "Thu, 26 Nov 2026 20:43:41 +0530",
+      "dense_summary": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025. Furthermore, \"The loader hides in a small utils package or in conftest.py,\"...",
+      "strategic_takeaway": "Google recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_29008f4de6ad906b",
+      "title": "NordVPN Black Friday Deal: Get 78% off VPN plans in 2026",
+      "category": "CYBER_AND_THREAT_INTEL",
+      "source_name": "BleepingComputer Security",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
+      "published_utc": "Thu, 26 Nov 2026 12:58:42 -0500",
+      "dense_summary": "NordVPN's 2026 Black Friday and Cyber Monday deal is now live, offering savings of up to 78% on VPN subscriptions, plus three extra months of protection.",
+      "strategic_takeaway": "Black Friday Deal recalibrates operational strategy to defend unit economics and distribution access."
+    },
+    {
+      "ontology_id": "ont_85ab309604572e02",
+      "title": "42 state AGs are trying to stop Character.AI from selling users\u2019 chats",
+      "category": "AI_AND_FRONTIER_TECH",
+      "source_name": "The Verge AI",
+      "canonical_url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+      "published_utc": "2026-11-26T04:54:40-05:00",
+      "dense_summary": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. Furthermore, in a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off ...",
+      "strategic_takeaway": "Brien Close Terrence deploys frontier models, moving the benchmark from laboratory theory to production workload execution."
+    },
+    {
+      "ontology_id": "ont_0a7c310fb7ee0e65",
+      "title": "As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn\u2019t a virtue",
+      "category": "AI_AND_FRONTIER_TECH",
+      "source_name": "TechCrunch AI",
+      "canonical_url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+      "published_utc": "Thu, 26 Nov 2026 16:00:00 +0000",
+      "dense_summary": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time. Furthermore, as Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn\u2019t a virtue Amanda Silberling 8:00 AM PST \u00b7...",
+      "strategic_takeaway": "Gta released Taylor Swift, creating a measurable shift in operational leverage."
+    },
+    {
+      "ontology_id": "ont_ca717516f1bfab05",
+      "title": "Attributing Agentic Failure in Reasoning Vision-Language Models with Interactive 2D Environments",
+      "category": "AI_AND_FRONTIER_TECH",
+      "source_name": "ArXiv Machine Learning",
+      "canonical_url": "https://arxiv.org/abs/2611.33162",
+      "published_utc": "Thu, 26 Nov 2026 00:00:00 -0500",
+      "dense_summary": "arXiv:2611.33162v1 Announce Type: new \nAbstract: Agentic benchmarks report a success rate that confounds distinct causes of failure: misreading the environment, never working out how components of the environment operates, operating the components in the wrong order, and faili...",
+      "strategic_takeaway": "Attributing Agentic Failure deploys Vision-Language, moving the benchmark from laboratory theory to production workload execution."
+    },
     {
       "ontology_id": "ont_d6cd40c6d4d45c95",
       "title": "Introducing Search for Agents",
@@ -131,146 +271,6 @@
       "published_utc": "Thu, 26 Nov 2026 00:00:00 -0500",
       "dense_summary": "arXiv:2611.33160v1 Announce Type: new \nAbstract: Many failures of deployed AI arise not from weak inference but from a mismatch between the state a task depends on and the context available when the system acts. Furthermore, relevant user state, repository revisions, tool trac...",
       "strategic_takeaway": "Fidelity deploys frontier models reaching $,, moving the benchmark from laboratory theory to production workload execution."
-    },
-    {
-      "ontology_id": "ont_ff2345446e69bb6c",
-      "title": "Local subspace encoding for spectral prediction: from TabPFN to operator-adaptive calibration",
-      "category": "AI_AND_FRONTIER_TECH",
-      "source_name": "ArXiv Machine Learning",
-      "canonical_url": "https://arxiv.org/abs/2611.31245",
-      "published_utc": "Wed, 25 Nov 2026 00:00:00 -0500",
-      "dense_summary": "arXiv:2611.31245v1 Announce Type: new \nAbstract: TabPFN has already shown useful predictive performance on near-infrared spectra. Furthermore, ramanPFN subsequently proposed two spectral representations for tabular inference: Global Compositional Unmixing (GCU) and Local Vibra...",
-      "strategic_takeaway": "Global Compositional Unmixing deploys frontier models reaching 10.22%, moving the benchmark from laboratory theory to production workload execution."
-    },
-    {
-      "ontology_id": "ont_762164599991d527",
-      "title": "Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition",
-      "category": "AI_AND_FRONTIER_TECH",
-      "source_name": "ArXiv Computer Science AI",
-      "canonical_url": "https://arxiv.org/abs/2611.31284",
-      "published_utc": "Wed, 25 Nov 2026 00:00:00 -0500",
-      "dense_summary": "arXiv:2611.31284v1 Announce Type: new \nAbstract: Autonomous agent governance is commonly framed as a problem of enforcing correct execution. Furthermore, however, in multi-agent systems, an equally fundamental question precedes execution: which agents are allowed to act.",
-      "strategic_takeaway": "Irreducible Governance Structure deploys Agent, moving the benchmark from laboratory theory to production workload execution."
-    },
-    {
-      "ontology_id": "ont_47aa823147484c2c",
-      "title": "New type of attack can slip past the defenses in your computer\u2019s processor",
-      "category": "ENGINEERING_AND_SYSTEMS_HISTORY",
-      "source_name": "MIT News Computing",
-      "canonical_url": "https://news.mit.edu/2026/new-type-of-attack-can-slip-past-computer-processor-defenses-0827",
-      "published_utc": "Thu, 27 Aug 2026 11:40:00 -0400",
-      "dense_summary": "MIT CSAIL researchers found a way to exploit a split-second gap in chip security \u2014 and used it to acquire a Linux system\u2019s password file. Furthermore, massachusetts Institute of Technology MIT Top Menu \u2193 Education Research Innovation Admissions + Aid Campus Life News Alumni Ab...",
-      "strategic_takeaway": "MIT recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_573aa113fee9c4b3",
-      "title": "How Bee implemented Zero Operator Access for personal AI on AWS",
-      "category": "ENGINEERING_AND_SYSTEMS_HISTORY",
-      "source_name": "AWS Architecture Blog",
-      "canonical_url": "https://aws.amazon.com/blogs/architecture/how-bee-implemented-zero-operator-access-for-personal-ai-on-aws/",
-      "published_utc": "Fri, 20 Nov 2026 18:49:05 +0000",
-      "dense_summary": "Bee, an Amazon company, built a personal AI wearable with no mechanism for operators (Bee engineers, other Amazon employees, or AWS infrastructure operators) to access customer data. Furthermore, learn how Bee uses Amazon EC2 instance attestation and the AWS Nitro System to ac...",
-      "strategic_takeaway": "Aws priced at Modernization Multicloud, creating a measurable shift in operational leverage."
-    },
-    {
-      "ontology_id": "ont_0d4b535eb83d3bbe",
-      "title": "Probing DNS at Cloudflare",
-      "category": "ENGINEERING_AND_SYSTEMS_HISTORY",
-      "source_name": "Cloudflare Engineering Blog",
-      "canonical_url": "https://blog.cloudflare.com/probing-dns-at-cloudflare/",
-      "published_utc": "Mon, 23 Nov 2026 14:00:00 GMT",
-      "dense_summary": "At Cloudflare we\u2019ve built tools to enable teams to extend our internal testing framework and build test tooling for networking protocols. Furthermore, this is the story of how this was used for DNS.",
-      "strategic_takeaway": "DNS recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_013939e75666599d",
-      "title": "Mitsubishi Electric Research Lab CEO on How He Reached the C-Suite",
-      "category": "ENGINEERING_AND_SYSTEMS_HISTORY",
-      "source_name": "IEEE Spectrum",
-      "canonical_url": "https://spectrum.ieee.org/mitsubishi-electric-research-lab-ceo",
-      "published_utc": "Tue, 24 Nov 2026 19:00:01 +0000",
-      "dense_summary": "The trajectory from researcher to top executive at a leading R&D organization doesn\u2019t happen overnight. Furthermore, it took Anthony Vetro nearly 30 years to climb the corporate ladder at Mitsubishi Electric Research Laboratories, in Cambridge, Mass.",
-      "strategic_takeaway": "Mitsubishi Electric Research Lab recorded metric Suite\nThe, creating a measurable shift in operational leverage."
-    },
-    {
-      "ontology_id": "ont_0a346f6366d72ad9",
-      "title": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
-      "category": "CRYPTO_AND_MACRO",
-      "source_name": "Federal Reserve Press Releases",
-      "canonical_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm",
-      "published_utc": "Tue, 24 Nov 2026 19:00:00 GMT",
-      "dense_summary": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026\n\nOfficial websites use .gov A .gov website belongs to an official government organization in the United States. Furthermore, secure .gov websites use HTTPS A lock ( Lock Locked padlock icon ) or h...",
-      "strategic_takeaway": "Order flow in digital asset markets reflects tightening market liquidity and higher institutional verification standards."
-    },
-    {
-      "ontology_id": "ont_e7be881a27844b2d",
-      "title": "Bitcoin Faces 6-Year Moving Average Test Only Seen During FTX Collapse",
-      "category": "CRYPTO_AND_MACRO",
-      "source_name": "Bitcoin Magazine",
-      "canonical_url": "https://bitcoinmagazine.com/videos/bitcoin-faces-6-year-moving-average-test-only-seen-during-ftx-collapse",
-      "published_utc": "Tue, 24 Nov 2026 22:30:03 +0000",
-      "dense_summary": "\u25b6\n\nBitcoin Magazine\n\nBitcoin Faces 6-Year Moving Average Test Only Seen During FTX Collapse\n\nSince 2016, the only time Bitcoin closed below its six-year moving average was the FTX crash. Furthermore, this post Bitcoin Faces 6-Year Moving Average Test Only Seen During FTX Colla...",
-      "strategic_takeaway": "Order flow in Bitcoin reflects tightening market liquidity and higher institutional verification standards."
-    },
-    {
-      "ontology_id": "ont_51a15c87e7dc73d6",
-      "title": "OpenAI and Anthropic Insiders Fear Their Next AI Models Are Too Dangerous to Release",
-      "category": "CRYPTO_AND_MACRO",
-      "source_name": "Decrypt",
-      "canonical_url": "https://decrypt.co/383933/openai-and-anthropic-insiders-fear-next-ai-models-too-dangerous",
-      "published_utc": "Tue, 24 Nov 2026 22:36:02 +0000",
-      "dense_summary": "Employees at both AI labs reportedly question whether their strongest models should ever reach the public, as researchers struggle to keep increasingly capable systems under control during training and testing. Furthermore, openAI and Anthropic Insiders Fear Their Next AI Mode...",
-      "strategic_takeaway": "Order flow in Reasoning at 4% reflects tightening market liquidity and higher institutional verification standards."
-    },
-    {
-      "ontology_id": "ont_2b26490784e9f853",
-      "title": "Crypto traders can now hedge Nvidia, Anthropic and oil bets on Derive",
-      "category": "CRYPTO_AND_MACRO",
-      "source_name": "CoinDesk",
-      "canonical_url": "https://www.coindesk.com/markets/2026/11/25/crypto-traders-can-now-hedge-nvidia-and-oil-bets-on-derive",
-      "published_utc": "Wed, 25 Nov 2026 04:57:22 +0000",
-      "dense_summary": "Derive\u2019s new options on Nvidia, Anthropic, stock indices and oil bring hedging tools to onchain RWA markets. Furthermore, copy link X icon X (Twitter) LinkedIn Facebook Email Make preferred on Enlarge image Derive offers options tied to NVDA, oil and indexes.",
-      "strategic_takeaway": "Order flow in Bitcoin at $155.31 reflects tightening market liquidity and higher institutional verification standards."
-    },
-    {
-      "ontology_id": "ont_6f7fcb220f403b04",
-      "title": "We Get the Infrastructure We Pay For",
-      "category": "CYBER_AND_THREAT_INTEL",
-      "source_name": "Schneier on Security",
-      "canonical_url": "https://www.schneier.com/blog/archives/2026/11/we-get-the-infrastructure-we-pay-for.html",
-      "published_utc": "2026-11-24T12:06:50Z",
-      "dense_summary": "This essay originally appeared as part of a round table in The Free Press entitled \u201cIs America\u2019s Infrastructure Under Attack?\u201d\n\nMicrosoft, the FAA, banks, United Airlines, the NSA\u2014it\u2019s been a really bad week in cyberspace. Furthermore, but, amazing as it might seem, these are ...",
-      "strategic_takeaway": "Microsoft recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_0b5987c76230c7f4",
-      "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
-      "category": "CYBER_AND_THREAT_INTEL",
-      "source_name": "The Hacker News",
-      "canonical_url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
-      "published_utc": "Tue, 24 Nov 2026 22:24:07 +0530",
-      "dense_summary": "A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, and critical infrastructure in Cyprus. Furthermore, central to the group's operations is a backdoor called KuboShell that uses the InterPla...",
-      "strategic_takeaway": "Aligned Volant Manticore Uses recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_b2f16a3f3c926afe",
-      "title": "Rackspace shuts down Spot cloud platform after security breach",
-      "category": "CYBER_AND_THREAT_INTEL",
-      "source_name": "BleepingComputer Security",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
-      "published_utc": "Tue, 24 Nov 2026 16:37:30 -0500",
-      "dense_summary": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and download their data.",
-      "strategic_takeaway": "Industry participants recalibrates operational strategy to defend unit economics and distribution access."
-    },
-    {
-      "ontology_id": "ont_0a2344c5b0dab6c0",
-      "title": "CTO of \u2018RansomwareHelp\u2019 Indicted for Wire Fraud",
-      "category": "CYBER_AND_THREAT_INTEL",
-      "source_name": "Krebs on Security",
-      "canonical_url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
-      "published_utc": "Sat, 21 Nov 2026 00:36:39 +0000",
-      "dense_summary": "The chief technology officer and co-founder of ransomwarehelp.com, a six year old Florida business that claimed to use \"advanced cryptographic tools\" to restore data locked by ransomware, has been charged with wire fraud after an FBI sting operation found the company was simpl...",
-      "strategic_takeaway": "Cto regulates Fbi, creating a measurable shift in operational leverage."
     }
   ]
 }
